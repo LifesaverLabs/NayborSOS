@@ -1526,9 +1526,201 @@ Non-critical includes preventive work (sports brain damage dissuasion), support 
 
 ---
 
-### 1.7.7 Institutional Legitimacy
+### 1.7.7 Responder Compensation & Incentives
 
-#### 🟡 US-A7: Receive Neighbor Response Notification as 911 Dispatcher
+#### 🟡 US-R32: Receive Financial Reward for Verified Emergency Response
+**As a** responder who helped in a true emergency
+**I want to** receive a monetary reward for my time and effort
+**So that** I'm compensated for dropping everything to help a neighbor
+
+**Acceptance Criteria:**
+- After emergency resolved, responder sees reward eligibility notification:
+  ```
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✅ EMERGENCY RESOLVED
+
+  Thank you for responding!
+
+  This emergency qualifies for a community reward.
+  You may be eligible for:
+
+  🏆 $18 - Standard Emergency Response
+  🏆 $36 - Life-Threatening Emergency Response
+
+  Reward pending verification (1-3 business days)
+
+  Why rewards?
+  Your time is valuable. Dropping your plans
+  to save a neighbor deserves recognition beyond
+  just gratitude.
+
+  [VIEW REWARD STATUS]
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ```
+- System verifies emergency was legitimate (not fraudulent)
+- Verification checks:
+  - Alert originator confirms responder arrived and helped
+  - GPS/timestamp data confirms responder was on-scene
+  - Emergency type matches response actions
+  - No history of fraud between these users
+- Reward tier determined by emergency severity:
+  - **$18 reward:** Non-life-threatening verified emergencies
+    - Wellness check (person was actually in distress)
+    - Quit companion (person was genuinely fighting craving)
+    - Active bystander witness (situation was real)
+    - Missing pet (pet was actually missing)
+  - **$36 reward:** Life-threatening emergencies
+    - CPR / cardiac arrest
+    - AED delivery
+    - Naloxone / overdose response
+    - Fire response
+    - Drowning response
+    - Severe medical emergency
+    - Consent emergency / active threat
+- Payment processed within 3 business days of verification
+- Payment method: Venmo, PayPal, direct deposit, or donate to charity
+- Responder can view reward history in profile
+- Tax documentation provided for rewards >$600/year (1099 form)
+
+**Example Reward Notification After Verification:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 REWARD APPROVED
+
+Emergency: CPR Response - Cardiac Arrest
+Date: November 11, 2025
+Location: 123 Main St
+Response Time: 2 min 47 sec
+
+Reward: $36
+
+Verification Status: ✅ Confirmed
+- Alert originator verified your response
+- GPS confirmed on-scene presence
+- Emergency was legitimate and verified
+
+Payment will arrive in 1-2 business days.
+
+This reward is funded by your local
+community emergency fund.
+
+[VIEW PAYMENT DETAILS]
+[DONATE REWARD TO COMMUNITY FUND]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Fraud Prevention:**
+- Both parties (responder + originator) must independently confirm
+- System tracks patterns (same pairs repeatedly = red flag)
+- Random audit sample (5-10% of rewards require additional verification)
+- Community reports flag suspicious activity
+- Repeated fraudulent claims result in permanent ban + reward clawback
+
+**Why This Matters:**
+- **Respects responder time:** Dropping your date night to save someone's life deserves more than a thank you
+- **Increases response rates:** Financial incentive reduces hesitation
+- **Values emergency response:** Makes it clear this is worth your immediate attention
+- **Compensates inconvenience:** Running out to help at 11pm on a Tuesday deserves recognition
+- **Community investment:** Shows community is willing to pay for faster emergency response
+
+**Example Scenarios Where Reward Justified:**
+
+*Scenario 1: CPR at 11pm*
+- Sarah was having dinner with her husband when cardiac arrest alert came
+- She grabbed her AED, drove 3 minutes, saved a neighbor's life
+- Her date night was interrupted, but she got $36 to take her husband out again later
+- **Worth it.**
+
+*Scenario 2: Wellness check during work*
+- Mike was in a Zoom meeting when wellness check alert arrived
+- He excused himself, ran down the hall, knocked on elderly neighbor's door
+- Neighbor had fallen and couldn't get up, Mike called 911 and stayed until EMS arrived
+- Mike missed 45 minutes of work but received $18
+- **Recognition that his time matters.**
+
+*Scenario 3: Quit companion late night*
+- Jamie was about to go to bed when quit companion alert came (11:30pm)
+- Neighbor was 4 days into quitting smoking, having intense craving
+- Jamie walked around the block with them for 15 minutes
+- Neighbor didn't relapse, Jamie got $18 for giving up sleep
+- **Valued contribution to someone's health journey.**
+
+**Notes:**
+- Rewards are OPTIONAL and depend on community funding availability
+- If local government or community hasn't established a reward fund, no rewards distributed
+- This is a test of community commitment: are they willing to pay for faster response?
+
+**Priority:** 🟡 P1 - Critical for demonstrating community investment and increasing participation
+
+---
+
+#### 🟡 US-A8: Contribute to Community Emergency Reward Fund
+**As a** local government, business, or community organization
+**I want to** contribute to a community emergency reward fund
+**So that** responders are compensated for helping neighbors
+
+**Acceptance Criteria:**
+- Government/organization admin panel to manage reward fund
+- Set monthly/annual contribution amount
+- View fund balance and utilization
+- See how many emergencies funded this month
+- Track cost per emergency (average $18-36)
+- Receive monthly impact reports:
+  ```
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  NOVEMBER 2025 COMMUNITY IMPACT
+
+  Boca Raton Emergency Reward Fund
+
+  💰 Fund Balance: $4,200
+  📊 Emergencies This Month: 47
+  💵 Rewards Distributed: $1,512
+
+  Breakdown:
+  - 28 × $18 rewards (wellness, quit support) = $504
+  - 19 × $36 rewards (CPR, overdose, consent) = $684
+  - Administrative fees (10%) = $324
+
+  Lives Saved: 8 verified
+  Average Response Time: 2 min 51 sec
+
+  Your investment: $1,512
+  Value of lives saved: ~$80M (statistical)
+
+  ROI: Priceless.
+
+  [VIEW DETAILED REPORT]
+  [INCREASE MONTHLY CONTRIBUTION]
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ```
+- Public transparency: Community members can see fund is active (not exact balance)
+- Multiple funding sources can contribute to same area
+- If fund runs out, no rewards distributed until replenished
+
+**Potential Contributors:**
+- City/town government (general fund or emergency services budget)
+- County health departments
+- Police departments (reduce 911 call volume)
+- Fire departments (reduce unnecessary dispatches)
+- Hospital systems (reduce ER utilization)
+- Insurance companies (reduce claims)
+- Local businesses (community goodwill)
+- Philanthropic donors
+- Community fundraising
+
+**Why This Is a Test:**
+- **Are communities willing to pay for faster response?**
+- If Boca Raton (or any city) refuses to fund rewards, it signals lack of commitment
+- Successful funding demonstrates community values rapid emergency response
+- Creates competitive pressure: "Why does Delray Beach fund rewards but we don't?"
+
+**Priority:** 🟡 P1 - Critical for testing community commitment and funding sustainability
+
+---
+
+### 1.7.8 Institutional Legitimacy
+
+#### 🟡 US-A9: Receive Neighbor Response Notification as 911 Dispatcher
 **As a** 911 dispatcher receiving a cardiac arrest call
 **I want to** know if a neighbor with an AED is already en route
 **So that** I can coordinate EMS arrival and update caller
