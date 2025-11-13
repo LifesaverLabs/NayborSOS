@@ -1,4 +1,4 @@
-# Neighbor 911 - Technical Architecture (DRAFT)
+# Neighbor 911 - Technical Architecture (PROPOSAL / DRAFT)
 
 **Version:** 0.1 (AI-Generated Initial Proposal)
 **Last Updated:** 2025-11-10

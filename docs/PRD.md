@@ -94,6 +94,7 @@ Neighbors who sign up to respond to specific emergency types based on their skil
 
 #### Tier 2: Intermediate Response (Moderate Training)
 *Basic skills that can be learned quickly.*
+- Choking / Heimlich Maneuver (10-min video training)
 - Naloxone/Narcan Delivery (Overdose Response)
 - Fire Response / Evacuation Assistance
 - Domestic Abuse Intervention
@@ -1304,6 +1305,115 @@ See [MINUTER_SUFFERER_SUFFRAGE.md](MINUTER_SUFFERER_SUFFRAGE.md) for:
 **Equipment Needed:** Own an AED, know how to operate
 **Training Topics:** AED pad placement, follow device prompts, safety (don't touch patient during shock)
 **Recertification:** Every 6 months
+
+### 8.7a Choking / Heimlich Maneuver (Tier 2)
+**Equipment Needed:** None (hands-only intervention)
+**Training Topics:** Recognizing choking (universal choking sign, can't speak/cough/breathe), abdominal thrusts (Heimlich maneuver), back blows, chest thrusts for pregnant/obese victims, infant choking response, when to call 911
+**Recertification:** Every 12 months
+**Why it matters:** Choking kills in 4-6 minutes. The Heimlich maneuver has a 70-90% success rate when performed correctly. Neighbors can arrive in 2-3 minutes vs. 8-15 minutes for EMS—often making the difference between life and death.
+
+**Why Tier 2 (Not Tier 3):**
+- **Simple technique:** Watch a 10-minute video and you can do it
+- **No equipment needed:** Just your hands
+- **High success rate even for beginners:** 70-90% effective with basic training
+- **More accessible than CPR:** Doesn't require as much practice to be effective
+- **Almost anyone can learn:** Teens (13+) and adults of all ages can perform
+- **Low risk of harm:** Even imperfect technique is better than nothing
+
+**Common Scenarios:**
+- Adult choking on food at home (steak, hot dog, large bites)
+- Elderly person choking (weakened swallowing reflex)
+- Child choking on food or small object
+- Infant choking (under 1 year old - different technique)
+
+**Critical Distinctions:**
+- **Severe choking (life-threatening):** Can't speak, can't cough, can't breathe, clutching throat (universal choking sign), turning blue
+- **Mild choking (not life-threatening):** Can cough forcefully, can speak, can breathe - encourage coughing, don't intervene
+- **Only perform Heimlich if severe choking** - forceful coughing is more effective than intervention for mild cases
+
+**Heimlich Technique (Adults/Children over 1 year):**
+1. Stand behind person, wrap arms around waist
+2. Make fist with one hand, place thumb side against abdomen (between navel and ribcage)
+3. Grasp fist with other hand
+4. Give quick, upward abdominal thrusts
+5. Repeat until object expelled or person becomes unconscious
+6. If unconscious: Lower to ground, begin CPR, call 911
+
+**Back Blows + Chest Thrusts (Infants under 1 year):**
+1. Hold infant face-down on forearm, support head
+2. Give 5 firm back blows between shoulder blades
+3. Turn infant face-up, give 5 chest thrusts (two fingers on breastbone)
+4. Repeat cycle until object expelled or infant unconscious
+5. If unconscious: Begin infant CPR, call 911
+
+**Special Cases:**
+- **Pregnant/obese victims:** Use chest thrusts instead of abdominal thrusts (same position, but hands on chest)
+- **Self-Heimlich:** Can perform on yourself using back of chair or countertop edge
+
+**On-Scene Responder Protocol:**
+```
+✓ YOU'VE ARRIVED - CHOKING EMERGENCY
+
+Quick Assessment:
+  • Is person clutching throat? (universal sign)
+  • Can they speak or cough?
+  • Are they turning blue?
+
+If SEVERE choking (can't speak/cough/breathe):
+
+  1. Ask: "Are you choking? Can you speak?"
+  2. Tell them: "I know the Heimlich, I'm going to help you"
+  3. Stand behind them, wrap arms around waist
+  4. Fist on abdomen (between navel and ribs)
+  5. Quick upward thrusts - repeat until object expelled
+  6. If they go unconscious: Lower to ground, start CPR
+
+If MILD choking (can cough):
+  • Encourage forceful coughing
+  • Stay with them, don't intervene yet
+  • Be ready to perform Heimlich if worsens
+
+For INFANTS (under 1 year):
+  • 5 back blows, then 5 chest thrusts
+  • Repeat until object expelled
+
+[CALL 911] [VIEW DETAILED PROTOCOL]
+```
+
+**When to Call 911:**
+- Immediately if choking person becomes unconscious
+- After object expelled if person injured, having trouble breathing, or in distress
+- If Heimlich unsuccessful after 5 cycles
+- For infants: Call 911 immediately while performing back blows/chest thrusts
+
+**Post-Heimlich Care:**
+- Person should be evaluated by medical professional even if object expelled (risk of internal injury)
+- Encourage them to go to ER or call 911 for evaluation
+- Abdominal thrusts can cause internal injuries (ruptured organs)
+
+**Why Time Matters:**
+- 0-2 minutes: Person conscious, can be saved with Heimlich
+- 2-4 minutes: Person may lose consciousness, needs CPR + Heimlich
+- 4-6 minutes: Brain damage begins from lack of oxygen
+- 6+ minutes: Permanent brain damage or death likely
+
+**Neighbor Response Advantage:**
+- EMS average arrival: 8-15 minutes (often too late)
+- Neighbor response: 2-3 minutes (critical window)
+- Heimlich success rate: 70-90% when performed in first 2-3 minutes
+
+**Training Emphasis:**
+- **Don't be afraid to act** - Doing the Heimlich imperfectly is better than doing nothing
+- **Forceful thrusts required** - This is not gentle, you may crack ribs (that's OK, ribs heal, death doesn't)
+- **Stay calm** - Person is terrified, your calmness helps
+- **Act fast** - Every second counts, don't hesitate
+
+**Common Mistakes to Avoid:**
+- Performing Heimlich on mild choking (let them cough it out)
+- Thrusts too gentle (must be forceful to generate pressure)
+- Hand placement too low (below navel = ineffective, risk of injury)
+- Hand placement too high (on ribcage = ineffective, may crack ribs)
+- Giving up too soon (keep trying until object expelled or EMS arrives)
 
 ### 8.8 Overdose / Naloxone Delivery (Tier 1-2)
 **Equipment Needed:** Narcan/naloxone nasal spray (widely available over-the-counter)

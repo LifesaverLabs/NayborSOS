@@ -85,6 +85,7 @@ This document contains user stories and use cases for the Neighbor911 Minute Res
 - CPR / Cardiac Arrest
 - AED Delivery
 - Naloxone / Overdose Response
+- Choking / Heimlich Maneuver
 
 **Notes:** For MVP, defer training videos and quizzes
 
@@ -2240,7 +2241,224 @@ community emergency fund.
 
 ---
 
-### Use Case 5: Quit Companion - Nicotine Craving Support
+### Use Case 5: Choking Emergency - Heimlich Maneuver
+
+**Primary Actor:** Alex (Responder with Heimlich training)
+**Secondary Actor:** Elderly neighbor Dorothy (Alert Originator's mother, choking victim)
+**Trigger:** Dorothy is choking on food during family dinner
+
+**Preconditions:**
+- Alex is signed up, has selected "Choking / Heimlich Maneuver" capability, marked "Available Now"
+- Dorothy's son Michael has Neighbor911 app installed
+- Both are in same apartment building
+- Alex completed Heimlich training (knows technique)
+
+**Main Flow:**
+
+1. **Dorothy starts choking**
+   - Family dinner at Michael's apartment
+   - Dorothy (age 78) takes large bite of steak, starts choking
+   - Can't speak, can't cough, clutching throat (universal choking sign)
+   - Turning blue, panicking
+   - Michael tries back slaps (ineffective)
+
+2. **Michael creates urgent alert**
+   - Michael opens Neighbor911, taps "REQUEST HELP"
+   - Selects "Choking / Heimlich Maneuver"
+   - Location auto-confirmed: Apt 6C, 456 Oak St
+   - Description: "Mom choking on steak, can't breathe, turning blue"
+   - Taps "SEND ALERT NOW"
+   - App shows: "Alert sent to nearby responders. CALL 911 NOW."
+   - Michael's wife calls 911 while Michael stays with Dorothy
+
+3. **System dispatches to Heimlich-trained responders**
+   - System queries users within 0.5 miles with "Choking / Heimlich" capability
+   - Finds 3 eligible responders: Alex (same building), Sarah (2 blocks), Tom (3 blocks)
+   - Sends high-priority alert to all 3 simultaneously
+   - Alert classification: 🔴 Life-threatening (4-6 minute survival window)
+
+4. **Alex receives alert**
+   - Alex's phone vibrates intensely with alert sound
+   - Push notification:
+     ```
+     🚨🚨🚨 CHOKING EMERGENCY 🚨🚨🚨
+
+     CRITICAL - HEIMLICH NEEDED
+     LOCATION: Same building, Apt 6C (2 floors down)
+     VICTIM: Elderly woman, 78, choking on food
+     STATUS: Can't breathe, turning blue
+
+     PERSON IS DYING - ACT NOW
+
+     ⏱️ Respond in: 00:28
+
+     [ACCEPT - I'M ON MY WAY]
+     [DECLINE]
+     ```
+
+5. **Alex accepts immediately**
+   - Alex sees "choking" and "same building" - taps ACCEPT within 3 seconds
+   - Screen shows reminder:
+     ```
+     ✓ Alert Accepted
+
+     You are 2 floors away.
+     RUN - don't walk.
+
+     Remember:
+       • Stand behind victim
+       • Fist between navel and ribs
+       • Quick UPWARD thrusts - FORCEFUL
+       • If they pass out: CPR
+
+     Time matters: Every second counts.
+
+     [START NAVIGATION]
+     ```
+   - Alex sprints out door toward stairwell
+
+6. **Alex navigates urgently**
+   - Runs down 2 flights of stairs
+   - App shows: "↓ Apt 6C - 2 floors below"
+   - Arrives at door in 35 seconds
+   - Bangs on door: "I know the Heimlich! Let me in!"
+
+7. **Alex performs Heimlich maneuver**
+   - Michael opens door, panicked: "She's turning blue!"
+   - Alex sees Dorothy slumped in chair, clutching throat, lips blue
+   - Alex acts immediately:
+     - "Dorothy, I'm Alex from upstairs, I'm going to help you"
+     - Pulls Dorothy to standing position
+     - Stands behind her, wraps arms around waist
+     - Makes fist, places thumb side on abdomen (between navel and ribs)
+     - Grasps fist with other hand
+     - Gives quick, FORCEFUL upward thrust
+     - First thrust: Nothing
+     - Second thrust: Nothing
+     - Third thrust: Piece of steak shoots out of Dorothy's mouth
+     - Dorothy gasps, starts coughing, breathing again
+     - Color returns to face
+
+8. **Alex provides post-Heimlich care**
+   - Helps Dorothy sit down carefully
+   - Dorothy coughing, breathing, crying with relief
+   - Alex: "You're breathing, that's good. EMS is on the way."
+   - Checks: "Are you in pain anywhere? Chest? Belly?"
+   - Dorothy: "I'm OK... thank you... I thought I was going to die"
+   - Alex stays with her, monitors breathing until EMS arrives
+
+9. **EMS arrives**
+   - Paramedics arrive 6 minutes after initial alert (11 minutes from 911 call)
+   - Alex briefs them: "Choking on steak, 3 abdominal thrusts, object expelled, she's been breathing for about 4 minutes now"
+   - EMS evaluates Dorothy: Vitals stable, some abdominal tenderness (normal)
+   - Recommend ER evaluation (Heimlich can cause internal injuries)
+   - Dorothy transported to ER as precaution
+
+10. **Alex marks emergency resolved**
+    - Alex taps "MARK EMERGENCY RESOLVED"
+    - System prompts: "Was victim breathing when you left?"
+    - Alex: "Yes, EMS took over, victim breathing normally"
+    - Michael (alert originator) confirms: "Responder saved my mom's life"
+
+11. **Post-emergency**
+    - Dorothy released from ER same day (no internal injuries)
+    - Michael brings Dorothy to Alex's apartment next day to thank him in person
+    - Dorothy: "You saved my life. I have 3 grandchildren I get to see grow up because of you."
+    - **Response time: 35 seconds from alert to Heimlich**
+    - **EMS would have arrived in 11+ minutes (likely too late)**
+    - **Alex saved Dorothy's life**
+
+**Postconditions:**
+- Alert resolved
+- Victim survived due to rapid Heimlich intervention
+- EMS handoff completed
+- Response time: 35 seconds (building record)
+- Victim fully recovered
+
+**Alternative Flows:**
+
+**A1: Alex can't get there in time - Dorothy passes out**
+- At step 7, when Alex arrives, Dorothy is unconscious on floor
+- Alex immediately:
+  - Checks pulse and breathing (no breathing)
+  - Begins CPR (30 compressions, 2 rescue breaths)
+  - After 30 compressions, checks mouth for visible obstruction
+  - Sees piece of food, sweeps it out with finger
+  - Continues CPR
+  - Dorothy regains consciousness after 2 cycles
+- EMS arrives, takes over
+- Dorothy survives but with more trauma
+
+**A2: Michael doesn't have app - tries Heimlich himself without training**
+- Michael attempts Heimlich but:
+  - Hand placement wrong (too high, on ribs)
+  - Thrusts not forceful enough
+  - Wastes 2 minutes with ineffective attempts
+- Finally calls 911
+- By time EMS arrives (11 min), Dorothy has been without oxygen 8+ minutes
+- Dorothy survives but with brain damage from oxygen deprivation
+- **This is why trained neighbor response matters**
+
+**A3: Object doesn't come out after 5 thrusts**
+- At step 7, Alex performs 5 forceful thrusts, object still lodged
+- Dorothy losing consciousness
+- Alex continues thrusts (6th, 7th)
+- On 8th thrust, object expelled
+- Dorothy breathing but barely conscious
+- Alex stays with her, keeps her responsive until EMS arrives
+- **Never give up - keep trying until object expelled or EMS takes over**
+
+**A4: No trained responders available**
+- System finds no Heimlich-trained responders within 0.5 mile
+- Sends to general responders with message:
+  ```
+  🚨 CHOKING EMERGENCY 🚨
+
+  No Heimlich-trained responders available.
+
+  If you respond:
+  - Stand behind victim
+  - Fist between navel and ribs
+  - Quick UPWARD thrusts - FORCEFUL
+  - Video instructions will show on arrival
+
+  Doing it imperfectly is better than nothing.
+
+  [ACCEPT - I'LL TRY]
+  [DECLINE]
+  ```
+- Untrained responder accepts, follows on-screen video guide
+- Success rate lower but better than waiting for EMS
+
+**A5: Infant choking (different technique)**
+- At step 1, victim is 8-month-old baby choking on toy
+- Alert sent to "Infant Heimlich" responders
+- Alex responds, uses infant technique:
+  - Hold baby face-down on forearm
+  - 5 back blows between shoulder blades
+  - Turn face-up, 5 chest thrusts (2 fingers on breastbone)
+  - Repeat until object expelled
+- Toy expelled after 2nd cycle
+- Baby crying (good sign - breathing)
+- EMS evaluates, baby OK
+
+**Impact:**
+- **Time is everything:** Dorothy had ~2 minutes left before permanent brain damage
+- **EMS couldn't have saved her:** Would have arrived in 11 minutes (way too late)
+- **Neighbor response = life saved:** 35-second response made all the difference
+- **Training matters:** Alex knew exactly what to do, acted confidently and fast
+- **Anyone can learn:** Heimlich is simple, doesn't require equipment, just training and willingness to act
+
+**Why Choking Alerts Need Fastest Response:**
+- 0-2 minutes: Victim conscious, Heimlich highly effective
+- 2-4 minutes: Victim may pass out, needs CPR + Heimlich
+- 4-6 minutes: Brain damage begins
+- 6+ minutes: Likely death or permanent disability
+- **This is one of the fastest-killing emergencies - even faster than cardiac arrest**
+
+---
+
+### Use Case 6: Quit Companion - Nicotine Craving Support
 
 **Primary Actor:** Jamie (Responder, former smoker)
 **Secondary Actor:** Alex (Alert Originator, quitting tobacco)
