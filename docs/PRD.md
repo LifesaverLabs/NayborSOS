@@ -1689,6 +1689,35 @@ Educational institutions cannot simultaneously:
 - HIPAA-aware (though not HIPAA-covered entity)
 - GDPR/CCPA compliance
 
+### 10.2.1 Healthcare Compliance Strategy (US: HIPAA | International: Local Laws)
+
+**HIPAA (United States Only):** Currently **NOT required for MVP** but architecture designed for future compliance.
+
+**International Healthcare Privacy:** Each country implementation must assess local healthcare data protection laws (e.g., Canada's PIPEDA, EU's GDPR Article 9, Australia's Privacy Act).
+
+**US HIPAA Rationale for Deferral:**
+- Neighbor911 functions as **emergency coordination platform**, not healthcare provider
+- No protected health information (PHI) collected or stored in initial phase
+- MVP PSAP integration uses basic notifications (location + emergency type only)
+- Not acting as "covered entity" or "business associate" under HIPAA
+
+**International Compliance Requirements:**
+- **Each deployment** must conduct legal review under local healthcare privacy laws
+- **Medical data handling** varies significantly by jurisdiction
+- **Emergency response regulations** differ between countries
+- **Data residency** requirements may mandate local hosting
+
+**Future Compliance Triggers:**
+- Integration with medical systems (hospitals, EHR, patient records)
+- Handling of medical histories, conditions, or treatment data
+- Direct connection to healthcare provider systems
+
+**Compliance-Ready Architecture:**
+- Strong data governance and encryption foundation
+- Audit logging and access controls designed for healthcare standards
+- Data minimization principles align with global privacy requirements
+- Modular design allows jurisdiction-specific compliance modules
+
 ### 10.2.1 Voter Data Privacy
 - **Voter registration status:** Encrypted, never shared
 - **Voting history (self-reported):** Used only for reminders and statistics
