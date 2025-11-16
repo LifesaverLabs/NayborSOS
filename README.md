@@ -123,10 +123,10 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 **Current State:** This repository contains extensive planning documentation, technical architecture, and requirements—but the application code is in early development. We have a compelling vision and thorough design, and now we need passionate contributors to help build it.
 
 **What's Ready:**
-- ✅ Comprehensive technical architecture ([ARCHITECTURE.md](docs/ARCHITECTURE.md))
-- ✅ Detailed requirements and user stories ([REQUIREMENTS.md](docs/REQUIREMENTS.md))
-- ✅ Development guidelines and contribution process ([CONTRIBUTING.md](docs/CONTRIBUTING.md))
-- ✅ 40+ volunteer roles across all disciplines ([VOLUNTEER_JOBS.md](docs/VOLUNTEER_JOBS.md))
+- ✅ Comprehensive technical architecture ([Architecture.md](docs/Architecture.md))
+- ✅ Detailed requirements and user stories ([Requirements.md](docs/Requirements.md))
+- ✅ Development guidelines and contribution process ([Contributing.md](docs/Contributing.md))
+- ✅ 40+ volunteer roles across all disciplines ([Volunteer Jobs.md](docs/Volunteer%20Jobs.md))
 
 **What We're Building:**
 - 🔨 Flutter mobile application (iOS/Android)
@@ -135,7 +135,7 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 - 🔨 Geolocation and routing features
 
 **What We Need:**
-- **Contributors** - Mobile developers, backend engineers, designers, healthcare professionals (see [VOLUNTEER_JOBS.md](docs/VOLUNTEER_JOBS.md))
+- **Contributors** - Mobile developers, backend engineers, designers, healthcare professionals (see [Volunteer Jobs.md](docs/Volunteer%20Jobs.md))
 - **Funding** - Grants, donations, and seed investment to eventually compensate core contributors
 - **Partnerships** - PSAPs (911 centers), municipalities, healthcare organizations
 
@@ -150,10 +150,10 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 ### Getting Started
 
 1. **Read the Docs**
-   - [Architecture](docs/ARCHITECTURE.md) - Technical design and implementation
-   - [Requirements](docs/REQUIREMENTS.md) - Full product vision and roadmap
-   - [User Stories](docs/USER_STORIES.md) - Features from user perspective
-   - [Contributing Guide](docs/CONTRIBUTING.md) - Development principles and contributor guidelines
+   - [Architecture](docs/Architecture.md) - Technical design and implementation
+   - [Requirements](docs/Requirements.md) - Full product vision and roadmap
+   - [User Stories](docs/User%20Stories.md) - Features from user perspective
+   - [Contributing Guide](docs/Contributing.md) - Development principles and contributor guidelines
 
 2. **Set Up Development Environment**
    ```bash

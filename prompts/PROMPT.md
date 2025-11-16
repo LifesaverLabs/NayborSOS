@@ -426,9 +426,9 @@ Please ensure:
 - Error handling for offline scenarios
 
 Reference docs:
-- Architecture: docs/ARCHITECTURE.md
-- Data model: docs/DATA_MODEL.md
-- User stories: docs/USER_STORIES.md
+- Architecture: docs/Architecture.md
+- Data model: docs/Data Model.md
+- User stories: docs/User Stories.md
 ```
 
 ### Prompt 2: Reviewing Code for Privacy Compliance
@@ -625,10 +625,10 @@ final position = await Geolocator.getCurrentPosition();
 ### Documentation Files
 
 All major features should have:
-- User story in `docs/USER_STORIES.md`
-- Architecture notes in `docs/ARCHITECTURE.md`
-- API contracts in `docs/API_SPECIFICATION.md`
-- Privacy impact in `docs/DATA_MODEL.md`
+- User story in `docs/User Stories.md`
+- Architecture notes in `docs/Architecture.md`
+- API contracts in `docs/API Specification.md`
+- Privacy impact in `docs/Data Model.md`
 
 ---
 
@@ -731,12 +731,12 @@ final alertStream = firestore.collection('alerts').doc(id).snapshots();
 ## Resources & References
 
 ### Documentation
-- **Architecture:** [docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md)
-- **Data Model:** [docs/DATA_MODEL.md](../docs/DATA_MODEL.md)
-- **API Spec:** [docs/API_SPECIFICATION.md](../docs/API_SPECIFICATION.md)
-- **User Stories:** [docs/USER_STORIES.md](../docs/USER_STORIES.md)
-- **AI/AR Features:** [docs/AI_AR_FEATURES.md](../docs/AI_AR_FEATURES.md)
-- **Requirements:** [docs/REQUIREMENTS.md](../docs/REQUIREMENTS.md)
+- **Architecture:** [docs/Architecture.md](../docs/Architecture.md)
+- **Data Model:** [docs/Data Model.md](../docs/Data%20Model.md)
+- **API Spec:** [docs/API Specification.md](../docs/API%20Specification.md)
+- **User Stories:** [docs/User Stories.md](../docs/User%20Stories.md)
+- **AI/AR Features:** [docs/AI - AR Features.md](../docs/AI%20-%20AR%20Features.md)
+- **Requirements:** [docs/Requirements.md](../docs/Requirements.md)
 
 ### External Resources
 - **Flutter Docs:** https://docs.flutter.dev/

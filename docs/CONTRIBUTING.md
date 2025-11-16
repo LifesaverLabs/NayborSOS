@@ -35,7 +35,7 @@ flutter pub get
 flutter run
 ```
 
-See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed technical setup.
+See [Architecture.md](Architecture.md) for detailed technical setup.
 
 ### 3. Make Your Changes
 
@@ -263,7 +263,7 @@ Not sure where to start? Need help with something?
 
 - **Ask in Discord** - [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK)
 - **Email us** - team@lifesaverlabs.org
-- **Browse docs** - Check [ARCHITECTURE.md](ARCHITECTURE.md), [REQUIREMENTS.md](REQUIREMENTS.md), and [VOLUNTEER_JOBS.md](VOLUNTEER_JOBS.md)
+- **Browse docs** - Check [Architecture.md](Architecture.md), [Requirements.md](Requirements.md), and [Volunteer Jobs.md](Volunteer%20Jobs.md)
 
 ---
 

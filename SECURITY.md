@@ -89,7 +89,7 @@ This is an emergency response system, which creates unique security challenges:
 
 ### Good Samaritan Protections
 - We operate within legal frameworks protecting emergency aid
-- See [INTELLECTUAL_PROPERTY.md](docs/INTELLECTUAL_PROPERTY.md) for legal considerations
+- See [Intellectual Property.md](docs/Intellectual%20Property.md) for legal considerations
 
 ## Third-Party Dependencies
 
