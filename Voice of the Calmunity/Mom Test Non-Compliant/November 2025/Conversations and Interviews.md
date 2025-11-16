@@ -149,3 +149,7 @@ Here's a brief summary of takeaways from conversations.
 - I'm hoping others find their way toward Best Critic Award roles. I really appreciate constructive critics and criticism. It helps us remain very aware of potential risks and corner cases so we can find solutions and risk reductions for those problems before they risk tanking parts of the project design or strictly limiting the calmunity service ceiling we can reach. 
 
 - I'm sorry, there were a lot more conversations that weren't properly logged. I'll get better about writing up conversations and interviews, especially those that are useful, unique, or very important.
+
+Sunday, November 16, 2025
+=========================
+- I spoke to one elderly gentleman who said, when asked if he'd want someone to break into his house to save his life in a medical emergency, that he'd be ok with that. But he emphasized that he's only one person and that he's different than the general population, and that opinions on his may differ. He directed me to AI to discuss the question; I replied that I thought AI was likely to be undertrained on this as it's a bit of a novel question AI wouldn't have much cause to know well in the Neighbor 911™ context.

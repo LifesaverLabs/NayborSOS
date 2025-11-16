@@ -1,29 +1,35 @@
-# Emergency Response Resources - Israel (ישראל)
+# משאבי תגובה לשעת חירום - ישראל
 
-**Last Updated:** 2025-11-16
-**Status:** ✅ Initial Version Complete
-**Maintainer(s):** Lifesaver Labs Team
-**Languages:** English (Hebrew and Arabic translations needed)
+**⚠️ אזהרה חשובה: תרגום אוטומטי**
 
----
+**זהו תרגום אוטומטי שדורש בדיקה ואישור על ידי דוברי עברית שפת אם ומומחים רפואיים מקומיים. מידע חירום דורש דיוק מוחלט. אם אתם מוצאים שגיאות, אנא צרו קשר עם team@lifesaverlabs.org**
 
-## 🌍 About This Guide
+**גרסה באנגלית:** [israel-en.md](israel-en.md)
 
-This guide documents emergency response resources, training programs, apps, and community groups in Israel. Our goal is to help Neighbor 911 visitors and Minute Responders discover local resources that can help them prepare for emergencies.
-
-**What's included:**
-- Emergency response apps and alert systems
-- CPR, AED, and first aid training organizations
-- Community emergency response programs
-- Naloxone access and overdose response resources
-- Equipment resources (where to find AEDs, first aid kits, etc.)
-- Government emergency preparedness programs
+**עודכן לאחרונה:** 2025-11-16
+**סטטוס:** ✅ גרסה ראשונית מלאה
+**מתחזק/ים:** צוות Lifesaver Labs
+**שפות:** עברית (תרגום אוטומטי - דורש אימות), אנגלית, ערבית
 
 ---
 
-## 🚨 START YOUR NEIGHBORHOOD EMERGENCY NETWORK TODAY
+## 🌍 אודות המדריך הזה
 
-**אינך צריך לחכות ל-Neighbor 911™.** מה שאתה יכול לעשות עכשיו:
+מדריך זה מתעד משאבי תגובה לשעת חירום, תוכניות הכשרה, אפליקציות וקבוצות קהילתיות בישראל. המטרה שלנו היא לעזור למבקרי Neighbor 911 ול-Minute Responders לגלות משאבים מקומיים שיכולים לעזור להם להתכונן לשעת חירום.
+
+**מה כלול:**
+- אפליקציות ומערכות התראה לשעת חירום
+- ארגוני הכשרה להחייאה, דפיברילטור וטיפול ראשוני
+- תוכניות תגובה קהילתית לשעת חירום
+- גישה לנלוקסון ומשאבי תגובה למנת יתר
+- משאבי ציוד (היכן למצוא דפיברילטורים, ערכות עזרה ראשונה וכו')
+- תוכניות ממשלתיות למוכנות לשעת חירום
+
+---
+
+## 🚨 התחל את רשת החירום בשכונה שלך היום
+
+**אל תחכה ל-Neighbor 911™.** מה שאתה יכול לעשות עכשיו:
 
 ### דפוק בדלתות. הכר את השכנים שלך. בנה רשת.
 
@@ -34,447 +40,446 @@ This guide documents emergency response resources, training programs, apps, and 
 4. **שתף כישורים**: מי יודע החייאה? למי יש דפיברילטור? מי מוכן לעשות בדיקת רווחה?
 5. **תרגל לעזור זה לזה** - התחל עם דברים קטנים
 
-**Recommended territory size:** 400-800 מטר (רדיוס 0.25-0.5 ק"מ) - קטן מספיק כדי להכיר את כולם
+**גודל טריטוריה מומלץ:** 400-800 מטר (רדיוס 0.25-0.5 ק"מ) - קטן מספיק כדי להכיר את כולם
 
-**See our guide:** [Know Thy Neighbor](../Know%20Thy%20Neighbor.md) - How to build your hyperlocal emergency response network
-
----
-
-## Emergency Numbers
-
-**Israel Emergency Numbers:**
-- **Magen David Adom (MDA - מגן דוד אדום):** 101 - Medical emergencies
-- **Police (משטרה):** 100
-- **Fire & Rescue (כבאות והצלה):** 102
-- **Home Front Command (פיקוד העורף):** 104 (during security situations)
-- **Electric Company Emergency:** 103
-- **Municipal Emergency Center:** 106
-
-**Additional Important Numbers:**
-- **ERAN Emotional Support Line (ער"ן):** 1201 - 24/7 crisis hotline
-- **National Suicide Prevention:** *2242 or 1-800-363-4357
-- **Sexual Assault Crisis Line (מוקד לנפגעות תקיפה מינית):** 1202
-- **Domestic Violence Hotline (קו חם לנשים):** 118 or 1-800-220-000
+**ראה את המדריך שלנו:** [Know Thy Neighbor](../Know%20Thy%20Neighbor.md) - איך לבנות את רשת התגובה לשעת חירום ההיפר-מקומית שלך
 
 ---
 
-## 🤝 Active & Proposed Partnerships
+## מספרי חירום
 
-### United Hatzalah (הצלה)
-**Website:** [israelrescue.org](https://www.israelrescue.org/) | [1221.org.il](https://www.1221.org.il/)
-**Status:** Operational nationwide
-**Partnership Status:** 🟡 **PROPOSED MAJOR PARTNERSHIP** - Core Inspiration for Neighbor 911
+**מספרי חירום בישראל:**
+- **מגן דוד אדום (מד"א):** 101 - מקרי חירום רפואיים
+- **משטרה:** 100
+- **כבאות והצלה:** 102
+- **פיקוד העורף:** 104 (במצבי ביטחון)
+- **חברת חשמל חירום:** 103
+- **מוקד עירוני לשעת חירום:** 106
 
-**What They Do:**
-United Hatzalah is the **primary inspiration** for Neighbor 911™, proving that **90-second response times are achievable**. They dispatch volunteer EMTs, paramedics, and doctors on motorcycles ("ambucycles"), bikes, and foot to reach emergencies faster than ambulances.
-
-**Their Achievement:**
-- Average response time: **~90 seconds in urban areas**
-- Over 7,000 volunteer medics nationwide
-- Complementary to Magen David Adom (ambulance service)
-- Free service funded entirely by donations
-- First responder arrives with medical equipment while ambulance is en route
-
-**Their Model:**
-- Highly trained volunteers (EMTs, paramedics, physicians)
-- Rigorous certification requirements
-- Professional-grade medical equipment
-- Proven track record saving thousands of lives annually
-- Motorcycle/bicycle dispatch for urban mobility
-
-**How Neighbor 911™ Differs & Complements:**
-
-United Hatzalah maintains exceptional professional standards, which limits geographic growth to areas with enough certified responders.
-
-**Neighbor 911™ offers complementary coverage:**
-- **Lower barrier to entry** - Non-professional neighbors can help in ALL emergencies, including cardiac arrest
-- **Even faster first response** - The neighbor 30 seconds away can start CPR before even United Hatzalah arrives
-- **Broader emergency types** - Cardiac arrest, wellness checks, mental health crises, addiction support, consent conflicts, choking, falls
-- **Truly hyperlocal** - Every building, every floor can have instant response
-- **Heartbeat Drills** - Community building through emergency practice parties
-
-**Proposed Partnership Vision:**
-
-This is our **HIGHEST PRIORITY PARTNERSHIP** opportunity. We seek deep collaboration with United Hatzalah to:
-
-1. **Layer response coverage** - Immediate neighbor response (0-60 seconds) + United Hatzalah professional (60-120 seconds) + ambulance (8-15 minutes) = **maximum survival**
-2. **Unified dispatch** - Send both neighbors AND United Hatzalah professionals simultaneously
-3. **Cross-training pathways** - Neighbors who start with basic CPR can pursue United Hatzalah volunteer certification
-4. **Share best practices** - United Hatzalah's 90-second dispatch expertise + Neighbor 911's hyperlocal grassroots model
-5. **Expand globally together** - Both organizations growing internationally, potential for joint expansion
-
-**Why This Partnership Matters:**
-- United Hatzalah **proves** 90-second professional response works
-- Neighbor 911™ **proves** 30-60 second neighbor response is even faster
-- Together: CPR starts in 30-60 seconds (neighbor), professional equipment arrives in 90 seconds (United Hatzalah), full ambulance in 8-15 minutes (MDA)
-- **Result:** World's fastest emergency response system, saving maximum lives
-
-**Contact for Partnership Discussions:**
-- Email: team@lifesaverlabs.org
-- Subject: [PARTNERSHIP - United Hatzalah - PRIORITY]
-
-**Special Note:** As a dual US-Israeli citizen deeply inspired by United Hatzalah's work, building this partnership is a core mission of Neighbor 911™. We see United Hatzalah as the gold standard in volunteer emergency response that we aim to complement and amplify.
+**מספרים חשובים נוספים:**
+- **ער"ן - קו תמיכה רגשית:** 1201 - קו משבר 24/7
+- **מניעת התאבדויות לאומית:** *2242 או 1-800-363-4357
+- **קו משבר לנפגעות תקיפה מינית:** 1202
+- **קו חם לנשים (אלימות במשפחה):** 118 או 1-800-220-000
 
 ---
 
-## Emergency Response Apps
+## 🤝 שותפויות פעילות ומוצעות
 
-### Magen David Adom App
-**Website:** [mdais.org](https://www.mdais.org/) | [Download App](https://www.mdais.org/en/app/)
-**Status:** Operational nationwide
-**Coverage:** All of Israel
-**Partnership Status:** 🟡 Proposed Partnership
+### הצלה (United Hatzalah)
+**אתר:** [israelrescue.org](https://www.israelrescue.org/) | [1221.org.il](https://www.1221.org.il/)
+**סטטוס:** פעיל ברחבי הארץ
+**סטטוס שותפות:** 🟡 **שותפות מרכזית מוצעת** - השראה מרכזית ל-Neighbor 911
 
-**What It Does:**
-- Request ambulance/emergency medical services
-- Share real-time location with MDA dispatch
-- Track ambulance arrival
-- Access to first aid guides
-- Available in Hebrew, Arabic, English, Russian, Amharic
+**מה הם עושים:**
+הצלה היא **ההשראה העיקרית** ל-Neighbor 911™, המוכיחה ש**זמני תגובה של 90 שניות אפשריים**. הם שולחים חובשים מתנדבים, פרמדיקים ורופאים על אופנועים ("אמבוסייקלים"), אופניים וברגל כדי להגיע למקרי חירום מהר יותר מאשר אמבולנסים.
 
-**How to Get Involved:**
-- Download from iOS/Android app stores
-- Register with your details
-- Enable location services for emergency use
+**ההישג שלהם:**
+- זמן תגובה ממוצע: **~90 שניות באזורים עירוניים**
+- מעל 7,000 חובשים מתנדבים ברחבי הארץ
+- משלים למגן דוד אדום (שירות אמבולנס)
+- שירות חינמי הממומן כולו מתרומות
+- מגיב ראשון מגיע עם ציוד רפואי בזמן שהאמבולנס בדרך
 
----
+**המודל שלהם:**
+- מתנדבים מאומנים מאוד (חובשים, פרמדיקים, רופאים)
+- דרישות הסמכה קפדניות
+- ציוד רפואי ברמה מקצועית
+- רקורד מוכח של הצלת אלפי חיים מדי שנה
+- שיגור על אופנועים/אופניים לניידות עירונית
 
-### Zichron Menachem (זכרון מנחם)
-**Website:** [zichron.org](https://www.zichron.org/)
-**Status:** Operational
-**Focus:** Supporting children with cancer and their families
+**איך Neighbor 911™ שונה ומשלים:**
 
-**Emergency Support:**
-- 24/7 hotline for families of children with cancer
-- Emergency medical equipment loans
-- Transportation assistance
-- Crisis intervention
+הצלה שומרת על סטנדרטים מקצועיים יוצאי דופן, מה שמגביל את הצמיחה הגיאוגרפית לאזורים עם מספיק מגיבים מוסמכים.
 
----
+**Neighbor 911™ מציעה כיסוי משלים:**
+- **מחסום נמוך יותר לכניסה** - שכנים לא מקצועיים יכולים לעזור בכל מקרי החירום, כולל דום לב
+- **תגובה ראשונה אפילו מהירה יותר** - השכן במרחק 30 שניות יכול להתחיל החייאה לפני שאפילו הצלה מגיעה
+- **סוגי חירום רחבים יותר** - דום לב, בדיקות רווחה, משברי בריאות נפשית, תמיכה בהתמכרות, סכסוכי הסכמה, חנק, נפילות
+- **באמת היפר-מקומי** - כל בניין, כל קומה יכולים לקבל תגובה מיידית
+- **תרגילי פעימת לב (Heartbeat Drills)** - בניית קהילה דרך מסיבות תרגול חירום
 
-## CPR & First Aid Training Organizations
+**חזון שותפות מוצעת:**
 
-### Magen David Adom (MDA - מגן דוד אדום)
-**Website:** [mdais.org](https://www.mdais.org/)
-**Type:** National emergency medical service (Israel's Red Cross equivalent)
+זו הזדמנות **השותפות בעדיפות הגבוהה ביותר** שלנו. אנו מחפשים שיתוף פעולה עמוק עם הצלה כדי:
 
-**Courses Offered:**
-- CPR (החייאה)
-- First Aid (עזרה ראשונה)
-- AED training
-- Basic Life Support
-- Advanced First Aid
-- Instructor courses
+1. **שכבות כיסוי תגובה** - תגובת שכן מיידית (0-60 שניות) + מקצוען הצלה (60-120 שניות) + אמבולנס (8-15 דקות) = **הישרדות מקסימלית**
+2. **שיגור מאוחד** - שלח גם שכנים וגם אנשי מקצוע מהצלה במקביל
+3. **מסלולי הכשרה צולבים** - שכנים שמתחילים עם החייאה בסיסית יכולים להמשיך להסמכה מתנדבת בהצלה
+4. **שיתוף שיטות עבודה מומלצות** - מומחיות שיגור של 90 שניות של הצלה + מודל עממי היפר-מקומי של Neighbor 911
+5. **התרחבות גלובלית ביחד** - שני הארגונים צומחים בינלאומית, פוטנציאל להתרחבות משותפת
 
-**Format:** In-person training nationwide
-**Certification Duration:** 3 years
-**Cost:** Approximately ₪300-600 depending on course
-**Languages:** Hebrew, Arabic, English (depending on location)
+**למה השותפות הזו חשובה:**
+- הצלה **מוכיחה** שתגובה מקצועית של 90 שניות עובדת
+- Neighbor 911™ **מוכיחה** שתגובת שכן של 30-60 שניות אפילו מהירה יותר
+- ביחד: החייאה מתחילה ב-30-60 שניות (שכן), ציוד מקצועי מגיע ב-90 שניות (הצלה), אמבולנס מלא ב-8-15 דקות (מד"א)
+- **תוצאה:** מערכת תגובת החירום המהירה בעולם, מצילה חיים מקסימליים
 
-**Why We Recommend:**
-MDA is Israel's official emergency medical service and the most trusted provider of first aid training. Certifications are recognized nationally.
+**צור קשר לדיונים על שותפות:**
+- אימייל: team@lifesaverlabs.org
+- נושא: [PARTNERSHIP - United Hatzalah - PRIORITY]
 
----
-
-### United Hatzalah Training Programs
-**Website:** [israelrescue.org/volunteer](https://www.israelrescue.org/volunteer)
-
-**Volunteer Training:**
-United Hatzalah provides intensive EMT and paramedic training for volunteers willing to commit to emergency response.
-
-**Requirements:**
-- Minimum age 18 (16 for some youth programs)
-- Pass medical and background checks
-- Complete intensive training program (several months)
-- Commit to regular shifts/on-call availability
-- Maintain certification through continuing education
-
-**Benefits:**
-- Professional-level emergency medical training
-- Become part of world-class emergency response network
-- Equipment provided (medical bag, motorcycle/ambucycle for qualified volunteers)
-- Ongoing training and support
+**הערה מיוחדת:** כאזרח כפול אמריקאי-ישראלי המושפע עמוקות מעבודת הצלה, בניית השותפות הזו היא משימה מרכזית של Neighbor 911™. אנחנו רואים בהצלה את תקן הזהב בתגובת החירום ההתנדבותית שאנו שואפים להשלים ולהגביר.
 
 ---
 
-### Israel Trauma Coalition (ITC)
-**Website:** [trauma-coalition.org](https://www.trauma-coalition.org/)
-**Type:** National resilience and psychotrauma expertise center
+## אפליקציות תגובה לשעת חירום
 
-**Training Offered:**
-- Psychological first aid
-- Trauma-informed response
-- Community resilience building
-- Crisis intervention
-- PTSD awareness and support
+### אפליקציית מגן דוד אדום
+**אתר:** [mdais.org](https://www.mdais.org/) | [הורדת האפליקציה](https://www.mdais.org/en/app/)
+**סטטוס:** פעיל ברחבי הארץ
+**כיסוי:** כל ישראל
+**סטטוס שותפות:** 🟡 שותפות מוצעת
 
-**Format:** In-person and online training
-**Languages:** Hebrew, Arabic, English
+**מה זה עושה:**
+- בקשת אמבולנס/שירותי חירום רפואיים
+- שיתוף מיקום בזמן אמת עם מוקד מד"א
+- מעקב אחר הגעת אמבולנס
+- גישה למדריכי עזרה ראשונה
+- זמין בעברית, ערבית, אנגלית, רוסית, אמהרית
 
----
-
-## Community Emergency Response Programs
-
-### Home Front Command (פיקוד העורף) - Civil Defense
-**Website:** [oref.org.il](https://www.oref.org.il/)
-**Administrator:** Israel Defense Forces
-
-**What It Is:**
-National civil defense authority responsible for protecting civilians during emergencies, especially security threats and rocket attacks.
-
-**Resources:**
-- Red Alert (צבע אדום) rocket warning system
-- Mobile app: "Red Alert - Home Front Command"
-- Bomb shelter information
-- Emergency preparedness guides
-- Community resilience programs
-
-**Public Education:**
-- School safety drills
-- Community emergency preparedness
-- First aid integration
-- Earthquake preparedness
-- Chemical/biological threat response
-
-**How to Prepare:**
-- Download Red Alert app
-- Know your nearest bomb shelter (מקלט / ממ"ד)
-- Prepare emergency kit (ערכת חירום)
-- Practice safe room procedures
+**איך להצטרף:**
+- הורד מחנויות אפליקציות iOS/Android
+- הרשם עם הפרטים שלך
+- אפשר שירותי מיקום לשימוש בחירום
 
 ---
 
-### Municipalities Emergency Preparedness
-Each city/municipality has emergency preparedness departments:
-- **Tel Aviv:** [tel-aviv.gov.il/Residents/Safety](https://www.tel-aviv.gov.il/Residents/Safety)
-- **Jerusalem:** Local civil defense programs
-- **Haifa:** Municipal emergency services
-- Contact your local Iriyah (עיריה - municipality) for programs
+### זכרון מנחם
+**אתר:** [zichron.org](https://www.zichron.org/)
+**סטטוס:** פעיל
+**מיקוד:** תמיכה בילדים עם סרטן ובמשפחותיהם
+
+**תמיכת חירום:**
+- קו חם 24/7 למשפחות של ילדים עם סרטן
+- השאלת ציוד רפואי לשעת חירום
+- סיוע בתחבורה
+- התערבות משבר
 
 ---
 
-## Mental Health & Crisis Support
+## ארגוני הכשרה להחייאה ועזרה ראשונה
 
-### ERAN (ער"ן) - Emotional First Aid
-**Phone:** 1201
-**Website:** [eran.org.il](https://www.eran.org.il/)
-**Available:** 24/7, free
-**Languages:** Hebrew, Arabic, Russian, Amharic, French
+### מגן דוד אדום (מד"א)
+**אתר:** [mdais.org](https://www.mdais.org/)
+**סוג:** שירות חירום רפואי לאומי (מקבילה ישראלית לצלב האדום)
 
-**What It Offers:**
-- Emotional support hotline
-- Crisis intervention
-- Suicide prevention
-- Volunteer opportunities (extensive training provided)
+**קורסים המוצעים:**
+- החייאה (CPR)
+- עזרה ראשונה
+- הכשרה לדפיברילטור (AED)
+- תמיכת חיים בסיסית
+- עזרה ראשונה מתקדמת
+- קורסים למדריכים
 
----
+**פורמט:** הכשרה פנים אל פנים ברחבי הארץ
+**משך הסמכה:** 3 שנים
+**עלות:** בערך ₪300-600 תלוי בקורס
+**שפות:** עברית, ערבית, אנגלית (תלוי במיקום)
 
-### NATAL - Israel Trauma & Resiliency Center
-**Phone:** 1-800-363-363
-**Website:** [natal.org.il](https://www.natal.org.il/)
-**What It Is:** Support for victims of terror and traumatic stress
-
-**Services:**
-- 24/7 hotline
-- Therapy and counseling
-- Support groups
-- Community resilience programs
+**למה אנחנו ממליצים:**
+מד"א הוא שירות החירום הרפואי הרשמי של ישראל והספק המהימן ביותר להכשרת עזרה ראשונה. ההסמכות מוכרות ברחבי הארץ.
 
 ---
 
-### Sahar (סהר) - Emotional Support Chat
-**Website:** [sahar.org.il](https://www.sahar.org.il/)
-**What It Is:** Online/chat emotional support for youth and adults
-**Available:** Evenings, Hebrew
+### תוכניות הכשרה של הצלה
+**אתר:** [israelrescue.org/volunteer](https://www.israelrescue.org/volunteer)
+
+**הכשרת מתנדבים:**
+הצלה מספקת הכשרה אינטנסיבית לחובשים ופרמדיקים למתנדבים המוכנים להתחייב לתגובת חירום.
+
+**דרישות:**
+- גיל מינימלי 18 (16 לחלק מתוכניות נוער)
+- עבור בדיקות רפואיות ורקע
+- השלם תוכנית הכשרה אינטנסיבית (מספר חודשים)
+- התחייב למשמרות קבועות/זמינות בהתראה
+- שמור על הסמכה דרך חינוך מתמשך
+
+**יתרונות:**
+- הכשרה רפואית לשעת חירום ברמה מקצועית
+- הפוך לחלק מרשת תגובת חירום ברמה עולמית
+- ציוד מסופק (תיק רפואי, אופנוע/אמבוסייקל למתנדבים מוסמכים)
+- הכשרה ותמיכה מתמשכת
 
 ---
 
-## Naloxone/Overdose Response Resources
+### קואליציית הטראומה הישראלית (ITC)
+**אתר:** [trauma-coalition.org](https://www.trauma-coalition.org/)
+**סוג:** מרכז מומחיות ארצי לחוסן ופסיכוטראומה
 
-### Ministry of Health - Drug Services
-**Website:** [health.gov.il](https://www.health.gov.il/)
+**הכשרה המוצעת:**
+- עזרה ראשונה פסיכולוגית
+- תגובה מודעת לטראומה
+- בניית חוסן קהילתי
+- התערבות משבר
+- מודעות ותמיכה ל-PTSD
 
-**Naloxone Access:**
-- Available through healthcare providers
-- Some community health clinics
-- Emergency services (MDA, United Hatzalah) carry naloxone
-
-### Retorno (רטורנו)
-**What It Is:** Rehabilitation and support services for addiction
-**Services:**
-- Inpatient and outpatient treatment
-- Harm reduction programs
-- Family support
-
-**Contact:** Through health funds (Kupot Cholim) or Ministry of Health
+**פורמט:** הכשרה פנים אל פנים ומקוונת
+**שפות:** עברית, ערבית, אנגלית
 
 ---
 
-## Equipment Resources
+## תוכניות תגובה קהילתית לשעת חירום
 
-### Defibrillator (AED) Locators
+### פיקוד העורף - התגוננות אזרחית
+**אתר:** [oref.org.il](https://www.oref.org.il/)
+**מנהל:** צה"ל
 
-**United Hatzalah AED Registry:**
-- United Hatzalah maintains network of public AEDs
-- Many registered with their dispatch system
+**מה זה:**
+רשות התגוננות אזרחית הלאומית האחראית על הגנה על אזרחים בזמן מצבי חירום, במיוחד איומי ביטחון והתקפות רקטות.
 
-**Common AED Locations:**
-- Ben Gurion Airport
-- Train stations (Tel Aviv, Haifa, Beer Sheva)
-- Shopping malls (Azrieli, Dizengoff Center, etc.)
-- Hotels
-- Sports facilities
-- Universities and colleges
-- Government buildings
+**משאבים:**
+- מערכת אזעקת רקטות צבע אדום
+- אפליקציה לנייד: "צבע אדום - פיקוד העורף"
+- מידע על מקלטים
+- מדריכי מוכנות לשעת חירום
+- תוכניות חוסן קהילתי
 
-**Municipal Programs:**
-Many cities have AED installation programs - contact local municipality
+**חינוך ציבורי:**
+- תרגילי בטיחות בבתי ספר
+- מוכנות קהילתית לשעת חירום
+- אינטגרציית עזרה ראשונה
+- מוכנות לרעידות אדמה
+- תגובה לאיומים כימיים/ביולוגיים
 
-### Where to Buy AEDs
-
-**Medical Equipment Suppliers:**
-- **Zoll Israel:** Authorized AED distributors
-- **Schiller Israel:** Medical equipment
-- **LifeLine (קו החיים):** First aid and medical equipment
-
-**Typical Cost:** ₪6,000-12,000 depending on model
-
-### First Aid Kits
-
-**Where to Buy:**
-- **Pharmacies (בתי מרקחת):** Super-Pharm, Pharmacare, local pharmacies
-- **Medical Equipment Stores:** Many in major cities
-- **Online:** Various Israeli e-commerce sites
-- **Magen David Adom:** Official first aid kits available
+**איך להתכונן:**
+- הורד את אפליקציית צבע אדום
+- דע היכן המקלט/ממ"ד הקרוב ביותר
+- הכן ערכת חירום
+- תרגל נהלי חדר ממד
 
 ---
 
-## Government Emergency Preparedness
-
-### Home Front Command (פיקוד העורף)
-**Website:** [oref.org.il](https://www.oref.org.il/)
-**Phone:** 104 (during emergencies)
-
-**Emergency Alert Systems:**
-- **Red Alert (צבע אדום):** Rocket attack warning sirens
-- **Mobile App:** "Red Alert - Home Front Command" (iOS/Android)
-- Radio/TV alerts
-- SMS alerts (register through website)
-
-**Resources:**
-- Emergency preparedness guides
-- Bomb shelter information
-- Home emergency kit recommendations
-- Earthquake preparedness
-- Chemical/biological emergency procedures
-
-### National Emergency Authority
-Coordinates national-level emergency response and preparedness
-
-### Ministry of Health Emergency Services
-- Disease outbreak response
-- Mass casualty preparedness
-- Public health emergencies
+### מוכנות לשעת חירום של עיריות
+לכל עיר/עירייה יש מחלקות מוכנות לשעת חירום:
+- **תל אביב:** [tel-aviv.gov.il/Residents/Safety](https://www.tel-aviv.gov.il/Residents/Safety)
+- **ירושלים:** תוכניות התגוננות אזרחית מקומית
+- **חיפה:** שירותי חירום עירוניים
+- צור קשר עם העירייה המקומית שלך לתוכניות
 
 ---
 
-## Cultural Considerations & Local Context
+## בריאות נפשית ותמיכת משבר
 
-### Languages
-- **Official languages:** Hebrew, Arabic
-- **Widely spoken:** English, Russian, Amharic, French
-- **Emergency services:** Most support Hebrew, Arabic, English
-- **ERAN hotline:** Multiple languages available
+### ער"ן - עזרה ראשונה רגשית
+**טלפון:** 1201
+**אתר:** [eran.org.il](https://www.eran.org.il/)
+**זמין:** 24/7, חינם
+**שפות:** עברית, ערבית, רוסית, אמהרית, צרפתית
 
-### Regional Differences
-- **Security situation:** Varies by region and time; rocket alerts more common near Gaza border
-- **Urban vs Rural:** Response times vary; cities have faster emergency response
-- **Religious communities:** Some communities have internal emergency response networks (Hatzalah-style organizations in haredi communities)
-
-### Common Emergency Types
-- **Cardiac emergencies:** Leading cause of death
-- **Traffic accidents:** High rate on highways
-- **Heat-related emergencies:** Summer heat waves (especially for elderly)
-- **Security incidents:** Terror attacks, rocket attacks (depends on security situation)
-- **Hiking accidents:** Popular hiking trails can have emergencies
-
-### Cultural Practices
-- **Strong community bonds:** Israelis have culture of mutual aid ("ערבות הדדית")
-- **Volunteerism:** High rates of volunteer emergency response (United Hatzalah, MDA volunteers)
-- **Security awareness:** Population trained in emergency procedures through military service
-- **Multi-cultural:** Jewish, Muslim, Christian, Druze communities each with unique needs
-
-### Legal Protections
-
-**Good Samaritan Law:**
-Israel has strong Good Samaritan protections:
-- **Protection for Emergency Aid:** Anyone providing emergency medical assistance in good faith is protected from liability
-- **Duty to Assist:** Legal obligation to help in life-threatening situations (within your capability)
-- **Professional Standards:** Healthcare professionals expected to help within their training
-
-**Key principle:** You are legally protected and often legally obligated to help in emergencies if you can do so safely.
+**מה זה מציע:**
+- קו תמיכה רגשית
+- התערבות משבר
+- מניעת התאבדויות
+- הזדמנויות התנדבות (הכשרה מקיפה מסופקת)
 
 ---
 
-## How Neighbor 911 Supports These Resources
+### נט"ל - מרכז הטראומה והחוסן הישראלי
+**טלפון:** 1-800-363-363
+**אתר:** [natal.org.il](https://www.natal.org.il/)
+**מה זה:** תמיכה לנפגעי טרור ולחץ טראומטי
 
-**We encourage all Minute Responders in Israel to:**
-- Get certified in CPR/first aid through MDA or other providers
-- Consider volunteering with United Hatzalah if you want deeper medical training
-- Download Red Alert app and MDA app
-- Know location of nearest bomb shelter and AED
-- Join local emergency preparedness programs
-- Build neighborhood emergency networks (especially in apartment buildings)
-- If in security-sensitive areas, coordinate with local security coordinators
-
-**Israel-specific Neighbor 911 integration (planned):**
-- **Coordination with United Hatzalah** - Our highest priority partnership
-- Integration with MDA dispatch system
-- Support for Hebrew/Arabic bilingual emergency response
-- Integration with Red Alert for security emergencies
-- Apartment building-specific features (common in Israeli housing)
+**שירותים:**
+- קו חם 24/7
+- טיפול וייעוץ
+- קבוצות תמיכה
+- תוכניות חוסן קהילתי
 
 ---
 
-## Partnership Opportunities
-
-**Interested organizations can contact us at:** team@lifesaverlabs.org
-
-We are seeking partnerships for:
-- **United Hatzalah** - Core strategic partnership (highest priority)
-- Bidirectional alert integration with MDA
-- Discounted CPR/first aid training for Minute Responders
-- AED donation or subsidy programs for neighborhood networks
-- Integration with municipal emergency services
-- Coordination with Home Front Command for security emergencies
+### סהר - צ'אט תמיכה רגשית
+**אתר:** [sahar.org.il](https://www.sahar.org.il/)
+**מה זה:** תמיכה רגשית מקוונת/צ'אט לנוער ומבוגרים
+**זמין:** בערבים, עברית
 
 ---
 
-## Contributors
+## משאבי נלוקסון/תגובה למנת יתר
 
-This guide is maintained by:
-- Lifesaver Labs Team (US-Israel dual national contributor)
+### משרד הבריאות - שירותי תרופות
+**אתר:** [health.gov.il](https://www.health.gov.il/)
 
-**Want to help maintain this guide?** We especially need:
-- Hebrew native speakers for translation
-- Arabic native speakers for translation
-- United Hatzalah volunteers for technical review
-- Regional representatives from Negev, Galilee, and periphery areas
+**גישה לנלוקסון:**
+- זמין דרך ספקי שירותי בריאות
+- חלק מקליניקות בריאות קהילתיות
+- שירותי חירום (מד"א, הצלה) נושאים נלוקסון
 
-Contact: team@lifesaverlabs.org
+### רטורנו
+**מה זה:** שירותי שיקום ותמיכה להתמכרות
+**שירותים:**
+- טיפול במרכז שיקום וחוץ-מרכזי
+- תוכניות הפחתת נזקים
+- תמיכה משפחתית
 
----
-
-## Translation Status
-
-This guide needs translation to Hebrew and Arabic.
-
-**Volunteer translators urgently needed!** Priority languages:
-- Hebrew (עברית)
-- Arabic (العربية)
-
-Contact: team@lifesaverlabs.org or submit a pull request.
+**צור קשר:** דרך קופות חולים או משרד הבריאות
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
+## משאבי ציוד
+
+### מאתרי דפיברילטור (AED)
+
+**מרשם AED של הצלה:**
+- הצלה שומרת רשת של דפיברילטורים ציבוריים
+- רבים רשומים במערכת השיגור שלהם
+
+**מיקומי AED נפוצים:**
+- נמל התעופה בן גוריון
+- תחנות רכבת (תל אביב, חיפה, באר שבע)
+- קניונים (עזריאלי, דיזנגוף סנטר וכו')
+- בתי מלון
+- מתקני ספורט
+- אוניברסיטאות ומכללות
+- מבני ממשלה
+
+**תוכניות עירוניות:**
+ערים רבות יש תוכניות התקנת דפיברילטורים - צור קשר עם העירייה המקומית
+
+### היכן לקנות דפיברילטורים
+
+**ספקי ציוד רפואי:**
+- **Zoll ישראל:** מפיצים מורשים של דפיברילטורים
+- **Schiller ישראל:** ציוד רפואי
+- **LifeLine (קו החיים):** עזרה ראשונה וציוד רפואי
+
+**עלות טיפוסית:** ₪6,000-12,000 תלוי במודל
+
+### ערכות עזרה ראשונה
+
+**היכן לקנות:**
+- **בתי מרקחת:** סופר-פארם, Pharmacare, בתי מרקחת מקומיים
+- **חנויות ציוד רפואי:** רבות בערים הגדולות
+- **מקוון:** אתרי מסחר אלקטרוני ישראליים שונים
+- **מגן דוד אדום:** ערכות עזרה ראשונה רשמיות זמינות
+
+---
+
+## מוכנות ממשלתית לשעת חירום
+
+### פיקוד העורף
+**אתר:** [oref.org.il](https://www.oref.org.il/)
+**טלפון:** 104 (במהלך מצבי חירום)
+
+**מערכות התראת חירום:**
+- **צבע אדום:** צופרי אזעקה להתקפת רקטות
+- **אפליקציה לנייד:** "צבע אדום - פיקוד העורף" (iOS/Android)
+- התראות רדיו/טלוויזיה
+- התראות SMS (הירשם דרך האתר)
+
+**משאבים:**
+- מדריכי מוכנות לשעת חירום
+- מידע על מקלטים
+- המלצות לערכת חירום ביתית
+- מוכנות לרעידות אדמה
+- נהלי חירום כימי/ביולוגי
+
+### הרשות הלאומית לשעת חירום
+מתאמת תגובה ומוכנות לשעת חירום ברמה לאומית
+
+### שירותי חירום של משרד הבריאות
+- תגובה להתפרצות מחלות
+- מוכנות לאירוע נפגעים המוני
+- מצבי חירום בריאות הציבור
+
+---
+
+## שיקולים תרבותיים והקשר מקומי
+
+### שפות
+- **שפות רשמיות:** עברית, ערבית
+- **מדוברות רבות:** אנגלית, רוסית, אמהרית, צרפתית
+- **שירותי חירום:** רובם תומכים בעברית, ערבית, אנגלית
+- **קו ער"ן:** שפות מרובות זמינות
+
+### הבדלים אזוריים
+- **מצב ביטחוני:** משתנה לפי אזור וזמן; התראות רקטות נפוצות יותר ליד גבול עזה
+- **עירוני לעומת כפרי:** זמני תגובה משתנים; ערים יש תגובת חירום מהירה יותר
+- **קהילות דתיות:** חלק מהקהילות יש רשתות תגובה פנימיות לשעת חירום (ארגונים בסגנון הצלה בקהילות חרדיות)
+
+### סוגי חירום נפוצים
+- **מקרי חירום לבביים:** סיבת המוות המובילה
+- **תאונות דרכים:** שיעור גבוה בכבישים מהירים
+- **מקרי חירום הקשורים לחום:** גלי חום בקיץ (במיוחד לקשישים)
+- **אירועי ביטחון:** פיגועי טרור, התקפות רקטות (תלוי במצב הביטחוני)
+- **תאונות טיול:** שבילי טיול פופולריים יכולים לחוות מצבי חירום
+
+### נהגים תרבותיים
+- **קשרים קהילתיים חזקים:** לישראלים יש תרבות של עזרה הדדית (ערבות הדדית)
+- **התנדבות:** שיעורים גבוהים של תגובת חירום מתנדבת (הצלה, מתנדבי מד"א)
+- **מודעות ביטחונית:** אוכלוסייה מאומנת בנהלי חירום דרך שירות צבאי
+- **רב-תרבותי:** קהילות יהודיות, מוסלמיות, נוצריות, דרוזיות כל אחת עם צרכים ייחודיים
+
+### הגנות משפטיות
+
+**חוק השומרוני הטוב:**
+לישראל יש הגנות שומרוניות טובות חזקות:
+- **הגנה על עזרה בשעת חירום:** כל מי שמספק עזרה רפואית לשעת חירום בתום לב מוגן מאחריות
+- **חובה לסייע:** חובה משפטית לעזור במצבים מסכני חיים (בתוך היכולת שלך)
+- **סטנדרטים מקצועיים:** מאנשי מקצוע בתחום הבריאות מצופה לעזור בתוך ההכשרה שלהם
+
+**עיקרון מפתח:** אתה מוגן משפטית ולעתים קרובות מחויב משפטית לעזור במצבי חירום אם אתה יכול לעשות זאת בבטחה.
+
+---
+
+## איך Neighbor 911 תומך במשאבים אלה
+
+**אנחנו מעודדים את כל ה-Minute Responders בישראל:**
+- קבל הסמכה בהחייאה/עזרה ראשונה דרך מד"א או ספקים אחרים
+- שקול להתנדב בהצלה אם אתה רוצה הכשרה רפואית עמוקה יותר
+- הורד את אפליקציית צבע אדום ואפליקציית מד"א
+- דע את המיקום של המקלט והדפיברילטור הקרוב ביותר
+- הצטרף לתוכניות מוכנות מקומיות לשעת חירום
+- בנה רשתות חירום שכונתיות (במיוחד בבנייני דירות)
+- אם באזורים רגישים ביטחונית, תאם עם רכזי ביטחון מקומיים
+
+**אינטגרציה ספציפית לישראל של Neighbor 911 (מתוכננת):**
+- **תיאום עם הצלה** - השותפות בעדיפות הגבוהה ביותר שלנו
+- אינטגרציה עם מערכת השיגור של מד"א
+- תמיכה בתגובת חירום דו-לשונית עברית/ערבית
+- אינטגרציה עם צבע אדום למקרי חירום ביטחוניים
+- תכונות ספציפיות לבנייני דירות (נפוץ בדיור ישראלי)
+
+---
+
+## הזדמנויות שותפות
+
+**ארגונים מעוניינים יכולים ליצור איתנו קשר ב:** team@lifesaverlabs.org
+
+אנו מחפשים שותפויות עבור:
+- **הצלה** - שותפות אסטרטגית מרכזית (עדיפות גבוהה ביותר)
+- אינטגרציה דו-כיוונית של התראות עם מד"א
+- הכשרת החייאה/עזרה ראשונה מוזלת ל-Minute Responders
+- תוכניות תרומה או סבסוד של דפיברילטורים לרשתות שכונתיות
+- אינטגרציה עם שירותי חירום עירוניים
+- תיאום עם פיקוד העורף למקרי חירום ביטחוניים
+
+---
+
+## תורמים
+
+מדריך זה מתוחזק על ידי:
+- צוות Lifesaver Labs (תורם אזרח כפול ארה"ב-ישראל)
+
+**רוצה לעזור לתחזק את המדריך הזה?** אנחנו במיוחד צריכים:
+- דוברי עברית שפת אם לתרגום ואימות
+- דוברי ערבית שפת אם לתרגום
+- מתנדבי הצלה לביקורת טכנית
+- נציגים אזוריים מהנגב, הגליל ואזורי הפריפריה
+
+צור קשר: team@lifesaverlabs.org
+
+---
+
+## סטטוס תרגום
+
+מדריך זה זמין בשפות הבאות:
+- **עברית (hebrew):** israel.md (תרגום אוטומטי - דורש אימות מומחה)
+- **אנגלית (English):** israel-en.md
+- **ערבית (العربية):** israel-ar.md (מתוכנן)
+
+**רוצה לתרגם או לאמת את המדריך הזה?** אנחנו מקבלים בברכה תרגומים ותיקונים! צור קשר ב-team@lifesaverlabs.org או שלח pull request.
+
+---
+
+*עמוד זה מתוחזק על ידי קהילת Neighbor 911. אומת לאחרונה: 2025-11-16. אם אתה מבחין במידע מיושן, אנא שלח pull request או צור איתנו קשר ב-team@lifesaverlabs.org.*
