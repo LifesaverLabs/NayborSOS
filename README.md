@@ -91,7 +91,7 @@ Your neighbors are already there. They can:
 
 **The best time to meet your neighbors is before an emergency.** This guide shows you how to save lives starting today, even before Neighbor 911 launches.
 
-**Credit:** The Heartbeat Drill concept comes from Shai Schecter (Focusmate) and Sam Pevzner, MD, PhD.
+**Credit:** The Heartbeat Drill concept comes from Shai G. (Focusmate) and Sam Pevzner, MD, PhD.
 
 ### Join the Movement
 
