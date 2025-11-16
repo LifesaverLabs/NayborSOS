@@ -63,4 +63,4 @@ It is just not clear yet how this will be supportively adequately financed for e
 
 ## Contact for Funding Discussions
 
-Organizations or individuals interested in supporting Neighbor 911 financially should reach out through our official channels to discuss partnership opportunities and funding arrangements. If you have trouble making contact with us through any other means, please write nobody@lifesaverlabs.org with [FUNDING] in the subject line.
+Organizations or individuals interested in supporting Neighbor 911 financially should reach out through our official channels to discuss partnership opportunities and funding arrangements. If you have trouble making contact with us through any other means, please write funding@lifesaverlabs.org with [FUNDING] in the subject line.

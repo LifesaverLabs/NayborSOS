@@ -35,7 +35,7 @@ flutter pub get
 flutter run
 ```
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed technical setup.
+See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed technical setup.
 
 ### 3. Make Your Changes
 
@@ -243,7 +243,7 @@ Bad: "WIP"
 
 ### Email
 - **team@lifesaverlabs.org** - General inquiries
-- **nobody@lifesaverlabs.org** - Funding discussions
+- **funding@lifesaverlabs.org** - Funding discussions
 
 ---
 

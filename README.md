@@ -2,7 +2,7 @@
 
 ## For Everyone: Your Neighbors Are Your Fastest Lifeline
 
-**When seconds count, your neighbors can arrive as first first responders in 1-3 minutes while ambulances, police, and fire take 6-15 minutes to arrive.**
+**When seconds count, your neighbors can arrive as first responders in 1-3 minutes while ambulances, police, and fire take 6-15 minutes to arrive.**
 
 ### The Problem: Help Arrives Too Late
 
@@ -172,7 +172,7 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
    - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination
    - **Reddit:** [r/neighbor911](https://www.reddit.com/r/neighbor911/) - Community discussions and updates
    - **GitHub Issues:** [Report bugs or suggest features](https://github.com/LifesaverLabs/Neighbor911/issues)
-   - **Email:** team@lifesaverlabs.org or nobody@lifesaverlabs.org
+   - **Email:** team@lifesaverlabs.org or leadership@lifesaverlabs.org
 
 ### Core Principles
 
@@ -200,7 +200,7 @@ This project involves life-and-death situations. We take safety extremely seriou
 ### Contact
 
 - **General Inquiries:** team@lifesaverlabs.org
-- **Funding Discussions:** nobody@lifesaverlabs.org (include [FUNDING] in subject)
+- **Funding Discussions:** funding@lifesaverlabs.org (include [FUNDING] in subject)
 - **GitHub:** https://github.com/LifesaverLabs/Neighbor911
 
 ---

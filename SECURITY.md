@@ -75,7 +75,7 @@ This is an emergency response system, which creates unique security challenges:
 - We collect location data during emergencies
 - We minimize data collection to only what's necessary
 - We delete location data after emergencies end
-- See our [Privacy Policy](docs/PRIVACY.md) (coming soon)
+- See our Privacy Policy (coming soon)
 
 ### False Alerts
 - We implement rate limiting to prevent alert spam
