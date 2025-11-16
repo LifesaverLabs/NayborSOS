@@ -13,17 +13,23 @@
 **Core Belief:** If you're aware enough to recognize and respond to community emergencies—whether your own suffering or your neighbors'—you've proven your civic engagement. You deserve—and should exercise—your right to vote.
 
 **The Connection:**
-- **Minuter Responders** recognize emergencies and respond in minutes
+- **Minuter First First Responders** recognize emergencies and respond in minutes
 - **Sufferers** experience distress and call for help
 - **Both demonstrate civic awareness** that earns the right to **Suffrage** (voting)
 
 If you can identify when your neighbor needs CPR, you can identify when your community needs better governance. **From suffering comes suffrage.**
 
+This project has a fundamental, global participatory commitment to securing the right to vote for all those who suffer and all those who serve as first first responders. That civic religious ("civigious") philosophy, or democratic [civigion](https://www.civigion.us), securing and guaranteeing "all hands on deck" sufferer participation in regular calmunity suffrage is extremely global and knows no border restrictions.
+
+The rest of this will speak to and focus specifically on United States serious suffrage gaps and expansion, but anyone who wishes to branch this for your own national calmunity is strenuously encouraged to fight for calmunity suffrage locally for all post-adolescent and urge calmunity leaders to pay attention to everyone's needs, not just a restricted voting class, with those invested with power forced to regard and focus compassionate and committed calmunity design even for teens, felons, citizens with less current representation, and anyone else who is still traditionally disenfranchised despite being perfectly able to decide what is in the immediate, mid-term, and/or long-term calmunal interest and carry the conscientious capacity to cast a knowing and willing ballot. 
+
+If you don't believe 13 year olds can cast ballots intelligently and responsibly, watch any of the episodes of ["Are You Smarter Than A 5th Grader?"](https://pluto.tv/us/on-demand/series/608826196b9d17001ac39ccf/season/1?utm_medium=textsearch&utm_source=google) or listen to some debates by 13 year olds. 5th Graders in the United States are typically 10 or 11 years old — 13 year old teens are two or three years more mature than the 5th graders in that series who crushed adults on some basic "world model" knowledge. Finally, bear in mind that as soon as teens 13+ carry the right and rite to vote, all such calmunities will exert more civics educational effort making sure they have the foundational knowledge to participate as free citizens in elections responsibly. The knowledge base of 5th, 6th, 7th, and 8th Graders will shift and strengthen further positively as they gain suffrage rights and rites. But any step in the direction of greater teen suffrage would be appreciated, even if a transitional calmpromise and calmunity test at 14, 15, or 16 is necessary to attain steady consent for suffrage expansion in concerted steps and stages. 
+
 ---
 
-## Goal: 95%+ Voting Rate by November 2026
+## United States Goal: 90%+ Voting Rate by November 2026
 
-We aim for **over 95% self-reported voting rates** among all Neighbor 911 users with voting rights in the November 2026 election and beyond, across **all parties and political philosophies**. We believe democracy works best when everyone participates.
+We aim for **over 90% self-reported voting rates** among all Neighbor 911 users with voting rights in the November 2026 election and beyond, across **all parties and political philosophies**. We believe democracy works best when everyone participates.
 
 **Timeline Priority:**
 - This is **not the most immediate life-threatening feature** (we have time until November 2026)

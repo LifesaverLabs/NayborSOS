@@ -46,8 +46,11 @@ We've secured additional emergency number domains to support international inter
 | neighborsos | Taken | Taken | ✅ | ✅ | - |
 | nghbr911 | - | - | ✅ | — | - |
 | nghbrsos| ✅ | ✅ | ✅ | — | - |
+| neighbour911 | ✅ | ✅ | ✅ | — | - |
 
 The current thinking is for neighbor911.us (more UNited States) and neighbor911.org (more global and international) to be the principal internet domains and web frontends, with the rest mirroring or forwarding back to those two primaries, but if anyone wants to take on the work of developing more of these domains like neighbor112 or neighbor119 with more local flavor and character that would be fantastic.
+
+Please take special note of the variant UK English spelling of "neighbour". It's not as common globally as "neighbor", but it's still a confusion issue. So we reserved the neighbour911 domain too for future redirect.
 
 ---
 
