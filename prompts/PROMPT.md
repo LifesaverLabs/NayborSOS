@@ -736,7 +736,7 @@ final alertStream = firestore.collection('alerts').doc(id).snapshots();
 - **API Spec:** [docs/API_SPECIFICATION.md](../docs/API_SPECIFICATION.md)
 - **User Stories:** [docs/USER_STORIES.md](../docs/USER_STORIES.md)
 - **AI/AR Features:** [docs/AI_AR_FEATURES.md](../docs/AI_AR_FEATURES.md)
-- **PRD:** [docs/PRD.md](../docs/PRD.md)
+- **Requirements:** [docs/REQUIREMENTS.md](../docs/REQUIREMENTS.md)
 
 ### External Resources
 - **Flutter Docs:** https://docs.flutter.dev/

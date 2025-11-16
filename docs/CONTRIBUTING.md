@@ -263,7 +263,7 @@ Not sure where to start? Need help with something?
 
 - **Ask in Discord** - [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK)
 - **Email us** - team@lifesaverlabs.org
-- **Browse docs** - Check [ARCHITECTURE.md](ARCHITECTURE.md), [PRD.md](PRD.md), and [VOLUNTEER_JOBS.md](VOLUNTEER_JOBS.md)
+- **Browse docs** - Check [ARCHITECTURE.md](ARCHITECTURE.md), [REQUIREMENTS.md](REQUIREMENTS.md), and [VOLUNTEER_JOBS.md](VOLUNTEER_JOBS.md)
 
 ---
 

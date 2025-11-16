@@ -100,7 +100,7 @@ Lifesaver Labs PBC will continue to evaluate IP strategy on a per-project basis,
 
 ### Contribute to Safeword or Other Projects
 If you're interested in helping with **Safeword™** or other Lifesaver Labs initiatives:
-- Visit [Lifesaver Labs website] (www.lifesaverlabs.org)
+- Visit [Lifesaver Labs website](https://lifesaverlabs.org)
 - Contact us at team@safeword.app or team@lifesaverlabs.org
 - Review project-specific contribution guidelines
 

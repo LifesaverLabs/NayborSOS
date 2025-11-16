@@ -60,8 +60,8 @@ Your neighbors are already there. They can:
 - Local emergency preparedness initiatives
 
 **📍 Browse Resources by Country:**
-- [🇺🇸 United States](docs/resources/united-states.md) - PulsePoint, Red Cross, AHA, CERT, and more
-- [🌍 All Countries](docs/resources/) - Growing list of international resources
+- [🇺🇸 United States](docs/country_resources/united-states.md) - PulsePoint, Red Cross, AHA, CERT, and more
+- [🌍 All Countries](docs/country_resources/) - Growing list of international resources
 
 **✍️ Help Us Build Global Coverage:**
 
@@ -74,7 +74,7 @@ Your neighbors are already there. They can:
 
 **Why contribute?** Emergency preparedness saves lives. By documenting resources in your country, you help thousands of people discover training, apps, and community programs they never knew existed.
 
-**[See our contribution guide](docs/resources/README.md)** or contact team@lifesaverlabs.org to start a new country guide.
+**[See our contribution guide](docs/country_resources/README.md)** or contact team@lifesaverlabs.org to start a new country guide.
 
 ### Join the Movement
 
@@ -118,12 +118,26 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 
 ### Current Status
 
-**⚠️ EARLY DEVELOPMENT PHASE**
+**⚠️ EARLY DEVELOPMENT - SEEKING CONTRIBUTORS**
 
-We're in the early stages of development and actively seeking:
-- **Funding** - Grants, donations, and seed investment
+**Current State:** This repository contains extensive planning documentation, technical architecture, and requirements—but the application code is in early development. We have a compelling vision and thorough design, and now we need passionate contributors to help build it.
+
+**What's Ready:**
+- ✅ Comprehensive technical architecture ([ARCHITECTURE.md](docs/ARCHITECTURE.md))
+- ✅ Detailed requirements and user stories ([REQUIREMENTS.md](docs/REQUIREMENTS.md))
+- ✅ Development guidelines and contribution process ([CONTRIBUTING.md](docs/CONTRIBUTING.md))
+- ✅ 40+ volunteer roles across all disciplines ([VOLUNTEER_JOBS.md](docs/VOLUNTEER_JOBS.md))
+
+**What We're Building:**
+- 🔨 Flutter mobile application (iOS/Android)
+- 🔨 Firebase backend integration
+- 🔨 Real-time emergency alert system
+- 🔨 Geolocation and routing features
+
+**What We Need:**
+- **Contributors** - Mobile developers, backend engineers, designers, healthcare professionals (see [VOLUNTEER_JOBS.md](docs/VOLUNTEER_JOBS.md))
+- **Funding** - Grants, donations, and seed investment to eventually compensate core contributors
 - **Partnerships** - PSAPs (911 centers), municipalities, healthcare organizations
-- **Contributors** - All work is currently volunteer-based
 
 ### Technology Stack
 
@@ -137,9 +151,9 @@ We're in the early stages of development and actively seeking:
 
 1. **Read the Docs**
    - [Architecture](docs/ARCHITECTURE.md) - Technical design and implementation
-   - [Product Requirements](docs/PRD.md) - Full product vision and roadmap
+   - [Requirements](docs/REQUIREMENTS.md) - Full product vision and roadmap
    - [User Stories](docs/USER_STORIES.md) - Features from user perspective
-   - [Contributing Guide](prompts/PROMPT.md) - Development principles and guidelines
+   - [Contributing Guide](docs/CONTRIBUTING.md) - Development principles and contributor guidelines
 
 2. **Set Up Development Environment**
    ```bash
@@ -200,3 +214,5 @@ Whether you're a neighbor ready to help others, or a contributor ready to build 
 ---
 
 *Neighbor 911™ is a project of Lifesaver Labs Public Benefit Corporation, organized to create technology that saves lives while serving the public good.*
+
+Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has. - Margaret Mead

@@ -1,9 +1,9 @@
 # Neighbor 911 - Product Requirements Document
 ## Minute Response: Modern-Day Minutemen & Minutewomen
 
-**Version:** 1.0
-**Last Updated:** 2025-11-07
-**Status:** Draft
+**Version:** 1.0 (Early Draft - Living Document)
+**Last Updated:** 2025-11-16
+**Status:** Early draft - open for community review and contributions
 **Organization:** Lifesaver Labs Public Benefit Corporation
 
 ---
