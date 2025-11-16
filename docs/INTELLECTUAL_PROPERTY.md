@@ -30,6 +30,24 @@ All Neighbor 911 code is released under the **MIT License** (see [LICENSE](../LI
 **The only restriction:**
 - ❌ Don't use the "Neighbor 911" trademark without permission
 - ✅ You can call your fork something else (e.g., "Community Response Network" powered by Neighbor 911 code)
+- ✅ Do everything you can to make life on Earth more harmless and don't unreasonably fragment emergency response — establishing network effects on a platform like this is going to be extremely valuable across neighborhoods, regions, states, and countries for neighborhood residents, commuters, visitors, and travelers. We don't want a tourist on a trip to Florida to die in cardiac arrest because she was using a French uninteroperable forked version "Voisine SOS". 
+
+---
+
+## Reserved Domain Portfolio
+
+We've secured additional emergency number domains to support international interoperability and future expansion. These domains remain available for development as the project grows:
+
+| Domain | .org | .com | .us | .app | .ai |
+|--------|------|------|-----|------|----|
+| neighbor112 | ✅ | ✅ | ✅ | — | - |
+| neighbor119 | ✅ | ✅ | ✅ | — | - |
+| neighbor911 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| neighborsos | Taken | Taken | ✅ | ✅ | - |
+| nghbr911 | - | - | ✅ | — | - |
+| nghbrsos| ✅ | ✅ | ✅ | — | - |
+
+The current thinking is for neighbor911.us (more UNited States) and neighbor911.org (more global and international) to be the principal internet domains and web frontends, with the rest mirroring or forwarding back to those two primaries, but if anyone wants to take on the work of developing more of these domains like neighbor112 or neighbor119 with more local flavor and character that would be fantastic.
 
 ---
 
@@ -91,7 +109,7 @@ If you're interested in helping with **Safeword™** or other Lifesaver Labs ini
 ## Questions?
 
 **Q: Can I fork Neighbor 911 and customize it for my city?**
-A: Yes! Just don't call it "Neighbor 911" - choose your own name. And we would encourage you to instead consider just using Neighbor 911, so that there isn't substantial user fragmentation and balkanization across cities, states, and localities. If you're from another country, beyond the Lifesaver Labs primary service zone in the USA, please run as fast as you can to fork and branch this to your local needs. We'll make an effort to make our code support easy ongoing internationalization but please go even faster. 
+A: Yes! Just don't call it "Neighbor 911" - choose your own name. And we would encourage you to instead consider just using Neighbor 911, so that there isn't substantial user fragmentation and balkanization or uninteroperability across cities, states, and localities. If you're from another country, beyond the Lifesaver Labs primary service zone in the USA, please run as fast as you can to fork and branch this to your local needs while maintaining interoperability. We'll make an effort to make our code support easy ongoing internationalization but please go even faster. 
 
 If international calmunities (communities) make the decision to develop in this codebase as an internationalized monorepo, please don't hesitate to demand better flexibility or service from Lifesaver Labs USA if we're not getting out of your way and accelerating you fast enough. Lifesaver Labs USA doesn't want to hold back lifesaver labs work from any other country.
 

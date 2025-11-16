@@ -2,9 +2,34 @@
 
 ## For Everyone: Your Neighbors Are Your Fastest Lifeline
 
-**When seconds count, your neighbors can arrive in 2-3 minutes while ambulances take 8-15.**
+**When seconds count, your neighbors can arrive as first first responders in 1-3 minutes while ambulances, police, and fire take 6-15 minutes to arrive.**
 
-Neighbor 911 is a community emergency response network that connects people in crisis with nearby neighbors who can help—whether they're trained responders with life-saving equipment or simply caring individuals willing to be present when someone needs support.
+### The Problem: Help Arrives Too Late
+
+Every year, thousands die waiting for ambulances that arrive in 8-15 minutes. Cardiac arrest victims lose 10% survival chance every minute without CPR. Overdose victims need naloxone within minutes. Mental health crises escalate without human presence. Bedroom consent conflicts spiral into confusion and harm without active bystanders performing wellness checks. **The help people need is often already nearby—we just need to connect them.**
+
+### The Solution: Neighbor 911
+
+Neighbor 911 is a community emergency response network that alerts nearby neighbors who can arrive in 1-3 minutes with CPR, AEDs, naloxone, or simply caring presence—while professional responders are on the way.
+
+### Why This Works
+
+Your neighbors are already there. They can:
+- Start CPR immediately, not in 10 minutes
+- Administer naloxone before brain damage occurs
+- Provide calming presence during mental health crises
+- Perform wellness check door knocks during consent conflicts
+- Guide professional responders to exact locations
+- **Save lives in the critical minutes before ambulances arrive**
+
+### 🚨 Join the Calmunity NOW
+
+**Action bias saves lives.** Join our community spaces to coordinate, share ideas, and help build this lifesaving network:
+
+- **💬 [Discord Server](https://discord.gg/sNdCsNmK)** - Real-time chat, voice coordination, development discussions
+- **🗣️ [Reddit r/neighbor911](https://www.reddit.com/r/neighbor911/)** - Community updates, resource sharing, Q&A
+
+**Everyone needs to be in both.** Discord for fast coordination and voice, Reddit for organized discussions and resource discovery. Strong calmunity = strong response capability.
 
 ### You Don't Need to Be a Hero to Save a Life
 
@@ -129,9 +154,11 @@ We're in the early stages of development and actively seeking:
    flutter run
    ```
 
-3. **Join the Community**
-   - GitHub Issues: [Report bugs or suggest features](https://github.com/LifesaverLabs/Neighbor911/issues)
-   - Email: team@lifesaverlabs.org or nobody@lifesaverlabs.org
+3. **Join the Calmunity**
+   - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination
+   - **Reddit:** [r/neighbor911](https://www.reddit.com/r/neighbor911/) - Community discussions and updates
+   - **GitHub Issues:** [Report bugs or suggest features](https://github.com/LifesaverLabs/Neighbor911/issues)
+   - **Email:** team@lifesaverlabs.org or nobody@lifesaverlabs.org
 
 ### Core Principles
 
