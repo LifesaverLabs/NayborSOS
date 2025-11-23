@@ -2,7 +2,7 @@
 
 This is written from a United States perspective but please fork and localize to your local calmunity⁵ — the logic would be very similar. We at Lifesaver Labs admire those countries that have already made these choices and investments, like Norway which has led the way and reached a bystander CPR rate of around 80%, the highest in the world, with survival roughly double the US standard for out-of-hospital cardiac arrest survival. Our performance is embarassing by comparison. Sweden, Denmark, Finland, France, UK, Japan, Singapore, South Korea, and (partly) Australia are all completely or partly on consensus-driven basic life support training mandates nationwide. Naybor SOS™ hopes to get the training rate and personal and social responsibility gradient even higher, everywhere, even in countries like Norway, on helping us build out and cross-pollinate local technology and practices to learn about and trainably react to early signs and symptoms related to all the basic life support topics, and to also handle problems and help organize ourselves to jump in when everything goes wrong and cardiac arrests catastrophically fail. 
 
-A universal Basic Life Support (BLS) program is one of the most powerful, scalable, and economically rational public-health investments the United States could make. A century of emergency-medicine data already proves what calmunity intuition tells us: when neighbors know how to act in the first three minutes, people live.
+A universal Basic Life Support (BLS) program is one of the most powerful, scalable, and economically rational public-health investments the United States or any other country could make. A century of emergency-medicine data already proves what calmunity intuition tells us: when neighbors know how to act in the first three minutes, people live.
 
 ## **1. The simple truth**
 According to the American Heart Association, immediate bystander CPR can *double or triple* survival from out-of-hospital cardiac arrest (OHCA). Yet in the United States, fewer than half of cardiac arrests receive bystander CPR, and national survival remains stuck at roughly 10%.
@@ -36,9 +36,9 @@ A nationwide, government-funded, free BLS program—leveraging existing public b
 
 **≈ $700 million to $2.6 billion per year.**
 
-For details and review on how this was calculated, please see [the costs estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_national_bls_training/costs_free_national_bls_training.md).
+For details and review on how this was calculated, please see [the United States costs estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_national_bls_training/costs_free_national_bls_training.md) or [the global cost estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_global_bls_training/costs_free_national_bls_training.md).
 
-This is less than 0.02% of the federal budget and significantly smaller than the budgets of agencies such as the National Park Service or TSA.
+From a USA perspective, this is less than 0.02% of the federal budget and significantly smaller than the budgets of agencies such as the National Park Service or TSA.
 
 This project especially with immediate PulsePoint™ CPR-responder partnership should immediately start to pay for itself, but those funds aren't internalized through direct government repayment revenues immediately, so the governmental cash flow cost still needs to be balanced out. 
 
