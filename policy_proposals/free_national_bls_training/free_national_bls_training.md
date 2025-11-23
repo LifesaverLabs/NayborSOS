@@ -36,7 +36,13 @@ A nationwide, government-funded, free BLS program—leveraging existing public b
 
 **≈ $700 million to $2.6 billion per year.**
 
+For details and review on how this was calculated, please see [the costs estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_national_bls_training/costs_free_national_bls_training.md).
+
 This is less than 0.02% of the federal budget and significantly smaller than the budgets of agencies such as the National Park Service or TSA.
+
+This project especially with immediate PulsePoint™ CPR-responder partnership should immediately start to pay for itself, but those funds aren't internalized through direct government repayment revenues immediately, so the governmental cash flow cost still needs to be balanced out. 
+
+If Lifesaver Labs were in the legislature, we'd need to under moral imperative solve for that immediately by cutting other programs or raising truly internalized revenue to cover the cost of this. That's what legislative life is like under a strict balanced budget standard. Ask your favorite AI tool "What are some government programs that could be cut to free up 3 billion dollars?" and consider which program you'd want to chop. For me, the number one highlighted suggestion was Fossil-Fuel Production Tax Preferences ($3-$4 billion per year). Without further study, perhaps consider that for the chopping block.
 
 ## **6. Return on investment**
 For every **$1** spent on a national BLS program, the country gains:
