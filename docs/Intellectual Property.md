@@ -43,10 +43,14 @@ We've secured additional emergency number domains to support international inter
 | neighbor112 | ✅ | ✅ | ✅ | — | - |
 | neighbor119 | ✅ | ✅ | ✅ | — | - |
 | neighbor911 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| neighbor000 | ✅ | - | ✅ | - | - |
+| neighbor100 | ✅ | - | ✅ | - | - |
+| neighbor767 | ✅ | ✅ | - | - | - |
 | neighborsos | Taken | Taken | ✅ | ✅ | - |
 | nghbr911 | - | - | ✅ | — | - |
 | nghbrsos| ✅ | ✅ | ✅ | — | - |
 | neighbour911 | ✅ | ✅ | ✅ | — | - |
+
 
 The current thinking is for neighbor911.us (more UNited States) and neighbor911.org (more global and international) to be the principal internet domains and web frontends, with the rest mirroring or forwarding back to those two primaries, but if anyone wants to take on the work of developing more of these domains like neighbor112 or neighbor119 with more local flavor and character that would be fantastic.
 
