@@ -19,6 +19,9 @@ Lifesaver Labs Public Benefit Corporation has an active trademark application fo
 
 ### Trademark Family Strategy: Naybor SOS™ and Multilingual Variants
 
+**Why "Naybor"?**
+The spelling "Naybor" is part of the [English For Humans](https://www.enoughisenuf.org) campaign for phonetic spelling reform. The word "neighbor" contains silent letters and inconsistent spelling patterns that make English unnecessarily difficult to learn and use. "Naybor" is pronounced identically but follows more logical phonetic rules. This choice reflects our commitment to accessibility and inclusivity—emergency response systems should be as easy to understand as possible, especially for non-native English speakers and new language learners.
+
 **Core Trademark Convergence:**
 The Neighbor 911™ trademark is evolving toward **Naybor SOS™** as our primary global brand identity. This strategic shift reflects several key principles:
 
