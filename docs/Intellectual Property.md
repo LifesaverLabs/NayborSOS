@@ -6,7 +6,7 @@ Lifesaver Labs PBC creates community-focused safety, health, and suffrage techno
 
 ---
 
-## Neighbor 911™ Project
+## Naybor (Neighbor) 911™ Project
 
 ### Trademark Protection
 Lifesaver Labs Public Benefit Corporation has an active trademark application for **Neighbor 911™**. This trademark is the **only intellectual property we are currently seeking to defend for the Neighbor 911 project**.
@@ -16,6 +16,51 @@ Lifesaver Labs Public Benefit Corporation has an active trademark application fo
 - Prevents confusion from fragmented or incompatible implementations
 - Ensures quality control and user trust in the Neighbor 911 brand
 - Allows anyone to use the code while maintaining a single, recognizable emergency response network
+
+### Trademark Family Strategy: Naybor SOS™ and Multilingual Variants
+
+**Core Trademark Convergence:**
+The Neighbor 911™ trademark is evolving toward **Naybor SOS™** as our primary global brand identity. This strategic shift reflects several key principles:
+
+1. **Language Inclusivity**: The platform is designed to work across languages and emergency number systems. We claim inherent trademark protection for natural linguistic variants including but not limited to:
+   - **Voisin 911™** / **Voisine 911™** (French/French-Canadian)
+   - **Voisin 112™** / **Voisine 112™** (French/European)
+   - **Vecino 911™** / **Vecino 112™** (Spanish)
+   - **Nachbar 112™** (German)
+   - **Buur 112™** (Dutch)
+   - And similar constructions using the local-language word for "neighbor" paired with local emergency numbers
+
+2. **Emergency Number Flexibility**: Different regions use different emergency numbers (911, 112, 119, 000, 999, etc.). The trademark family encompasses these variants:
+   - **Neighbor 112™** (Europe, most of the world)
+   - **Neighbor 119™** (Japan, South Korea)
+   - **Neighbor 000™** (Australia)
+   - **Neighbor 999™** (UK, many Commonwealth nations)
+   - And similar constructions
+
+3. **Strategic Convergence**: Over time, we hope the calmunity⁵ will converge toward either:
+   - **Naybor SOS™** (universal, language-neutral)
+   - **Naybor 123™** (our proposed unified global emergency number)
+   - **Naybor 112™** (leveraging the world's most widespread emergency number)
+
+**Legal Considerations:**
+We acknowledge this trademark family strategy is ambitious and may be novel in trademark law. We cannot afford to file separate trademark applications for every linguistic and numeric variant across every jurisdiction globally. Instead, we assert:
+
+- **Likelihood of Confusion**: Using variants like "Voisin 911" or "Vecino 112" for competing emergency response platforms would create substantial likelihood of confusion with our established service
+- **Common Law Rights**: As we operate across languages and borders, we are building common law trademark rights in these natural variants
+- **Good Faith**: We encourage international partners to work *with* us under the Naybor SOS™ trademark family rather than fragment the emergency response ecosystem
+
+**Our Intent:**
+We do NOT want to Americanize emergency response globally by forcing English-only branding or USA-centric emergency numbers. Rather, we want to establish that **[your local word for neighbor] + [your local emergency number]** represents a unified platform that ensures interoperability for residents, visitors, commuters, and travelers worldwide. A tourist from France should not die in Florida because they're using an incompatible "Voisine SOS" fork. Network effects in emergency response save lives—fragmentation costs lives.
+
+**Why Neighbor 123™?**
+Lifesaver Labs is exploring advocacy for global emergency number unification around **123** (see [unifysos.org](http://unifysos.org) for forthcoming analysis). The number 123 serves as a teachable mnemonic:
+- Call **1, 2, 3** people to the scene (first responder, second responder, third responder)
+- Follow emergency protocol like a **1, 2, 3** priority checklist
+- Universal and easy to remember under stress
+- Works on all phone systems (no special characters like #)
+- Not currently assigned as a primary emergency number in most jurisdictions
+
+This is a long-term vision. In the near term, we work with existing emergency numbers while maintaining brand coherence through the **Naybor SOS™** family.
 
 ### Open Source Code
 All Neighbor 911 code is released under the **MIT License** (see [LICENSE](../LICENSE)).
@@ -134,4 +179,4 @@ A: Potentially, yes. Contact Lifesaver Labs PBC (USA) to discuss partnership opp
 
 ---
 
-**Last Updated:** 2025-11-16
+**Last Updated:** 2025-11-23

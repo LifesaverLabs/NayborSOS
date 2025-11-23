@@ -111,3 +111,5 @@ A **global guarantee** of free Basic Life Support training is surprisingly affor
 
 > **≈ $20 billion per year** to keep the world CPR-enabled,  
 > with a **5-year startup cost of ≈ $100–180B.**
+
+Note: Drafted with OpenAI ChatGPT and human hand support
