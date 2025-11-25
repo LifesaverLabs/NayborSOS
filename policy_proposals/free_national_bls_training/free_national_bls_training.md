@@ -36,7 +36,7 @@ A nationwide, government-funded, free BLS program—leveraging existing public b
 
 **≈ $700 million to $2.6 billion per year.**
 
-For details and review on how this was calculated, please see [the United States costs estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_national_bls_training/costs_free_national_bls_training.md) or [the global cost estimation here](https://github.com/LifesaverLabs/Neighbor911/blob/main/policy_proposals/free_global_bls_training/costs_free_national_bls_training.md).
+For details and review on how this was calculated, please see [the United States costs estimation here](https://github.com/LifesaverLabs/NayborSOS/blob/main/policy_proposals/free_national_bls_training/costs_free_national_bls_training.md) or [the global cost estimation here](https://github.com/LifesaverLabs/NayborSOS/blob/main/policy_proposals/free_global_bls_training/costs_free_national_bls_training.md).
 
 From a USA perspective, this is less than 0.02% of the federal budget and significantly smaller than the budgets of agencies such as the National Park Service or TSA.
 

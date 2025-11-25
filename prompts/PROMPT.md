@@ -122,7 +122,7 @@ When working on Neighbor 911 with AI assistance:
 
 **Legal Entity:** Lifesaver Labs Public Benefit Corporation
 **License:** MIT License (open source code) + Trademark protection (Neighbor 911™)
-**Repository:** https://github.com/LifesaverLabs/Neighbor911
+**Repository:** https://github.com/LifesaverLabs/NayborSOS
 
 ---
 
@@ -746,8 +746,8 @@ final alertStream = firestore.collection('alerts').doc(id).snapshots();
 - **Flutter i18n:** https://docs.flutter.dev/ui/accessibility-and-localization/internationalization
 
 ### Community
-- **GitHub:** https://github.com/LifesaverLabs/Neighbor911
-- **Issues:** https://github.com/LifesaverLabs/Neighbor911/issues
+- **GitHub:** https://github.com/LifesaverLabs/NayborSOS
+- **Issues:** https://github.com/LifesaverLabs/NayborSOS/issues
 - **Email:** team@lifesaverlabs.org
 
 ---

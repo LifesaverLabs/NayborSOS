@@ -16,7 +16,7 @@ Before contributing, please join our community spaces:
 
 ### 1. Find Something to Work On
 
-- **Browse [open issues](https://github.com/LifesaverLabs/Neighbor911/issues)** - Look for issues tagged `good-first-issue` or `help-wanted`
+- **Browse [open issues](https://github.com/LifesaverLabs/NayborSOS/issues)** - Look for issues tagged `good-first-issue` or `help-wanted`
 - **Check [VOLUNTEER_JOBS.md](VOLUNTEER_JOBS.md)** - See what roles and skills we need
 - **Ask in Discord** - The #introductions and #general channels are great places to find tasks
 - **Propose new ideas** - Submit an issue or discuss in Discord before building

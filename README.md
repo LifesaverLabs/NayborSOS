@@ -175,8 +175,8 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 2. **Set Up Development Environment**
    ```bash
    # Clone the repository
-   git clone https://github.com/LifesaverLabs/Neighbor911.git
-   cd Neighbor911
+   git clone https://github.com/LifesaverLabs/NayborSOS.git
+   cd NayborSOS
 
    # Install Flutter dependencies
    flutter pub get
@@ -188,7 +188,7 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 3. **Join the Calmunity**
    - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination
    - **Reddit:** [r/neighbor911](https://www.reddit.com/r/neighbor911/) - Community discussions and updates
-   - **GitHub Issues:** [Report bugs or suggest features](https://github.com/LifesaverLabs/Neighbor911/issues)
+   - **GitHub Issues:** [Report bugs or suggest features](https://github.com/LifesaverLabs/NayborSOS/issues)
    - **Email:** team@lifesaverlabs.org or leadership@lifesaverlabs.org
 
 ### Core Principles
@@ -218,7 +218,7 @@ This project involves life-and-death situations. We take safety extremely seriou
 
 - **General Inquiries:** team@lifesaverlabs.org
 - **Funding Discussions:** funding@lifesaverlabs.org (include [FUNDING] in subject)
-- **GitHub:** https://github.com/LifesaverLabs/Neighbor911
+- **GitHub:** https://github.com/LifesaverLabs/NayborSOS
 
 ---
 
