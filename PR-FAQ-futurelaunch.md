@@ -1,10 +1,10 @@
-# Naybor SOS™ (Neighbor 911™) Press Release / FAQ
+# Naybor SOS™ (Neighbor 911™) Theory of Change Press Release / FAQ
 
 ## Future Intended Press Release
 
-**FOR IMMEDIATE RELEASE**
+**FOR WORLDWIDE RELEASE AS SOON AS CALMUNITY⁵ DEVELOPMENT CONCLUDES**
 
-### Lifesaver Labs Announces Naybor SOS: Open-Source Emergency Response Platform to Double Cardiac Arrest Survival Rates
+### Lifesaver Labs Announces Naybor SOS: Open-Source Emergency Response Platform to Double Cardiac Arrest Survival Rates, Respond to Falls and Bedroom Consent Conflict Doorknock Need Alerts, Send and Receive General Emergency Alerts, and Extensible into New Nayborhood Alert Types
 
 *Revolutionary neighbor-to-neighbor emergency response network launches with free Basic Life Support training initiative*
 
@@ -12,13 +12,13 @@
 
 **The Problem: Every Second Counts, But Help Arrives Too Late**
 
-More than 350,000 Americans experience out-of-hospital cardiac arrest each year. Without immediate CPR, survival chances drop by 10% every minute. The average emergency response time is 7-10 minutes—often too late to prevent brain damage or death. Current national survival rates hover around 10%.
+More than 350,000 Americans experience out-of-hospital cardiac arrest each year. Without immediate CPR, survival chances drop by 10% every minute. The average emergency response time can vary between 6-10 minutes or sometimes worse—often too late to prevent brain damage or death. Current US national survival rates hover around 10%.
 
 In contrast, countries like Norway—where 80% of bystanders perform CPR and neighbors are organized as first responders—achieve survival rates near 20-25%. The difference is clear: **when neighbors know what to do and how to organize, people live**.
 
 **The Solution: Your Neighbor Can Save Your Life**
 
-Naybor SOS connects cardiac arrest victims with nearby trained neighbors who can start CPR and deploy AEDs within 1-3 minutes—faster than any ambulance. The platform integrates with existing 911/112 emergency systems and partners with services like PulsePoint to create a comprehensive emergency response network.
+Naybor SOS connects cardiac arrest victims with nearby trained neighbors who can start CPR who are trained and encouraged to be brave and, with SOS on the line, to break ribs if necessary to save your life and deploy AEDs within 1-3 minutes—faster than any ambulance. The platform integrates with existing 911/112 emergency systems and partners with services like PulsePoint and GoodSAM, depending on your region, to create a comprehensive emergency response network.
 
 Key features include:
 - **Instant neighbor mobilization**: Trained CPR responders within 100-500 meters receive emergency alerts
@@ -35,6 +35,8 @@ Alongside the technology platform, Lifesaver Labs is advocating for a federally-
 - Generate $140-445 billion in annual economic benefits from saved lives
 - Deliver 50x to 600x return on investment
 - Cost just $20,000-$75,000 per life saved (vs. $10 million federal statistical life value)
+
+We hope such free, in-person Basic Life Support training program can bubble up in every locality, state, and nation. While you can get the gist of how to save someone's life from selected shorter and longer videos, some calmunity⁵ life support skills are too difficult to master and choreograph without being embodied in training your muscle memory hands-on with peers and master calmunity⁵ trainers.
 
 **A Global Movement for Emergency Response**
 
@@ -59,7 +61,7 @@ Lifesaver Labs invites:
 - **Media partners** to amplify this life-saving movement
 - **International partners** to adapt and localize for their regions
 
-"We've built the technology. We've proven the model works in other countries. Now we need the political will and community activation to make this the standard everywhere," said [SPOKESPERSON NAME], [TITLE] at Lifesaver Labs. "Every nayborhood should have trained responders. Every cardiac arrest should have a naybor ready to help within 90 seconds. This is achievable—and it will save tens of thousands of lives every year."
+"We've built the technology. We've proven the model works in other countries. Now we need the political will and community activation to make this the standard everywhere," said [SPOKESPERSON NAME], [TITLE] at Lifesaver Labs. "Every nayborhood should have trained responders. Every cardiac arrest should have a naybor ready to help within 90 seconds. This is achievable—and at maturity it promises to save tens of thousands of lives every year just in the State of Florida."
 
 **About Lifesaver Labs**
 
@@ -129,14 +131,16 @@ A: To become a responder:
 4. Set your availability status (active when you're home or in your neighborhood)
 5. Respond when alerted to nearby emergencies
 
-**Q: What if I'm certified but I'm not home when an alert comes?**
+If you don't get BLS certified while BLS certification fees remain a cost barrier, you can still join Naybor SOS™ as a supporter and responder and get a minimal dose of training through our mobile platform. Even if you only watch 10 minutes of training topic videos to become a better good samaritan, you can make more of a pivotal difference in a crisis in your neighborhood than ever before, and you can learn ways you can make a major difference in others lives through small missions among your friends, family, and naybors, like pretending to have one or more heart clot myocardial infarction symptoms and checking to see if your friends, family, and naybors start emergency call and urgent EKG protocol, disregarding cost to save your heart.
 
-A: The app respects your availability status. You can set yourself as "active" only when you're actually available to respond. The system dispatches to multiple nearby responders to ensure coverage.
+**Q: What if I'm BLS and special topic certified or a good samaritan with video training under my belt but I'm not home when an alert comes?**
+
+A: The app is location-aware and also respects your availability status, to a point. You can set yourself as "active" only when you're actually available to respond. The system dispatches to multiple nearby responders to ensure coverage. But if you're in the location of a reported emergency and no other responders are closer or better suited, like when your elderly neighbor three doors down falls at night, or when your young naybor finds herself in a bedroom consent conflict or confusion and signals she needs a doorknock wellness check, we may page you and wake you up from sleep to race or run to get to her as soon as possible, unless you're above age 70 when response becomes optional, or above age 80 when you're deep into retirement and physically demanding neighbor first first reponder status is no longer asked of you.
 
 **Q: How do you prevent false alarms or misuse?**
 
 A: Multiple safeguards:
-- Integration with official 911/112 dispatch systems
+- Integration with participating official 112/119/911/15/190/999/110/100/122/000 etc. 123ˀ SOS dispatch systems
 - Multi-responder verification (if 3 neighbors respond, they can confirm the situation)
 - Accountability through verified user accounts
 - Clear protocols for inappropriate use
@@ -144,16 +148,16 @@ A: Multiple safeguards:
 
 **Q: What about liability? What if I do CPR wrong?**
 
-A: All 50 U.S. states have Good Samaritan laws protecting people who provide emergency assistance in good faith. You cannot be sued for performing CPR during a cardiac arrest emergency if you're acting reasonably and without gross negligence. The risk of doing nothing is far greater than the risk of doing imperfect CPR.
+A: All 50 U.S. states have Good Samaritan laws protecting people who provide emergency assistance in good faith. You cannot be sued for performing CPR during a cardiac arrest emergency or any other emergency if you're acting reasonably and without gross negligence. The risk of doing nothing is often, but not always, far greater than the risk of doing imperfect first first responder service. Just don't jump into any burning buildings or do something dangerous. We never encourage that.
 
 **Q: How does the key access feature work?**
 
 A: Completely opt-in: some users may choose to:
-- Share key codes with 3-4 trusted neighbors (not stored digitally by Naybor SOS)
-- In an emergency, those neighbors are alerted to meet first responders with the key
+- Share key codes or a physical key with 3-4 trusted neighbors (not stored digitally by Naybor SOS)
+- In an emergency, those neighbors are alerted and even woken up if necessary to meet first responders with the key
 - This avoids door-breaking delays without creating digital security vulnerabilities
 
-We do NOT store key codes or location of hidden keys centrally, specifically to avoid hacking risks.
+We do NOT currently store key codes or the location of hidden keys centrally, specifically to avoid hacking risks. If you want your digital key code to be on record at your local police department, please call them to ask for those records to be created and kept for use in a qualifying emergency.
 
 ---
 
@@ -167,14 +171,16 @@ A: Minimal necessary data:
 - Emergency response history (for quality improvement)
 - Contact information
 
-All data handling follows HIPAA guidelines where applicable and is covered in our privacy policy.
+All data handling follows GDPR and HIPAA guidelines where applicable when applicable and is covered in our privacy policy. For the sake of full transparency, at present no data we process or store currently falls under formal HIPAA coverage.
 
 **Q: Can someone track me through this app?**
 
 A: No. Your location is only shared:
+- When you initiate a Naybor SOS™ alert
 - When you're actively set to "available" status
 - With other responders during an active emergency
 - With emergency dispatch systems when responding
+- For the limited purposes of pushing you geolocated emergency and critical incident alerts you can respond to intelligently
 
 You control when you're visible and can disable location sharing anytime.
 
@@ -197,20 +203,21 @@ A: Currently, BLS certification costs $65-$100+ through the American Heart Assoc
 
 **Q: How long does BLS training take?**
 
-A: A standard BLS course is about 3-4 hours, with skills practice on mannequins. Recertification is typically every 2 years and takes 2-3 hours.
+A: A standard BLS course is about 3-4 hours, with skills practice on mannequins. Recertification is officially typically every 2 years and takes 2-3 hours.
 
 **Q: I'm not certified yet. Can I still support Naybor SOS?**
 
 A: Absolutely! You can:
+- Get basic-level good samaritan emergency alerts, especially once you watch a few short videos to build up your dose of wisdom
 - Advocate for free national BLS training in your community
 - Encourage your local government to pilot Naybor SOS
 - Share information about the project
 - Get BLS certified yourself (current cost: ~$65-80)
-- Contribute to the open-source codebase if you're a developer
+- Contribute to the open-source codebase if you're a developer, designer, product manager, data scientist, calmunity⁵ advocate, or supporter
 
 **Q: What if I'm already CPR certified but not BLS certified?**
 
-A: Basic CPR certification from recognized organizations (AHA, Red Cross) may be sufficient for participation. Check with your local Naybor SOS coordinator about certification requirements in your area.
+A: Basic CPR certification from recognized organizations (AHA, Red Cross) may be sufficient for participation. Check with your local Naybor SOS coordinator about certification requirements in your area. We're happy to create new first first responder categories for volunteers with certified or certifiable calmunity⁵ skills that can help in emergency and critical incidents
 
 ---
 
@@ -252,11 +259,11 @@ A: Contact your representatives:
 
 A: Lifesaver Labs is a **Public Benefit Corporation (PBC)**—a for-profit entity with a social mission written into its charter. This structure allows us to:
 - Pursue sustainable business models
-- Prioritize social impact over maximum profit
+- Prioritize social impact hard over profit
 - Attract investment while maintaining mission focus
 - Remain accountable to our public benefit purpose
 
-The Naybor SOS codebase is open-source and free forever.
+The Naybor SOS codebase is open-source and free forever. We're also actively considering conversion to full non-profit status or partnership with a fully non-profit twin, Lifesaver Labs Nonprofit Foundation.
 
 ---
 
@@ -264,13 +271,13 @@ The Naybor SOS codebase is open-source and free forever.
 
 **Q: Can Naybor SOS work in my country?**
 
-A: Yes! The platform is designed for international deployment. We specifically support:
+A: Yes! The platform is designed for international deployment. We specifically work to support:
 - All emergency numbers (911, 112, 119, 000, 999, etc.)
 - Multilingual interfaces
 - Cultural adaptation
 - Local regulatory compliance
 
-If you want to deploy in your country, contact us or fork the open-source code.
+If you want to deploy in your country, contact us and help build or fork the open-source code.
 
 **Q: Why do you use different names like Voisin 112 or Vecino 112?**
 
@@ -278,9 +285,11 @@ A: We want every community to use their local word for "neighbor" paired with th
 
 This isn't Americanization—it's localization with global interoperability.
 
-**Q: What is Neighbor 123 and why that number?**
+We do not know if international trademark law will immediately accept our arguments about trademark family protection, but if we need to we will argue for movement cohesion under one common banner. If langauges are willing, and it doesn't feel like butchery, it would make international calmunication easier if the word "Naybor" were to be imported into your langauge as a synonym of your ancient word for a neighbor: línjū, paṛosī, vecino, voisin, jār, pratibēśī, sosed, vizinho, paṛosī, tetangga, Nachbar, rinjin, śējārī, porugu, komşu, aṇḍai, hàng xóm, iut, jirani.
 
-A: Neighbor 123™ is our long-term vision for a unified global emergency number. The number 123 serves as a mnemonic:
+**Q: What is Naybor 123 and why that number?**
+
+A: Naybor 123™ is our long-term vision for a unified global emergency number. The number 123 serves as a mnemonic:
 - Call **1, 2, 3** people to the scene
 - Follow emergency steps like a **1, 2, 3** checklist
 - Simple and memorable under stress
@@ -298,13 +307,13 @@ A: Start by:
 1. Contacting your local emergency services (fire department, EMS)
 2. Presenting the concept to your city council or municipal government
 3. Partnering with local hospitals or health departments
-4. Connecting with us at [contact info] for deployment support
+4. Connecting with us at [contact info](team@neighbor911.us) for deployment support
 5. Organizing community BLS training events
 
 **Q: I'm a developer. How can I contribute?**
 
 A: We welcome contributions!
-- Check out our GitHub repository: [URL]
+- Check out our GitHub repository: [Naybor SOS](https://github.com/LifesaverLabs/NayborSOS)
 - Review open issues and feature requests
 - Submit pull requests
 - Help with internationalization and localization
@@ -337,7 +346,7 @@ Contact: [media contact info]
 **Q: What's the timeline for national rollout?**
 
 A: Our roadmap:
-- **2025 Q4**: Open-source public launch, initial community pilots
+- **2025 Q4**: Open-source public launch, agreements on initial community pilots
 - **2026 Q1-Q2**: Partnership development with PulsePoint, AHA, Red Cross
 - **2026 Q3-Q4**: Expand pilot programs, gather data on impact
 - **2027+**: Scale nationally based on pilot results, advocate for federal BLS training program
@@ -359,7 +368,7 @@ A: It's part of our commitment to the English For Humans phonetic spelling movem
 **Q: What's your ultimate vision?**
 
 A: A world where:
-- Every neighborhood has 3-5 trained BLS responders within 100 meters
+- Every neighborhood has 3-5 trained BLS responders within 100 meters ready to respond to PulsePoint or Naybor SOS alerts
 - Cardiac arrest survival rates double or triple (from 10% to 20-30%)
 - Tens of thousands more people survive each year
 - Communities feel empowered, prepared, and connected
@@ -383,8 +392,8 @@ We're working to change that.
 - Website: [neighbor911.org](https://neighbor911.org)
 - GitHub: [Repository URL]
 - Twitter/X: [@NeighborSOS]
-- Email: team@neighbor911.org
+- Email: team@neighbor911.us
 
 ---
 
-**Last Updated:** 2025-11-23
+**Last Updated:** 2025-12-03

@@ -1,0 +1,33 @@
+# mise.toml - Naybor SOS Flutter App
+
+[tools]
+flutter = "latest"
+
+[env]
+# Add environment variables here as needed
+# GOOGLE_MAPS_API_KEY = ""
+# FIREBASE_API_KEY = ""
+
+[tasks.clean]
+description = "Clean the generated code artifacts"
+run = "flutter clean"
+
+[tasks.build]
+description = "Get dependencies and build"
+run = "flutter pub get"
+
+[tasks.lint]
+description = "Analyze code for issues"
+run = "flutter analyze --no-fatal-infos"
+
+[tasks.test]
+description = "Run tests"
+run = "flutter test"
+
+[tasks.run]
+description = "Run the app"
+run = "flutter run"
+
+[tasks.doctor]
+description = "Check Flutter installation and dependencies"
+run = "flutter doctor -v"
