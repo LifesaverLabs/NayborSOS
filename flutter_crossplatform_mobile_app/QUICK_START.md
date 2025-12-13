@@ -6,13 +6,22 @@
 
 ## ✅ **Flutter is Managed by mise**
 
-This project uses **`mise`** (version manager) to install and manage Flutter, ensuring everyone uses the same version.
+This project uses **`mise`** (version manager) to install and manage the Flutter SDK.
 
-**Why mise?**
-- ✅ Consistent Flutter version across all developers
+**What mise does:**
+- ✅ Installs Flutter SDK automatically
+- ✅ Consistent Flutter version across developers
 - ✅ No conflicts with system-installed Flutter
-- ✅ Automatic installation of correct version
 - ✅ Works alongside other mise-managed projects
+
+**What mise does NOT do:**
+- ❌ Install Android Studio or Xcode
+- ❌ Set up Android SDK or iOS simulator
+- ❌ Configure platform-specific tools
+
+**For complete platform setup:** [Flutter Official Setup Guide](https://docs.flutter.dev/get-started/install)
+
+**🌟 Pro Tip:** Start with web development (`flutter run -d chrome`) - no Android/iOS setup needed!
 
 ---
 
@@ -37,10 +46,12 @@ You MUST run `mise install` first (takes 5-15 minutes to download Flutter).
 # 1. Install mise (if not already installed)
 brew install mise  # macOS
 
-# 2. Navigate to project and install Flutter
+# 2. Navigate to project and install Flutter SDK
 cd flutter_crossplatform_mobile_app
 mise trust
-mise install  # ⏰ Downloads Flutter (~1GB, takes 5-15 min)
+mise install  # ⏰ Downloads Flutter SDK (~1GB, takes 5-15 min)
+              # This installs Flutter but NOT Android Studio, Xcode, etc.
+              # See https://docs.flutter.dev/get-started/install for those
 
 # 3. Make flutter commands easier (pick ONE):
 

@@ -175,9 +175,18 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 #### 2. Set Up Development Environment
 
 **Prerequisites:**
-- [mise](https://mise.jdx.dev/) - Version manager that handles Flutter installation
+
+⚠️ **IMPORTANT:** `mise` installs the Flutter SDK, but you still need platform-specific tools!
+
+- [mise](https://mise.jdx.dev/) - Version manager (installs Flutter SDK only)
 - Git
-- A code editor (VS Code, Android Studio, etc.)
+- A code editor (VS Code recommended)
+- **Platform tools** - See [Flutter's official setup guide](https://docs.flutter.dev/get-started/install) for:
+  - **Android:** Android Studio + SDK + emulator setup
+  - **iOS:** Xcode + CocoaPods (macOS only)
+  - **Web:** Chrome (easiest - no extra setup!)
+
+**🌟 Quick Start Tip:** Use web platform (`flutter run -d chrome`) to avoid Android/iOS setup initially!
 
 **Step-by-Step Setup:**
 
@@ -196,9 +205,10 @@ curl https://mise.run | sh
 # 3. Trust the mise configuration
 mise trust
 
-# 4. Install Flutter (this takes 5-15 minutes - downloads ~1GB)
+# 4. Install Flutter SDK (downloads ~1GB, takes 5-15 min)
 mise install
-# ⏰ Go get coffee while Flutter downloads...
+# ⏰ This installs Flutter itself, but NOT Android Studio, Xcode, etc.
+# For platform-specific setup, see: https://docs.flutter.dev/get-started/install
 
 # 5. OPTIONAL: Choose ONE setup method to avoid typing "mise exec" constantly:
 ```
@@ -246,12 +256,15 @@ flutter gen-l10n
 flutter run
 
 # Or run on specific device
-flutter run -d chrome  # Web browser
-flutter run -d ios     # iOS simulator
-flutter run -d android # Android emulator
+flutter run -d chrome  # Web browser (easiest - no extra setup!)
+flutter run -d ios     # iOS simulator (requires Xcode - macOS only)
+flutter run -d android # Android emulator (requires Android Studio setup)
 ```
 
-**📖 Detailed Setup Guide:** See [flutter_crossplatform_mobile_app/QUICK_START.md](flutter_crossplatform_mobile_app/QUICK_START.md) for more options and troubleshooting.
+**📖 More Resources:**
+- [Flutter Official Setup Guide](https://docs.flutter.dev/get-started/install) - Platform-specific requirements
+- [Detailed Setup & Troubleshooting](flutter_crossplatform_mobile_app/QUICK_START.md) - Project-specific guide
+- [Flutter Doctor Guide](https://docs.flutter.dev/get-started/install#run-flutter-doctor) - Fix setup issues
 
 3. **Join the Calmunity**
    - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination

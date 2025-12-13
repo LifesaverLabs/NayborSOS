@@ -10,6 +10,24 @@
 
 ### Prerequisites
 
+⚠️ **REALITY CHECK:** `mise` makes Flutter SDK installation easier, but you still need platform-specific tools for Android/iOS development!
+
+**What mise handles:**
+- ✅ Downloads and installs Flutter SDK
+- ✅ Manages Flutter versions per project
+- ✅ No conflicts with system Flutter
+
+**What mise does NOT handle:**
+- ❌ Android Studio + Android SDK + emulator setup
+- ❌ Xcode + iOS simulator setup (macOS only)
+- ❌ Platform-specific dependencies
+
+**📖 For complete platform setup:** [Flutter Official Setup Guide](https://docs.flutter.dev/get-started/install)
+
+**🌟 Quick Start Tip:** Use web platform first! Just needs Chrome - no Android/iOS setup required.
+
+---
+
 1. **Install mise** (version manager):
    ```bash
    # macOS:
@@ -35,15 +53,24 @@ cd flutter_crossplatform_mobile_app
 # 2. Trust the mise configuration
 mise trust
 
-# 3. Install Flutter via mise
+# 3. Install Flutter SDK via mise
 mise install
-# ⏰ This downloads and installs Flutter (~1GB download)
-# Takes 5-15 minutes depending on internet speed
-# Go get coffee!
+# ⏰ Downloads Flutter SDK (~1GB, takes 5-15 min)
+# This installs Flutter but NOT Android Studio, Xcode, etc!
 
-# 4. Verify Flutter is working
+# 4. Check what else you need for your target platform
 mise exec -- flutter doctor -v
+# This will show what's missing (Android Studio, Xcode, etc.)
+# See: https://docs.flutter.dev/get-started/install for platform setup
+
+# 5. Quick test - run on web (no extra setup needed!)
+mise exec -- flutter run -d chrome
 ```
+
+**If `flutter doctor` shows issues:**
+- 📱 **For Android:** [Android Setup Guide](https://docs.flutter.dev/get-started/install/macos#android-setup)
+- 🍎 **For iOS:** [iOS Setup Guide](https://docs.flutter.dev/get-started/install/macos#ios-setup) (macOS only)
+- 🌐 **For Web:** Just needs Chrome - should work immediately!
 
 ### Choose Your Developer Experience
 
@@ -349,9 +376,19 @@ flutter gen-l10n
 **Problem:** No emulator/simulator is running.
 
 **Solutions:**
-- **Web:** `flutter run -d chrome` (no setup needed)
-- **iOS:** Open Xcode → Xcode > Open Developer Tool > Simulator
+- **Web:** `flutter run -d chrome` (easiest - no emulator needed!)
+- **iOS:** Open Xcode → Xcode > Open Developer Tool > Simulator (macOS only)
 - **Android:** Open Android Studio → Tools > Device Manager → Create/Start device
+
+**First time setup?** See [Flutter's device setup guide](https://docs.flutter.dev/get-started/install)
+
+### Platform-Specific Issues
+
+**Android issues?** See [Android troubleshooting](https://docs.flutter.dev/get-started/install/macos#android-setup)
+
+**iOS issues?** See [iOS troubleshooting](https://docs.flutter.dev/get-started/install/macos#ios-setup)
+
+**Still stuck?** Run `flutter doctor -v` and follow its suggestions, or check [Flutter docs](https://docs.flutter.dev/)
 
 ### "mise: command not found"
 
