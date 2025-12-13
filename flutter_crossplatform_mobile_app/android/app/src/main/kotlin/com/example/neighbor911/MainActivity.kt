@@ -1,4 +1,4 @@
-package com.example.neighbor911
+package org.nayborsos.mobile
 
 import io.flutter.embedding.android.FlutterActivity
 
