@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:NayborSOS/generated/l10n/app_localizations.dart';
 
 /// Language information including native names (endonyms) and AI translation confidence tiers
 class LanguageInfo {
@@ -16,29 +17,31 @@ class LanguageInfo {
     required this.isTranslated,
   });
 
-  String get confidenceNotice {
+  String confidenceNotice(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     switch (tier) {
       case ConfidenceTier.tier1:
-        return 'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+        return l10n.translationTier1Notice;
       case ConfidenceTier.tier2:
-        return 'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+        return l10n.translationTier2Notice;
       case ConfidenceTier.tier3:
-        return '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+        return l10n.translationTier3Notice;
       case ConfidenceTier.tier4:
-        return '⚠️ This is a draft translation only. Professional translation required before production use.';
+        return l10n.translationTier4Notice;
     }
   }
 
-  String get tierLabel {
+  String tierLabel(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     switch (tier) {
       case ConfidenceTier.tier1:
-        return 'High AI Confidence';
+        return l10n.translationTier1Label;
       case ConfidenceTier.tier2:
-        return 'Good AI Confidence';
+        return l10n.translationTier2Label;
       case ConfidenceTier.tier3:
-        return 'Moderate AI Confidence';
+        return l10n.translationTier3Label;
       case ConfidenceTier.tier4:
-        return 'Lower AI Confidence';
+        return l10n.translationTier4Label;
     }
   }
 
