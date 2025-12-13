@@ -27,7 +27,7 @@ All ARB files are located at:
 
 ### ✓ Translated (10 languages)
 - **English (en):** Complete - Source language
-- **Spanish (es):** Complete with professional translations
+- **Spanish (es):** Complete with AI-generated translations ⚠️ (professional review recommended)
 - **Arabic (ar):** Complete with AI-generated translations ⚠️ (professional review recommended)
 - **Chinese/Mandarin (zh):** Complete with AI-generated translations ⚠️ (professional review recommended)
 - **French (fr):** Complete with AI-generated translations ⚠️ (professional review recommended)

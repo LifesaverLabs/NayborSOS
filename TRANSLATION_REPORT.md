@@ -153,7 +153,7 @@ Additional languages for comprehensive global reach and inclusion.
 
 ### ✅ Completed Translations (10 languages)
 - **English (en):** Complete - Source language ✓
-- **Spanish (es):** Complete with professional-quality translations ✓
+- **Spanish (es):** Complete with AI-generated translations ⚠️ (professional review recommended for production)
 - **Arabic (ar):** Complete with AI-generated translations ⚠️ (professional review recommended for production)
 - **Chinese/Mandarin (zh):** Complete with AI-generated translations ⚠️ (professional review recommended for production)
 - **French (fr):** Complete with AI-generated translations ⚠️ (professional review recommended for production)
