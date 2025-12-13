@@ -11,7 +11,7 @@
 
 ## 🌍 About This Guide
 
-This guide documents emergency response resources, training programs, apps, and community groups in Spain. Our goal is to help Neighbor 911 visitors and Minute Responders discover local resources that can help them prepare for emergencies.
+This guide documents emergency response resources, training programs, apps, and community groups in Spain. Our goal is to help Naybor SOS visitors and Minute Responders discover local resources that can help them prepare for emergencies.
 
 **What's included:**
 - Emergency response apps and alert systems
@@ -25,7 +25,7 @@ This guide documents emergency response resources, training programs, apps, and 
 
 ## 🚨 START YOUR NEIGHBORHOOD EMERGENCY NETWORK TODAY
 
-**Don't wait for Neighbor 911™.** What you can do now:
+**Don't wait for Naybor SOS™.** What you can do now:
 
 ### Knock on doors. Know your neighbors. Build a network.
 
@@ -103,7 +103,7 @@ Municipal Emergency and Rescue Assistance Service of Madrid, providing urgent me
 - Highly trained medical and paramedic staff
 - 24/7 coverage throughout Madrid
 
-**How Neighbor 911™ Complements:**
+**How Naybor SOS™ Complements:**
 - **Even faster response** - The neighbor 30 seconds away can start CPR before SAMUR arrives
 - **Hyperlocal coverage** - Every building, every floor can have instant response
 - **Broader emergency types** - Wellness checks, mental health crises, addiction support
@@ -565,7 +565,7 @@ Spain has legal protection for those who provide assistance:
 
 ---
 
-## How Neighbor 911 Supports These Resources
+## How Naybor SOS Supports These Resources
 
 **We encourage all Minute Responders in Spain to:**
 - Get certified in CPR/first aid through Red Cross or other providers
@@ -575,7 +575,7 @@ Spain has legal protection for those who provide assistance:
 - Build neighborhood emergency networks (especially in apartment buildings)
 - Register for emergency alerts from your autonomous community
 
-**Spain-specific Neighbor 911 integration (planned):**
+**Spain-specific Naybor SOS integration (planned):**
 - Coordination with 112 system
 - Integration with Red Cross and SAMUR
 - Multilingual support (Spanish, Catalan, Basque, Galician)
@@ -629,4 +629,4 @@ This guide is available in the following languages:
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
+*This page is maintained by the Naybor SOS community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*

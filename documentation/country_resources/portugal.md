@@ -17,7 +17,7 @@
 
 ## 🌍 Sobre Este Guia
 
-Este guia documenta recursos de resposta a emergências, programas de formação, aplicações e grupos comunitários em Portugal. O nosso objetivo é ajudar os visitantes do Neighbor 911 e os Respondentes Minuto a descobrir recursos locais que podem ajudar na preparação para emergências.
+Este guia documenta recursos de resposta a emergências, programas de formação, aplicações e grupos comunitários em Portugal. O nosso objetivo é ajudar os visitantes do Naybor SOS e os Respondentes Minuto a descobrir recursos locais que podem ajudar na preparação para emergências.
 
 **O que está incluído:**
 - Aplicações de resposta a emergências e sistemas de alerta
@@ -31,7 +31,7 @@ Este guia documenta recursos de resposta a emergências, programas de formação
 
 ## 🚨 COMECE A SUA REDE DE EMERGÊNCIA DE VIZINHANÇA HOJE
 
-**Não precisa esperar pelo Neighbor 911™.** O que pode fazer AGORA:
+**Não precisa esperar pelo Naybor SOS™.** O que pode fazer AGORA:
 
 ### Bata às Portas. Conheça os Seus Vizinhos. Construa uma Rede.
 
@@ -335,7 +335,7 @@ Cada município tem serviços de proteção civil:
 
 ---
 
-## Como o Neighbor 911 Apoia Estes Recursos
+## Como o Naybor SOS Apoia Estes Recursos
 
 **Encorajamos todos os Respondentes Minuto em Portugal a:**
 - Obter certificação em SBV (Suporte Básico de Vida) através da Cruz Vermelha ou outros fornecedores acreditados
@@ -346,7 +346,7 @@ Cada município tem serviços de proteção civil:
 - Conhecer a localização do DAE mais próximo
 - Manter SNS 24 (808 24 24 24) e 112 facilmente acessíveis
 
-**Integração específica do Neighbor 911 em Portugal (planeada):**
+**Integração específica do Naybor SOS em Portugal (planeada):**
 - Coordenação com INEM para despacho médico de emergência
 - Discussões de parceria com Cruz Vermelha Portuguesa
 - Integração com sistemas de alerta da ANPC
@@ -362,7 +362,7 @@ Cada município tem serviços de proteção civil:
 
 ### Cruz Vermelha Portuguesa
 **Estado:** 🟡 Parceria Proposta
-**Visão:** Caminhos de formação para respondentes do Neighbor 911, promoção mútua de preparação para emergências
+**Visão:** Caminhos de formação para respondentes do Naybor SOS, promoção mútua de preparação para emergências
 
 ### Bombeiros Voluntários (Federação Nacional)
 **Estado:** 🟡 Parceria Proposta
@@ -411,4 +411,4 @@ Contacto: team@lifesaverlabs.org
 
 ---
 
-*Esta página é mantida pela comunidade Neighbor 911. Última verificação: 2025-11-16. Se notar informações desatualizadas ou erros de tradução, por favor envie um pull request ou contacte-nos em team@lifesaverlabs.org.*
+*Esta página é mantida pela comunidade Naybor SOS. Última verificação: 2025-11-16. Se notar informações desatualizadas ou erros de tradução, por favor envie um pull request ou contacte-nos em team@lifesaverlabs.org.*

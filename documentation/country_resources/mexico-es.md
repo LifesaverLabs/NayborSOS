@@ -102,11 +102,11 @@ Ejemplos que nos gustaría documentar:
 **¡Esta guía necesita expertos mexicanos!** México tiene más de 125 millones de personas en diversos estados y regiones.
 
 **Cómo contribuir:**
-1. Haz un fork del repositorio Neighbor911
+1. Haz un fork del repositorio NayborSOS
 2. Edita este archivo
 3. Envía un pull request
 4. O envía un correo electrónico a team@lifesaverlabs.org
 
 ---
 
-*Esta página es mantenida por la comunidad de Neighbor 911. Buscando colaboradores mexicanos.*
+*Esta página es mantenida por la comunidad de Naybor SOS. Buscando colaboradores mexicanos.*

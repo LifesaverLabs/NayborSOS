@@ -15,7 +15,7 @@
 
 ## 🌍 Acerca de esta guía
 
-Esta guía documenta recursos de respuesta a emergencias, programas de formación, aplicaciones y grupos comunitarios en España. Nuestro objetivo es ayudar a los visitantes de Neighbor 911 y a los Respondedores de Minuto a descubrir recursos locales que puedan ayudarles a prepararse para emergencias.
+Esta guía documenta recursos de respuesta a emergencias, programas de formación, aplicaciones y grupos comunitarios en España. Nuestro objetivo es ayudar a los visitantes de Naybor SOS y a los Respondedores de Minuto a descubrir recursos locales que puedan ayudarles a prepararse para emergencias.
 
 **Qué incluye:**
 - Aplicaciones y sistemas de alerta de emergencias
@@ -29,7 +29,7 @@ Esta guía documenta recursos de respuesta a emergencias, programas de formació
 
 ## 🚨 COMIENCE SU RED DE EMERGENCIAS VECINAL HOY
 
-**No espere a Neighbor 911™.** Lo que puede hacer ahora:
+**No espere a Naybor SOS™.** Lo que puede hacer ahora:
 
 ### Toca puertas. Conoce a tus vecinos. Construye una red.
 
@@ -107,7 +107,7 @@ Servicio de Asistencia Municipal de Urgencia y Rescate de Madrid, proporcionando
 - Personal médico y paramédico altamente capacitado
 - Cobertura 24/7 en todo Madrid
 
-**Cómo Neighbor 911™ complementa:**
+**Cómo Naybor SOS™ complementa:**
 - **Respuesta aún más rápida** - El vecino a 30 o 90 segundos puede comenzar RCP antes de que llegue SAMUR
 - **Cobertura hiperlocal** - Cada edificio, cada planta puede tener respuesta instantánea
 - **Tipos de emergencia más amplios** - Controles de bienestar, crisis de salud mental, apoyo a adicciones
@@ -569,7 +569,7 @@ España tiene protección legal para quienes prestan auxilio:
 
 ---
 
-## Cómo Neighbor 911 apoya estos recursos
+## Cómo Naybor SOS apoya estos recursos
 
 **Animamos a todos los Respondedores de Minuto en España a:**
 - Certificarse en RCP/primeros auxilios a través de Cruz Roja u otros proveedores
@@ -579,7 +579,7 @@ España tiene protección legal para quienes prestan auxilio:
 - Construir redes de emergencia vecinales (especialmente en edificios de apartamentos)
 - Registrarse para alertas de emergencia de su comunidad autónoma
 
-**Integración de Neighbor 911 específica para España (planificada):**
+**Integración de Naybor SOS específica para España (planificada):**
 - Coordinación con el sistema 112
 - Integración con Cruz Roja y SAMUR
 - Soporte multilingüe (español, catalán, euskera, gallego)
@@ -633,4 +633,4 @@ Esta guía está disponible en los siguientes idiomas:
 
 ---
 
-*Esta página es mantenida por la comunidad Neighbor 911. Última verificación: 2025-11-16. Si nota información desactualizada, por favor envíe un pull request o contáctenos en team@lifesaverlabs.org.*
+*Esta página es mantenida por la comunidad Naybor SOS. Última verificación: 2025-11-16. Si nota información desactualizada, por favor envíe un pull request o contáctenos en team@lifesaverlabs.org.*

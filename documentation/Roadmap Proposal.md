@@ -1,4 +1,4 @@
-# Neighbor 911 Development Roadmap
+# Naybor SOS Development Roadmap
 
 **Version:** 1.0
 **Last Updated:** 2025-11-11
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This roadmap proposes a phased approach to building Neighbor 911, starting with an ultra-minimal MVP that proves the core concept, then expanding based on real-world validation and community commitment.
+This roadmap proposes a phased approach to building Naybor SOS, starting with an ultra-minimal MVP that proves the core concept, then expanding based on real-world validation and community commitment.
 
 **Core Philosophy:** Ship fast, learn fast, iterate based on what actually works in the field.
 
@@ -299,7 +299,7 @@ Integrate with Safeword app and add features for sensitive emergencies.
 
 #### ✅ Safeword App Integration
 - Unified authentication (single sign-on)
-- Safeword can trigger Neighbor 911 alerts
+- Safeword can trigger Naybor SOS alerts
 - "Bedroom Consent Emergency" alert type
 - Shared user profiles
 - Cross-app alert history
@@ -349,7 +349,7 @@ Integrate with Safeword app and add features for sensitive emergencies.
 ### Phase 2 Success Criteria
 - 500+ neighbors signed up
 - 50+ alerts/month
-- Successful Safeword → Neighbor 911 alert flow working
+- Successful Safeword → Naybor SOS alert flow working
 - Background checks processed within 48 hours
 - Zero privacy/security incidents
 

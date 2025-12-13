@@ -1,4 +1,4 @@
-# Neighbor 911 - AI Development Prompts
+# Naybor SOS - AI Development Prompts
 
 **Purpose:** Common prompts and context for AI tools (Claude, ChatGPT, Copilot, etc.) to help contributors align with project principles and architecture.
 
@@ -49,7 +49,7 @@ Every feature we build, every line of code we ship, every architectural decision
    - Launch faster to build trust and test infrastructure
    - Lower stakes = more room for iteration and learning
 
-3. **PSAP Integration (911 Dispatch ↔ Neighbor 911):**
+3. **PSAP Integration (911 Dispatch ↔ Naybor SOS):**
    - **Stage 1 (MVP - Months 1-3):** "Call 911 first" redirect for critical emergencies
    - **Stage 2 (Partnership - Months 3-6):** 3-way calling with 911 primary, test with pilot PSAPs
    - **Stage 3 (Full Integration - Months 6-12):** Seamless handoff in test communities, expand after validation
@@ -105,7 +105,7 @@ When in doubt, consult with:
 
 ## How to Use This Document
 
-When working on Neighbor 911 with AI assistance:
+When working on Naybor SOS with AI assistance:
 
 1. **Load this prompt** at the start of your AI session
 2. **Reference specific sections** for context on architecture decisions
@@ -116,12 +116,12 @@ When working on Neighbor 911 with AI assistance:
 
 ## Project Overview
 
-**Neighbor 911** is a rapid-response mobile application that connects neighbors in emergencies, enabling 2-3 minute response times vs. 8-15 minute professional EMS response.
+**Naybor SOS** is a rapid-response mobile application that connects neighbors in emergencies, enabling 2-3 minute response times vs. 8-15 minute professional EMS response.
 
 **Core Mission:** Save lives by coordinating trained neighbors with life-saving equipment (AEDs, naloxone, CPR skills) to arrive before professional EMS.
 
 **Legal Entity:** Lifesaver Labs Public Benefit Corporation
-**License:** MIT License (open source code) + Trademark protection (Neighbor 911™)
+**License:** MIT License (open source code) + Trademark protection (Naybor SOS™)
 **Repository:** https://github.com/LifesaverLabs/NayborSOS
 
 ---
@@ -134,7 +134,7 @@ When working on Neighbor 911 with AI assistance:
 - Every feature should answer: "Does this help someone faster or better?"
 
 ### 2. **PSAP Primacy (911 is Primary)**
-- Neighbor 911 **supplements, not replaces** professional 911 services
+- Naybor SOS **supplements, not replaces** professional 911 services
 - For life-threatening emergencies: **911 MUST be called first**
 - We coordinate faster neighbor response WHILE EMS is en route
 - Never claim to replace or compete with professional emergency services
@@ -271,7 +271,7 @@ Stage 2 (PSAP Partnership - Months 4-12):
   - Silent data channel for location/responder status
 
 Stage 3 (Full Integration - Year 2+):
-  - E911 features work through Neighbor 911
+  - E911 features work through Naybor SOS
   - Seamless handoff, lossless information relay
   - PSAP can preempt/takeover calls
   - Battle-tested and authorized by mobile OS
@@ -362,14 +362,48 @@ export const on_alert_created = ...  ❌ Bad
 
 ### Internationalization (i18n) Patterns
 
+## 🚨 CRITICAL: NEVER HARDCODE DISPLAY STRINGS
+
+**THIS IS ABSOLUTELY NON-NEGOTIABLE. ZERO TOLERANCE FOR HARDCODED STRINGS.**
+
+Every single user-facing string MUST be localized. This includes:
+- ✅ Button labels
+- ✅ Screen titles
+- ✅ Helper text
+- ✅ Error messages
+- ✅ Status messages
+- ✅ Placeholder text
+- ✅ Tooltips
+- ✅ Notifications
+- ✅ Dialog content
+- ✅ Even strings that appear "temporary" or "for testing"
+
+**NO EXCEPTIONS. NO "I'll fix it later". NO "It's just a quick prototype".**
+
+Hardcoded strings:
+- ❌ Lock out 99% of the world's population
+- ❌ Create technical debt that compounds exponentially
+- ❌ Violate our core principle of inclusive accessibility
+- ❌ Make the app unusable in emergencies for non-English speakers
+- ❌ Create merge conflicts during translation sprints
+- ❌ Show disrespect for our global community
+
+**Every hardcoded string is a bug. Treat it as P0 critical.**
+
 **Always externalize user-facing strings:**
 
 ```dart
-// ❌ Bad: Hardcoded string
+// ❌ ABSOLUTELY WRONG: Hardcoded string
 Text('Cardiac Arrest')
+Text('Select Language / Seleccionar idioma')  // Even "helpful" multilingual strings!
+Text('Search languages / Buscar idiomas')
+Text('Translation Quality: ${language.tierLabel(context)}')
 
-// ✅ Good: Localized string
+// ✅ CORRECT: Localized string
 Text(AppLocalizations.of(context)!.alertCardiacArrest)
+Text(AppLocalizations.of(context)!.selectLanguage)
+Text(AppLocalizations.of(context)!.searchLanguagesHint)
+Text(AppLocalizations.of(context)!.translationQualityLabel(language.tierLabel(context)))
 ```
 
 **ARB file structure:**
@@ -402,7 +436,7 @@ Text(AppLocalizations.of(context)!.alertCardiacArrest)
 ### Prompt 1: Creating a New Feature
 
 ```
-I'm working on Neighbor 911, an emergency response app that coordinates
+I'm working on Naybor SOS, an emergency response app that coordinates
 neighbors to arrive faster than EMS. Please help me implement [FEATURE].
 
 Context:
@@ -434,7 +468,7 @@ Reference docs:
 ### Prompt 2: Reviewing Code for Privacy Compliance
 
 ```
-Please review this code for privacy compliance in Neighbor 911.
+Please review this code for privacy compliance in Naybor SOS.
 
 Critical rules:
 1. ❌ NEVER store exact lat/lng in user profile (only city/state/zip)
@@ -458,7 +492,7 @@ Code to review:
 ### Prompt 3: Adding Internationalization
 
 ```
-I need to add i18n support to this Neighbor 911 feature.
+I need to add i18n support to this Naybor SOS feature.
 
 Requirements:
 - Use Flutter's intl package + ARB files
@@ -480,7 +514,7 @@ Please:
 ### Prompt 4: Implementing Real-Time Updates
 
 ```
-I need to implement real-time status updates for Neighbor 911 alerts.
+I need to implement real-time status updates for Naybor SOS alerts.
 
 Requirements:
 - Use Firestore snapshots (not polling)
@@ -507,7 +541,7 @@ Context:
 ### Prompt 5: Security Review
 
 ```
-Please perform a security review of this Neighbor 911 code.
+Please perform a security review of this Naybor SOS code.
 
 Focus areas:
 1. Authentication: Are Firebase Auth tokens validated properly?
@@ -678,6 +712,38 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ## Common Pitfalls to Avoid
 
+### ❌ CRITICAL PITFALL #0: Hardcoding Display Strings
+
+**THIS IS THE #1 MOST COMMON MISTAKE. IT MUST BE ELIMINATED.**
+
+```dart
+// ❌ ABSOLUTELY FORBIDDEN: Hardcoded strings
+Text('Select Language / Seleccionar idioma')
+Text('Continue / Continuar')
+hintText: 'Search languages / Buscar idiomas'
+title: const Text('Select your language')
+'Translation Quality: ${tier}'
+'Help improve translations - report issues!'
+
+// ✅ MANDATORY: Use AppLocalizations
+Text(AppLocalizations.of(context)!.selectLanguage)
+Text(AppLocalizations.of(context)!.continueButton)
+hintText: AppLocalizations.of(context)!.searchLanguagesHint
+title: Text(AppLocalizations.of(context)!.selectLanguage)
+AppLocalizations.of(context)!.translationQualityLabel(tier)
+AppLocalizations.of(context)!.helpImproveTranslations
+```
+
+**Before writing ANY `Text()` widget, ask yourself:**
+1. Is this string visible to users? → MUST be localized
+2. Is this a debug/console log? → Can stay hardcoded (not user-facing)
+3. Is this a constant/enum? → Can stay hardcoded (not display text)
+
+**Pre-commit checklist:**
+- [ ] Run `grep -r "Text('" lib/` - Should find ZERO hardcoded strings
+- [ ] Run `grep -r 'hintText:.*"' lib/` - Should find ZERO hardcoded hints
+- [ ] Run `grep -r "title:.*Text('" lib/` - Should find ZERO hardcoded titles
+
 ### ❌ Pitfall 1: Storing Long-Term Location
 ```dart
 // ❌ WRONG: Storing exact home location
@@ -698,7 +764,7 @@ Text(l10n.alertSentToResponders(5))
 ### ❌ Pitfall 3: Claiming to Replace 911
 ```dart
 // ❌ WRONG: Marketing copy that competes with 911
-"Skip the 911 wait - get help faster with Neighbor 911!"
+"Skip the 911 wait - get help faster with Naybor SOS!"
 
 // ✅ RIGHT: Supplement, don't replace
 "Get help from neighbors while professional EMS is en route"

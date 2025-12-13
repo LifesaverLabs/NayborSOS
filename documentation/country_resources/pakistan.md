@@ -84,11 +84,11 @@ If you live in Pakistan and know about:
 **This guide needs Pakistani experts!** Pakistan has 230+ million people across diverse provinces and regions.
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create Urdu version
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Pakistani contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Pakistani contributors.*

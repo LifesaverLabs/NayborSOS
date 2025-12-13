@@ -1,4 +1,4 @@
-# Neighbor 911 - API Specification
+# Naybor SOS - API Specification
 
 **Version:** 0.1 (AI-Generated Initial Proposal)
 **Last Updated:** 2025-11-10
@@ -22,10 +22,10 @@ This API specification is an initial AI-generated proposal and requires review f
 
 1. [API Overview](#1-api-overview)
 2. [Authentication](#2-authentication)
-3. [External App → Neighbor 911 (Safeword Integration)](#3-external-app--neighbor-911-safeword-integration)
-4. [911 Dispatch Centers → Neighbor 911 (Dispatcher-Initiated Alerts)](#4-911-dispatch-centers--neighbor-911-dispatcher-initiated-alerts)
-5. [Neighbor 911 → 911 Dispatch Systems](#5-neighbor-911--911-dispatch-systems)
-6. [Neighbor 911 → Civic Data APIs](#6-neighbor-911--civic-data-apis)
+3. [External App → Naybor SOS (Safeword Integration)](#3-external-app--neighbor-911-safeword-integration)
+4. [911 Dispatch Centers → Naybor SOS (Dispatcher-Initiated Alerts)](#4-911-dispatch-centers--neighbor-911-dispatcher-initiated-alerts)
+5. [Naybor SOS → 911 Dispatch Systems](#5-neighbor-911--911-dispatch-systems)
+6. [Naybor SOS → Civic Data APIs](#6-neighbor-911--civic-data-apis)
 7. [Internal Mobile ↔ Firebase API](#7-internal-mobile--firebase-api)
 8. [Webhooks & Callbacks](#8-webhooks--callbacks)
 9. [Rate Limiting & Abuse Prevention](#9-rate-limiting--abuse-prevention)
@@ -38,21 +38,21 @@ This API specification is an initial AI-generated proposal and requires review f
 
 ### 1.1 API Categories
 
-Neighbor 911 has **three primary API integration points:**
+Naybor SOS has **three primary API integration points:**
 
-1. **Inbound: External Apps → Neighbor 911**
+1. **Inbound: External Apps → Naybor SOS**
    - Example: Safeword app triggers a bedroom consent emergency alert
-   - Method: REST API webhooks (POST to Neighbor 911)
+   - Method: REST API webhooks (POST to Naybor SOS)
 
-2. **Inbound: 911 Dispatch Centers → Neighbor 911**
+2. **Inbound: 911 Dispatch Centers → Naybor SOS**
    - Example: 911 dispatcher requests nearby CPR responders for active cardiac arrest call
-   - Method: REST API (POST to Neighbor 911)
+   - Method: REST API (POST to Naybor SOS)
 
-3. **Outbound: Neighbor 911 → 911 Dispatch Systems**
+3. **Outbound: Naybor SOS → 911 Dispatch Systems**
    - Example: Notify 911 dispatch that a neighbor responder is en route with AED
    - Method: Email/SMS (MVP), REST API to CAD systems (Phase 2)
 
-4. **Outbound: Neighbor 911 → Civic Data APIs**
+4. **Outbound: Naybor SOS → Civic Data APIs**
    - Example: Fetch voter registration status, polling locations
    - Method: REST API calls to Vote.org, Google Civic Information API
 
@@ -119,7 +119,7 @@ final user = FirebaseAuth.instance.currentUser;
 final idToken = await user?.getIdToken();
 
 final response = await http.post(
-  Uri.parse('https://us-central1-neighbor911.cloudfunctions.net/createAlert'),
+  Uri.parse('https://us-central1-nayborsos.cloudfunctions.net/createAlert'),
   headers: {
     'Authorization': 'Bearer $idToken',
     'Content-Type': 'application/json'
@@ -147,13 +147,13 @@ async function verifyFirebaseToken(req, res, next) {
 
 ---
 
-## 3. External App → Neighbor 911 (Safeword Integration)
+## 3. External App → Naybor SOS (Safeword Integration)
 
 ### 3.1 Create Alert from Safeword (POST /api/v1/alerts)
 
 **Endpoint:**
 ```
-POST https://us-central1-neighbor911.cloudfunctions.net/api/v1/alerts
+POST https://us-central1-nayborsos.cloudfunctions.net/api/v1/alerts
 ```
 
 **Authentication:**
@@ -190,10 +190,10 @@ Authorization: Bearer sk_live_safeword_abc123
 ```json
 {
   "success": true,
-  "alertId": "neighbor911_alert_abc123",
+  "alertId": "nayborsos_alert_abc123",
   "status": "dispatching",
   "estimatedResponders": 3,
-  "webhookUrl": "https://us-central1-neighbor911.cloudfunctions.net/webhooks/safeword/alert_abc123"
+  "webhookUrl": "https://us-central1-nayborsos.cloudfunctions.net/webhooks/safeword/alert_abc123"
 }
 ```
 
@@ -209,15 +209,15 @@ Authorization: Bearer sk_live_safeword_abc123
 }
 ```
 
-### 3.2 Webhook Callbacks (Neighbor 911 → Safeword)
+### 3.2 Webhook Callbacks (Naybor SOS → Safeword)
 
-**When alert status changes, Neighbor 911 sends webhook to Safeword:**
+**When alert status changes, Naybor SOS sends webhook to Safeword:**
 
 **POST to Safeword's webhook URL:**
 ```json
 {
   "event": "alert.accepted",
-  "alertId": "neighbor911_alert_abc123",
+  "alertId": "nayborsos_alert_abc123",
   "externalAlertId": "safeword_alert_789",
   "timestamp": "2025-01-09T14:32:15Z",
   "data": {
@@ -241,7 +241,7 @@ Authorization: Bearer sk_live_safeword_abc123
 ### 3.3 API Contract (TypeScript Interface)
 
 ```typescript
-// API request from Safeword to Neighbor 911
+// API request from Safeword to Naybor SOS
 interface CreateAlertRequest {
   externalSource: 'safeword' | 'other';
   externalAlertId: string;
@@ -261,7 +261,7 @@ interface CreateAlertRequest {
   alertTrustedRespondersFirst?: boolean;
 }
 
-// API response from Neighbor 911 to Safeword
+// API response from Naybor SOS to Safeword
 interface CreateAlertResponse {
   success: boolean;
   alertId?: string;
@@ -278,15 +278,15 @@ interface CreateAlertResponse {
 
 ---
 
-## 4. 911 Dispatch Centers → Neighbor 911 (Dispatcher-Initiated Alerts)
+## 4. 911 Dispatch Centers → Naybor SOS (Dispatcher-Initiated Alerts)
 
 ### 4.1 Use Case: 911 Dispatcher Requests Neighbor Response
 
 **Scenario:**
 1. 911 dispatcher receives cardiac arrest call at 123 Main St
 2. Dispatcher sees EMS is 12 minutes away
-3. Dispatcher uses CAD system to trigger Neighbor 911 alert for nearby CPR/AED responders
-4. Neighbor 911 dispatches to nearby responders
+3. Dispatcher uses CAD system to trigger Naybor SOS alert for nearby CPR/AED responders
+4. Naybor SOS dispatches to nearby responders
 5. Neighbor responder arrives in 2 minutes, starts CPR
 6. EMS arrives 10 minutes later, takes over
 
@@ -299,7 +299,7 @@ interface CreateAlertResponse {
 
 **Endpoint:**
 ```
-POST https://us-central1-neighbor911.cloudfunctions.net/api/v1/dispatch/alerts
+POST https://us-central1-nayborsos.cloudfunctions.net/api/v1/dispatch/alerts
 ```
 
 **Authentication:**
@@ -345,14 +345,14 @@ X-Dispatch-Center-ID: sfpd-911-center
 ```json
 {
   "success": true,
-  "alertId": "neighbor911_dispatch_abc123",
+  "alertId": "nayborsos_dispatch_abc123",
   "status": "dispatching",
   "responders_found": 5,
   "estimated_first_arrival": 150,
   "dispatch_notification": {
     "sms": "+14155531234",
     "email": "dispatch@sfpd.gov",
-    "webhook_url": "https://us-central1-neighbor911.cloudfunctions.net/webhooks/dispatch/abc123"
+    "webhook_url": "https://us-central1-nayborsos.cloudfunctions.net/webhooks/dispatch/abc123"
   },
   "message": "Alert sent to 5 nearby CPR/AED responders. Estimated first arrival: 2.5 minutes."
 }
@@ -362,7 +362,7 @@ X-Dispatch-Center-ID: sfpd-911-center
 ```json
 {
   "success": true,
-  "alertId": "neighbor911_dispatch_abc123",
+  "alertId": "nayborsos_dispatch_abc123",
   "status": "no_responders_available",
   "responders_found": 0,
   "search_radius_miles": 1.0,
@@ -371,13 +371,13 @@ X-Dispatch-Center-ID: sfpd-911-center
 }
 ```
 
-### 4.3 Dispatcher Webhook Callbacks (Neighbor 911 → 911 Dispatch)
+### 4.3 Dispatcher Webhook Callbacks (Naybor SOS → 911 Dispatch)
 
 **When responder accepts:**
 ```json
 {
   "event": "responder_accepted",
-  "alertId": "neighbor911_dispatch_abc123",
+  "alertId": "nayborsos_dispatch_abc123",
   "cad_incident_id": "CAD-2025-001234",
   "timestamp": "2025-01-09T14:32:15Z",
   "responder": {
@@ -408,7 +408,7 @@ X-Dispatch-Center-ID: sfpd-911-center
 ```json
 {
   "event": "responder_arrived",
-  "alertId": "neighbor911_dispatch_abc123",
+  "alertId": "nayborsos_dispatch_abc123",
   "cad_incident_id": "CAD-2025-001234",
   "timestamp": "2025-01-09T14:34:30Z",
   "responder": {
@@ -425,7 +425,7 @@ X-Dispatch-Center-ID: sfpd-911-center
 ```json
 {
   "event": "alert_resolved",
-  "alertId": "neighbor911_dispatch_abc123",
+  "alertId": "nayborsos_dispatch_abc123",
   "cad_incident_id": "CAD-2025-001234",
   "timestamp": "2025-01-09T14:47:00Z",
   "resolution": {
@@ -446,7 +446,7 @@ X-Dispatch-Center-ID: sfpd-911-center
 
 **Endpoint:**
 ```
-GET https://us-central1-neighbor911.cloudfunctions.net/api/v1/dispatch/responders
+GET https://us-central1-nayborsos.cloudfunctions.net/api/v1/dispatch/responders
 ```
 
 **Query Parameters:**
@@ -523,9 +523,9 @@ const dispatchApiKey = await createDispatchApiKey({
 - **Tyler Technologies** (New World CAD)
 
 **Integration Method:**
-- Neighbor 911 provides **CAD plugin/module**
+- Naybor SOS provides **CAD plugin/module**
 - Dispatcher clicks button in CAD interface: "Request Neighbor Response"
-- CAD system sends API call to Neighbor 911
+- CAD system sends API call to Naybor SOS
 - Real-time status updates sent back to CAD
 
 **Example CAD Integration:**
@@ -533,7 +533,7 @@ const dispatchApiKey = await createDispatchApiKey({
 // CAD system plugin (JavaScript)
 function requestNeighborResponse(incident) {
   const response = await fetch(
-    'https://neighbor911.app/api/v1/dispatch/alerts',
+    'https://nayborsos.org/api/v1/dispatch/alerts',
     {
       method: 'POST',
       headers: {
@@ -543,7 +543,7 @@ function requestNeighborResponse(incident) {
       body: JSON.stringify({
         cad_incident_id: incident.id,
         emergency: {
-          type: mapIncidentTypeToNeighbor911(incident.type),
+          type: mapIncidentTypeToNayborSOS(incident.type),
           priority: incident.priority
         },
         location: {
@@ -560,13 +560,13 @@ function requestNeighborResponse(incident) {
   const data = await response.json();
 
   // Update CAD incident with neighbor response status
-  incident.addNote(`Neighbor 911: ${data.responders_found} responders dispatched. ETA: ${data.estimated_first_arrival}s`);
+  incident.addNote(`Naybor SOS: ${data.responders_found} responders dispatched. ETA: ${data.estimated_first_arrival}s`);
 }
 ```
 
 ### 4.7 Dispatcher Training & Coordination
 
-**When to use Neighbor 911 (Dispatcher Guidelines):**
+**When to use Naybor SOS (Dispatcher Guidelines):**
 
 ✅ **DO request neighbor response for:**
 - Cardiac arrest (CPR/AED needed)
@@ -586,7 +586,7 @@ function requestNeighborResponse(incident) {
 "I'm dispatching professional EMS to your location.
 They will arrive in approximately 12 minutes.
 
-I'm also sending a Neighbor 911 alert to nearby trained
+I'm also sending a Naybor SOS alert to nearby trained
 CPR responders who may arrive sooner. If someone knocks
 on your door in the next few minutes, they're a neighbor
 here to help until EMS arrives."
@@ -594,7 +594,7 @@ here to help until EMS arrives."
 
 ---
 
-## 5. Neighbor 911 → 911 Dispatch Systems
+## 5. Naybor SOS → 911 Dispatch Systems
 
 ### 5.1 MVP: Email/SMS Notification
 
@@ -619,13 +619,13 @@ ETA: 2 minutes
 Professional EMS still needed.
 Responder will provide aid until EMS arrives.
 
-Alert ID: neighbor911_abc123
+Alert ID: nayborsos_abc123
 Timestamp: 2025-11-10 14:30:00 PST
 ```
 
 **SMS Template (Shortened):**
 ```
-[NEIGHBOR911] Cardiac arrest at 123 Main St Apt 4B.
+[NayborSOS] Cardiac arrest at 123 Main St Apt 4B.
 Mike Smith (555-123-4567) en route with AED, ETA 2 min.
 EMS still needed. ID: abc123
 ```
@@ -685,7 +685,7 @@ Content-Type: application/json
     "certificationDate": "2024-11-01",
     "eta": 120
   },
-  "alertId": "neighbor911_abc123",
+  "alertId": "nayborsos_abc123",
   "timestamp": "2025-01-09T14:30:00Z",
   "emsStillRequired": true
 }
@@ -695,7 +695,7 @@ Content-Type: application/json
 
 ---
 
-## 5. Neighbor 911 → Civic Data APIs
+## 5. Naybor SOS → Civic Data APIs
 
 ### 5.1 Vote.org API (Voter Registration)
 
@@ -845,7 +845,7 @@ const signature = generateWebhookSignature(payload, SAFEWORD_WEBHOOK_SECRET);
 
 await axios.post(webhookUrl, payload, {
   headers: {
-    'X-Neighbor911-Signature': signature,
+    'X-NayborSOS-Signature': signature,
     'Content-Type': 'application/json'
   }
 });
@@ -992,7 +992,7 @@ async function checkRateLimit(userId: string, action: string): Promise<boolean> 
 
 **All API endpoints include version in URL:**
 ```
-https://us-central1-neighbor911.cloudfunctions.net/api/v1/alerts
+https://us-central1-nayborsos.cloudfunctions.net/api/v1/alerts
                                                       ^^^
                                                     version
 ```

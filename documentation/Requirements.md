@@ -1,4 +1,4 @@
-# Neighbor 911 - Product Requirements Document
+# Naybor SOS - Product Requirements Document
 ## Minute Response: Modern-Day Minutemen & Minutewomen
 
 **Version:** 1.0 (Early Draft - Living Document)
@@ -13,9 +13,9 @@
 ### Intellectual Property
 
 **Trademark Protection:**
-Lifesaver Labs Public Benefit Corporation has an active trademark application for **Neighbor 911™**. This trademark is the **only intellectual property we are currently seeking to defend for the Neighbor 911 project**, for the purpose of keeping this branch of the "calmunity" (community) effort coherent and unified.
+Lifesaver Labs Public Benefit Corporation has an active trademark application for **Naybor SOS™**. This trademark is the **only intellectual property we are currently seeking to defend for the Naybor SOS project**, for the purpose of keeping this branch of the "calmunity" (community) effort coherent and unified.
 
-> **Note:** For other Lifesaver Labs projects (such as the Safeword™ experiment), there are issued patents and additional intellectual property that Lifesaver Labs PBC defends. However, for the Neighbor 911 project specifically, only the trademark is being protected.
+> **Note:** For other Lifesaver Labs projects (such as the Safeword™ experiment), there are issued patents and additional intellectual property that Lifesaver Labs PBC defends. However, for the Naybor SOS project specifically, only the trademark is being protected.
 
 **Open Source License:**
 All code for this project is released under the MIT License (see [LICENSE](../LICENSE)). The trademark protects the brand identity while the code remains freely available for use, modification, and distribution.
@@ -40,7 +40,7 @@ This PRD represents our vision and technical roadmap. Actual implementation will
 ## 1. Executive Summary
 
 ### 1.1 Product Vision
-Neighbor 911 is a rapid-response mobile application that connects neighbors in emergencies, creating a network of "Minute Responders" who can provide critical aid before professional first responders arrive. Like the historical minutemen, these neighbors are ready to respond at a moment's notice—whether with specialized skills and equipment, or simply with their presence as a caring witness.
+Naybor SOS is a rapid-response mobile application that connects neighbors in emergencies, creating a network of "Minute Responders" who can provide critical aid before professional first responders arrive. Like the historical minutemen, these neighbors are ready to respond at a moment's notice—whether with specialized skills and equipment, or simply with their presence as a caring witness.
 
 **Everyone can be a hero.** You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up—knocking on a door for a wellness check, being an active bystander witness during a conflict, or staying with someone until help arrives.
 
@@ -67,7 +67,7 @@ Neighbors sign up to be Minute Responders, selecting intervention types they're 
 5. **Coordination Gap:** 911 dispatch often unaware of neighbor responses, causing duplication or conflict
 
 ### 2.2 Opportunity
-Studies show survival rates for cardiac arrest increase from 10% to 60%+ when bystander CPR/AED used within 3 minutes. Neighbor 911 creates that capability at scale.
+Studies show survival rates for cardiac arrest increase from 10% to 60%+ when bystander CPR/AED used within 3 minutes. Naybor SOS creates that capability at scale.
 
 ---
 
@@ -368,7 +368,7 @@ Outside waking hours:
 - **Required info:** Emergency type, location (auto-detected + manual refinement)
 - **Optional info:** Details about person in need (age, gender, condition)
 - **Trusted responders first:** Toggle "Alert my trusted responders first" (for sensitive alerts)
-- **Safeword app integration:** Can trigger Neighbor 911 from Safeword app
+- **Safeword app integration:** Can trigger Naybor SOS from Safeword app
 
 **Alert Creation Interface:**
 ```
@@ -757,7 +757,7 @@ Responder can update status:
 ### 4.5 Lifesaver Labs Ecosystem Integration
 
 #### 4.5.1 Safeword App Integration
-- Safeword app users can trigger Neighbor 911 alerts for consent emergencies
+- Safeword app users can trigger Naybor SOS alerts for consent emergencies
 - Shared user authentication across ecosystem
 - Unified contact/emergency profile
 
@@ -765,7 +765,7 @@ Responder can update status:
 - Shared responder network across Lifesaver Labs apps
 - Single sign-on for ecosystem
 - Unified training/certification platform
-- Cross-app alerts (e.g., Safeword emergency → Neighbor 911 responders)
+- Cross-app alerts (e.g., Safeword emergency → Naybor SOS responders)
 
 #### 4.5.3 PulsePoint Integration (Proposed Partnership)
 
@@ -777,12 +777,12 @@ As a calmunity, we work heavily to promote PulsePoint™ as an immediate working
 **Proposed Integration Features:**
 
 **Outbound to PulsePoint:**
-- Neighbor 911 sends cardiac arrest emergency alerts to PulsePoint calmunity
+- Naybor SOS sends cardiac arrest emergency alerts to PulsePoint calmunity
 - Enables PulsePoint-trained CPR responders to receive our cardiac emergency alerts
 - Expands response coverage for cardiac emergencies
 
 **Inbound from PulsePoint:**
-- Neighbor 911 ingests and accepts PulsePoint cardiac emergency alerts
+- Naybor SOS ingests and accepts PulsePoint cardiac emergency alerts
 - Dispatches our Minute Responders to PulsePoint-originated cardiac emergencies
 - Creates unified response network maximizing coverage
 
@@ -794,12 +794,12 @@ As a calmunity, we work heavily to promote PulsePoint™ as an immediate working
 - Response confirmation sync between platforms
 
 **User Story:**
-*As a CPR-certified Minute Responder, I want to receive cardiac emergency alerts from both Neighbor 911 and PulsePoint, so that I can respond to any nearby cardiac emergency regardless of which platform originated the alert.*
+*As a CPR-certified Minute Responder, I want to receive cardiac emergency alerts from both Naybor SOS and PulsePoint, so that I can respond to any nearby cardiac emergency regardless of which platform originated the alert.*
 
 **Acceptance Criteria:**
-- Responders can opt-in to receive PulsePoint alerts within Neighbor 911 app
-- Cardiac emergencies created in Neighbor 911 are forwarded to PulsePoint network
-- PulsePoint cardiac emergencies trigger Neighbor 911 responder dispatch
+- Responders can opt-in to receive PulsePoint alerts within Naybor SOS app
+- Cardiac emergencies created in Naybor SOS are forwarded to PulsePoint network
+- PulsePoint cardiac emergencies trigger Naybor SOS responder dispatch
 - No duplicate alerts if responder is registered on both platforms
 - Response tracking synced across both platforms
 
@@ -1749,7 +1749,7 @@ Educational institutions cannot simultaneously:
 **International Healthcare Privacy:** Each country implementation must assess local healthcare data protection laws (e.g., Canada's PIPEDA, EU's GDPR Article 9, Australia's Privacy Act).
 
 **US HIPAA Rationale for Deferral:**
-- Neighbor911 functions as **emergency coordination platform**, not healthcare provider
+- NayborSOS functions as **emergency coordination platform**, not healthcare provider
 - No protected health information (PHI) collected or stored in initial phase
 - MVP PSAP integration uses basic notifications (location + emergency type only)
 - Not acting as "covered entity" or "business associate" under HIPAA
@@ -1963,7 +1963,7 @@ Educational institutions cannot simultaneously:
 
 ## 15. Future Vision (Beyond MVP)
 
-### 15.1 Global Calmunity Coverage Map (Neighbor911.org)
+### 15.1 Global Calmunity Coverage Map (NayborSOS.org)
 
 **Vision:** Create a global, publicly accessible map showing emergency response resources and local calmunity networks at every level - from hyperlocal neighbor groups to national emergency apps.
 
@@ -1973,7 +1973,7 @@ Educational institutions cannot simultaneously:
 - No way to see coverage gaps where networks are urgently needed
 - Hyperlocal solutions work best, but they need to be visible and connected
 
-**Solution: Neighbor911.org**
+**Solution: NayborSOS.org**
 
 A global mapping platform where anyone can:
 1. **Enter their address** and see the complete "resource stack" available to them
@@ -2008,7 +2008,7 @@ A global mapping platform where anyone can:
 
 **Layer 4: National**
 - Best-in-class emergency response apps operating in that country
-  - US: PulsePoint™, Neighbor 911™ (when built)
+  - US: PulsePoint™, Naybor SOS™ (when built)
   - UK/Australia: GoodSAM
   - Pakistan: Rescue 1122
   - Brazil: SAMU apps
@@ -2142,7 +2142,7 @@ As neighbors organize, hyperlocal groups are added on top of the base layer, cre
 
 **Every country resource guide should include:**
 
-"Want to start a neighborhood emergency network? Register your group on Neighbor911.org and claim your territory on the map. Connect with neighboring groups and help build complete coverage for your community."
+"Want to start a neighborhood emergency network? Register your group on NayborSOS.org and claim your territory on the map. Connect with neighboring groups and help build complete coverage for your community."
 
 **Until the platform is built:**
 - Encourage use of local mapping tools (Google Maps pins, OpenStreetMap)
@@ -2150,7 +2150,7 @@ As neighbors organize, hyperlocal groups are added on top of the base layer, cre
 - Community bulletin boards showing coverage areas
 
 **This feature enables:**
-- Hyperlocal organization without waiting for Neighbor 911 app to be built
+- Hyperlocal organization without waiting for Naybor SOS app to be built
 - Discovery of existing emergency resources
 - Visible coverage gaps that motivate network creation
 - Meshing of small groups into comprehensive neighborhood coverage
@@ -2165,7 +2165,7 @@ As neighbors organize, hyperlocal groups are added on top of the base layer, cre
 **Problem:** Police chases are extremely dangerous and kill innocent bystanders. In 2023, ~500 people died in police chase-related crashes in the US, many of them uninvolved civilians. If drivers ahead of a chase could be alerted to pull over and clear the road, innocent lives could be saved.
 
 **Concept:**
-When police initiate a high-speed pursuit, they can trigger a Neighbor 911 "Active Pursuit Alert" that:
+When police initiate a high-speed pursuit, they can trigger a Naybor SOS "Active Pursuit Alert" that:
 
 1. **Alerts drivers in the pursuit path** (using GPS trajectory prediction)
 2. **Instructs them to pull over immediately** to designated safe zones
@@ -2207,7 +2207,7 @@ SAFE PULL-OVER ZONE:
 
 **Fee Structure:**
 
-**Alert Fee (Paid to Lifesaver Labs / Neighbor 911):**
+**Alert Fee (Paid to Lifesaver Labs / Naybor SOS):**
 - **Base fee:** $100 per APB alert
 - **Radius scaling:** +$50 per additional 0.5 mile radius
   - 0.5 mile radius: $100
@@ -2219,7 +2219,7 @@ SAFE PULL-OVER ZONE:
 **Purpose of Alert Fee:**
 - Prevents alert fatigue by adding cost friction
 - Ensures only serious cases get APBs (violent suspects, urgent missing persons, etc.)
-- Funds Neighbor 911 infrastructure and maintenance
+- Funds Naybor SOS infrastructure and maintenance
 - Makes departments consider radius carefully (tight radius = less cost)
 
 **Community Tip Bounty (Paid by Police Department):**
@@ -2227,7 +2227,7 @@ SAFE PULL-OVER ZONE:
 - Paid out to community member who provides useful tip leading to apprehension/recovery
 - Department sets bounty amount when creating APB
 - Multiple tipsters can split bounty if several tips contribute
-- Paid via Neighbor 911 platform (we take 10% processing fee)
+- Paid via Naybor SOS platform (we take 10% processing fee)
 
 **APB Alert Interface:**
 ```
@@ -2271,7 +2271,7 @@ you choose to identify yourself for payment.
 - **Prevents spam:** $100-500 fee ensures only serious APBs sent
 - **Incentivizes tips:** Bounty encourages community to pay attention and report
 - **Self-limiting:** Departments budget for APBs, use them wisely
-- **Revenue for Neighbor 911:** Sustainable funding without charging residents
+- **Revenue for Naybor SOS:** Sustainable funding without charging residents
 - **Higher quality tips:** People more motivated when reward involved
 
 **APB Use Cases:**
@@ -2336,9 +2336,9 @@ If a user is reported by multiple neighbors for excessive/false alerts:
 
 #### **Seamless Integration with Driver Apps**
 
-**Phase 1 (MVP): Neighbor 911 App**
-- Drivers toggle "On Shift" in Neighbor 911 app
-- Receive overdose alerts via Neighbor 911
+**Phase 1 (MVP): Naybor SOS App**
+- Drivers toggle "On Shift" in Naybor SOS app
+- Receive overdose alerts via Naybor SOS
 
 **Phase 2 (Preferred): Native App Integration**
 - **Uber/Lyft:** "Lifesaver Mode" toggle in driver app
@@ -2351,14 +2351,14 @@ If a user is reported by multiple neighbors for excessive/false alerts:
 - **Automatic clock-in:** When driver starts shift, auto-available for alerts
 - **Single interface:** Drivers stay in familiar app
 - **Higher participation:** Lower friction = more drivers enrolled
-- **API Integration:** Neighbor 911 ↔ Uber/Lyft/Amazon APIs for real-time coordination
+- **API Integration:** Naybor SOS ↔ Uber/Lyft/Amazon APIs for real-time coordination
 
 **Implementation:**
-- Neighbor 911 provides API to driver platforms
+- Naybor SOS provides API to driver platforms
 - Drivers opt-in once in their native app
 - Emergency alerts push through native app notification system
 - Companies track bonuses/stats in their existing systems
-- Neighbor 911 coordinates dispatch logic across platforms
+- Naybor SOS coordinates dispatch logic across platforms
 
 #### **Intelligent Dispatch Priority**
 
@@ -2598,10 +2598,10 @@ This governance model will end when Clayman: retires from the project, suffers i
 
 Over time, as Lifesaver Labs PBC gains more experience with open source development, Safeword™ may also transition in part, large part, or in full (less necessary secrets) toward open source development patterns to accelerate impact while reserving the underlying patent rights to muscle institutions when truly needed. It's something the founder is thinking hard about: arguably Safeword™ will go farther, faster in effective harm prevention if Lifesaver Labs PBC switches from closed source to open source on Safeword™ and engages many more rings of contributors and exposes most or all of our algorithms and experimental protocols to exhaustive calmunity (community) open code review. The founder recognizes that's more in keeping with open academic standards and principles.
 
-Neighbor 911 Distinction:
-In contrast, the Neighbor 911 project operates under a completely open development model. Only the trademark is protected—all other aspects are developed as openly as possible to maximize accessibility, collaborative improvement, and calmunity (community) trust.
+Naybor SOS Distinction:
+In contrast, the Naybor SOS project operates under a completely open development model. Only the trademark is protected—all other aspects are developed as openly as possible to maximize accessibility, collaborative improvement, and calmunity (community) trust.
 
-Clayman does not reserve any BDFL role on Neighbor 911 — it's not as sensitive or ethically controversial and requires even more extreme decisional calmpetence (competence) and program management delivery speed. Clayman would be happy to see many others stand forward, self-organize, and volunteer their talents to ethically lead and effectively accelerate the Neighbor 911 project and product vision.
+Clayman does not reserve any BDFL role on Naybor SOS — it's not as sensitive or ethically controversial and requires even more extreme decisional calmpetence (competence) and program management delivery speed. Clayman would be happy to see many others stand forward, self-organize, and volunteer their talents to ethically lead and effectively accelerate the Naybor SOS project and product vision.
 
 
 ---

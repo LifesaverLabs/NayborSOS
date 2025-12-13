@@ -138,11 +138,11 @@ Contoh yang ingin kami dokumentasikan:
 - Sumber daya dalam Bahasa Indonesia dan bahasa daerah
 
 **Cara berkontribusi:**
-1. Fork repository Neighbor911
+1. Fork repository NayborSOS
 2. Edit file ini
 3. Kirim pull request
 4. Atau kirim email ke team@lifesaverlabs.org
 
 ---
 
-*Halaman ini dikelola oleh komunitas Neighbor 911. Mencari kontributor Indonesia.*
+*Halaman ini dikelola oleh komunitas Naybor SOS. Mencari kontributor Indonesia.*

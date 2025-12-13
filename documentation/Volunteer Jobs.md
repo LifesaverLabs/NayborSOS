@@ -1,6 +1,6 @@
-# Volunteer Opportunities at Neighbor 911™
+# Volunteer Opportunities at Naybor SOS™
 
-**Help us build life-saving technology.** Neighbor 911 is an all-volunteer open-source project seeking passionate people across all disciplines to help create a community emergency response network that saves lives.
+**Help us build life-saving technology.** Naybor SOS is an all-volunteer open-source project seeking passionate people across all disciplines to help create a community emergency response network that saves lives.
 
 ---
 

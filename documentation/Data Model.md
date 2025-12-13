@@ -1,4 +1,4 @@
-# Neighbor 911 - Data Model & Schema Design
+# Naybor SOS - Data Model & Schema Design
 
 **Version:** 0.1 (AI-Generated Initial Proposal)
 **Last Updated:** 2025-11-10

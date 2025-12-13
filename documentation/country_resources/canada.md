@@ -100,11 +100,11 @@ Examples we know exist but need details:
 - Resources available in French and other languages
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file with your knowledge
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org with information
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Canadian contributors to complete this guide.*
+*This page is maintained by the Naybor SOS community. Seeking Canadian contributors to complete this guide.*

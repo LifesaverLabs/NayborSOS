@@ -267,4 +267,4 @@ With realistic implementation, the United States could match or exceed survival 
 - Implementation timeline (3-year ramp)  
 - Congressional briefing format  
 - Municipal pilot proposal  
-- Integration plan with Neighbor 911 / Neighbor SOS
+- Integration plan with Naybor SOS / Neighbor SOS

@@ -9,7 +9,7 @@
 
 ## 🌍 About This Guide
 
-This guide documents emergency response resources, training programs, apps, and community groups in [COUNTRY NAME]. Our goal is to help Neighbor 911 visitors and Minute Responders discover local resources that can help them prepare for emergencies.
+This guide documents emergency response resources, training programs, apps, and community groups in [COUNTRY NAME]. Our goal is to help Naybor SOS visitors and Minute Responders discover local resources that can help them prepare for emergencies.
 
 **What's included:**
 - Emergency response apps and alert systems
@@ -197,9 +197,9 @@ This guide documents emergency response resources, training programs, apps, and 
 
 ---
 
-## How Neighbor 911 Supports These Resources
+## How Naybor SOS Supports These Resources
 
-[Optional: Explain how Neighbor 911 promotes and integrates with these local resources]
+[Optional: Explain how Naybor SOS promotes and integrates with these local resources]
 
 **We encourage all Minute Responders in [COUNTRY] to:**
 - [Get certified in CPR/first aid]
@@ -238,7 +238,7 @@ This guide is maintained by:
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: [DATE]. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
+*This page is maintained by the Naybor SOS community. Last verified: [DATE]. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
 
 ---
 

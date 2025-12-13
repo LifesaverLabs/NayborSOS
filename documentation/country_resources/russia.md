@@ -64,11 +64,11 @@ If you live in Russia and know about:
 **This guide needs Russian experts!** Russia spans 11 time zones with diverse regional emergency response systems.
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create Russian version
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Russian contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Russian contributors.*

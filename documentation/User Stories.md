@@ -1,4 +1,4 @@
-# Neighbor911 - User Stories & Use Cases
+# Naybor SOS - User Stories & Use Cases
 
 **Version:** 1.0
 **Last Updated:** 2025-11-07
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This document contains user stories and use cases for the Neighbor911 Minute Response MVP. Stories are organized by user role and prioritized for the 8-week development timeline.
+This document contains user stories and use cases for the Naybor SOS Minute Response MVP. Stories are organized by user role and prioritized for the 8-week development timeline.
 
 **Priority Levels:**
 - 🔴 **P0 (Critical):** Must have for 8-week MVP
@@ -34,7 +34,7 @@ This document contains user stories and use cases for the Neighbor911 Minute Res
 
 #### 🔴 US-R1: Sign Up as a Responder
 **As a** neighbor who wants to help
-**I want to** sign up for Neighbor911 with my phone number
+**I want to** sign up for Naybor SOS with my phone number
 **So that** I can respond to emergencies in my community
 
 **Acceptance Criteria:**
@@ -508,7 +508,7 @@ Remember to grab:
 
 #### 🔴 US-O1: Sign Up to Request Help
 **As a** community member in need
-**I want to** sign up for Neighbor911
+**I want to** sign up for Naybor SOS
 **So that** I can request help from neighbors
 
 **Acceptance Criteria:**
@@ -574,14 +574,14 @@ Remember to grab:
 
 #### 🟡 US-O5: Trigger Alert from Safeword App
 **As a** Safeword app user
-**I want to** trigger a Neighbor911 alert from within Safeword
+**I want to** trigger a Naybor SOS alert from within Safeword
 **So that** I can get help during a consent emergency
 
 **Acceptance Criteria:**
-- Safeword app has integration with Neighbor911
+- Safeword app has integration with Naybor SOS
 - User can trigger "Bedroom Consent Emergency" alert from Safeword
 - Alert includes context from Safeword (if permitted)
-- Responders receive alert via Neighbor911
+- Responders receive alert via Naybor SOS
 
 **Notes:** Phase 2, requires Safeword integration
 
@@ -795,14 +795,14 @@ Normalize cheerleader boycotts at tackle football games nationwide. Make it soci
 - Number of cheerleader-initiated boycotts
 - Number of schools that transition to flag football after cheerleader boycott
 - Media coverage of cheerleader brain safety advocacy
-- Percentage of cheerleaders in Neighbor 911 network who participate in boycotts
+- Percentage of cheerleaders in Naybor SOS network who participate in boycotts
 - Student-led policy changes at schools
 
 **Notes:**
 - Phase 2 feature (post-MVP)
 - Requires coordination with school advocacy organizations
 - May need legal guidance for student rights
-- Powerful example of youth self-advocacy using Neighbor 911
+- Powerful example of youth self-advocacy using Naybor SOS
 
 ---
 
@@ -927,7 +927,7 @@ Responders needed: 1-3 neighbors
 - Complex trust and accountability systems
 - Different from immediate life-threatening emergencies
 - Response timeline: days/weeks not minutes
-- May need separate app experience or deep integration with Neighbor 911
+- May need separate app experience or deep integration with Naybor SOS
 
 ---
 
@@ -937,7 +937,7 @@ Responders needed: 1-3 neighbors
 
 #### 🟢 US-A1: View Active Alerts Dashboard
 **As a** government admin or 911 dispatcher
-**I want to** see all active Neighbor911 alerts in my jurisdiction
+**I want to** see all active Naybor SOS alerts in my jurisdiction
 **So that** I can monitor community responses
 
 **Acceptance Criteria:**
@@ -1001,7 +1001,7 @@ Responders needed: 1-3 neighbors
 
 #### 🟡 US-A5: Receive 911 Dispatch Notification
 **As a** 911 dispatcher
-**I want to** be notified when a Neighbor911 responder is en route
+**I want to** be notified when a Naybor SOS responder is en route
 **So that** I can coordinate professional EMS
 
 **Acceptance Criteria:**
@@ -1015,11 +1015,11 @@ Responders needed: 1-3 neighbors
 
 #### 🟢 US-A6: Track Neighbor Response via CAD
 **As a** 911 dispatcher
-**I want to** see Neighbor911 responses in my CAD (Computer-Aided Dispatch) system
+**I want to** see Naybor SOS responses in my CAD (Computer-Aided Dispatch) system
 **So that** I have full situational awareness
 
 **Acceptance Criteria:**
-- API integration between Neighbor911 and CAD system
+- API integration between Naybor SOS and CAD system
 - Neighbor responses appear as "Community Assist" incidents
 - Real-time status updates
 
@@ -1905,7 +1905,7 @@ community emergency fund.
 **Main Flow:**
 
 1. **John creates alert**
-   - John opens Neighbor911 app
+   - John opens Naybor SOS app
    - Taps "REQUEST HELP" button
    - Selects "Wellness Check / Door Knock"
    - Confirms location: "Mrs. Johnson, Apt 3A, 123 Main St"
@@ -2049,13 +2049,13 @@ community emergency fund.
 **Preconditions:**
 - Mike is certified in CPR and owns an AED, marked "Available Now"
 - Linda's husband Tom has collapsed, not breathing
-- Linda has Neighbor911 app installed
+- Linda has Naybor SOS app installed
 
 **Main Flow:**
 
 1. **Linda creates urgent alert**
    - Tom collapses at home, not breathing
-   - Linda opens Neighbor911, taps "REQUEST HELP"
+   - Linda opens Naybor SOS, taps "REQUEST HELP"
    - Selects "CPR / Cardiac Arrest"
    - Confirms location (auto-detected)
    - Adds description: "Husband collapsed, not breathing, 62 years old"
@@ -2180,7 +2180,7 @@ community emergency fund.
 
 **Preconditions:**
 - Alex is signed up, selected "Active Bystander Witness" and "Bedroom Consent Emergency" capabilities
-- Jamie has Safeword app integrated with Neighbor911
+- Jamie has Safeword app integrated with Naybor SOS
 - Both in same apartment building
 
 **Main Flow:**
@@ -2189,7 +2189,7 @@ community emergency fund.
    - Jamie is in bedroom with date, situation becomes non-consensual
    - Jamie says safeword "Red"
    - Safeword app detects safeword via voice recognition
-   - Safeword app triggers Neighbor911 alert automatically
+   - Safeword app triggers Naybor SOS alert automatically
    - Alert type: "Bedroom Consent Emergency"
    - Location: Jamie's apartment (from Safeword app)
 
@@ -2305,7 +2305,7 @@ community emergency fund.
 
 1. **Friend creates alert**
    - Friend finds person unresponsive, shallow breathing, blue lips
-   - Opens Neighbor911, taps "REQUEST HELP"
+   - Opens Naybor SOS, taps "REQUEST HELP"
    - Selects "Overdose / Naloxone Needed"
    - Confirms location
    - Description: "Friend unresponsive, suspect opioid overdose"
@@ -2376,7 +2376,7 @@ community emergency fund.
 
 **Preconditions:**
 - Alex is signed up, has selected "Choking / Heimlich Maneuver" capability, marked "Available Now"
-- Dorothy's son Michael has Neighbor911 app installed
+- Dorothy's son Michael has Naybor SOS app installed
 - Both are in same apartment building
 - Alex completed Heimlich training (knows technique)
 
@@ -2390,7 +2390,7 @@ community emergency fund.
    - Michael tries back slaps (ineffective)
 
 2. **Michael creates urgent alert**
-   - Michael opens Neighbor911, taps "REQUEST HELP"
+   - Michael opens Naybor SOS, taps "REQUEST HELP"
    - Selects "Choking / Heimlich Maneuver"
    - Location auto-confirmed: Apt 6C, 456 Oak St
    - Description: "Mom choking on steak, can't breathe, turning blue"
@@ -2603,7 +2603,7 @@ community emergency fund.
    - Alex is home alone, 11pm, stressed after work call
    - Intense urge to smoke cigarettes
    - Alex knows the craving will pass in 10-15 minutes but feels overwhelming alone
-   - Alex opens Neighbor911 app
+   - Alex opens Naybor SOS app
 
 2. **Alex creates quit support alert**
    - Taps "REQUEST HELP"

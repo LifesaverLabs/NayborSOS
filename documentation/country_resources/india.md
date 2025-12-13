@@ -211,7 +211,7 @@ Examples we'd like to document:
 - Resources in Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, and other regional languages
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file (or create language-specific versions)
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org with information
@@ -220,4 +220,4 @@ Examples we'd like to document:
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Indian contributors to complete this guide.*
+*This page is maintained by the Naybor SOS community. Seeking Indian contributors to complete this guide.*
