@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../models/emergency_type.dart';
 import '../../theme/app_theme.dart';
 import 'alert_status_screen.dart';
@@ -34,23 +35,24 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
     }
   }
 
-  String _getCategoryLabel(EmergencyCategory category) {
+  String _getCategoryLabel(BuildContext context, EmergencyCategory category) {
+    final l10n = AppLocalizations.of(context)!;
     switch (category) {
       case EmergencyCategory.lifeThreatening:
-        return '🔴 Life-Threatening';
+        return l10n.categoryLifeThreatening;
       case EmergencyCategory.securitySafety:
-        return '🟠 Security/Safety';
+        return l10n.categorySecuritySafety;
       case EmergencyCategory.urgentTimeSensitive:
-        return '🟡 Urgent Time-Sensitive';
+        return l10n.categoryUrgentTimeSensitive;
       case EmergencyCategory.nonLifeThreatening:
-        return '🟢 Non-Life-Threatening';
+        return l10n.categoryNonLifeThreatening;
     }
   }
 
   void _sendAlert() {
     if (_selectedType == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please select an emergency type')),
+        SnackBar(content: Text(AppLocalizations.of(context)!.pleaseSelectEmergencyType)),
       );
       return;
     }
@@ -68,9 +70,10 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Request Help'),
+        title: Text(l10n.requestHelp),
       ),
       body: Column(
         children: [
@@ -96,7 +99,7 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Your Location',
+                                l10n.yourLocation,
                                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                                   color: AppTheme.darkBlue,
                                 ),
@@ -119,7 +122,7 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                   const SizedBox(height: 24),
 
                   Text(
-                    'What do you need help with?',
+                    l10n.whatDoYouNeedHelpWith,
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 16),
@@ -129,7 +132,7 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                     Padding(
                       padding: const EdgeInsets.only(top: 8, bottom: 12),
                       child: Text(
-                        _getCategoryLabel(category),
+                        _getCategoryLabel(context, category),
                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           fontWeight: FontWeight.bold,
                           color: _getCategoryColor(category),
@@ -156,9 +159,9 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                     controller: _descriptionController,
                     maxLines: 3,
                     maxLength: 100,
-                    decoration: const InputDecoration(
-                      labelText: 'Additional Details (optional)',
-                      hintText: 'Describe the situation...',
+                    decoration: InputDecoration(
+                      labelText: l10n.additionalDetailsOptional,
+                      hintText: l10n.describeSituation,
                       alignLabelWithHint: true,
                     ),
                   ),
@@ -174,9 +177,9 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                           _alertTrustedFirst = value ?? false;
                         });
                       },
-                      title: const Text('Alert my trusted responders first'),
-                      subtitle: const Text(
-                        'Your selected friends/family will be notified before the general community',
+                      title: Text(l10n.alertTrustedRespondersFirst),
+                      subtitle: Text(
+                        l10n.trustedRespondersDescription,
                       ),
                       activeColor: AppTheme.accentBlue,
                     ),
@@ -206,7 +209,7 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                 children: [
                   if (_selectedType != null) ...[
                     Text(
-                      'Sending alert: ${_selectedType!.name}',
+                      l10n.sendingAlert(_selectedType!.name(context)),
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
                     const SizedBox(height: 12),
@@ -225,7 +228,7 @@ class _CreateAlertScreenState extends State<CreateAlertScreen> {
                           const Icon(Icons.emergency, size: 24),
                           const SizedBox(width: 12),
                           Text(
-                            'SEND ALERT NOW',
+                            l10n.sendAlertNow,
                             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -295,14 +298,14 @@ class _EmergencyTypeCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      emergencyType.name,
+                      emergencyType.name(context),
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         fontWeight: isSelected ? FontWeight.bold : FontWeight.w500,
                       ),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      emergencyType.description,
+                      emergencyType.description(context),
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
                   ],

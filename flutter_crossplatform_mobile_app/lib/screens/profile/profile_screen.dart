@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
 import 'alert_schedule_screen.dart';
 
@@ -7,9 +8,11 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: Text(l10n.profile),
         actions: [
           IconButton(
             icon: const Icon(Icons.settings),
@@ -70,7 +73,7 @@ class ProfileScreen extends StatelessWidget {
                   Expanded(
                     child: _StatCard(
                       icon: Icons.volunteer_activism,
-                      label: 'Responses',
+                      label: l10n.responses,
                       value: '0',
                       color: AppTheme.accentBlue,
                     ),
@@ -79,7 +82,7 @@ class ProfileScreen extends StatelessWidget {
                   Expanded(
                     child: _StatCard(
                       icon: Icons.schedule,
-                      label: 'Avg Time',
+                      label: l10n.avgTime,
                       value: '--',
                       color: AppTheme.successGreen,
                     ),
@@ -95,8 +98,8 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     ListTile(
                       leading: const Icon(Icons.medical_services, color: AppTheme.accentBlue),
-                      title: const Text('My Capabilities'),
-                      subtitle: const Text('3 selected'),
+                      title: Text(l10n.myCapabilities),
+                      subtitle: Text(l10n.capabilitiesSelected(3)),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Navigate to capabilities
@@ -105,8 +108,8 @@ class ProfileScreen extends StatelessWidget {
                     const Divider(height: 1),
                     ListTile(
                       leading: const Icon(Icons.schedule, color: AppTheme.accentBlue),
-                      title: const Text('Alert Schedule'),
-                      subtitle: const Text('Set your availability hours'),
+                      title: Text(l10n.alertSchedule),
+                      subtitle: Text(l10n.setAvailabilityHours),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         Navigator.of(context).push(
@@ -119,8 +122,8 @@ class ProfileScreen extends StatelessWidget {
                     const Divider(height: 1),
                     ListTile(
                       leading: const Icon(Icons.group, color: AppTheme.accentBlue),
-                      title: const Text('Trusted Responders'),
-                      subtitle: const Text('0 selected'),
+                      title: Text(l10n.trustedResponders),
+                      subtitle: Text(l10n.capabilitiesSelected(0)),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Navigate to trusted responders
@@ -138,7 +141,7 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     ListTile(
                       leading: const Icon(Icons.history, color: AppTheme.textSecondary),
-                      title: const Text('Response History'),
+                      title: Text(l10n.responseHistory),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Navigate to history
@@ -147,7 +150,7 @@ class ProfileScreen extends StatelessWidget {
                     const Divider(height: 1),
                     ListTile(
                       leading: const Icon(Icons.privacy_tip, color: AppTheme.textSecondary),
-                      title: const Text('Privacy & Safety'),
+                      title: Text(l10n.privacyAndSafety),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Navigate to privacy settings
@@ -156,7 +159,7 @@ class ProfileScreen extends StatelessWidget {
                     const Divider(height: 1),
                     ListTile(
                       leading: const Icon(Icons.help_outline, color: AppTheme.textSecondary),
-                      title: const Text('Help & Support'),
+                      title: Text(l10n.helpAndSupport),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Navigate to help
@@ -174,7 +177,7 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     ListTile(
                       leading: const Icon(Icons.info_outline, color: AppTheme.textSecondary),
-                      title: const Text('About Naybor SOS'),
+                      title: Text(l10n.aboutNayborSos),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         _showAboutDialog(context);
@@ -183,7 +186,7 @@ class ProfileScreen extends StatelessWidget {
                     const Divider(height: 1),
                     ListTile(
                       leading: const Icon(Icons.policy, color: AppTheme.textSecondary),
-                      title: const Text('Terms & Privacy Policy'),
+                      title: Text(l10n.termsAndPrivacyPolicy),
                       trailing: const Icon(Icons.chevron_right),
                       onTap: () {
                         // Show terms
@@ -206,13 +209,13 @@ class ProfileScreen extends StatelessWidget {
                     foregroundColor: AppTheme.primaryRed,
                     side: const BorderSide(color: AppTheme.primaryRed),
                   ),
-                  child: const Text('Sign Out'),
+                  child: Text(l10n.signOut),
                 ),
               ),
 
               const SizedBox(height: 16),
               Text(
-                'Version 1.0.0 (MVP)',
+                l10n.version('1.0.0 (MVP)'),
                 style: Theme.of(context).textTheme.bodySmall,
               ),
             ],
@@ -223,34 +226,29 @@ class ProfileScreen extends StatelessWidget {
   }
 
   void _showAboutDialog(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('About Naybor SOS'),
-        content: const SingleChildScrollView(
+        title: Text(l10n.aboutNayborSos),
+        content: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'Modern-Day Minutemen & Minutewomen',
-                style: TextStyle(fontWeight: FontWeight.bold),
+                l10n.tagline,
+                style: const TextStyle(fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
+              Text(l10n.aboutDialogContent),
+              const SizedBox(height: 16),
+              Text(l10n.aboutDialogContent2),
+              const SizedBox(height: 16),
               Text(
-                'Naybor SOS connects neighbors in emergencies, creating a network of '
-                'rapid responders who can provide critical aid before professional '
-                'first responders arrive.',
-              ),
-              SizedBox(height: 16),
-              Text(
-                'Everyone can be a hero. You don\'t need special training to save a life. '
-                'Sometimes the most powerful intervention is simply showing up.',
-              ),
-              SizedBox(height: 16),
-              Text(
-                'Lifesaver Labs Public Benefit Corporation',
-                style: TextStyle(fontStyle: FontStyle.italic),
+                l10n.lifesaverLabs,
+                style: const TextStyle(fontStyle: FontStyle.italic),
               ),
             ],
           ),
@@ -258,7 +256,7 @@ class ProfileScreen extends StatelessWidget {
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Close'),
+            child: Text(l10n.close),
           ),
         ],
       ),
@@ -266,25 +264,27 @@ class ProfileScreen extends StatelessWidget {
   }
 
   void _showSignOutDialog(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Sign Out?'),
-        content: const Text('Are you sure you want to sign out?'),
+        title: Text(l10n.signOutQuestion),
+        content: Text(l10n.signOutConfirm),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Cancel'),
+            child: Text(l10n.cancel),
           ),
           ElevatedButton(
             onPressed: () {
               Navigator.of(context).pop();
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Signed out successfully')),
+                SnackBar(content: Text(l10n.signedOutSuccessfully)),
               );
             },
             style: ElevatedButton.styleFrom(backgroundColor: AppTheme.primaryRed),
-            child: const Text('Sign Out'),
+            child: Text(l10n.signOut),
           ),
         ],
       ),

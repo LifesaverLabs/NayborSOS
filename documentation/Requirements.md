@@ -84,6 +84,8 @@ Neighbors who sign up to respond to specific emergency types based on their skil
 - **Active Bystander Witness:** Be present during a bedroom consent emergency or conflict—your presence alone can de-escalate
 - **Companionship:** Stay with someone experiencing loneliness or mental health crisis until professional help arrives
 - **Addiction Support / Quit Companion:** Be present with someone fighting a craving (nicotine, tobacco, substances)—walk with them, distract them, support them through the critical 10-15 minutes
+- **Hearth Emergency:** Provide or offer acceleration advice on verified essential survival resources (winter coat, space heater, air conditioning) to neighbors with certified need and build path forward
+- **Multi-Day Hunger:** Provide food assistance to neighbors experiencing food insecurity
 - **911 Coordination:** Call 911 and provide details, stay on the line, guide responders to location
 
 **Minimal Requirements:**
@@ -468,6 +470,10 @@ RESPONDER LIMITS
   Quit Companion:           1-2 responders
   Companionship:            1-2 responders
   Mental Health Crisis:     1-2 responders
+
+🟣 Resource Support (Multiple responders for pooled resources):
+  Hearth Emergency:         3-10 responders (verified need)
+  Multi-Day Hunger:         1-5 responders (food assistance)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 

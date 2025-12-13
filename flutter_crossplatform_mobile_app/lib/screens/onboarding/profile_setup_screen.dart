@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
 import 'capability_selection_screen.dart';
 
@@ -25,7 +26,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   void _continue() {
     if (_nameController.text.isEmpty || _addressController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please fill in all required fields')),
+        SnackBar(content: Text(AppLocalizations.of(context)!.pleaseFillRequiredFields)),
       );
       return;
     }
@@ -39,7 +40,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Profile'),
+        title: Text(AppLocalizations.of(context)!.createProfile),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -48,12 +49,12 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Tell us about yourself',
+                AppLocalizations.of(context)!.tellUsAboutYourself,
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: 8),
               Text(
-                'This information helps us connect you with neighbors who need help',
+                AppLocalizations.of(context)!.profileSetupDescription,
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
               const SizedBox(height: 32),
@@ -98,7 +99,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               const SizedBox(height: 8),
               Center(
                 child: Text(
-                  'Add photo (optional)',
+                  AppLocalizations.of(context)!.addPhotoOptional,
                   style: Theme.of(context).textTheme.bodySmall,
                 ),
               ),
@@ -108,10 +109,10 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               // Name
               TextField(
                 controller: _nameController,
-                decoration: const InputDecoration(
-                  labelText: 'Full Name *',
-                  hintText: 'John Smith',
-                  prefixIcon: Icon(Icons.person_outline),
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.fullNameLabel,
+                  hintText: AppLocalizations.of(context)!.fullNameHint,
+                  prefixIcon: const Icon(Icons.person_outline),
                 ),
               ),
               const SizedBox(height: 16),
@@ -119,11 +120,11 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               // Home Address
               TextField(
                 controller: _addressController,
-                decoration: const InputDecoration(
-                  labelText: 'Home Address *',
-                  hintText: '123 Main St, Apt 4B',
-                  prefixIcon: Icon(Icons.home_outlined),
-                  helperText: 'Used for proximity matching only',
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.homeAddressLabel,
+                  hintText: AppLocalizations.of(context)!.homeAddressHint,
+                  prefixIcon: const Icon(Icons.home_outlined),
+                  helperText: AppLocalizations.of(context)!.homeAddressHelper,
                 ),
               ),
               const SizedBox(height: 16),
@@ -132,11 +133,11 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
               TextField(
                 controller: _ageController,
                 keyboardType: TextInputType.number,
-                decoration: const InputDecoration(
-                  labelText: 'Age (optional)',
-                  hintText: '25',
-                  prefixIcon: Icon(Icons.calendar_today),
-                  helperText: 'Ages 70+ can set gentle alert hours',
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.ageOptionalLabel,
+                  hintText: AppLocalizations.of(context)!.ageHint,
+                  prefixIcon: const Icon(Icons.calendar_today),
+                  helperText: AppLocalizations.of(context)!.ageHelper,
                 ),
               ),
 
@@ -163,14 +164,14 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Your privacy matters',
+                            AppLocalizations.of(context)!.yourPrivacyMatters,
                             style: Theme.of(context).textTheme.titleMedium?.copyWith(
                               color: AppTheme.accentBlue,
                             ),
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            'Your location is only queried during active emergencies and never stored long-term.',
+                            AppLocalizations.of(context)!.privacyNotice,
                             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               color: AppTheme.darkBlue,
                             ),
@@ -189,7 +190,7 @@ class _ProfileSetupScreenState extends State<ProfileSetupScreen> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: _continue,
-                  child: const Text('Continue'),
+                  child: Text(AppLocalizations.of(context)!.continueButton),
                 ),
               ),
             ],

@@ -1,0 +1,624 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+
+  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "@tagline": {
+    "description": "App tagline"
+  },
+
+  "signUpToHelp": "Sign up to help your neighbors",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+
+  "enterPhoneNumber": "Enter your phone number to get started",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+
+  "phoneNumberLabel": "Phone Number",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+
+  "sendVerificationCode": "Send Verification Code",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+
+  "enterVerificationCode": "Enter verification code",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+
+  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+
+  "verificationCodeLabel": "Verification Code",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+
+  "verifyAndContinue": "Verify & Continue",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+
+  "changePhoneNumber": "Change phone number",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+
+  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+
+  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+
+  "createProfile": "Create Profile",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+
+  "tellUsAboutYourself": "Tell us about yourself",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+
+  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+
+  "addPhotoOptional": "Add photo (optional)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+
+  "fullNameLabel": "Full Name *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+
+  "fullNameHint": "John Smith",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+
+  "homeAddressLabel": "Home Address *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+
+  "homeAddressHint": "123 Main St, Apt 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+
+  "homeAddressHelper": "Used for proximity matching only",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+
+  "ageOptionalLabel": "Age (optional)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+
+  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+
+  "yourPrivacyMatters": "Your privacy matters",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+
+  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+
+  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+
+  "home": "Home",
+  "@home": {
+    "description": "Home navigation label"
+  },
+
+  "alerts": "Alerts",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+
+  "availableToRespond": "Available to Respond",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+
+  "notAvailable": "Not Available",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+
+  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+
+  "toggleOnWhenReady": "Toggle on when ready to help",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+
+  "youreNowAvailable": "You're now available to respond",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+
+  "youWontReceiveAlerts": "You won't receive alerts",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+
+  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+
+  "requestHelp": "REQUEST HELP",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+
+  "yourImpact": "Your Impact",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+
+  "responses": "Responses",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+
+  "avgTime": "Avg Time",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+
+  "yourCapabilities": "Your Capabilities",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+
+  "communityNetwork": "Community Network",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+
+  "nearbyResponders": "Nearby Responders",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+
+  "nearbyRespondersAvailable": "{count} available",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+
+  "coverageRadius": "Coverage Radius",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+
+  "coverageRadiusValue": "{distance} miles",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+
+  "activeAlerts": "Active Alerts",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+
+  "none": "None",
+  "@none": {
+    "description": "None text"
+  },
+
+  "yourLocation": "Your Location",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+
+  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+
+  "additionalDetailsOptional": "Additional Details (optional)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+
+  "describeSituation": "Describe the situation...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+
+  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+
+  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+
+  "sendingAlert": "Sending alert: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+
+  "sendAlertNow": "SEND ALERT NOW",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+
+  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+
+  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+
+  "categorySecuritySafety": "🟠 Security/Safety",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+
+  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+
+  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+
+  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+
+  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+
+  "emergencyAedName": "AED Delivery",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+
+  "emergencyAedDesc": "Need an AED immediately",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+
+  "emergencyOverdoseName": "Overdose / Naloxone",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+
+  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+
+  "emergencyChokingName": "Choking / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+
+  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+
+  "emergencyFireName": "Fire / Evacuation",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+
+  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+
+  "emergencyConsentName": "Bedroom Consent Emergency",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+
+  "emergencyConsentDesc": "Safeword called, need witness",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+
+  "emergencyBystanderName": "Active Bystander Witness",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+
+  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+
+  "emergencyMissingPetName": "Missing Pet",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+
+  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+
+  "emergencyWellnessCheckName": "Wellness Check",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+
+  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+
+  "emergencyQuitCompanionName": "Quit Companion",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+
+  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+
+  "emergencyCompanionshipName": "Companionship",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+
+  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+
+  "emergency911CoordinationName": "911 Coordination",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+
+  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+
+  "equipmentNaloxone": "Naloxone/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+
+  "myCapabilities": "My Capabilities",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+
+  "capabilitiesSelected": "{count} selected",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "alertSchedule": "Alert Schedule",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+
+  "setAvailabilityHours": "Set your availability hours",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+
+  "trustedResponders": "Trusted Responders",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+
+  "responseHistory": "Response History",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+
+  "privacyAndSafety": "Privacy & Safety",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+
+  "helpAndSupport": "Help & Support",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+
+  "aboutNayborSos": "About Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+
+  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+
+  "signOut": "Sign Out",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+
+  "version": "Version {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+
+  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+
+  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+
+  "signOutQuestion": "Sign Out?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+
+  "signOutConfirm": "Are you sure you want to sign out?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+
+  "signedOutSuccessfully": "Signed out successfully",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings text"
+  },
+
+  "capabilityWellnessCheck": "Wellness Check",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+
+  "capabilityQuitCompanion": "Quit Companion",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+
+  "capabilityActiveBystander": "Active Bystander",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  }
+}

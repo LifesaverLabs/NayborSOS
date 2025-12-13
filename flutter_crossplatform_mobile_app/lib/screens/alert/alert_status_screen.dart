@@ -141,7 +141,7 @@ class _AlertStatusScreenState extends State<AlertStatusScreen> {
                           ),
                           const SizedBox(height: 16),
                           Text(
-                            widget.emergencyType.name,
+                            widget.emergencyType.name(context),
                             style: Theme.of(context).textTheme.headlineMedium,
                             textAlign: TextAlign.center,
                           ),

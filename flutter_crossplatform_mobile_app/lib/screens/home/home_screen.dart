@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
 import '../alert/create_alert_screen.dart';
 import '../profile/profile_screen.dart';
@@ -34,18 +35,18 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         selectedItemColor: AppTheme.primaryRed,
         unselectedItemColor: AppTheme.textSecondary,
-        items: const [
+        items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
+            icon: const Icon(Icons.home),
+            label: AppLocalizations.of(context)!.home,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.notification_important),
-            label: 'Alerts',
+            icon: const Icon(Icons.notification_important),
+            label: AppLocalizations.of(context)!.alerts,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
+            icon: const Icon(Icons.person),
+            label: AppLocalizations.of(context)!.profile,
           ),
         ],
       ),
@@ -68,7 +69,7 @@ class _HomeTabState extends State<_HomeTab> {
     return Scaffold(
       backgroundColor: AppTheme.backgroundColor,
       appBar: AppBar(
-        title: const Text('Naybor SOS'),
+        title: Text(AppLocalizations.of(context)!.appTitle),
         actions: [
           IconButton(
             icon: const Icon(Icons.notifications_outlined),
@@ -107,14 +108,16 @@ class _HomeTabState extends State<_HomeTab> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  _isAvailable ? 'Available to Respond' : 'Not Available',
+                                  _isAvailable
+                                      ? AppLocalizations.of(context)!.availableToRespond
+                                      : AppLocalizations.of(context)!.notAvailable,
                                   style: Theme.of(context).textTheme.titleLarge,
                                 ),
                                 const SizedBox(height: 4),
                                 Text(
                                   _isAvailable
-                                      ? 'You\'ll receive emergency alerts nearby'
-                                      : 'Toggle on when ready to help',
+                                      ? AppLocalizations.of(context)!.youllReceiveEmergencyAlerts
+                                      : AppLocalizations.of(context)!.toggleOnWhenReady,
                                   style: Theme.of(context).textTheme.bodyMedium,
                                 ),
                               ],
@@ -130,8 +133,8 @@ class _HomeTabState extends State<_HomeTab> {
                                 SnackBar(
                                   content: Text(
                                     value
-                                        ? 'You\'re now available to respond'
-                                        : 'You won\'t receive alerts',
+                                        ? AppLocalizations.of(context)!.youreNowAvailable
+                                        : AppLocalizations.of(context)!.youWontReceiveAlerts,
                                   ),
                                   duration: const Duration(seconds: 2),
                                 ),
@@ -154,7 +157,7 @@ class _HomeTabState extends State<_HomeTab> {
                               const SizedBox(width: 8),
                               Expanded(
                                 child: Text(
-                                  'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.',
+                                  AppLocalizations.of(context)!.lifeThreatening247Info,
                                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
                                     color: AppTheme.darkBlue,
                                   ),
@@ -191,7 +194,7 @@ class _HomeTabState extends State<_HomeTab> {
                       const Icon(Icons.emergency, size: 32),
                       const SizedBox(width: 16),
                       Text(
-                        'REQUEST HELP',
+                        AppLocalizations.of(context)!.requestHelp,
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -206,7 +209,7 @@ class _HomeTabState extends State<_HomeTab> {
 
               // Quick Stats
               Text(
-                'Your Impact',
+                AppLocalizations.of(context)!.yourImpact,
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               const SizedBox(height: 12),
@@ -215,7 +218,7 @@ class _HomeTabState extends State<_HomeTab> {
                   Expanded(
                     child: _StatCard(
                       icon: Icons.volunteer_activism,
-                      label: 'Responses',
+                      label: AppLocalizations.of(context)!.responses,
                       value: '0',
                       color: AppTheme.accentBlue,
                     ),
@@ -224,7 +227,7 @@ class _HomeTabState extends State<_HomeTab> {
                   Expanded(
                     child: _StatCard(
                       icon: Icons.timer,
-                      label: 'Avg Time',
+                      label: AppLocalizations.of(context)!.avgTime,
                       value: '--',
                       color: AppTheme.successGreen,
                     ),
@@ -239,14 +242,14 @@ class _HomeTabState extends State<_HomeTab> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Your Capabilities',
+                    AppLocalizations.of(context)!.yourCapabilities,
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   TextButton(
                     onPressed: () {
                       // Navigate to capability management
                     },
-                    child: const Text('Edit'),
+                    child: Text(AppLocalizations.of(context)!.edit),
                   ),
                 ],
               ),
@@ -256,11 +259,20 @@ class _HomeTabState extends State<_HomeTab> {
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
                     children: [
-                      _CapabilityChip(icon: '🚪', label: 'Wellness Check'),
+                      _CapabilityChip(
+                        icon: '🚪',
+                        label: AppLocalizations.of(context)!.capabilityWellnessCheck,
+                      ),
                       const SizedBox(height: 8),
-                      _CapabilityChip(icon: '🚭', label: 'Quit Companion'),
+                      _CapabilityChip(
+                        icon: '🚭',
+                        label: AppLocalizations.of(context)!.capabilityQuitCompanion,
+                      ),
                       const SizedBox(height: 8),
-                      _CapabilityChip(icon: '👁️', label: 'Active Bystander'),
+                      _CapabilityChip(
+                        icon: '👁️',
+                        label: AppLocalizations.of(context)!.capabilityActiveBystander,
+                      ),
                     ],
                   ),
                 ),
@@ -270,7 +282,7 @@ class _HomeTabState extends State<_HomeTab> {
 
               // Community Status
               Text(
-                'Community Network',
+                AppLocalizations.of(context)!.communityNetwork,
                 style: Theme.of(context).textTheme.titleLarge,
               ),
               const SizedBox(height: 12),
@@ -281,22 +293,22 @@ class _HomeTabState extends State<_HomeTab> {
                     children: [
                       _InfoRow(
                         icon: Icons.people,
-                        label: 'Nearby Responders',
-                        value: '12 available',
+                        label: AppLocalizations.of(context)!.nearbyResponders,
+                        value: AppLocalizations.of(context)!.nearbyRespondersAvailable(12),
                         valueColor: AppTheme.successGreen,
                       ),
                       const Divider(height: 24),
                       _InfoRow(
                         icon: Icons.location_on,
-                        label: 'Coverage Radius',
-                        value: '0.5 miles',
+                        label: AppLocalizations.of(context)!.coverageRadius,
+                        value: AppLocalizations.of(context)!.coverageRadiusValue('0.5'),
                         valueColor: AppTheme.accentBlue,
                       ),
                       const Divider(height: 24),
                       _InfoRow(
                         icon: Icons.emergency,
-                        label: 'Active Alerts',
-                        value: 'None',
+                        label: AppLocalizations.of(context)!.activeAlerts,
+                        value: AppLocalizations.of(context)!.none,
                         valueColor: AppTheme.textSecondary,
                       ),
                     ],

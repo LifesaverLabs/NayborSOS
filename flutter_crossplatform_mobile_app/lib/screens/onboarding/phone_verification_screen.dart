@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../theme/app_theme.dart';
 import 'profile_setup_screen.dart';
 
@@ -25,7 +26,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
   void _sendCode() {
     if (_phoneController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please enter your phone number')),
+        SnackBar(content: Text(AppLocalizations.of(context)!.pleaseEnterPhoneNumber)),
       );
       return;
     }
@@ -46,7 +47,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
   void _verifyCode() {
     if (_codeController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please enter the verification code')),
+        SnackBar(content: Text(AppLocalizations.of(context)!.pleaseEnterVerificationCode)),
       );
       return;
     }
@@ -94,7 +95,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
               const SizedBox(height: 24),
               Center(
                 child: Text(
-                  'Naybor SOS',
+                  AppLocalizations.of(context)!.appTitle,
                   style: Theme.of(context).textTheme.displayMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -103,7 +104,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
               const SizedBox(height: 8),
               Center(
                 child: Text(
-                  'Modern-Day Minutemen & Minutewomen',
+                  AppLocalizations.of(context)!.tagline,
                   style: Theme.of(context).textTheme.bodyMedium,
                   textAlign: TextAlign.center,
                 ),
@@ -113,42 +114,42 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
               // Main Content
               if (!_codeSent) ...[
                 Text(
-                  'Sign up to help your neighbors',
+                  AppLocalizations.of(context)!.signUpToHelp,
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Enter your phone number to get started',
+                  AppLocalizations.of(context)!.enterPhoneNumber,
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 24),
                 TextField(
                   controller: _phoneController,
                   keyboardType: TextInputType.phone,
-                  decoration: const InputDecoration(
-                    labelText: 'Phone Number',
-                    hintText: '(555) 123-4567',
-                    prefixIcon: Icon(Icons.phone),
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context)!.phoneNumberLabel,
+                    hintText: AppLocalizations.of(context)!.phoneNumberHint,
+                    prefixIcon: const Icon(Icons.phone),
                   ),
                 ),
               ] else ...[
                 Text(
-                  'Enter verification code',
+                  AppLocalizations.of(context)!.enterVerificationCode,
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'We sent a code to ${_phoneController.text}',
+                  AppLocalizations.of(context)!.verificationCodeSent(_phoneController.text),
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 24),
                 TextField(
                   controller: _codeController,
                   keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(
-                    labelText: 'Verification Code',
-                    hintText: '123456',
-                    prefixIcon: Icon(Icons.lock),
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context)!.verificationCodeLabel,
+                    hintText: AppLocalizations.of(context)!.verificationCodeHint,
+                    prefixIcon: const Icon(Icons.lock),
                   ),
                 ),
               ],
@@ -169,7 +170,9 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                             valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                           ),
                         )
-                      : Text(_codeSent ? 'Verify & Continue' : 'Send Verification Code'),
+                      : Text(_codeSent
+                          ? AppLocalizations.of(context)!.verifyAndContinue
+                          : AppLocalizations.of(context)!.sendVerificationCode),
                 ),
               ),
 
@@ -183,7 +186,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                         _codeController.clear();
                       });
                     },
-                    child: const Text('Change phone number'),
+                    child: Text(AppLocalizations.of(context)!.changePhoneNumber),
                   ),
                 ),
               ],

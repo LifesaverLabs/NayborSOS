@@ -81,6 +81,8 @@ This document contains user stories and use cases for the Neighbor911 Minute Res
 - Wellness Check / Door Knock
 - Active Bystander Witness
 - Addiction Support / Quit Companion (nicotine, tobacco, substances)
+- Hearth Emergency (winter survival needs, essential resources)
+- Multi-Day Hunger (food insecurity emergency)
 - 911 Coordination
 - CPR / Cardiac Arrest
 - AED Delivery
@@ -801,6 +803,131 @@ Normalize cheerleader boycotts at tackle football games nationwide. Make it soci
 - Requires coordination with school advocacy organizations
 - May need legal guidance for student rights
 - Powerful example of youth self-advocacy using Neighbor 911
+
+---
+
+#### 🟡 US-O15: Request Hearth Emergency Support
+**As a** community member facing survival resource needs
+**I want to** request verified assistance for essential survival needs (shelter, warmth, food)
+**So that** I can receive coordinated calmunity support during a critical resource emergency
+
+**Acceptance Criteria:**
+- User can trigger "Hearth Emergency" alert with specific need type:
+  - Winter Survival (coat, space heater, blankets)
+  - Multi-Day Hunger (food insecurity)
+  - Shelter/Housing Emergency
+  - Essential Resource Gap (utilities, transportation to essential services)
+- Alert requires verification by calmunity organization or government agency before dispatch
+- Alert includes:
+  - Specific need description (verifiable)
+  - Current situation and safety status
+  - Build plan context (how support enables path forward)
+  - Stewardship commitment (reporting outcomes, ongoing communication)
+- System routes alert to verification authority first, then to calmunity responders
+- Responders can coordinate resource pooling (multiple neighbors contributing)
+
+**Example Alert Flow:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔶 HEARTH EMERGENCY REQUEST
+
+Need: Winter Coat (Chicago, 15°F)
+Requester: James (age 28)
+
+"I just arrived in Chicago for work opportunity.
+I have a job interview Monday but my coat was
+stolen and I can't afford a winter coat before
+interview. Without it I can't get to the job
+safely or present well. This job gets me off
+the streets and into stable housing."
+
+Build Path: Job interview → Income → Housing
+Verification Status: PENDING
+→ Sent to [Community Org Name] for verification
+
+[Verification Org Reviews: Income proof, interview
+confirmation, housing plan, past stewardship]
+
+✓ VERIFIED by [Org Name]
+→ Now dispatching to calmunity responders...
+
+Responders needed: 1-3 neighbors
+- Coat donation or funds for coat ($50-150)
+- Optional: Transportation to job interview
+- Optional: Interview prep support
+
+[ACCEPT - I CAN HELP]
+[DECLINE - Find Someone Else]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Verification Requirements:**
+- Request must demonstrate genuine need (not fraud)
+- Must show verifiable build path forward (not dependency)
+- Must commit to stewardship (outcome reporting, communication)
+- Verification org certifies need authenticity
+- Pattern of responsible past stewardship increases trust
+
+**Responder Matching:**
+- System prioritizes responders who indicated willingness to provide resource support
+- Allows multi-responder coordination (crowd-resourcing)
+- Shows total resources needed and resources committed so far
+- Responders can contribute partial support (e.g., $20 toward $100 need)
+
+**Stewardship & Accountability:**
+- Requester commits to reporting outcomes (how resources were used)
+- Optional: Photo/receipt evidence of resource transformation
+- Follow-up communication expected (not black hole)
+- Builds ongoing trust relationship with calmunity
+- Success stories strengthen future requests
+- Abuse/fraud detection flags accounts for review
+
+**Why This Matters:**
+- **Verifiable need prevents abuse** - Not open to all panhandlers, only genuine emergencies
+- **Build path focus prevents dependency** - Resources enable forward progress, not stagnation
+- **Stewardship builds trust** - Ongoing communication creates accountability
+- **Calmunity swarm amplifies impact** - Many neighbors small contributions = big help
+- **Prevents time waste** - Verified needs don't waste responders' time on fraud
+- **Outcome visibility motivates giving** - Seeing resources transform lives encourages continued support
+
+**Non-Qualifying Examples (to clarify boundaries):**
+- ❌ Regular panhandling with no build path
+- ❌ Substance abuse with no recovery plan
+- ❌ Repeat requests with no outcome reporting from previous help
+- ❌ Requests without verification from trusted org
+- ❌ Fraudulent need claims (detected via verification)
+
+**Qualifying Examples:**
+- ✅ Winter coat needed for job interview leading to housing
+- ✅ Space heater for family with shut-off utilities while resolving payment plan
+- ✅ Food for single parent between paychecks who is employed but short this week
+- ✅ Transportation funds for medical appointment required for disability benefits
+- ✅ Work boots/tools needed to start construction job on Monday
+
+**Long-Term Vision:**
+- Create sustainable safety net that empowers rather than enables
+- Build trust-based resource networks in local calmunities
+- Enable neighbors to help neighbors climb out of temporary crises
+- Prevent survival emergencies from derailing build paths
+- Document and celebrate transformation stories
+- Foster culture of stewardship and accountability
+
+**Success Metrics:**
+- Number of verified Hearth Emergencies resolved
+- Percentage of requesters who report positive outcomes
+- Percentage who successfully complete build path (job, housing, stability)
+- Trust score improvement over time for responsible requesters
+- Responder satisfaction with outcome visibility
+- Fraud/abuse detection rate
+
+**Notes:**
+- Phase 2 feature (post-MVP)
+- Requires partnerships with verification organizations (community orgs, social services, government)
+- Needs robust verification infrastructure
+- Complex trust and accountability systems
+- Different from immediate life-threatening emergencies
+- Response timeline: days/weeks not minutes
+- May need separate app experience or deep integration with Neighbor 911
 
 ---
 
