@@ -1,14 +1,24 @@
 # 🚀 Quick Start Guide - Naybor SOS Flutter App
 
-## ✅ **Flutter is Now Working!**
-
-This project uses **`mise`** to manage the Flutter SDK, just like the safeword_flutter project.
+> **📖 New to this project?** Start with [README.md](README.md) for a complete setup guide!
 
 ---
 
-## ⚡ **TL;DR - Choose Your Adventure**
+## ✅ **Flutter is Managed by mise**
 
-Pick ONE of these options to avoid typing `mise exec -- flutter` constantly:
+This project uses **`mise`** (version manager) to install and manage Flutter, ensuring everyone uses the same version.
+
+**Why mise?**
+- ✅ Consistent Flutter version across all developers
+- ✅ No conflicts with system-installed Flutter
+- ✅ Automatic installation of correct version
+- ✅ Works alongside other mise-managed projects
+
+---
+
+## ⚡ **TL;DR - Choose Your Setup Method**
+
+**New developers:** Pick ONE of these options to avoid typing `mise exec -- flutter` constantly:
 
 | Method | Setup Time | Convenience | Recommendation |
 |--------|-----------|-------------|----------------|

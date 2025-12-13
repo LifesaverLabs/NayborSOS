@@ -620,5 +620,25 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+
+  "demoUserInitials": "JD",
+  "@demoUserInitials": {
+    "description": "Demo user initials for avatar"
+  },
+
+  "demoUserName": "John Doe",
+  "@demoUserName": {
+    "description": "Demo user name for profile"
+  },
+
+  "demoUserPhone": "(555) 123-4567",
+  "@demoUserPhone": {
+    "description": "Demo user phone number"
+  },
+
+  "demoUserAddress": "123 Main St, Apt 4B",
+  "@demoUserAddress": {
+    "description": "Demo user address"
   }
 }

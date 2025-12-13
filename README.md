@@ -166,24 +166,87 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 
 ### Getting Started
 
-1. **Read the Docs**
+#### 1. Read the Docs
    - [Architecture](docs/Architecture.md) - Technical design and implementation
    - [Requirements](docs/Requirements.md) - Full product vision and roadmap
    - [User Stories](docs/User%20Stories.md) - Features from user perspective
    - [Contributing Guide](docs/Contributing.md) - Development principles and contributor guidelines
 
-2. **Set Up Development Environment**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/LifesaverLabs/NayborSOS.git
-   cd NayborSOS
+#### 2. Set Up Development Environment
 
-   # Install Flutter dependencies
-   flutter pub get
+**Prerequisites:**
+- [mise](https://mise.jdx.dev/) - Version manager that handles Flutter installation
+- Git
+- A code editor (VS Code, Android Studio, etc.)
 
-   # Run the app
-   flutter run
-   ```
+**Step-by-Step Setup:**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/LifesaverLabs/NayborSOS.git
+cd NayborSOS/flutter_crossplatform_mobile_app
+
+# 2. Install mise if you haven't already
+# macOS:
+brew install mise
+
+# Linux:
+curl https://mise.run | sh
+
+# 3. Trust the mise configuration and install Flutter
+mise trust
+mise install
+
+# 4. Choose ONE setup method to avoid typing "mise exec" constantly:
+```
+
+**🌟 RECOMMENDED: mise activate (30 seconds, works everywhere)**
+
+Add to your shell config (`~/.zshrc` for zsh or `~/.bashrc` for bash):
+
+```bash
+# Add this line:
+eval "$(mise activate zsh)"  # or bash, fish, etc.
+
+# Then reload:
+source ~/.zshrc
+```
+
+Now `flutter` commands work automatically in any mise-managed project!
+
+**Alternative: Project-specific aliases**
+
+If you prefer project-specific setup, add to your `~/.zshrc`:
+
+```bash
+# Naybor SOS Flutter shortcuts
+alias flutter='mise exec -- flutter'
+alias fl='mise exec -- flutter'
+alias frun='mise exec -- flutter run'
+alias fget='mise exec -- flutter pub get'
+```
+
+Then reload: `source ~/.zshrc`
+
+**After Setup:**
+
+```bash
+# Get dependencies
+flutter pub get
+
+# Generate localization files (for i18n)
+flutter gen-l10n
+
+# Run the app
+flutter run
+
+# Or run on specific device
+flutter run -d chrome  # Web browser
+flutter run -d ios     # iOS simulator
+flutter run -d android # Android emulator
+```
+
+**📖 Detailed Setup Guide:** See [flutter_crossplatform_mobile_app/QUICK_START.md](flutter_crossplatform_mobile_app/QUICK_START.md) for more options and troubleshooting.
 
 3. **Join the Calmunity**
    - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination

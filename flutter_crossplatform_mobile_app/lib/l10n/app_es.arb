@@ -117,5 +117,9 @@
   "settings": "Configuración",
   "capabilityWellnessCheck": "Verificación de Bienestar",
   "capabilityQuitCompanion": "Compañero para Dejar de Fumar",
-  "capabilityActiveBystander": "Testigo Activo"
+  "capabilityActiveBystander": "Testigo Activo",
+  "demoUserInitials": "JP",
+  "demoUserName": "Juan Pérez",
+  "demoUserPhone": "(555) 123-4567",
+  "demoUserAddress": "Calle Principal 123, Apto 4B"
 }

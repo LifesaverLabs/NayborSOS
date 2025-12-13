@@ -31,9 +31,9 @@ class ProfileScreen extends StatelessWidget {
               CircleAvatar(
                 radius: 50,
                 backgroundColor: AppTheme.accentBlue,
-                child: const Text(
-                  'JD',
-                  style: TextStyle(
+                child: Text(
+                  l10n.demoUserInitials,
+                  style: const TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
@@ -42,12 +42,12 @@ class ProfileScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               Text(
-                'John Doe',
+                l10n.demoUserName,
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: 4),
               Text(
-                '(555) 123-4567',
+                l10n.demoUserPhone,
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
               const SizedBox(height: 8),
@@ -58,7 +58,7 @@ class ProfileScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
-                  '123 Main St, Apt 4B',
+                  l10n.demoUserAddress,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: AppTheme.accentBlue,
                   ),
