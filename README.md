@@ -325,6 +325,6 @@ Whether you're a neighbor ready to help others, or a contributor ready to build 
 
 ---
 
-*Neighbor 911™ is a project of Lifesaver Labs Public Benefit Corporation, organized to create technology that saves lives while serving the public good.*
+*Naybor SOS™ and Neighbor 911™ is a project of Lifesaver Labs Coalition and Lifesaver Labs Public Benefit Corporation, organized to create technology that saves lives while serving the public good.*
 
 Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has. - Margaret Mead

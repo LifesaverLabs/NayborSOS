@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'theme/app_theme.dart';
-import 'screens/onboarding/phone_verification_screen.dart';
+import 'screens/onboarding/language_selection_screen.dart';
+import 'models/language_info.dart';
 
 void main() {
   runApp(const NayborSOSApp());
@@ -23,11 +24,8 @@ class NayborSOSApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      supportedLocales: const [
-        Locale('en'), // English
-        Locale('es'), // Spanish
-      ],
-      home: const PhoneVerificationScreen(),
+      supportedLocales: SupportedLanguages.all.map((lang) => Locale(lang.code)).toList(),
+      home: const LanguageSelectionScreen(),
     );
   }
 }
