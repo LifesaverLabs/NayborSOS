@@ -19,9 +19,7 @@ class LanguageInfo {
   String get confidenceNotice {
     switch (tier) {
       case ConfidenceTier.tier1:
-        return code == 'es'
-            ? 'This translation has been professionally reviewed.'
-            : 'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+        return 'This translation was AI-generated with high confidence. Professional review recommended for production use.';
       case ConfidenceTier.tier2:
         return 'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
       case ConfidenceTier.tier3:
@@ -34,7 +32,7 @@ class LanguageInfo {
   String get tierLabel {
     switch (tier) {
       case ConfidenceTier.tier1:
-        return code == 'es' ? 'Professional Quality' : 'High AI Confidence';
+        return 'High AI Confidence';
       case ConfidenceTier.tier2:
         return 'Good AI Confidence';
       case ConfidenceTier.tier3:
