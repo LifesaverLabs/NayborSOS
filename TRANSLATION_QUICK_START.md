@@ -25,13 +25,20 @@ All ARB files are located at:
 
 ## Current Status
 
-### ✓ Translated (4 languages)
+### ✓ Translated (10 languages)
 - **English (en):** Complete - Source language
 - **Spanish (es):** Complete with professional translations
-- **French (fr):** Complete with AI-generated translations (professional review recommended)
-- **Chinese/Mandarin (zh):** Complete with AI-generated translations (professional review recommended)
+- **Arabic (ar):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Chinese/Mandarin (zh):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **French (fr):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **German (de):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Hindi (hi):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Italian (it):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Japanese (ja):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Korean (ko):** Complete with AI-generated translations ⚠️ (professional review recommended)
+- **Portuguese (pt):** Complete with AI-generated translations ⚠️ (professional review recommended)
 
-### ⚠️ Needs Translation (105 languages)
+### ⚠️ Needs Translation (99 languages)
 All other language files use English text as placeholders. They have:
 - Correct ARB structure ✓
 - Proper locale identifiers ✓
@@ -39,7 +46,7 @@ All other language files use English text as placeholders. They have:
 - Valid JSON format ✓
 - Ready for professional translation ✓
 
-**Translation Progress:** 4/109 languages (3.7%)
+**Translation Progress:** 10/109 languages (9.2%)
 
 ## How to Use
 
