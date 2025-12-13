@@ -11,6 +11,7 @@ import 'app_localizations_ar.dart';
 import 'app_localizations_az.dart';
 import 'app_localizations_be.dart';
 import 'app_localizations_bg.dart';
+import 'app_localizations_bho.dart';
 import 'app_localizations_bn.dart';
 import 'app_localizations_bs.dart';
 import 'app_localizations_ca.dart';
@@ -112,6 +113,7 @@ import 'app_localizations_vi.dart';
 import 'app_localizations_xh.dart';
 import 'app_localizations_yi.dart';
 import 'app_localizations_yo.dart';
+import 'app_localizations_yue.dart';
 import 'app_localizations_zh.dart';
 import 'app_localizations_zu.dart';
 
@@ -207,6 +209,7 @@ abstract class AppLocalizations {
     Locale('az'),
     Locale('be'),
     Locale('bg'),
+    Locale('bho'),
     Locale('bn'),
     Locale('bs'),
     Locale('ca'),
@@ -308,6 +311,7 @@ abstract class AppLocalizations {
     Locale('xh'),
     Locale('yi'),
     Locale('yo'),
+    Locale('yue'),
     Locale('zh'),
     Locale('zu'),
   ];
@@ -1104,6 +1108,7 @@ class _AppLocalizationsDelegate
     'az',
     'be',
     'bg',
+    'bho',
     'bn',
     'bs',
     'ca',
@@ -1205,6 +1210,7 @@ class _AppLocalizationsDelegate
     'xh',
     'yi',
     'yo',
+    'yue',
     'zh',
     'zu',
   ].contains(locale.languageCode);
@@ -1228,6 +1234,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsBe();
     case 'bg':
       return AppLocalizationsBg();
+    case 'bho':
+      return AppLocalizationsBho();
     case 'bn':
       return AppLocalizationsBn();
     case 'bs':
@@ -1430,6 +1438,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsYi();
     case 'yo':
       return AppLocalizationsYo();
+    case 'yue':
+      return AppLocalizationsYue();
     case 'zh':
       return AppLocalizationsZh();
     case 'zu':

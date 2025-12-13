@@ -12,291 +12,304 @@ class AppLocalizationsGa extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Minutefhir & Minutemhná an Lae Inniu';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Cláraigh chun cabhrú le do chomharsana';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Cuir isteach d\'uimhir ghutháin chun tosú';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Uimhir Ghutháin';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Seol Cód Fíoraithe';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Cuir isteach an cód fíoraithe';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Sheol muid cód chuig $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Cód Fíoraithe';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Fíoraigh & Lean Ar Aghaidh';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Athraigh uimhir ghutháin';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Cuir isteach d\'uimhir ghutháin le do thoil';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Cuir isteach an cód fíoraithe le do thoil';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Cruthaigh Próifíl';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Inis dúinn fút féin';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Cabhraíonn an fhaisnéis seo linn thú a nascadh le comharsana a dteastaíonn cabhair uathu';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Cuir grianghraf leis (roghnach)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Ainm Iomlán *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Seán Ó Smiotha';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Seoladh Baile *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => '123 Sráid Láir, Árasán 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper =>
+      'Úsáidtear é seo le haghaidh meaitseáil gaireachta amháin';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Aois (roghnach)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Is féidir le daoine 70+ uaireanta airdeall bog a shocrú';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Tá do phríobháideacht tábhachtach';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Ní dhéantar d\'ionad a cheistiú ach le linn éigeandálaí gníomhacha agus ní stóráiltear é ar feadh tréimhse fhada.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Lean Ar Aghaidh';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Líon isteach na réimsí riachtanacha go léir le do thoil';
 
   @override
-  String get home => 'Home';
+  String get home => 'Baile';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Airdeallaí';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Próifíl';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Ar Fáil chun Freagairt';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Níl Ar Fáil';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Gheobhaidh tú airdeallaí éigeandála in aice láimhe';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Cas air nuair atá tú réidh chun cabhrú';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Tá tú ar fáil chun freagairt anois';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Ní bhfaighidh tú airdeallaí';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Cuirfidh airdeallaí ina mbeidh an saol i mbaol in iúl duit 24/7. Tabharfaidh airdeallaí neamhphráinneacha urraim do do sceideal.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'IARR CABHAIR';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Do Thionchar';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Freagraí';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Meán-Am';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Do Chumais';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Cuir in Eagar';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Líonra Pobail';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Freagróirí in Aice Láimhe';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count ar fáil';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Ga Chlúdaigh';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance míle';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Airdeallaí Gníomhacha';
 
   @override
-  String get none => 'None';
+  String get none => 'Dada';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'D\'Ionad';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Cad leis a dteastaíonn cabhair uait?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Sonraí Breise (roghnach)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Cuir síos ar an gcás...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Cuir mo fhreagróirí iontaofa ar an eolas ar dtús';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Cuirfear do chairde/teaghlach roghnaithe ar an eolas roimh an bpobal ginearálta';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Ag seoladh airdeall: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'SEOL AIRDEALL ANOIS';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Roghnaigh cineál éigeandála le do thoil';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Ina Mbaol don Saol';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Slándáil/Sábháilteacht';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Práinneach Íogair don Am';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Gan a Bheith ina Mbaol don Saol';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Stad Cairdiach';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Níl duine ag freagairt agus níl sé ag análú';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Seachadadh AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Teastaíonn AED láithreach';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Ródháileog / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Ródháileog drugaí amhrasta, tá naloxone de dhíth';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Tachdadh / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc =>
+      'Tá duine ag tachdadh agus ní féidir leis análú';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Dóiteán / Aslonnú';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc =>
+      'Éigeandáil dóiteáin, tá cabhair aslonnaithe de dhíth';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Éigeandáil Toilte sa Seomra Leapa';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc =>
+      'Glaodh an focal sábhála, tá finné de dhíth';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Finné Seasaimh Gníomhach';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Tá láithreacht de dhíth chun coinbhleacht a mhaolú';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Peata ar Iarraidh';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Tá peata caillte nó tar éis rith as, tá cuardach de dhíth';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Seiceáil Folláine';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Seiceáil ar dhuine a d\'fhéadfadh cabhair a bheith de dhíth orthu';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Compánach Scoir';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Ag troid in aghaidh craving, tá tacaíocht de dhíth';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Compántacht';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Ag mothlú uaigneach nó scoite';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Comhordú 999';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Tá cabhair de dhíth chun glaoch ar 999 agus é a chomhordú';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +318,124 @@ class AppLocalizationsGa extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Mo Chumais';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count roghnaithe';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Sceideal Airdeallaí';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Socraigh d\'uaireanta infhaighteachta';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Freagróirí Iontaofa';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Stair Freagartha';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Príobháideacht & Sábháilteacht';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Cabhair & Tacaíocht';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Faoi Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Téarmaí & Beartas Príobháideachta';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Logáil Amach';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Leagan $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Nascann Naybor SOS comharsana in éigeandálaí, ag cruthú líonra de fhreagróirí tapa ar féidir leo cabhair ríthábhachtach a sholáthar sula sroicheann céad-fhreagaróirí gairmiúla.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Is féidir le gach duine a bheith ina laoch. Ní gá oiliúint speisialta a bheith agat chun saol a shábháil. Uaireanta is é an idirghabháil is cumhachtaí ná díreach teacht i láthair.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Dún';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Logáil Amach?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm =>
+      'An bhfuil tú cinnte gur mhaith leat logáil amach?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Cealaigh';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Logáladh amach go rathúil';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Socruithe';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Seiceáil Folláine';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Compánach Scoir';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Seasaimh Gníomhach';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Aistriúchán AI Muiníne Ardé';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Aistriúchán AI Muiníne Maithe';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Aistriúchán AI Lár-Mhuiníne';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Aistriúchán AI Muiníne Ísle';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Gineadh an t-aistriúchán seo le AI le muinín ard. Moltar athbhreithniú gairmiúil le haghaidh úsáid táirgeachta.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Gineadh an t-aistriúchán seo le AI le muinín mhaith. Moltar athbhreithniú gairmiúil le haghaidh téarmaíochta toilithe agus éigeandála atá ríthábhachtach ó thaobh sábháilteachta de.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Teastaíonn athbhreithniú daonna ar an aistriúchán seo le haghaidh abairtí éigeandála atá ríthábhachtach ó thaobh sábháilteachta de roimh úsáid táirgeachta.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ní aistriúchán dréachta ach é seo. Tá aistriúchán gairmiúil ag teastáil roimh úsáid táirgeachta.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Roghnaigh Teanga';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Cuardaigh teangacha';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Cáilíocht Aistriúcháin: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Cabhraigh le haistriúcháin a fheabhsú - tuairiscigh saincheisteanna nó cuir aistriúcháin níos fearr ar fáil!';
 }

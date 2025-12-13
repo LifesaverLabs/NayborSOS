@@ -12,416 +12,423 @@ class AppLocalizationsBs extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Savremeni minutmani i minutžene';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Prijavite se da pomognete susjedima';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Unesite broj telefona da počnete';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Broj telefona';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Pošaljite kod za verifikaciju';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Unesite kod za verifikaciju';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Poslali smo kod na $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Kod za verifikaciju';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Verifikujte i nastavite';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Promijenite broj telefona';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber => 'Molimo unesite broj telefona';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Molimo unesite kod za verifikaciju';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Kreirajte profil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Recite nam o sebi';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Ove informacije nam pomažu da vas povežemo sa susjedima koji trebaju pomoć';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Dodajte fotografiju (opciono)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Ime i prezime *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Marko Marković';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Kućna adresa *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Ulica braće Ribnikara 123, Stan 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Koristi se samo za prepoznavanje blizine';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Godine (opciono)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Osobe 70+ godina mogu postaviti blage sate upozorenja';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Vaša privatnost je važna';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Vaša lokacija se traži samo tokom aktivnih hitnih slučajeva i nikad se ne čuva dugoročno.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Nastavite';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields => 'Molimo popunite sva obavezna polja';
 
   @override
-  String get home => 'Home';
+  String get home => 'Početna';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Upozorenja';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Dostupan za odgovor';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Nije dostupan';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Primićete hitna upozorenja u blizini';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Uključite kad ste spremni pomoći';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Sada ste dostupni za odgovor';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Nećete primati upozorenja';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Upozorenja koja ugrožavaju život će vas obavijestiti 24/7. Ne-hitna upozorenja poštuju vaš raspored.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'ZATRAŽITE POMOĆ';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Vaš uticaj';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Odgovori';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Prosj. vrijeme';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Vaše sposobnosti';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Uredite';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Mreža zajednice';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Obližnji odgovarači';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count dostupno';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Radijus pokrivenosti';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance milja';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Aktivna upozorenja';
 
   @override
-  String get none => 'None';
+  String get none => 'Nema';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Vaša lokacija';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Za što vam treba pomoć?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Dodatni detalji (opciono)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Opišite situaciju...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Prvo obavijesti moje povjerljive odgovarače';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Vaši odabrani prijatelji/porodica će biti obavješteni prije opće zajednice';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Šaljem upozorenje: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'POŠALJITE UPOZORENJE ODMAH';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType => 'Molimo odaberite tip hitnog slučaja';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Ugrožava život';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Sigurnost/Bezbjednost';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Hitno vremenski osjetljivo';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Ne ugrožava život';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'KPR / srčani zastoj';
 
   @override
-  String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+  String get emergencyCprCardiacDesc => 'Osoba ne reaguje i ne diše';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Dostava AED-a';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Potreban AED odmah';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Predoziranje / Nalokson';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Sumnja na predoziranje drogama, potreban nalokson';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Gušenje / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Osoba se guši i ne može disati';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Požar / Evakuacija';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc =>
+      'Hitni slučaj požara, potrebna pomoć za evakuaciju';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Hitni slučaj pristanka u spavaćoj sobi';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc =>
+      'Sigurna riječ je izgovorena, potreban svjedok';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Aktivni posmatrač svjedok';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Potrebno prisustvo za smiravanje konflikta';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Nestao ljubimac';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Ljubimac je izgubljen ili pobjegao, potrebna potraga';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Provjera zdravlja';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Provjeriti nekoga kome možda treba pomoć';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Pratilac za prestanak';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Borim se s pojavom, potrebna podrška';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Druženje';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Osjećam se usamljeno ili izolovano';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Koordinacija hitnih službi';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Potrebna pomoć za pozivanje i koordinaciju hitnih službi';
 
   @override
   String get equipmentAed => 'AED';
 
   @override
-  String get equipmentNaloxone => 'Naloxone/Narcan';
+  String get equipmentNaloxone => 'Nalokson/Narkan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Moje sposobnosti';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count odabrano';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Raspored upozorenja';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Postavite vaše sate dostupnosti';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Povjerljivi odgovarači';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Povijest odgovora';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Privatnost i sigurnost';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Pomoć i podrška';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'O aplikaciji Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Uslovi i politika privatnosti';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Odjavite se';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Verzija $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS povezuje susjede u hitnim slučajevima, stvarajući mrežu brzih odgovarača koji mogu pružiti kritičnu pomoć prije dolaska profesionalnih spasilaca.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Svi mogu biti heroj. Ne trebate posebnu obuku da spasите život. Ponekad je najmoćnija intervencija jednostavno pojavljivanje.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Zatvorite';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Odjaviti se?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Jeste li sigurni da se želite odjaviti?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Otkazati';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Uspješno ste se odjavili';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Postavke';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Provjera zdravlja';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Pratilac za prestanak';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Aktivni posmatrač';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'AI prijevod visokog povjerenja';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'AI prijevod dobrog povjerenja';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'AI prijevod srednjeg povjerenja';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'AI prijevod niskog povjerenja';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Ovaj prijevod je napravila AI s visokim povjerenjem. Preporučuje se profesionalna provjera za produkcijsku upotrebu.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Ovaj prijevod je napravila AI s dobrim povjerenjem. Preporučuje se profesionalna provjera za sigurnosno-kritičnu terminologiju pristanka i hitnih slučajeva.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Ovaj prijevod zahtijeva ljudsku provjeru za sigurnosno-kritične hitne fraze prije produkcijske upotrebe.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ovo je samo nacrt prijevoda. Potreban je profesionalni prijevod prije produkcijske upotrebe.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Odaberite jezik';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Pretražite jezike';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kvaliteta prijevoda: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Pomozite poboljšati prijevode - prijavite probleme ili doprinijeti boljim prijevodima!';
 }

@@ -12,29 +12,31 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Mga Modernong Minutemen ug Minutewomen';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp =>
+      'Mag-rehistro para matabangan ang imong mga silingan';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber =>
+      'Isulod ang imong numero sa telepono para magsugod';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Numero sa Telepono';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Ipadala ang Verification Code';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Isulod ang verification code';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Nagpadala mi ug code sa $phoneNumber';
   }
 
   @override
@@ -44,123 +46,127 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'I-verify ug Padayon';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Usba ang numero sa telepono';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Palihug isulod ang imong numero sa telepono';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Palihug isulod ang verification code';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Paghimo ug Profile';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself =>
+      'Isulti kanamo ang bahin sa imong kaugalingon';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Kining impormasyon makatabang kanamo nga ikabit ka sa mga silingan nga nanginahanglan ug tabang';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Idugang ang litrato (opsyonal)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Tibuok nga Ngalan *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Juan Dela Cruz';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Address sa Balay *';
 
   @override
   String get homeAddressHint => '123 Main St, Apt 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Gigamit lang alang sa proximity matching';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Edad (opsyonal)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Mga edad nga 70 pataas mahimo nga mag-set ug gentle alert hours';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Importante ang imong privacy';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Ang imong lokasyon pangutanaon lang panahon sa aktibong emerhensya ug dili tipigan sa dugayng panahon.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Padayon';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Palihug pun-a ang tanan nga gikinahanglang mga field';
 
   @override
   String get home => 'Home';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Mga Alert';
 
   @override
   String get profile => 'Profile';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Andam Motubag';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Wala Mahimo';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Makadawat ka ug mga emergency alert sa duol';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'I-toggle on kon andam na motabang';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Andam na ka karon motubag';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Dili ka makadawat ug mga alert';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Ang mga life-threatening alert mag-notify kanimo 24/7. Ang mga non-urgent alert morespeto sa imong schedule.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'MANGAYO UG TABANG';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Imong Impact';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Mga Tubag';
 
   @override
   String get avgTime => 'Avg Time';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Imong mga Katakus';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'I-edit';
 
   @override
   String get communityNetwork => 'Community Network';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Mga Duol nga Responder';
 
   @override
   String nearbyRespondersAvailable(int count) {
@@ -176,127 +182,135 @@ class AppLocalizationsCeb extends AppLocalizations {
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Mga Aktibong Alert';
 
   @override
-  String get none => 'None';
+  String get none => 'Wala';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Imong Lokasyon';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith =>
+      'Unsa ang imong gikinahanglan nga tabang?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Dugang nga mga Detalye (opsyonal)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Ihulagway ang sitwasyon...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'I-alert una ang akong mga trusted responder';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Ang imong gipili nga mga higala/pamilya ma-notify una sa general community';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Nagpadala ug alert: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'IPADALA ANG ALERT KARON';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Palihug pilia ang tipo sa emerhensya';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Delikado sa Kinabuhi';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Seguridad/Kaluwasan';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Dinalian nga Time-Sensitive';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Dili Delikado sa Kinabuhi';
 
   @override
   String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Ang tawo wala makaresponde ug dili makaginhawa';
 
   @override
   String get emergencyAedName => 'AED Delivery';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Kinahanglan ug AED dayon';
 
   @override
   String get emergencyOverdoseName => 'Overdose / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Giduda nga drug overdose, kinahanglan ug naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Nasakal / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Ang tawo nasakal ug dili makaginhawa';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Sunog / Evacuation';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc =>
+      'Emergency nga sunog, kinahanglan ug tabang sa evacuation';
 
   @override
   String get emergencyConsentName => 'Bedroom Consent Emergency';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Safeword natawag, kinahanglan ug saksi';
 
   @override
   String get emergencyBystanderName => 'Active Bystander Witness';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Kinahanglan ug presensya para ma-de-escalate ang panagbangi';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Nawala nga Pet';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Ang pet nawala o mikagiw, kinahanglan ug search party';
 
   @override
   String get emergencyWellnessCheckName => 'Wellness Check';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Tan-awon ang usa ka tawo nga basin kinahanglan ug tabang';
 
   @override
   String get emergencyQuitCompanionName => 'Quit Companion';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Nakig-away sa craving, kinahanglan ug suporta';
 
   @override
   String get emergencyCompanionshipName => 'Companionship';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Gibati nga nag-inusara o nahimulag';
 
   @override
   String get emergency911CoordinationName => '911 Coordination';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Kinahanglan ug tabang sa pagtawag ug pag-coordinate sa emergency services';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,36 +319,36 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Akong mga Katakus';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count napili';
   }
 
   @override
   String get alertSchedule => 'Alert Schedule';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'I-set ang imong availability hours';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Mga Trusted Responder';
 
   @override
   String get responseHistory => 'Response History';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Privacy ug Safety';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Tabang ug Suporta';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Bahin sa Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Terms ug Privacy Policy';
 
   @override
   String get signOut => 'Sign Out';
@@ -346,32 +360,32 @@ class AppLocalizationsCeb extends AppLocalizations {
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Ang Naybor SOS nagkonekta sa mga silingan sa mga emerhensya, naghimo ug network sa mga paspas nga responder nga makahatag ug kritikal nga tabang sa dili pa moabot ang mga propesyonal nga first responder.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Ang tanan mahimo nga bayani. Dili ka kinahanglan ug espesyal nga training para makaluwas ug kinabuhi. Usahay ang pinakamakahuluganong intervention mao lang ang pag-apil.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Isara';
 
   @override
   String get signOutQuestion => 'Sign Out?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Sigurado ka ba nga gusto mong mag-sign out?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Kanselahon';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Malampuson nga nag-sign out';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Mga Setting';
 
   @override
   String get capabilityWellnessCheck => 'Wellness Check';
@@ -383,38 +397,39 @@ class AppLocalizationsCeb extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Taas nga Confidence AI Translation';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Maayo nga Confidence AI Translation';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Tunga-tunga nga Confidence AI Translation';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Ubos nga Confidence AI Translation';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Kining translation gi-generate sa AI nga adunay taas nga confidence. Girekomenda ang professional review para sa production use.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Kining translation gi-generate sa AI nga adunay maayo nga confidence. Girekomenda ang professional review para sa safety-critical consent ug emergency terminology.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Kining translation nanginahanglan ug human review para sa safety-critical emergency phrases sa dili pa gamiton sa production.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Kini usa ka draft translation lang. Kinahanglan ug professional translation sa dili pa gamiton sa production.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Pilia ang Pinulongan';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Pangitaa ang mga pinulongan';
 
   @override
   String translationQualityLabel(String quality) {
@@ -423,5 +438,5 @@ class AppLocalizationsCeb extends AppLocalizations {
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Tabanga nga ma-improve ang mga translation - i-report ang mga isyu o pag-contribute ug mas maayo nga mga translation!';
 }

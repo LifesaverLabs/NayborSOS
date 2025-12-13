@@ -12,416 +12,424 @@ class AppLocalizationsIs extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Nútíma björgunarsveitarmenn';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Skráðu þig til að hjálpa nágrönnum þínum';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Sláðu inn símanúmerið þitt til að byrja';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Símanúmer';
 
   @override
-  String get phoneNumberHint => '(555) 123-4567';
+  String get phoneNumberHint => '581-2345';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Senda staðfestingarkóða';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Sláðu inn staðfestingarkóða';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Við sendum kóða á $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Staðfestingarkóði';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Staðfesta og halda áfram';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Breyta símanúmeri';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Vinsamlegast sláðu inn símanúmerið þitt';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Vinsamlegast sláðu inn staðfestingarkóðann';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Búa til prófíl';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Segðu okkur frá þér';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Þessar upplýsingar hjálpa okkur að tengja þig við nágranna sem þurfa hjálp';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Bæta við mynd (valfrjálst)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Fullt nafn *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Jón Jónsson';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Heimilisfang *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Laugavegur 123, íbúð 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Aðeins notað til að finna nágranna';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Aldur (valfrjálst)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper => '70 ára og eldri geta stillt vægar viðvörunartíma';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Friðhelgi þín skiptir máli';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Staðsetning þín er aðeins sótt meðan á neyðarástandi stendur og aldrei geymd til lengri tíma.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Halda áfram';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Vinsamlegast fylltu út alla nauðsynlega reiti';
 
   @override
-  String get home => 'Home';
+  String get home => 'Heim';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Viðvaranir';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Prófíll';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Tilbúinn að bregðast við';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Ekki tiltækur';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Þú munt fá neyðarviðvaranir í nágrenninu';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Kveiktu þegar þú ert tilbúinn að hjálpa';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Þú ert nú tilbúinn að bregðast við';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Þú munt ekki fá viðvaranir';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Lífshættulegar viðvaranir munu láta þig vita allan sólarhringinn. Ekki brýnar viðvaranir virða þína áætlun.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'ÓSKA EFTIR HJÁLP';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Þín áhrif';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Viðbrögð';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Meðaltími';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Þín hæfni';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Breyta';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Samfélagsnet';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Björgunarsveitarmenn í nágrenninu';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count tiltækir';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Þjónustusvæði';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance kílómetrar';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Virkar viðvaranir';
 
   @override
-  String get none => 'None';
+  String get none => 'Engar';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Þín staðsetning';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Í hverju þarftu hjálp?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Viðbótarupplýsingar (valfrjálst)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Lýstu aðstæðunum...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Láta traustu björgunarsveitarmennina mína vita fyrst';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Valdir vinir/fjölskylda fá tilkynningu áður en almennt samfélag';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Sendi viðvörun: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'SENDA VIÐVÖRUN NÚNA';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Vinsamlegast veldu tegund neyðarstöðu';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Lífshættulegt';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Öryggi/Öryggismál';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Brýnt tímaviðkvæmt';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Ekki lífshættulegt';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'Endurlífgun / Hjartastopp';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Einstaklingur er meðvitundarlaus og andar ekki';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Hjartastuðtæki afhending';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Þarf hjartastuðtæki strax';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Ofskammt / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Grunur um ofskammt af lyfjum, þarf naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Kafnar / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Einstaklingur kafnar og getur ekki andað';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Eldur / Rýming';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Eldsvoði, þarf hjálp við rýmingu';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Samþykkisneyðarástand í svefnherbergi';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Öryggismerki kallað, þarf vitni';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Virkur áhorfandi vitni';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Þarf nærveru til að róa niður ágreining';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Týnt gæludýr';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Gæludýr er týnt eða hlaupið burt, þarf leitarflokk';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Líðanskannanir';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Athuga með einhvern sem gæti þurft hjálp';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Hætta félagi';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc => 'Berjist við þrá, þarf stuðning';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Félagsskapur';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc =>
+      'Finn fyrir einmanaleika eða einangrun';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => '112 samræming';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Þarf hjálp við að hringja og samræma 112';
 
   @override
-  String get equipmentAed => 'AED';
+  String get equipmentAed => 'Hjartastuðtæki';
 
   @override
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Mín hæfni';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count valin';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Viðvörunaráætlun';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Stilltu tiltektartíma þína';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Traustir björgunarsveitarmenn';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Viðbragðssaga';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Friðhelgi og öryggi';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Hjálp og stuðningur';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Um Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Skilmálar og friðhelgisstefna';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Skrá út';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Útgáfa $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS tengir nágranna í neyðartilvikum og skapar net skjótra björgunarsveitarmanna sem geta veitt mikilvæga hjálp áður en fagleg neyðarþjónusta kemur.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Allir geta verið hetjur. Þú þarft ekki sérstaka þjálfun til að bjarga lífi. Stundum er öflugasta inngrip það einfaldlega að mæta.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Loka';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Skrá út?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Ertu viss um að þú viljir skrá þig út?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Hætta við';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Skráður út með góðum árangri';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Stillingar';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Líðanskönnun';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Hætta félagi';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Virkur áhorfandi';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Gervigreind þýðing með miklu trausti';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Gervigreind þýðing með góðu trausti';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Gervigreind þýðing með meðaltrausti';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Gervigreind þýðing með litlu trausti';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Þessi þýðing var gerð af gervigreind með miklu trausti. Fagleg yfirferð ráðlögð fyrir framleiðslunotkun.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Þessi þýðing var gerð af gervigreind með góðu trausti. Fagleg yfirferð ráðlögð fyrir öryggismikilvæg samþykki og neyðarorðalag.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Þessi þýðing krefst mannlegrar yfirferðar fyrir öryggismikilvægar neyðarsetningar fyrir framleiðslunotkun.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Þetta er aðeins drög að þýðingu. Fagleg þýðing nauðsynleg fyrir framleiðslunotkun.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Velja tungumál';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Leita að tungumálum';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Gæði þýðingar: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Hjálpaðu okkur að bæta þýðingar - tilkynntu vandamál eða leggðu fram betri þýðingar!';
 }

@@ -12,291 +12,299 @@ class AppLocalizationsCy extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Minutemyn a Minutewragedd yr Oes Fodern';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Cofrestrwch i helpu eich cymdogion';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Rhowch eich rhif ffôn i ddechrau';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Rhif Ffôn';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Anfon Côd Dilysu';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Rhowch y côd dilysu';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Anfonwyd côd i $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Côd Dilysu';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Dilysu a Pharhau';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Newid rhif ffôn';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Rhowch eich rhif ffôn os gwelwch yn dda';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Rhowch y côd dilysu os gwelwch yn dda';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Creu Proffil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Dywedwch wrthym amdanoch chi eich hun';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Mae\'r wybodaeth hon yn ein helpu i\'ch cysylltu â chymdogion sydd angen help';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Ychwanegu llun (dewisol)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Enw Llawn *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Siôn Jones';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Cyfeiriad Cartref *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => '123 Stryd Fawr, Fflat 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Defnyddir ar gyfer paru agosrwydd yn unig';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Oed (dewisol)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper => 'Gall pobl 70+ osod oriau rhybudd tyner';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Mae eich preifatrwydd yn bwysig';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Dim ond yn ystod argyfyngau gweithredol y holir eich lleoliad ac nid yw\'n cael ei storio\'n hirdymor.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Parhau';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Llenwch yr holl feysydd gofynnol os gwelwch yn dda';
 
   @override
-  String get home => 'Home';
+  String get home => 'Cartref';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Rhybuddion';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Proffil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Ar Gael i Ymateb';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Ddim ar Gael';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Byddwch yn derbyn rhybuddion brys gerllaw';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Trowch ymlaen pan yn barod i helpu';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Rydych chi nawr ar gael i ymateb';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Ni fyddwch yn derbyn rhybuddion';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Bydd rhybuddion sy\'n bygwth bywyd yn eich hysbysu 24/7. Mae rhybuddion anfyrbwyll yn parchu eich amserlen.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'GOFYN AM HELP';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Eich Effaith';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Ymatebion';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Amser Cyfartalog';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Eich Galluoedd';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Golygu';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Rhwydwaith Cymunedol';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Ymatebwyr Cyfagos';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count ar gael';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Radiws Cwmpas';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance milltir';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Rhybuddion Gweithredol';
 
   @override
-  String get none => 'None';
+  String get none => 'Dim';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Eich Lleoliad';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Gyda beth mae angen help arnoch?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Manylion Ychwanegol (dewisol)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Disgrifiwch y sefyllfa...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Rhybuddio fy ymatebwyr dibynadwy gyntaf';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Caiff eich ffrindiau/teulu a ddewiswyd eu hysbysu cyn y gymuned gyffredinol';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Anfon rhybudd: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'ANFON RHYBUDD NAWR';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Dewiswch fath o argyfwng os gwelwch yn dda';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Yn Bygwth Bywyd';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Diogelwch';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Brys Amser-Sensitif';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Ddim yn Bygwth Bywyd';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Atal y Galon';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Mae person yn anymwybodol ac ddim yn anadlu';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Dosbarthu AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Angen AED ar unwaith';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Gordos / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Gordos cyffuriau tybiedig, angen naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Tagu / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Mae person yn tagu ac yn methu anadlu';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Tân / Gwacáu';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Argyfwng tân, angen help gwacáu';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Argyfwng Cydsyniad Ystafell Wely';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Galwyd gair diogel, angen tyst';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Tyst Gweithredol';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Angen presenoldeb i ddad-ddrwgdybio gwrthdaro';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Anifail Anwes ar Goll';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Mae anifail anwes ar goll neu wedi rhedeg i ffwrdd, angen parti chwilio';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Gwiriad Lles';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Gwirio ar rywun a allai fod angen help';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Cymar Rhoi\'r Gorau';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Yn brwydro yn erbyn chwant, angen cefnogaeth';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Cwmniaeth';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Teimlo\'n unig neu wedi\'ch ynysu';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Cydlynu 999';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Angen help i ffonio a chydlynu gyda\'r gwasanaethau brys';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +313,123 @@ class AppLocalizationsCy extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Fy Ngalluoedd';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count wedi\'u dewis';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Amserlen Rhybuddion';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Gosodwch eich oriau argaeledd';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Ymatebwyr Dibynadwy';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Hanes Ymateb';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Preifatrwydd a Diogelwch';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Help a Chymorth';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Am Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Telerau a Pholisi Preifatrwydd';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Allgofnodi';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Fersiwn $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Mae Naybor SOS yn cysylltu cymdogion mewn argyfyngau, gan greu rhwydwaith o ymatebwyr cyflym a all ddarparu cymorth hanfodol cyn i ymatebwyr cymorth cyntaf proffesiynol gyrraedd.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Gall pawb fod yn arwr. Does dim angen hyfforddiant arbennig i achub bywyd. Weithiau\'r ymyrraeth fwyaf pwerus yw syml troi i fyny.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Cau';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Allgofnodi?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Ydych chi\'n siŵr eich bod am allgofnodi?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Canslo';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Allgofnodwyd yn llwyddiannus';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Gosodiadau';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Gwiriad Lles';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Cymar Rhoi\'r Gorau';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Gwyliwr Gweithredol';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Cyfieithiad AI Hyder Uchel';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Cyfieithiad AI Hyder Da';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Cyfieithiad AI Hyder Canolig';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Cyfieithiad AI Hyder Isel';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Cynhyrchwyd y cyfieithiad hwn gan AI gyda hyder uchel. Argymhellir adolygiad proffesiynol ar gyfer defnydd cynhyrchu.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Cynhyrchwyd y cyfieithiad hwn gan AI gyda hyder da. Argymhellir adolygiad proffesiynol ar gyfer terminoleg cydsyniad a brys sy\'n hanfodol i ddiogelwch.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Mae\'r cyfieithiad hwn yn gofyn am adolygiad dynol ar gyfer ymadroddion brys sy\'n hanfodol i ddiogelwch cyn defnydd cynhyrchu.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Drafft cyfieithiad yn unig yw hwn. Mae angen cyfieithiad proffesiynol cyn defnydd cynhyrchu.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Dewis Iaith';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Chwilio ieithoedd';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Ansawdd Cyfieithiad: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Helpwch wella cyfieithiadau - rhowch wybod am broblemau neu gyfranwch gyfieithiadau gwell!';
 }

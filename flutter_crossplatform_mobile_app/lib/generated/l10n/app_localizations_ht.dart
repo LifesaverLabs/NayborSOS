@@ -12,291 +12,293 @@ class AppLocalizationsHt extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Sòlda Modèn yo ak Fanm Sòlda yo';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Enskri w pou ede vwazen yo';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Antre nimewo telefòn ou an pou w kòmanse';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Nimewo Telefòn';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Voye Kòd Verifikasyon';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Antre kòd verifikasyon an';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Nou voye yon kòd nan $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Kòd Verifikasyon';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Verifye ak Kontinye';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Chanje nimewo telefòn';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber => 'Tanpri antre nimewo telefòn ou';
 
   @override
-  String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+  String get pleaseEnterVerificationCode => 'Tanpri antre kòd verifikasyon an';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Kreye Pwofil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Di nou bagay sou tèt ou';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Enfòmasyon sa yo ede nou konekte w ak vwazen yo ki bezwen èd';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Ajoute foto (opsyonèl)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Non Konplè *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Jan Smith';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Adrès Kay la *';
 
   @override
   String get homeAddressHint => '123 Main St, Apt 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Yo sèlman itilize sa pou kalkile distans la';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Laj (opsyonèl)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Moun ki gen 70 an ak pi plis ka chwazi èd nan òrè dou yo';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Vi prive w lan enpòtan';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Yo sèlman chèche kote w ye pandan ijans ak yo pa janm kenbe l longè.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Kontinye';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Tanpri ranpli tout jan yo ki obligatwa yo';
 
   @override
-  String get home => 'Home';
+  String get home => 'Kay';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Alèt yo';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Pwofil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Disponib pou Reponn';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Pa Disponib';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'W ap resevwa alèt ijans yo ki tou pre';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Limen l lè w pare pou ede';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Ou disponib kounye a pou reponn';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'W ap pa resevwa alèt yo';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Alèt ki ka touye yo ap notifye w 24/7. Alèt ki pa ijan yo ap respekte òrè w yo.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'MANDE ÈD';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Enpak Ou';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Repons yo';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Tan Mwayèn';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Kapasite Ou yo';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Modifye';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Rezo Kominote a';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Moun ki ka Reponn yo ki Tou Pre';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count disponib';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Zo Kouvèti';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance mil';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Alèt Aktif yo';
 
   @override
-  String get none => 'None';
+  String get none => 'Okenn';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Kote w ye';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Ki sa w bezwen èd ak?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Detay Adisyonèl yo (opsyonèl)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Dekri sitiyasyon an...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Avèti moun ki ka reponn yo m fè konfyans yo an premye';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Zanmi ak fanmi ou chwazi yo ap resevwa avis yo anvan kominote jeneral la';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Y ap voye alèt: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'VOYE ALÈT KOUNYE A';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType => 'Tanpri chwazi yon kalite ijans';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Ki Ka Touye';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Sekirite/Pwoteksyon';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Ijan ak Sensitif ak Tan';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Ki Pa Ka Touye';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Krèt Kè';
 
   @override
-  String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+  String get emergencyCprCardiacDesc => 'Moun nan pa reponn ak li pa respire';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Livrezon AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Bezwen yon AED imedyatman';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Sèdòz / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc => 'Yo sispèk sèdòz dwòg, bezwen naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Boukannen / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc =>
+      'Moun nan ap boukannen ak li pa ka respire';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Dife / Evakiyasyon';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Ijans dife, bezwen èd pou evakiyasyon';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Ijans Konsantman nan Chanm';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Yo rele mo sekirite a, bezwen temwen';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Temwen Moun k ap Gade';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc => 'Bezwen prezans pou kalme konfli';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Bèt ki Pèdi';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Bèt la pèdi oswa li kouri ale, bezwen gwoup rechèch';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Kontwòl Sante';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc => 'Gade yon moun ki ka bezwen èd';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Konpanyen pou Sispann';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc => 'Y ap goumen ak antèn, bezwen sipò';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Konpanyen';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Santi m izole oswa pou kont mwen';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Kowòdinasyon 911';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Bezwen èd pou rele ak kowòdone 911';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +307,123 @@ class AppLocalizationsHt extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Kapasite Mwen yo';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count chwazi';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Orè Alèt yo';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Fikse òrè disponibilite w yo';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Moun ki ka Reponn yo m Fè Konfyans yo';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Istwa Repons yo';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Vi Prive ak Sekirite';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Èd ak Sipò';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Bagay sou Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Kondisyon yo ak Politik Vi Prive';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Soti';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Vèsyon $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS konekte vwazen yo nan ijans yo, li kreye yon rezo moun ki ka reponn rapidman yo ki ka bay èd kritik anvan moun k ap travay nan premye sekou yo rive.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Tout moun ka yon ewo. Ou pa bezwen fòmasyon espesyal pou sove yon lavi. Pafwa entèvansyon ki pi pwisan an se sèlman parèt.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Fèmen';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Soti?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Èske w si w vle soti?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Anile';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Ou soti ak siksè';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Paramèt yo';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Kontwòl Sante';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Konpanyen pou Sispann';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Moun k ap Gade Aktif';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Tradiksyon AI ak Konfyans Segondè';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Tradiksyon AI ak Bon Konfyans';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Tradiksyon AI ak Konfyans Mwayen';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Tradiksyon AI ak Ti Konfyans';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Tradiksyon sa a AI te fè l ak konfyans segondè. Yo rekòmande revizyon pwofesyonèl pou itilizasyon nan pwodiksyon.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Tradiksyon sa a AI te fè l ak bon konfyans. Yo rekòmande revizyon pwofesyonèl pou konsantman ak tèm ijans yo ki kritik pou sekirite.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Tradiksyon sa a mande revizyon moun pou fraz ijans yo ki kritik pou sekirite anvan yo itilize l nan pwodiksyon.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Sa a se sèlman yon bouyon tradiksyon. Yo mande tradiksyon pwofesyonèl anvan itilizasyon nan pwodiksyon.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Chwazi Lang';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Chèche lang yo';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kalite Tradiksyon: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Ede yo amelyore tradiksyon yo - rapòte pwoblèm yo oswa kontribye tradiksyon yo ki pi bon!';
 }

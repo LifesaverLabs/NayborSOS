@@ -12,416 +12,424 @@ class AppLocalizationsEu extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Gaur Egungo Minutugizonak';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Eman izena zure auzokideei laguntzeko';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Sartu zure telefono zenbakia hasteko';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Telefono Zenbakia';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Bidali Egiaztapen Kodea';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Sartu egiaztapen kodea';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Kode bat bidali dugu $phoneNumber zenbakira';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Egiaztapen Kodea';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Egiaztatu eta Jarraitu';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Aldatu telefono zenbakia';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber => 'Mesedez sartu zure telefono zenbakia';
 
   @override
-  String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+  String get pleaseEnterVerificationCode => 'Mesedez sartu egiaztapen kodea';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Sortu Profila';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Esan iezaguzu zure buruz';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Informazio honek laguntza behar duten auzokideekin konektatzeko balio du';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Gehitu argazkia (aukerakoa)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Izen Osoa *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Jon Etxeberria';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Etxeko Helbidea *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Nagusia kalea 123, 4B apartamentua';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Hurbiltasuna neurtzeko soilik erabiltzen da';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Adina (aukerakoa)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      '70 urte baino gehiagokoak abisu ordu gozoak ezar ditzakete';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Zure pribatutasuna garrantzitsua da';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Zure kokalekua larrialdi aktiboen garaian soilik kontsultatzen da eta ez da epe luzez gordetzen.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Jarraitu';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Mesedez bete ezinbesteko eremu guztiak';
 
   @override
-  String get home => 'Home';
+  String get home => 'Hasiera';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Abisoak';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profila';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Erantzuteko Prest';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Ez Dago Eskuragarri';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Inguruko larrialdi abisoak jasoko dituzu';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Aktibatu laguntzeko prest zaudenean';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Orain erantzuteko prest zaude';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Ez duzu abisurik jasoko';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Bizitzarentzako arriskutsuak diren abisoak 24/7 jakinaraziko dizkizugu. Premiazko ez direnak zure ordutegiari begirune izaten diete.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'ESKATU LAGUNTZA';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Zure Eragina';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Erantzunak';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Batez besteko Denbora';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Zure Gaitasunak';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Editatu';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Komunitatearen Sarea';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Inguruko Erantzuleak';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count eskuragarri';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Estaldura Erradioa';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance milia';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Abisu Aktiboak';
 
   @override
-  String get none => 'None';
+  String get none => 'Bat ere ez';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Zure Kokalekua';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Zertarako behar duzu laguntza?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Xehetasun Gehigarriak (aukerakoa)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Deskribatu egoera...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Abisatu nire erantzule fidagarriak lehenik';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Zure aukeratutako lagunek/familiak komunitatearen aurretik jasoko dute abisua';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Abisua bidaltzen: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'BIDALI ABISUA ORAIN';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType => 'Mesedez hautatu larrialdi mota';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Bizitzarentzako Arriskutsua';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Segurtasun/Babesa';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Premiazkoa Denbora Sentsiblea';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Bizitzarentzako Ez-arriskutsua';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'BKB / Bihotz Geldialdia';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Pertsona erantzuteko gai ez eta arnasestutakoan dago';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'DEA Banaketa';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'DEA bat behar da berehala';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Sobredosia / Naloxona';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Droga sobredosia susmagarria, naloxona behar da';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Itolarria / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc =>
+      'Pertsona itolarrian dago eta ezin du arnasa hartu';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Sua / Ebakuazioa';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Su larrialdi, ebakuazio laguntza behar da';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Logela Baimena Larrialdi';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc =>
+      'Segurtasun hitza deitu da, lekuko bat behar da';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Lekuko Aktiboa';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Gatazka deseskalaratzeko presentzia behar da';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Etxeko Animalia Galdua';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Etxeko animalia galdu egin da edo ihes egin du, bilaketa talde bat behar da';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Ongizate Egiaztapena';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Laguntza behar izan lezakeen norbait egiaztatu';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Utzi Lagunkide';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Gosearekin borrokan, babesa behar da';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Laguntzailea';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Bakarrik edo isolatuta sentitzen';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => '112 Koordinazioa';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      '112 deitzeko eta koordinatzeko laguntza behar da';
 
   @override
-  String get equipmentAed => 'AED';
+  String get equipmentAed => 'DEA';
 
   @override
-  String get equipmentNaloxone => 'Naloxone/Narcan';
+  String get equipmentNaloxone => 'Naloxona/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Nire Gaitasunak';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count hautatua';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Abisuen Ordutegia';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Ezarri zure eskuragarritasun orduak';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Erantzule Fidagarriak';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Erantzun Historia';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Pribatutasuna eta Segurtasuna';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Laguntza eta Babesa';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Naybor SOS-ri buruz';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Baldintzak eta Pribatutasun Politika';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Saioa Itxi';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Bertsioa $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS-k auzokideak larrialdien garaian konektatzen ditu, lehen erantzule profesionalak iritsi baino lehen laguntza kritikoa eman dezaketen erantzule azkarren sare bat sortzen du.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Denak izan gaitezke heroeak. Ez duzu prestakuntza berezirik behar bizitza bat salbatzeko. Batzuetan esku-hartzerik indartsuena soilik agertzea da.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Itxi';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Saioa Itxi?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Ziur zaude saioa itxi nahi duzula?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Ezeztatu';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Saioa behar bezala itxi da';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Ezarpenak';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Ongizate Egiaztapena';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Utzi Lagunkide';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Lekuko Aktiboa';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Konfiantza Handiko AI Itzulpena';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Konfiantza Oneko AI Itzulpena';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Konfiantza Ertaineko AI Itzulpena';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Konfiantza Baxuko AI Itzulpena';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Itzulpen hau AI-ak egin du konfiantza handiarekin. Produkziorako erabilerako berrikuspen profesionala gomendatzen da.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Itzulpen hau AI-ak egin du konfiantza onarekin. Segurtasunaren aldetik kritikoaren baimena eta larrialdietako terminologiarako berrikuspen profesionala gomendatzen da.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Itzulpen honek giza berrikuspena behar du segurtasunerako kritikoak diren larrialdi esaldietarako produkzioan erabili baino lehen.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Hau zirriborro-itzulpen bat da soilik. Itzulpen profesionala behar da produkzioan erabili baino lehen.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Hautatu Hizkuntza';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Bilatu hizkuntzak';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Itzulpen Kalitatea: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Lagundu itzulpenak hobetzen - eman jakinarazpenak edo ekarri itzulpen hobeak!';
 }

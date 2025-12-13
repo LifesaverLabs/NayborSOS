@@ -12,291 +12,292 @@ class AppLocalizationsJv extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Minutemen lan Minutewomen Jaman Saiki';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Daftar kanggo ngewangi tangga-tangga sampeyan';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Lebokna nomer telpon sampeyan kanggo miwiti';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Nomer Telpon';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Kirim Kode Verifikasi';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Lebokna kode verifikasi';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Kita wis ngirim kode menyang $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Kode Verifikasi';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Verifikasi & Terus';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Ganti nomer telpon';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber => 'Mangga lebokna nomer telpon sampeyan';
 
   @override
-  String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+  String get pleaseEnterVerificationCode => 'Mangga lebokna kode verifikasi';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Gawe Profil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Crita babagan sampeyan';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Informasi iki mbantu kita nyambungake sampeyan karo tangga sing butuh bantuan';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Tambah foto (opsional)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Jeneng Lengkap *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Budi Santoso';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Alamat Omah *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Jl. Malioboro 123, RT 04 RW 02';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Mung kanggo cocok-cocokan jarak';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Umur (opsional)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper => 'Umur 70+ bisa nyetel jam wektu peringatan alus';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Privasi sampeyan penting';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Lokasi sampeyan mung ditakoni nalika ana darurat aktif lan ora disimpen suwe-suwe.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Terus';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Mangga isi kabeh kolom sing diwajibake';
 
   @override
-  String get home => 'Home';
+  String get home => 'Omah';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Peringatan';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Siap Nanggapi';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Ora Siap';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Sampeyan bakal nampa peringatan darurat cedhak';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Uripake yen siap ngewangi';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Sampeyan saiki siap nanggapi';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Sampeyan ora bakal nampa peringatan';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Peringatan sing mbebayani nyawa bakal menehi kabar 24/7. Peringatan ora urgent bakal ngormati jadwal sampeyan.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'JALUK BANTUAN';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Dampak Sampeyan';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Tanggapan';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Wektu Rata-rata';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Kemampuan Sampeyan';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Sunting';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Jaringan Masyarakat';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Penanggap Cedhak';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count kasedhiya';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Radius Jangkauan';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance mil';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Peringatan Aktif';
 
   @override
-  String get none => 'None';
+  String get none => 'Ora Ana';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Lokasi Sampeyan';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Apa sing perlu dibantu?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Rincian Tambahan (opsional)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Critakake kahanane...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Wenehi kabar penanggap sing dipercaya dhisik';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Kanca/kulawarga pilihan sampeyan bakal diwenehi kabar sadurunge masyarakat umum';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Ngirim peringatan: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'KIRIM PERINGATAN SAIKI';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType => 'Mangga pilih jenis darurat';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Mbebayani Nyawa';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Keamanan/Kaamanan';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Urgent Sensitif Wektu';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Ora Mbebayani Nyawa';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Serangan Jantung';
 
   @override
-  String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+  String get emergencyCprCardiacDesc => 'Wong ora sadar lan ora ambegan';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Pangiriman AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Butuh AED langsung';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Overdosis / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc => 'Diduga overdosis obat, butuh naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Keselak / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Wong keselak lan ora bisa ambegan';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Kobongan / Evakuasi';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Darurat kobongan, butuh bantuan evakuasi';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Darurat Persetujuan Kamar';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Safeword diarani, butuh saksi';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Saksi Aktif';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc => 'Butuh kehadiran kanggo nyuda konflik';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Kewan Ilang';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Kewan ilang utawa mlayu, butuh tim pencari';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Cek Kesehatan';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc => 'Cek wong sing bisa butuh bantuan';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Kanca Mandheg';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Lagi nglawan kepengin, butuh dukugan';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Kancanan';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Krasa sepi utawa terisolasi';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Koordinasi Layanan Darurat';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Butuh bantuan nelpon lan koordinasi layanan darurat';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +306,123 @@ class AppLocalizationsJv extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Kemampuan Aku';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count dipilih';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Jadwal Peringatan';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Setel jam ketersediaan sampeyan';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Penanggap Dipercaya';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Riwayat Tanggapan';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Privasi & Keamanan';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Bantuan & Dukugan';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Babagan Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Syarat & Kebijakan Privasi';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Metu';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Versi $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS nyambungake tangga-tangga ing darurat, nggawe jaringan penanggap cepet sing bisa menehi bantuan kritis sadurunge petugas darurat profesional teka.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Kabeh wong bisa dadi pahlawan. Sampeyan ora butuh latihan khusus kanggo nylametake nyawa. Kadhangkala intervensi sing paling kuat yaiku mung muncul.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Tutup';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Metu?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Sampeyan yakin arep metu?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Batal';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Sukses metu';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Setelan';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Cek Kesehatan';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Kanca Mandheg';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Saksi Aktif';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Terjemahan AI Kapercayan Dhuwur';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Terjemahan AI Kapercayan Apik';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Terjemahan AI Kapercayan Sedeng';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Terjemahan AI Kapercayan Kurang';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Terjemahan iki digawe AI kanthi kapercayan dhuwur. Disaranake ditinjau profesional kanggo panggunaan produksi.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Terjemahan iki digawe AI kanthi kapercayan apik. Disaranake ditinjau profesional kanggo terminologi persetujuan lan darurat sing kritis kanggo keamanan.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Terjemahan iki mbutuhake tinjauan manungsa kanggo frasa darurat kritis kanggo keamanan sadurunge panggunaan produksi.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Iki mung draf terjemahan. Terjemahan profesional dibutuhake sadurunge panggunaan produksi.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Pilih Basa';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Golek basa';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kualitas Terjemahan: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Bantua ningkatake terjemahan - laporke masalah utawa sumbang terjemahan sing luwih apik!';
 }

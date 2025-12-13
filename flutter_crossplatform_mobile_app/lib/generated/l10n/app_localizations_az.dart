@@ -12,416 +12,428 @@ class AppLocalizationsAz extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Müasir Dövrdə Minuteman və Minutewoman';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp =>
+      'Qonşularınıza kömək etmək üçün qeydiyyatdan keçin';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Başlamaq üçün telefon nömrənizi daxil edin';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Telefon Nömrəsi';
 
   @override
-  String get phoneNumberHint => '(555) 123-4567';
+  String get phoneNumberHint => '(055) 123-45-67';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Təsdiq Kodunu Göndər';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Təsdiq kodunu daxil edin';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return '$phoneNumber nömrəsinə kod göndərdik';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Təsdiq Kodu';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Təsdiq Et və Davam Et';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Telefon nömrəsini dəyişdir';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Zəhmət olmasa telefon nömrənizi daxil edin';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Zəhmət olmasa təsdiq kodunu daxil edin';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Profil Yarat';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Özünüz haqqında bizə danışın';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Bu məlumat bizə sizi kömək ehtiyacı olan qonşularla əlaqələndirməkdə kömək edir';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Foto əlavə et (isteğe bağlı)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Tam Ad *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Əhməd Məmmədov';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Ev Ünvanı *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Nizami küç. 123, mənzil 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper =>
+      'Yalnız yaxınlıq uyğunlaşdırması üçün istifadə olunur';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Yaş (isteğe bağlı)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      '70+ yaşlılar yumşaq xəbərdarlıq saatları təyin edə bilər';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Məxfiliyiniz vacibdir';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Məkanınız yalnız aktiv təcili hallar zamanı sorğulanır və uzunmüddətli saxlanılmır.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Davam Et';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Zəhmət olmasa bütün tələb olunan sahələri doldurun';
 
   @override
-  String get home => 'Home';
+  String get home => 'Əsas';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Xəbərdarlıqlar';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Cavab Verməyə Hazır';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Əlçatan Deyil';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Yaxınlıqda təcili xəbərdarlıqlar alacaqsınız';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Kömək etməyə hazır olduqda aktiv edin';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'İndi cavab verməyə hazırsınız';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Xəbərdarlıq almayacaqsınız';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Həyat təhlükəsi olan xəbərdarlıqlar sizi 24/7 məlumatlandırır. Təcili olmayan xəbərdarlıqlar cədvəlinizə hörmət edir.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'KÖMƏK İSTƏ';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Təsiriniz';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Cavablar';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Orta Vaxt';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Qabiliyyətləriniz';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Redaktə Et';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'İcma Şəbəkəsi';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Yaxın Cavabverənlər';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count əlçatan';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Əhatə Radiusu';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance mil';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Aktiv Xəbərdarlıqlar';
 
   @override
-  String get none => 'None';
+  String get none => 'Heç biri';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Məkanınız';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Nədə kömək lazımdır?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Əlavə Təfərrüatlar (isteğe bağlı)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Vəziyyəti təsvir edin...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Əvvəl etibarlı cavabverənlərimi xəbərdar et';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Seçilmiş dostlarınız/ailəniz ümumi icmadan əvvəl məlumatlandırılacaq';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Xəbərdarlıq göndərilir: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'İNDİ XƏBƏRDARLIQ GÖNDƏR';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Zəhmət olmasa təcili hal növünü seçin';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Həyat Təhlükəsi';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Təhlükəsizlik/Etibarlılıq';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Təcili Vaxt-Həssas';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Həyat Təhlükəsi Olmayan';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Ürək Durması';
 
   @override
-  String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+  String get emergencyCprCardiacDesc => 'Şəxs cavab vermir və nəfəs almır';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'AED Çatdırılması';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Dərhal AED lazımdır';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Dozaşımı / Nalokson';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Şübhəli narkotik dozaşımı, nalokson lazımdır';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Boğulma / Geymlix';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Şəxs boğulur və nəfəs ala bilmir';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Yanğın / Təxliyə';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Yanğın təcili halı, təxliyə kömək lazımdır';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Yataq Otağı Razılıq Təcili Halı';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc =>
+      'Təhlükəsizlik sözü deyildi, şahid lazımdır';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Aktiv Müşahidəçi Şahidi';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Münaqişəni sakitləşdirmək üçün iştirak lazımdır';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'İtirilmiş Ev Heyvanı';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Ev heyvanı itib və ya qaçıb, axtarış qrupu lazımdır';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Rifahın Yoxlanması';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Kömək ehtiyacı ola biləcək kimsəni yoxla';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Tərk Etmə Yoldaşı';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'İstəklə mübarizə aparıram, dəstək lazımdır';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Yoldaşlıq';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc =>
+      'Tənha və ya təcrid olunmuş hiss edirəm';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => '911 Koordinasiyası';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      '911-i zəng etmək və koordinasiya etməkdə kömək lazımdır';
 
   @override
   String get equipmentAed => 'AED';
 
   @override
-  String get equipmentNaloxone => 'Naloxone/Narcan';
+  String get equipmentNaloxone => 'Nalokson/Narkan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Qabiliyyətlərim';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count seçilib';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Xəbərdarlıq Cədvəli';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Mövcudluq saatlarınızı təyin edin';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Etibarlı Cavabverənlər';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Cavab Tarixi';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Məxfilik və Təhlükəsizlik';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Kömək və Dəstək';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Naybor SOS Haqqında';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Şərtlər və Məxfilik Siyasəti';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Çıxış';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Versiya $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS təcili hallarda qonşuları birləşdirir, peşəkar ilk yardım xidmətləri gələnə qədər kritik yardım təmin edə bilən sürətli cavabverənlər şəbəkəsi yaradır.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Hər kəs qəhrəman ola bilər. Həyat xilas etmək üçün xüsusi təlimə ehtiyac yoxdur. Bəzən ən güclü müdaxilə sadəcə görünməkdir.';
 
   @override
-  String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
+  String get lifesaverLabs => 'Lifesaver Labs İctimai Fayda Korporasiyası';
 
   @override
-  String get close => 'Close';
+  String get close => 'Bağla';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Çıxış edilsin?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Çıxış etmək istədiyinizdən əminsiniz?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Ləğv Et';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Uğurla çıxış edildi';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Parametrlər';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Rifahın Yoxlanması';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Tərk Etmə Yoldaşı';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Aktiv Müşahidəçi';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Yüksək Etimad AI Tərcüməsi';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Yaxşı Etimad AI Tərcüməsi';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Orta Etimad AI Tərcüməsi';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Aşağı Etimad AI Tərcüməsi';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Bu tərcümə yüksək etimadla AI tərəfindən yaradılıb. İstehsal istifadəsi üçün peşəkar nəzərdən keçirmə tövsiyə olunur.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Bu tərcümə yaxşı etimadla AI tərəfindən yaradılıb. Təhlükəsizlik-kritik razılıq və təcili terminologiya üçün peşəkar nəzərdən keçirmə tövsiyə olunur.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Bu tərcümə istehsal istifadəsindən əvvəl təhlükəsizlik-kritik təcili ifadələr üçün insan nəzərdən keçirməsini tələb edir.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Bu yalnız layihə tərcüməsidir. İstehsal istifadəsindən əvvəl peşəkar tərcümə tələb olunur.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Dil Seç';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Dilləri axtar';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Tərcümə Keyfiyyəti: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Tərcümələrin yaxşılaşdırılmasına kömək edin - problemləri bildirin və ya daha yaxşı tərcümələr təqdim edin!';
 }

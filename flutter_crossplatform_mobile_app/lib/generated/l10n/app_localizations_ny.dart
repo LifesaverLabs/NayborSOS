@@ -12,291 +12,302 @@ class AppLocalizationsNy extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Anthu Othandiza a Masiku Ano';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Lembani kuti muthandize anansi anu';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber => 'Lembani nambala yanu ya foni kuti muyambe';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Nambala ya Foni';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Tumizani Kachidindo ka Kutsimikizira';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Lembani kachidindo ka kutsimikizira';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Tatumiza kachidindo ku $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Kachidindo ka Kutsimikizira';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Tsimikizirani & Pitirizani';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Sinthani nambala ya foni';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber => 'Chonde lembani nambala yanu ya foni';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Chonde lembani kachidindo ka kutsimikizira';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Pangani Mbiri Yanu';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Tiuzeni za inu';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Zidziwitso izi zimatithandiza kulumikizana ndi anansi omwe akufuna thandizo';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Ikani chithunzi (osankha)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Dzina Lonse *';
 
   @override
   String get fullNameHint => 'John Smith';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Malo Mukukhala *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => '123 Main St, Chipinda 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper =>
+      'Chigwirizanochi ndi chopezera anthu apafupi okha';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Zaka (osankha)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Anthu azaka 70 kupitirira amatha kukhazikitsa nthawi yodonthedwa';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Zinsinsi zanu ndizofunikira';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Malo anu amafunsidwa nthawi ya zidziwitso za mwadzidzidzi ndipo samasungidwa kwanthawi yaitali.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Pitirizani';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields => 'Chonde dzazani gawo lonse lofunikira';
 
   @override
-  String get home => 'Home';
+  String get home => 'Nyumba';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Zidziwitso';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Mbiri';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Ndili Wokonzeka Kuthandiza';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Sindingathe';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Mudzalandira zidziwitso za mwadzidzidzi pafupi';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Yatsegulani mukakhala okonzeka kuthandiza';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Tsopano ndinu okonzeka kuthandiza';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Simudzalandira zidziwitso';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Zidziwitso za kupha zidzakudziwitsani masiku onse ndi usiku wonse. Zidziwitso zosaukira zimalemekeza ndondomeko yanu.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'PEMPHANÍ THANDIZO';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Thandizo Lanu';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Mayankho';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Nthawi Yapakati';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Luso Lanu';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Sinthani';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Gulu la Anthu';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Othandiza Apafupi';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count alipo';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Utali wa Kuthandizira';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return 'Makilomita $distance';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Zidziwitso Zomwe Zikugwira Ntchito';
 
   @override
-  String get none => 'None';
+  String get none => 'Palibe';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Malo Anu';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Mukufuna thandizo la chani?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional => 'Zina Zowonjezera (osankha)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Fotokozani momwe zinthu ziliri...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Dziwitsani othandiza anga okhulupirira oyamba';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Abwenzi/achibale anu osankhidwa adzadziwitsidwa anthu ena asanadziwitsidwe';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Tikutumiza chidziwitso: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'TUMIZANI CHIDZIWITSO TSOPANO';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Chonde sankhani mtundu wa mwadzidzidzi';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Zopha';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Chitetezo/Kusalama';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Chofunikira Mwachangu';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Zosapha';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Mtima Woimira';
 
   @override
-  String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+  String get emergencyCprCardiacDesc => 'Munthu sagwirizana ndipo sakupuma';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Kubweretsa AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Tikufuna AED mwachangu';
 
   @override
-  String get emergencyOverdoseName => 'Overdose / Naloxone';
+  String get emergencyOverdoseName => 'Kudya Mankhwala Ambiri / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Tikukayikira kuti wadya mankhwala ambiri, tikufuna naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Kudzimira / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Munthu akudzimira ndipo sangathe kupuma';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Moto / Kuthawa';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc =>
+      'Mwadzidzidzi wa moto, tikufuna thandizo lothawa';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName =>
+      'Mwadzidzidzi wa Chilolezo m\'Chipinda Chogonamo';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc =>
+      'Mawu othetsa chiganizo ananenedwa, tikufuna mboni';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Mboni Yothandiza';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Tikufuna kupezeka kuti tichepetse mikangano';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Nyama Yosowa';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Nyama yatayika kapena yathawa, tikufuna anthu akusaka';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Kuyesa Thanzi';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Kuyesa munthu amene angakhale akufuna thandizo';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Bwenzi Losiya';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Ndikulimbana ndi chikhumbo, ndikufuna chithandizo';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Ubwenzi';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc =>
+      'Ndikumva wokha kapena wolekanitsidwa';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Kugwirizanitsa ma 911';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Tikufuna thandizo kuyimbira ndi kugwirizanitsa ma 911';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +316,125 @@ class AppLocalizationsNy extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Luso Langa';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count zasankhidwa';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Dongosolo la Zidziwitso';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Khazikitsani maola anu opezeka';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Othandiza Okhulupirira';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Mbiri ya Mayankho';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Zinsinsi ndi Chitetezo';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Thandizo ndi Chithandizo';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Za Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Malamulo ndi Ndondomeko ya Zinsinsi';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Tulukani';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Mtundu $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS imalumikiza anansi pa nthawi ya zidziwitso za mwadzidzidzi, ikupanga gulu la othandiza mwachangu omwe angapereke thandizo lofunikira asanafike othandiza akatswiri.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Aliyense atha kukhala ngwazi. Simukufuna maphunziro apadera kuti mupulumutse moyo. Nthawi zina thandizo lamphamvu kwambiri ndi kungofikako.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Tsekani';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Kutuluka?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Kodi mukutsimikiza kuti mukufuna kutuluka?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Lekani';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Mwatuluka bwino';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Zosintha';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Kuyesa Thanzi';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Bwenzi Losiya';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Mboni Yothandiza';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label =>
+      'Kumasulira kwa AI Kokhulupirira Kwambiri';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Kumasulira kwa AI Kokhulupirira Bwino';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Kumasulira kwa AI Kokhulupirira Pang\'ono';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Kumasulira kwa AI Kokhulupirira Kochepa';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Kumasulirani kopangidwa ndi AI ndi kudalira kwakukulu. Kuwunika kwa akatswiri kumalimbikitsidwa kugwiritsira ntchito.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Kumasulirani kopangidwa ndi AI ndi kudalira kwabwino. Kuwunika kwa akatswiri kumalimbikitsidwa pa mawu ofunikira a chilolezo ndi mwadzidzidzi.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Kumasulirani kumafuna kuwunikidwa ndi munthu pa mawu ofunikira a mwadzidzidzi asanagwiritsidwe ntchito.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Uku ndi kumasulira koyesa kokha. Kumasulira kwa akatswiri kumafunikira asanagwiritsidwe ntchito.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Sankhani Chilankhulo';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Sakani zilankhulo';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Ubwino wa Kumasulira: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Thandizani kukonza kumasulira - nenani mavuto kapena perekani kumasulira kwabwinoko!';
 }
