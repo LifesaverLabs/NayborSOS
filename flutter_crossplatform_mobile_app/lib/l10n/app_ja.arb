@@ -1,22 +1,22 @@
 {
-  "@@locale": "es",
+  "@@locale": "ja",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Minutemen y Minutewomen Modernos",
+  "tagline": "現代のミニットマン＆ミニットウーマン",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Regístrate para ayudar a tus vecinos",
+  "signUpToHelp": "近隣の方を支援するために登録してください",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Ingresa tu número de teléfono para comenzar",
+  "enterPhoneNumber": "開始するには電話番号を入力してください",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Número de Teléfono",
+  "phoneNumberLabel": "電話番号",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +24,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Enviar Código de Verificación",
+  "sendVerificationCode": "確認コードを送信",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Ingresa el código de verificación",
+  "enterVerificationCode": "確認コードを入力してください",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "Enviamos un código a {phoneNumber}",
+  "verificationCodeSent": "{phoneNumber}にコードを送信しました",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +42,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Código de Verificación",
+  "verificationCodeLabel": "確認コード",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +50,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verificar y Continuar",
+  "verifyAndContinue": "確認して続行",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Cambiar número de teléfono",
+  "changePhoneNumber": "電話番号を変更",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Por favor ingresa tu número de teléfono",
+  "pleaseEnterPhoneNumber": "電話番号を入力してください",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Por favor ingresa el código de verificación",
+  "pleaseEnterVerificationCode": "確認コードを入力してください",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Crear Perfil",
+  "createProfile": "プロフィールを作成",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Cuéntanos sobre ti",
+  "tellUsAboutYourself": "ご自身についてお聞かせください",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "Esta información nos ayuda a conectarte con vecinos que necesitan ayuda",
+  "profileSetupDescription": "この情報は、支援を必要としている近隣の方とあなたをつなぐために使用されます",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Agregar foto (opcional)",
+  "addPhotoOptional": "写真を追加（任意）",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Nombre Completo *",
+  "fullNameLabel": "氏名 *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "Juan García",
+  "fullNameHint": "山田太郎",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Dirección de Casa *",
+  "homeAddressLabel": "住所 *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "Calle Principal 123, Apt 4B",
+  "homeAddressHint": "東京都渋谷区1-2-3 マンション4B",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Solo se usa para emparejamiento por proximidad",
+  "homeAddressHelper": "近接マッチングにのみ使用されます",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Edad (opcional)",
+  "ageOptionalLabel": "年齢（任意）",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +110,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Mayores de 70 pueden configurar horas de alerta suaves",
+  "ageHelper": "70歳以上の方は穏やかな通知時間を設定できます",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Tu privacidad importa",
+  "yourPrivacyMatters": "あなたのプライバシーは重要です",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Tu ubicación solo se consulta durante emergencias activas y nunca se almacena a largo plazo.",
+  "privacyNotice": "あなたの位置情報は、緊急事態が発生している間のみ照会され、長期的に保存されることはありません。",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continuar",
+  "continueButton": "続行",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Por favor completa todos los campos requeridos",
+  "pleaseFillRequiredFields": "必須項目をすべて入力してください",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Inicio",
+  "home": "ホーム",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alertas",
+  "alerts": "通知",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Perfil",
+  "profile": "プロフィール",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Disponible para Responder",
+  "availableToRespond": "対応可能",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "No Disponible",
+  "notAvailable": "対応不可",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "Recibirás alertas de emergencia cercanas",
+  "youllReceiveEmergencyAlerts": "近くの緊急通知を受け取ります",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Activa cuando estés listo para ayudar",
+  "toggleOnWhenReady": "支援の準備ができたら切り替えてください",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "Ahora estás disponible para responder",
+  "youreNowAvailable": "現在対応可能な状態です",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "No recibirás alertas",
+  "youWontReceiveAlerts": "通知を受け取りません",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Las alertas de amenaza vital te notificarán 24/7. Las alertas no urgentes respetan tu horario.",
+  "lifeThreatening247Info": "生命にかかわる通知は24時間年中無休で届きます。緊急でない通知はあなたのスケジュールを尊重します。",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "SOLICITAR AYUDA",
+  "requestHelp": "支援を要請",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Tu Impacto",
+  "yourImpact": "あなたの貢献",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Respuestas",
+  "responses": "対応回数",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Tiempo Prom",
+  "avgTime": "平均時間",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Tus Capacidades",
+  "yourCapabilities": "あなたの能力",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Editar",
+  "edit": "編集",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Red Comunitaria",
+  "communityNetwork": "コミュニティネットワーク",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Respondedores Cercanos",
+  "nearbyResponders": "近くの対応者",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} disponibles",
+  "nearbyRespondersAvailable": "{count}人対応可能",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +212,11 @@
       }
     }
   },
-  "coverageRadius": "Radio de Cobertura",
+  "coverageRadius": "対応範囲",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} millas",
+  "coverageRadiusValue": "{distance}マイル",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +226,39 @@
       }
     }
   },
-  "activeAlerts": "Alertas Activas",
+  "activeAlerts": "有効な通知",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "Ninguna",
+  "none": "なし",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Tu Ubicación",
+  "yourLocation": "あなたの位置",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "¿Con qué necesitas ayuda?",
+  "whatDoYouNeedHelpWith": "どのような支援が必要ですか？",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Detalles Adicionales (opcional)",
+  "additionalDetailsOptional": "追加詳細（任意）",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe la situación...",
+  "describeSituation": "状況を説明してください...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alertar primero a mis respondedores de confianza",
+  "alertTrustedRespondersFirst": "信頼できる対応者に最初に通知する",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Tus amigos/familiares seleccionados serán notificados antes que la comunidad general",
+  "trustedRespondersDescription": "選択した友人/家族が一般のコミュニティより先に通知されます",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Enviando alerta: {emergencyType}",
+  "sendingAlert": "通知を送信中: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,139 +268,139 @@
       }
     }
   },
-  "sendAlertNow": "ENVIAR ALERTA AHORA",
+  "sendAlertNow": "今すぐ通知を送信",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Por favor selecciona un tipo de emergencia",
+  "pleaseSelectEmergencyType": "緊急事態の種類を選択してください",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Amenaza Vital",
+  "categoryLifeThreatening": "🔴 生命にかかわる",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Seguridad",
+  "categorySecuritySafety": "🟠 安全・防犯",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgente Sensible al Tiempo",
+  "categoryUrgentTimeSensitive": "🟡 緊急で時間が重要",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 No Amenaza Vital",
+  "categoryNonLifeThreatening": "🟢 生命にかかわらない",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "RCP / Paro Cardíaco",
+  "emergencyCprCardiacName": "心肺蘇生 / 心停止",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Persona no responde y no respira",
+  "emergencyCprCardiacDesc": "意識がなく呼吸していない",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "Entrega de DEA",
+  "emergencyAedName": "AED配送",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Necesito un DEA inmediatamente",
+  "emergencyAedDesc": "AEDが直ちに必要",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Sobredosis / Naloxona",
+  "emergencyOverdoseName": "過剰摂取 / ナロキソン",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Sobredosis sospechada, necesito naloxona",
+  "emergencyOverdoseDesc": "薬物の過剰摂取が疑われる、ナロキソンが必要",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Atragantamiento / Heimlich",
+  "emergencyChokingName": "窒息 / ハイムリック法",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Persona se está atragantando y no puede respirar",
+  "emergencyChokingDesc": "窒息して呼吸ができない",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Incendio / Evacuación",
+  "emergencyFireName": "火災 / 避難",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Emergencia de incendio, necesito ayuda para evacuar",
+  "emergencyFireDesc": "火災の緊急事態、避難の支援が必要",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Emergencia de Consentimiento",
+  "emergencyConsentName": "プライベート同意の緊急事態",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Palabra de seguridad dicha, necesito testigo",
+  "emergencyConsentDesc": "セーフワードが使われた、立会人が必要",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Testigo Activo",
+  "emergencyBystanderName": "積極的な目撃者",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Necesito presencia para desescalar conflicto",
+  "emergencyBystanderDesc": "対立を緩和するために立ち会いが必要",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Mascota Perdida",
+  "emergencyMissingPetName": "行方不明のペット",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Mascota perdida o escapó, necesito grupo de búsqueda",
+  "emergencyMissingPetDesc": "ペットが迷子または逃げた、捜索隊が必要",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Verificación de Bienestar",
+  "emergencyWellnessCheckName": "安否確認",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Verificar a alguien que puede necesitar ayuda",
+  "emergencyWellnessCheckDesc": "支援が必要かもしれない人を確認する",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Compañero para Dejar",
+  "emergencyQuitCompanionName": "禁断サポート",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Luchando contra el deseo, necesito apoyo",
+  "emergencyQuitCompanionDesc": "渇望と戦っている、サポートが必要",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Compañía",
+  "emergencyCompanionshipName": "話し相手",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Sintiéndome solo o aislado",
+  "emergencyCompanionshipDesc": "孤独または孤立を感じている",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "Coordinación 911",
+  "emergency911CoordinationName": "緊急通報の調整",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Necesito ayuda llamando y coordinando 911",
+  "emergency911CoordinationDesc": "緊急通報と調整の支援が必要",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "DEA",
+  "equipmentAed": "AED",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "Naloxona/Narcan",
+  "equipmentNaloxone": "ナロキソン/ナルカン",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "Mis Capacidades",
+  "myCapabilities": "私の能力",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} seleccionadas",
+  "capabilitiesSelected": "{count}個選択",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +410,43 @@
       }
     }
   },
-  "alertSchedule": "Horario de Alertas",
+  "alertSchedule": "通知スケジュール",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Establece tus horas de disponibilidad",
+  "setAvailabilityHours": "対応可能時間を設定してください",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Respondedores de Confianza",
+  "trustedResponders": "信頼できる対応者",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Historial de Respuestas",
+  "responseHistory": "対応履歴",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacidad y Seguridad",
+  "privacyAndSafety": "プライバシーと安全",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Ayuda y Soporte",
+  "helpAndSupport": "ヘルプとサポート",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "Acerca de Naybor SOS",
+  "aboutNayborSos": "Naybor SOSについて",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Términos y Política de Privacidad",
+  "termsAndPrivacyPolicy": "利用規約とプライバシーポリシー",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Cerrar Sesión",
+  "signOut": "サインアウト",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Versión {version}",
+  "version": "バージョン {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,51 +456,51 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS conecta vecinos en emergencias, creando una red de respondedores rápidos que pueden proporcionar ayuda crítica antes de que lleguen los primeros respondedores profesionales.",
+  "aboutDialogContent": "Naybor SOSは緊急時に近隣の方々をつなぎ、専門の救急隊員が到着する前に重要な援助を提供できる迅速な対応者のネットワークを作ります。",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Todos pueden ser héroes. No necesitas entrenamiento especial para salvar una vida. A veces la intervención más poderosa es simplemente aparecer.",
+  "aboutDialogContent2": "誰でもヒーローになれます。命を救うのに特別な訓練は必要ありません。時には最も強力な介入は、単にそこにいることです。",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Corporación de Beneficio Público",
+  "lifesaverLabs": "Lifesaver Labs 公益法人",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Cerrar",
+  "close": "閉じる",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "¿Cerrar Sesión?",
+  "signOutQuestion": "サインアウトしますか？",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "¿Estás seguro de que quieres cerrar sesión?",
+  "signOutConfirm": "本当にサインアウトしてもよろしいですか？",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancelar",
+  "cancel": "キャンセル",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Sesión cerrada exitosamente",
+  "signedOutSuccessfully": "サインアウトしました",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Configuración",
+  "settings": "設定",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Verificación de Bienestar",
+  "capabilityWellnessCheck": "安否確認",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Compañero para Dejar",
+  "capabilityQuitCompanion": "禁断サポート",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Testigo Activo",
+  "capabilityActiveBystander": "積極的な目撃者",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   }

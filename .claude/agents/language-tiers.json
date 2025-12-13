@@ -1,0 +1,18 @@
+{
+  "tier1": {
+    "description": "Major global languages with large speaker populations - Professional review recommended",
+    "languages": ["zh", "hi", "es", "fr", "ar", "bn", "pt", "ru", "ja", "pa", "de", "jv", "ko", "te", "vi", "mr", "ta", "tr", "it", "ur", "th", "gu"]
+  },
+  "tier2": {
+    "description": "Regional languages and important secondary languages - Professional review recommended for safety-critical content",
+    "languages": ["pl", "uk", "ml", "kn", "or", "my", "fa", "nl", "ro", "sw", "hu", "cs", "el", "sv", "he", "fi", "da", "no", "sk", "bg", "hr", "sr", "lt", "lv", "et", "sl", "sq", "mk", "am", "ne", "si", "km", "lo", "az", "kk", "uz", "hy", "ka", "id", "ms", "tl", "fil"]
+  },
+  "tier3": {
+    "description": "Smaller regional languages - Human review required for safety-critical emergency phrases",
+    "languages": ["af", "is", "ga", "cy", "eu", "ca", "gl", "mt", "be", "bs", "mn", "ps", "ku", "sd", "ug", "tk", "ky", "tg", "so", "ha", "ig", "yo", "zu", "xh", "st", "sn", "mg", "ny", "rw"]
+  },
+  "tier4": {
+    "description": "Pacific and specialized regional languages - Professional translation required",
+    "languages": ["mi", "sm", "to", "fj", "haw", "ceb"]
+  }
+}

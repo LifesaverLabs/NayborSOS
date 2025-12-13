@@ -1,22 +1,22 @@
 {
-  "@@locale": "es",
+  "@@locale": "ko",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Minutemen y Minutewomen Modernos",
+  "tagline": "현대의 미닛맨과 미닛우먼",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Regístrate para ayudar a tus vecinos",
+  "signUpToHelp": "이웃을 돕기 위해 등록하세요",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Ingresa tu número de teléfono para comenzar",
+  "enterPhoneNumber": "시작하려면 전화번호를 입력하세요",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Número de Teléfono",
+  "phoneNumberLabel": "전화번호",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +24,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Enviar Código de Verificación",
+  "sendVerificationCode": "인증 코드 전송",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Ingresa el código de verificación",
+  "enterVerificationCode": "인증 코드를 입력하세요",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "Enviamos un código a {phoneNumber}",
+  "verificationCodeSent": "{phoneNumber}로 코드를 전송했습니다",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +42,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Código de Verificación",
+  "verificationCodeLabel": "인증 코드",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +50,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verificar y Continuar",
+  "verifyAndContinue": "인증 후 계속",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Cambiar número de teléfono",
+  "changePhoneNumber": "전화번호 변경",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Por favor ingresa tu número de teléfono",
+  "pleaseEnterPhoneNumber": "전화번호를 입력해 주세요",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Por favor ingresa el código de verificación",
+  "pleaseEnterVerificationCode": "인증 코드를 입력해 주세요",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Crear Perfil",
+  "createProfile": "프로필 만들기",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Cuéntanos sobre ti",
+  "tellUsAboutYourself": "본인에 대해 알려주세요",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "Esta información nos ayuda a conectarte con vecinos que necesitan ayuda",
+  "profileSetupDescription": "이 정보는 도움이 필요한 이웃과 연결하는 데 도움이 됩니다",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Agregar foto (opcional)",
+  "addPhotoOptional": "사진 추가 (선택사항)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Nombre Completo *",
+  "fullNameLabel": "성명 *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "Juan García",
+  "fullNameHint": "홍길동",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Dirección de Casa *",
+  "homeAddressLabel": "자택 주소 *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "Calle Principal 123, Apt 4B",
+  "homeAddressHint": "서울시 강남구 테헤란로 123, 4B호",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Solo se usa para emparejamiento por proximidad",
+  "homeAddressHelper": "근접성 매칭에만 사용됩니다",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Edad (opcional)",
+  "ageOptionalLabel": "나이 (선택사항)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +110,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Mayores de 70 pueden configurar horas de alerta suaves",
+  "ageHelper": "70세 이상은 부드러운 알림 시간을 설정할 수 있습니다",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Tu privacidad importa",
+  "yourPrivacyMatters": "귀하의 개인정보는 중요합니다",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Tu ubicación solo se consulta durante emergencias activas y nunca se almacena a largo plazo.",
+  "privacyNotice": "귀하의 위치는 활성 응급 상황 중에만 조회되며 장기간 저장되지 않습니다.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continuar",
+  "continueButton": "계속",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Por favor completa todos los campos requeridos",
+  "pleaseFillRequiredFields": "필수 항목을 모두 입력해 주세요",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Inicio",
+  "home": "홈",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alertas",
+  "alerts": "알림",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Perfil",
+  "profile": "프로필",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Disponible para Responder",
+  "availableToRespond": "대응 가능",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "No Disponible",
+  "notAvailable": "대응 불가",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "Recibirás alertas de emergencia cercanas",
+  "youllReceiveEmergencyAlerts": "인근의 응급 알림을 받게 됩니다",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Activa cuando estés listo para ayudar",
+  "toggleOnWhenReady": "도울 준비가 되면 켜세요",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "Ahora estás disponible para responder",
+  "youreNowAvailable": "이제 대응 가능 상태입니다",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "No recibirás alertas",
+  "youWontReceiveAlerts": "알림을 받지 않습니다",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Las alertas de amenaza vital te notificarán 24/7. Las alertas no urgentes respetan tu horario.",
+  "lifeThreatening247Info": "생명을 위협하는 알림은 연중무휴 24시간 알려드립니다. 긴급하지 않은 알림은 귀하의 일정을 존중합니다.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "SOLICITAR AYUDA",
+  "requestHelp": "도움 요청",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Tu Impacto",
+  "yourImpact": "귀하의 기여",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Respuestas",
+  "responses": "대응 횟수",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Tiempo Prom",
+  "avgTime": "평균 시간",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Tus Capacidades",
+  "yourCapabilities": "귀하의 역량",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Editar",
+  "edit": "편집",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Red Comunitaria",
+  "communityNetwork": "커뮤니티 네트워크",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Respondedores Cercanos",
+  "nearbyResponders": "인근 대응자",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} disponibles",
+  "nearbyRespondersAvailable": "{count}명 대응 가능",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +212,11 @@
       }
     }
   },
-  "coverageRadius": "Radio de Cobertura",
+  "coverageRadius": "대응 범위",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} millas",
+  "coverageRadiusValue": "{distance}마일",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +226,39 @@
       }
     }
   },
-  "activeAlerts": "Alertas Activas",
+  "activeAlerts": "활성 알림",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "Ninguna",
+  "none": "없음",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Tu Ubicación",
+  "yourLocation": "귀하의 위치",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "¿Con qué necesitas ayuda?",
+  "whatDoYouNeedHelpWith": "어떤 도움이 필요하십니까?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Detalles Adicionales (opcional)",
+  "additionalDetailsOptional": "추가 세부정보 (선택사항)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe la situación...",
+  "describeSituation": "상황을 설명해 주세요...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alertar primero a mis respondedores de confianza",
+  "alertTrustedRespondersFirst": "신뢰할 수 있는 대응자에게 먼저 알림",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Tus amigos/familiares seleccionados serán notificados antes que la comunidad general",
+  "trustedRespondersDescription": "선택한 친구/가족이 일반 커뮤니티보다 먼저 알림을 받습니다",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Enviando alerta: {emergencyType}",
+  "sendingAlert": "알림 전송 중: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,139 +268,139 @@
       }
     }
   },
-  "sendAlertNow": "ENVIAR ALERTA AHORA",
+  "sendAlertNow": "지금 알림 전송",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Por favor selecciona un tipo de emergencia",
+  "pleaseSelectEmergencyType": "응급 상황 유형을 선택해 주세요",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Amenaza Vital",
+  "categoryLifeThreatening": "🔴 생명 위협",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Seguridad",
+  "categorySecuritySafety": "🟠 안전/보안",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgente Sensible al Tiempo",
+  "categoryUrgentTimeSensitive": "🟡 긴급 시간 민감",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 No Amenaza Vital",
+  "categoryNonLifeThreatening": "🟢 비생명 위협",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "RCP / Paro Cardíaco",
+  "emergencyCprCardiacName": "심폐소생술 / 심정지",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Persona no responde y no respira",
+  "emergencyCprCardiacDesc": "의식이 없고 호흡하지 않음",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "Entrega de DEA",
+  "emergencyAedName": "자동제세동기 배달",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Necesito un DEA inmediatamente",
+  "emergencyAedDesc": "즉시 자동제세동기 필요",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Sobredosis / Naloxona",
+  "emergencyOverdoseName": "과다복용 / 날록손",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Sobredosis sospechada, necesito naloxona",
+  "emergencyOverdoseDesc": "약물 과다복용 의심, 날록손 필요",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Atragantamiento / Heimlich",
+  "emergencyChokingName": "질식 / 하임리히법",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Persona se está atragantando y no puede respirar",
+  "emergencyChokingDesc": "질식하여 호흡할 수 없음",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Incendio / Evacuación",
+  "emergencyFireName": "화재 / 대피",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Emergencia de incendio, necesito ayuda para evacuar",
+  "emergencyFireDesc": "화재 응급상황, 대피 도움 필요",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Emergencia de Consentimiento",
+  "emergencyConsentName": "사적 동의 응급상황",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Palabra de seguridad dicha, necesito testigo",
+  "emergencyConsentDesc": "세이프워드가 사용됨, 증인 필요",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Testigo Activo",
+  "emergencyBystanderName": "적극적 목격자",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Necesito presencia para desescalar conflicto",
+  "emergencyBystanderDesc": "갈등 완화를 위한 입회 필요",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Mascota Perdida",
+  "emergencyMissingPetName": "실종 반려동물",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Mascota perdida o escapó, necesito grupo de búsqueda",
+  "emergencyMissingPetDesc": "반려동물이 길을 잃거나 도망감, 수색대 필요",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Verificación de Bienestar",
+  "emergencyWellnessCheckName": "안부 확인",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Verificar a alguien que puede necesitar ayuda",
+  "emergencyWellnessCheckDesc": "도움이 필요할 수 있는 사람 확인",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Compañero para Dejar",
+  "emergencyQuitCompanionName": "금단 지원",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Luchando contra el deseo, necesito apoyo",
+  "emergencyQuitCompanionDesc": "갈망과 싸우는 중, 지원 필요",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Compañía",
+  "emergencyCompanionshipName": "동반자",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Sintiéndome solo o aislado",
+  "emergencyCompanionshipDesc": "외롭거나 고립된 느낌",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "Coordinación 911",
+  "emergency911CoordinationName": "응급전화 조정",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Necesito ayuda llamando y coordinando 911",
+  "emergency911CoordinationDesc": "응급전화 통화 및 조정 도움 필요",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "DEA",
+  "equipmentAed": "자동제세동기",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "Naloxona/Narcan",
+  "equipmentNaloxone": "날록손/나르칸",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "Mis Capacidades",
+  "myCapabilities": "나의 역량",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} seleccionadas",
+  "capabilitiesSelected": "{count}개 선택됨",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +410,43 @@
       }
     }
   },
-  "alertSchedule": "Horario de Alertas",
+  "alertSchedule": "알림 일정",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Establece tus horas de disponibilidad",
+  "setAvailabilityHours": "대응 가능 시간을 설정하세요",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Respondedores de Confianza",
+  "trustedResponders": "신뢰할 수 있는 대응자",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Historial de Respuestas",
+  "responseHistory": "대응 기록",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacidad y Seguridad",
+  "privacyAndSafety": "개인정보 보호 및 안전",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Ayuda y Soporte",
+  "helpAndSupport": "도움말 및 지원",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "Acerca de Naybor SOS",
+  "aboutNayborSos": "Naybor SOS 정보",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Términos y Política de Privacidad",
+  "termsAndPrivacyPolicy": "약관 및 개인정보 처리방침",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Cerrar Sesión",
+  "signOut": "로그아웃",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Versión {version}",
+  "version": "버전 {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,51 +456,51 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS conecta vecinos en emergencias, creando una red de respondedores rápidos que pueden proporcionar ayuda crítica antes de que lleguen los primeros respondedores profesionales.",
+  "aboutDialogContent": "Naybor SOS는 응급 상황에서 이웃을 연결하여 전문 구급대원이 도착하기 전에 중요한 도움을 제공할 수 있는 신속한 대응자 네트워크를 만듭니다.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Todos pueden ser héroes. No necesitas entrenamiento especial para salvar una vida. A veces la intervención más poderosa es simplemente aparecer.",
+  "aboutDialogContent2": "누구나 영웅이 될 수 있습니다. 생명을 구하는 데 특별한 훈련이 필요하지 않습니다. 때로는 가장 강력한 개입은 단순히 그 자리에 있는 것입니다.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Corporación de Beneficio Público",
+  "lifesaverLabs": "Lifesaver Labs 공익법인",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Cerrar",
+  "close": "닫기",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "¿Cerrar Sesión?",
+  "signOutQuestion": "로그아웃하시겠습니까?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "¿Estás seguro de que quieres cerrar sesión?",
+  "signOutConfirm": "정말 로그아웃하시겠습니까?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancelar",
+  "cancel": "취소",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Sesión cerrada exitosamente",
+  "signedOutSuccessfully": "로그아웃되었습니다",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Configuración",
+  "settings": "설정",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Verificación de Bienestar",
+  "capabilityWellnessCheck": "안부 확인",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Compañero para Dejar",
+  "capabilityQuitCompanion": "금단 지원",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Testigo Activo",
+  "capabilityActiveBystander": "적극적 목격자",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   }

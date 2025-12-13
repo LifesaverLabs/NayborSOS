@@ -1,38 +1,47 @@
 {
-  "@@locale": "es",
+  "@@locale": "pt",
+
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Minutemen y Minutewomen Modernos",
+
+  "tagline": "Minutemen e Minutewomen Modernos",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Regístrate para ayudar a tus vecinos",
+
+  "signUpToHelp": "Cadastre-se para ajudar seus vizinhos",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Ingresa tu número de teléfono para comenzar",
+
+  "enterPhoneNumber": "Digite seu número de telefone para começar",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Número de Teléfono",
+
+  "phoneNumberLabel": "Número de Telefone",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
+
   "phoneNumberHint": "(555) 123-4567",
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Enviar Código de Verificación",
+
+  "sendVerificationCode": "Enviar Código de Verificação",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Ingresa el código de verificación",
+
+  "enterVerificationCode": "Digite o código de verificação",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "Enviamos un código a {phoneNumber}",
+
+  "verificationCodeSent": "Enviamos um código para {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,167 +51,208 @@
       }
     }
   },
-  "verificationCodeLabel": "Código de Verificación",
+
+  "verificationCodeLabel": "Código de Verificação",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
+
   "verificationCodeHint": "123456",
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verificar y Continuar",
+
+  "verifyAndContinue": "Verificar e Continuar",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Cambiar número de teléfono",
+
+  "changePhoneNumber": "Alterar número de telefone",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Por favor ingresa tu número de teléfono",
+
+  "pleaseEnterPhoneNumber": "Por favor, digite seu número de telefone",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Por favor ingresa el código de verificación",
+
+  "pleaseEnterVerificationCode": "Por favor, digite o código de verificação",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Crear Perfil",
+
+  "createProfile": "Criar Perfil",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Cuéntanos sobre ti",
+
+  "tellUsAboutYourself": "Conte-nos sobre você",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "Esta información nos ayuda a conectarte con vecinos que necesitan ayuda",
+
+  "profileSetupDescription": "Essas informações nos ajudam a conectá-lo com vizinhos que precisam de ajuda",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Agregar foto (opcional)",
+
+  "addPhotoOptional": "Adicionar foto (opcional)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Nombre Completo *",
+
+  "fullNameLabel": "Nome Completo *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "Juan García",
+
+  "fullNameHint": "João Silva",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Dirección de Casa *",
+
+  "homeAddressLabel": "Endereço Residencial *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "Calle Principal 123, Apt 4B",
+
+  "homeAddressHint": "Rua Principal 123, Apto 4B",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Solo se usa para emparejamiento por proximidad",
+
+  "homeAddressHelper": "Usado apenas para correspondência de proximidade",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Edad (opcional)",
+
+  "ageOptionalLabel": "Idade (opcional)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
+
   "ageHint": "25",
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Mayores de 70 pueden configurar horas de alerta suaves",
+
+  "ageHelper": "Idades 70+ podem definir horários de alerta suaves",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Tu privacidad importa",
+
+  "yourPrivacyMatters": "Sua privacidade é importante",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Tu ubicación solo se consulta durante emergencias activas y nunca se almacena a largo plazo.",
+
+  "privacyNotice": "Sua localização é consultada apenas durante emergências ativas e nunca é armazenada a longo prazo.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
+
   "continueButton": "Continuar",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Por favor completa todos los campos requeridos",
+
+  "pleaseFillRequiredFields": "Por favor, preencha todos os campos obrigatórios",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Inicio",
+
+  "home": "Início",
   "@home": {
     "description": "Home navigation label"
   },
+
   "alerts": "Alertas",
   "@alerts": {
     "description": "Alerts navigation label"
   },
+
   "profile": "Perfil",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Disponible para Responder",
+
+  "availableToRespond": "Disponível para Responder",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "No Disponible",
+
+  "notAvailable": "Não Disponível",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "Recibirás alertas de emergencia cercanas",
+
+  "youllReceiveEmergencyAlerts": "Você receberá alertas de emergência próximos",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Activa cuando estés listo para ayudar",
+
+  "toggleOnWhenReady": "Ative quando estiver pronto para ajudar",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "Ahora estás disponible para responder",
+
+  "youreNowAvailable": "Você agora está disponível para responder",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "No recibirás alertas",
+
+  "youWontReceiveAlerts": "Você não receberá alertas",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Las alertas de amenaza vital te notificarán 24/7. Las alertas no urgentes respetan tu horario.",
+
+  "lifeThreatening247Info": "Alertas com risco de vida o notificarão 24/7. Alertas não urgentes respeitam sua agenda.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "SOLICITAR AYUDA",
+
+  "requestHelp": "SOLICITAR AJUDA",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Tu Impacto",
+
+  "yourImpact": "Seu Impacto",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Respuestas",
+
+  "responses": "Respostas",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Tiempo Prom",
+
+  "avgTime": "Tempo Médio",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Tus Capacidades",
+
+  "yourCapabilities": "Suas Capacidades",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
+
   "edit": "Editar",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Red Comunitaria",
+
+  "communityNetwork": "Rede Comunitária",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Respondedores Cercanos",
+
+  "nearbyResponders": "Socorristas Próximos",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} disponibles",
+
+  "nearbyRespondersAvailable": "{count} disponíveis",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +262,13 @@
       }
     }
   },
-  "coverageRadius": "Radio de Cobertura",
+
+  "coverageRadius": "Raio de Cobertura",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} millas",
+
+  "coverageRadiusValue": "{distance} milhas",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,38 +278,47 @@
       }
     }
   },
-  "activeAlerts": "Alertas Activas",
+
+  "activeAlerts": "Alertas Ativos",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "Ninguna",
+
+  "none": "Nenhum",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Tu Ubicación",
+
+  "yourLocation": "Sua Localização",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "¿Con qué necesitas ayuda?",
+
+  "whatDoYouNeedHelpWith": "Com o que você precisa de ajuda?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Detalles Adicionales (opcional)",
+
+  "additionalDetailsOptional": "Detalhes Adicionais (opcional)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe la situación...",
+
+  "describeSituation": "Descreva a situação...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alertar primero a mis respondedores de confianza",
+
+  "alertTrustedRespondersFirst": "Alertar meus socorristas de confiança primeiro",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Tus amigos/familiares seleccionados serán notificados antes que la comunidad general",
+
+  "trustedRespondersDescription": "Seus amigos/familiares selecionados serão notificados antes da comunidade geral",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
+
   "sendingAlert": "Enviando alerta: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
@@ -268,139 +329,173 @@
       }
     }
   },
-  "sendAlertNow": "ENVIAR ALERTA AHORA",
+
+  "sendAlertNow": "ENVIAR ALERTA AGORA",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Por favor selecciona un tipo de emergencia",
+
+  "pleaseSelectEmergencyType": "Por favor, selecione um tipo de emergência",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Amenaza Vital",
+
+  "categoryLifeThreatening": "🔴 Com Risco de Vida",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Seguridad",
+
+  "categorySecuritySafety": "🟠 Segurança/Proteção",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgente Sensible al Tiempo",
+
+  "categoryUrgentTimeSensitive": "🟡 Urgente Sensível ao Tempo",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 No Amenaza Vital",
+
+  "categoryNonLifeThreatening": "🟢 Sem Risco de Vida",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "RCP / Paro Cardíaco",
+
+  "emergencyCprCardiacName": "RCP / Parada Cardíaca",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Persona no responde y no respira",
+
+  "emergencyCprCardiacDesc": "Pessoa não responde e não está respirando",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
+
   "emergencyAedName": "Entrega de DEA",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Necesito un DEA inmediatamente",
+
+  "emergencyAedDesc": "Preciso de um DEA imediatamente",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Sobredosis / Naloxona",
+
+  "emergencyOverdoseName": "Overdose / Naloxona",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Sobredosis sospechada, necesito naloxona",
+
+  "emergencyOverdoseDesc": "Suspeita de overdose de drogas, preciso de naloxona",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Atragantamiento / Heimlich",
+
+  "emergencyChokingName": "Asfixia / Heimlich",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Persona se está atragantando y no puede respirar",
+
+  "emergencyChokingDesc": "Pessoa está sufocando e não consegue respirar",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Incendio / Evacuación",
+
+  "emergencyFireName": "Incêndio / Evacuação",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Emergencia de incendio, necesito ayuda para evacuar",
+
+  "emergencyFireDesc": "Emergência de incêndio, preciso de ajuda para evacuar",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Emergencia de Consentimiento",
+
+  "emergencyConsentName": "Emergência de Consentimento Privado",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Palabra de seguridad dicha, necesito testigo",
+
+  "emergencyConsentDesc": "Palavra de segurança usada, preciso de testemunha",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Testigo Activo",
+
+  "emergencyBystanderName": "Testemunha Ativa",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Necesito presencia para desescalar conflicto",
+
+  "emergencyBystanderDesc": "Preciso de presença para reduzir o conflito",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Mascota Perdida",
+
+  "emergencyMissingPetName": "Animal de Estimação Desaparecido",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Mascota perdida o escapó, necesito grupo de búsqueda",
+
+  "emergencyMissingPetDesc": "Animal de estimação perdido ou fugiu, preciso de equipe de busca",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Verificación de Bienestar",
+
+  "emergencyWellnessCheckName": "Verificação de Bem-estar",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Verificar a alguien que puede necesitar ayuda",
+
+  "emergencyWellnessCheckDesc": "Verificar alguém que pode precisar de ajuda",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Compañero para Dejar",
+
+  "emergencyQuitCompanionName": "Companheiro de Abstinência",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Luchando contra el deseo, necesito apoyo",
+
+  "emergencyQuitCompanionDesc": "Lutando contra o desejo, preciso de apoio",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Compañía",
+
+  "emergencyCompanionshipName": "Companhia",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Sintiéndome solo o aislado",
+
+  "emergencyCompanionshipDesc": "Sentindo-me sozinho ou isolado",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "Coordinación 911",
+
+  "emergency911CoordinationName": "Coordenação de Emergência",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Necesito ayuda llamando y coordinando 911",
+
+  "emergency911CoordinationDesc": "Preciso de ajuda para ligar e coordenar emergência",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
+
   "equipmentAed": "DEA",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
+
   "equipmentNaloxone": "Naloxona/Narcan",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "Mis Capacidades",
+
+  "myCapabilities": "Minhas Capacidades",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} seleccionadas",
+
+  "capabilitiesSelected": "{count} selecionadas",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +505,53 @@
       }
     }
   },
-  "alertSchedule": "Horario de Alertas",
+
+  "alertSchedule": "Agenda de Alertas",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Establece tus horas de disponibilidad",
+
+  "setAvailabilityHours": "Defina seus horários de disponibilidade",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Respondedores de Confianza",
+
+  "trustedResponders": "Socorristas de Confiança",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Historial de Respuestas",
+
+  "responseHistory": "Histórico de Respostas",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacidad y Seguridad",
+
+  "privacyAndSafety": "Privacidade e Segurança",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Ayuda y Soporte",
+
+  "helpAndSupport": "Ajuda e Suporte",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "Acerca de Naybor SOS",
+
+  "aboutNayborSos": "Sobre Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Términos y Política de Privacidad",
+
+  "termsAndPrivacyPolicy": "Termos e Política de Privacidade",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Cerrar Sesión",
+
+  "signOut": "Sair",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Versión {version}",
+
+  "version": "Versão {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,51 +561,63 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS conecta vecinos en emergencias, creando una red de respondedores rápidos que pueden proporcionar ayuda crítica antes de que lleguen los primeros respondedores profesionales.",
+
+  "aboutDialogContent": "Naybor SOS conecta vizinhos em emergências, criando uma rede de socorristas rápidos que podem fornecer ajuda crítica antes da chegada dos socorristas profissionais.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Todos pueden ser héroes. No necesitas entrenamiento especial para salvar una vida. A veces la intervención más poderosa es simplemente aparecer.",
+
+  "aboutDialogContent2": "Todos podem ser heróis. Você não precisa de treinamento especial para salvar uma vida. Às vezes, a intervenção mais poderosa é simplesmente aparecer.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Corporación de Beneficio Público",
+
+  "lifesaverLabs": "Lifesaver Labs Corporação de Benefício Público",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Cerrar",
+
+  "close": "Fechar",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "¿Cerrar Sesión?",
+
+  "signOutQuestion": "Sair?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "¿Estás seguro de que quieres cerrar sesión?",
+
+  "signOutConfirm": "Tem certeza de que deseja sair?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
+
   "cancel": "Cancelar",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Sesión cerrada exitosamente",
+
+  "signedOutSuccessfully": "Saída realizada com sucesso",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Configuración",
+
+  "settings": "Configurações",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Verificación de Bienestar",
+
+  "capabilityWellnessCheck": "Verificação de Bem-estar",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Compañero para Dejar",
+
+  "capabilityQuitCompanion": "Companheiro de Abstinência",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Testigo Activo",
+
+  "capabilityActiveBystander": "Testemunha Ativa",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   }

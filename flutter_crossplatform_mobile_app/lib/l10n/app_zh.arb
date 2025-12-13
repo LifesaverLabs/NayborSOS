@@ -1,22 +1,22 @@
 {
-  "@@locale": "es",
+  "@@locale": "zh",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Minutemen y Minutewomen Modernos",
+  "tagline": "现代民兵",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Regístrate para ayudar a tus vecinos",
+  "signUpToHelp": "注册帮助您的邻居",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Ingresa tu número de teléfono para comenzar",
+  "enterPhoneNumber": "输入您的电话号码开始使用",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Número de Teléfono",
+  "phoneNumberLabel": "电话号码",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +24,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Enviar Código de Verificación",
+  "sendVerificationCode": "发送验证码",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Ingresa el código de verificación",
+  "enterVerificationCode": "输入验证码",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "Enviamos un código a {phoneNumber}",
+  "verificationCodeSent": "我们已向 {phoneNumber} 发送验证码",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +42,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Código de Verificación",
+  "verificationCodeLabel": "验证码",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +50,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verificar y Continuar",
+  "verifyAndContinue": "验证并继续",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Cambiar número de teléfono",
+  "changePhoneNumber": "更改电话号码",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Por favor ingresa tu número de teléfono",
+  "pleaseEnterPhoneNumber": "请输入您的电话号码",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Por favor ingresa el código de verificación",
+  "pleaseEnterVerificationCode": "请输入验证码",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Crear Perfil",
+  "createProfile": "创建个人资料",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Cuéntanos sobre ti",
+  "tellUsAboutYourself": "告诉我们关于您的信息",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "Esta información nos ayuda a conectarte con vecinos que necesitan ayuda",
+  "profileSetupDescription": "这些信息帮助我们将您与需要帮助的邻居联系起来",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Agregar foto (opcional)",
+  "addPhotoOptional": "添加照片（可选）",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Nombre Completo *",
+  "fullNameLabel": "全名 *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "Juan García",
+  "fullNameHint": "张伟",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Dirección de Casa *",
+  "homeAddressLabel": "家庭住址 *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "Calle Principal 123, Apt 4B",
+  "homeAddressHint": "主街123号，4B室",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Solo se usa para emparejamiento por proximidad",
+  "homeAddressHelper": "仅用于邻近匹配",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Edad (opcional)",
+  "ageOptionalLabel": "年龄（可选）",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +110,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Mayores de 70 pueden configurar horas de alerta suaves",
+  "ageHelper": "70岁以上可以设置温和提醒时间",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Tu privacidad importa",
+  "yourPrivacyMatters": "您的隐私很重要",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Tu ubicación solo se consulta durante emergencias activas y nunca se almacena a largo plazo.",
+  "privacyNotice": "您的位置仅在紧急情况下查询，从不长期存储。",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continuar",
+  "continueButton": "继续",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Por favor completa todos los campos requeridos",
+  "pleaseFillRequiredFields": "请填写所有必填项",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Inicio",
+  "home": "主页",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alertas",
+  "alerts": "警报",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Perfil",
+  "profile": "个人资料",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Disponible para Responder",
+  "availableToRespond": "可以响应",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "No Disponible",
+  "notAvailable": "不可用",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "Recibirás alertas de emergencia cercanas",
+  "youllReceiveEmergencyAlerts": "您将收到附近的紧急警报",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Activa cuando estés listo para ayudar",
+  "toggleOnWhenReady": "准备好帮助时打开",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "Ahora estás disponible para responder",
+  "youreNowAvailable": "您现在可以响应",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "No recibirás alertas",
+  "youWontReceiveAlerts": "您不会收到警报",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Las alertas de amenaza vital te notificarán 24/7. Las alertas no urgentes respetan tu horario.",
+  "lifeThreatening247Info": "危及生命的警报将全天候通知您。非紧急警报尊重您的时间表。",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "SOLICITAR AYUDA",
+  "requestHelp": "请求帮助",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Tu Impacto",
+  "yourImpact": "您的影响",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Respuestas",
+  "responses": "响应次数",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Tiempo Prom",
+  "avgTime": "平均时间",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Tus Capacidades",
+  "yourCapabilities": "您的能力",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Editar",
+  "edit": "编辑",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Red Comunitaria",
+  "communityNetwork": "社区网络",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Respondedores Cercanos",
+  "nearbyResponders": "附近的响应者",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} disponibles",
+  "nearbyRespondersAvailable": "{count} 位可用",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +212,11 @@
       }
     }
   },
-  "coverageRadius": "Radio de Cobertura",
+  "coverageRadius": "覆盖半径",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} millas",
+  "coverageRadiusValue": "{distance} 英里",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +226,39 @@
       }
     }
   },
-  "activeAlerts": "Alertas Activas",
+  "activeAlerts": "活动警报",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "Ninguna",
+  "none": "无",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Tu Ubicación",
+  "yourLocation": "您的位置",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "¿Con qué necesitas ayuda?",
+  "whatDoYouNeedHelpWith": "您需要什么帮助？",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Detalles Adicionales (opcional)",
+  "additionalDetailsOptional": "其他详细信息（可选）",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe la situación...",
+  "describeSituation": "描述情况...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alertar primero a mis respondedores de confianza",
+  "alertTrustedRespondersFirst": "先警报我的信任响应者",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Tus amigos/familiares seleccionados serán notificados antes que la comunidad general",
+  "trustedRespondersDescription": "您选择的朋友/家人将在一般社区之前收到通知",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Enviando alerta: {emergencyType}",
+  "sendingAlert": "正在发送警报：{emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,139 +268,139 @@
       }
     }
   },
-  "sendAlertNow": "ENVIAR ALERTA AHORA",
+  "sendAlertNow": "立即发送警报",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Por favor selecciona un tipo de emergencia",
+  "pleaseSelectEmergencyType": "请选择紧急类型",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Amenaza Vital",
+  "categoryLifeThreatening": "🔴 危及生命",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Seguridad",
+  "categorySecuritySafety": "🟠 安全保障",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgente Sensible al Tiempo",
+  "categoryUrgentTimeSensitive": "🟡 紧急时间敏感",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 No Amenaza Vital",
+  "categoryNonLifeThreatening": "🟢 非危及生命",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "RCP / Paro Cardíaco",
+  "emergencyCprCardiacName": "心肺复苏/心脏骤停",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Persona no responde y no respira",
+  "emergencyCprCardiacDesc": "患者无反应且未呼吸",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "Entrega de DEA",
+  "emergencyAedName": "自动体外除颤器（AED）递送",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Necesito un DEA inmediatamente",
+  "emergencyAedDesc": "立即需要AED",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Sobredosis / Naloxona",
+  "emergencyOverdoseName": "药物过量/纳洛酮",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Sobredosis sospechada, necesito naloxona",
+  "emergencyOverdoseDesc": "疑似药物过量，需要纳洛酮",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Atragantamiento / Heimlich",
+  "emergencyChokingName": "窒息/海姆立克急救法",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Persona se está atragantando y no puede respirar",
+  "emergencyChokingDesc": "患者窒息无法呼吸",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Incendio / Evacuación",
+  "emergencyFireName": "火灾/疏散",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Emergencia de incendio, necesito ayuda para evacuar",
+  "emergencyFireDesc": "火灾紧急情况，需要疏散帮助",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Emergencia de Consentimiento",
+  "emergencyConsentName": "同意紧急情况",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Palabra de seguridad dicha, necesito testigo",
+  "emergencyConsentDesc": "已呼叫安全词，需要见证人",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Testigo Activo",
+  "emergencyBystanderName": "积极旁观者见证",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Necesito presencia para desescalar conflicto",
+  "emergencyBystanderDesc": "需要在场以缓解冲突",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Mascota Perdida",
+  "emergencyMissingPetName": "宠物失踪",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Mascota perdida o escapó, necesito grupo de búsqueda",
+  "emergencyMissingPetDesc": "宠物走失或跑掉了，需要搜索队",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Verificación de Bienestar",
+  "emergencyWellnessCheckName": "健康检查",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Verificar a alguien que puede necesitar ayuda",
+  "emergencyWellnessCheckDesc": "检查可能需要帮助的人",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Compañero para Dejar",
+  "emergencyQuitCompanionName": "戒断陪伴",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Luchando contra el deseo, necesito apoyo",
+  "emergencyQuitCompanionDesc": "正在对抗渴望，需要支持",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Compañía",
+  "emergencyCompanionshipName": "陪伴",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Sintiéndome solo o aislado",
+  "emergencyCompanionshipDesc": "感到孤独或孤立",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "Coordinación 911",
+  "emergency911CoordinationName": "911协调",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Necesito ayuda llamando y coordinando 911",
+  "emergency911CoordinationDesc": "需要帮助拨打和协调911",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "DEA",
+  "equipmentAed": "AED",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "Naloxona/Narcan",
+  "equipmentNaloxone": "纳洛酮/Narcan",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "Mis Capacidades",
+  "myCapabilities": "我的能力",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} seleccionadas",
+  "capabilitiesSelected": "已选择 {count} 项",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +410,43 @@
       }
     }
   },
-  "alertSchedule": "Horario de Alertas",
+  "alertSchedule": "警报时间表",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Establece tus horas de disponibilidad",
+  "setAvailabilityHours": "设置您的可用时间",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Respondedores de Confianza",
+  "trustedResponders": "信任的响应者",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Historial de Respuestas",
+  "responseHistory": "响应历史",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacidad y Seguridad",
+  "privacyAndSafety": "隐私与安全",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Ayuda y Soporte",
+  "helpAndSupport": "帮助与支持",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "Acerca de Naybor SOS",
+  "aboutNayborSos": "关于 Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Términos y Política de Privacidad",
+  "termsAndPrivacyPolicy": "条款与隐私政策",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Cerrar Sesión",
+  "signOut": "退出登录",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Versión {version}",
+  "version": "版本 {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,51 +456,51 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS conecta vecinos en emergencias, creando una red de respondedores rápidos que pueden proporcionar ayuda crítica antes de que lleguen los primeros respondedores profesionales.",
+  "aboutDialogContent": "Naybor SOS 在紧急情况下连接邻居，创建一个快速响应者网络，在专业急救人员到达之前提供关键援助。",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Todos pueden ser héroes. No necesitas entrenamiento especial para salvar una vida. A veces la intervención más poderosa es simplemente aparecer.",
+  "aboutDialogContent2": "每个人都可以成为英雄。您不需要特殊培训就能拯救生命。有时最有力的干预就是简单地出现。",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Corporación de Beneficio Público",
+  "lifesaverLabs": "Lifesaver Labs 公益公司",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Cerrar",
+  "close": "关闭",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "¿Cerrar Sesión?",
+  "signOutQuestion": "退出登录？",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "¿Estás seguro de que quieres cerrar sesión?",
+  "signOutConfirm": "您确定要退出登录吗？",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancelar",
+  "cancel": "取消",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Sesión cerrada exitosamente",
+  "signedOutSuccessfully": "成功退出登录",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Configuración",
+  "settings": "设置",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Verificación de Bienestar",
+  "capabilityWellnessCheck": "健康检查",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Compañero para Dejar",
+  "capabilityQuitCompanion": "戒断陪伴",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Testigo Activo",
+  "capabilityActiveBystander": "积极旁观者",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   }

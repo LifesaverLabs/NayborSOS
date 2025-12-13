@@ -1,0 +1,507 @@
+{
+  "@@locale": "hi",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "आधुनिक मिनटमेन और मिनटवुमेन",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "अपने पड़ोसियों की मदद के लिए साइन अप करें",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "शुरू करने के लिए अपना फ़ोन नंबर दर्ज करें",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "फ़ोन नंबर",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "सत्यापन कोड भेजें",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "सत्यापन कोड दर्ज करें",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "हमने {phoneNumber} पर एक कोड भेजा है",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "सत्यापन कोड",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "सत्यापित करें और जारी रखें",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "फ़ोन नंबर बदलें",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "कृपया अपना फ़ोन नंबर दर्ज करें",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "कृपया सत्यापन कोड दर्ज करें",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "प्रोफ़ाइल बनाएं",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "हमें अपने बारे में बताएं",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "यह जानकारी हमें आपको उन पड़ोसियों से जोड़ने में मदद करती है जिन्हें मदद की ज़रूरत है",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "फ़ोटो जोड़ें (वैकल्पिक)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "पूरा नाम *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "राज कुमार",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "घर का पता *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "123 मेन स्ट्रीट, अपार्टमेंट 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "केवल निकटता मिलान के लिए उपयोग किया जाता है",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "उम्र (वैकल्पिक)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "70+ उम्र के लोग सौम्य अलर्ट घंटे सेट कर सकते हैं",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "आपकी गोपनीयता महत्वपूर्ण है",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "आपका स्थान केवल सक्रिय आपात स्थिति के दौरान ही खोजा जाता है और कभी भी दीर्घकालिक संग्रहीत नहीं किया जाता है।",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "जारी रखें",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "कृपया सभी आवश्यक फ़ील्ड भरें",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "होम",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "अलर्ट",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "प्रोफ़ाइल",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "प्रतिक्रिया देने के लिए उपलब्ध",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "उपलब्ध नहीं",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "आपको पास की आपातकालीन अलर्ट प्राप्त होंगे",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "मदद के लिए तैयार होने पर टॉगल करें",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "अब आप प्रतिक्रिया देने के लिए उपलब्ध हैं",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "आपको अलर्ट प्राप्त नहीं होंगे",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "जीवन के लिए खतरनाक अलर्ट आपको 24/7 सूचित करेंगे। गैर-जरूरी अलर्ट आपके शेड्यूल का सम्मान करते हैं।",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "मदद का अनुरोध करें",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "आपका प्रभाव",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "प्रतिक्रियाएं",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "औसत समय",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "आपकी क्षमताएं",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "संपादित करें",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "सामुदायिक नेटवर्क",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "पास के प्रतिक्रियाकर्ता",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} उपलब्ध",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "कवरेज त्रिज्या",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} मील",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "सक्रिय अलर्ट",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "कोई नहीं",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "आपका स्थान",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "आपको किस चीज़ में मदद चाहिए?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "अतिरिक्त विवरण (वैकल्पिक)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "स्थिति का वर्णन करें...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "पहले मेरे विश्वसनीय प्रतिक्रियाकर्ताओं को अलर्ट करें",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "आपके चयनित मित्रों/परिवार को सामान्य समुदाय से पहले सूचित किया जाएगा",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "अलर्ट भेजा जा रहा है: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "अभी अलर्ट भेजें",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "कृपया एक आपातकालीन प्रकार चुनें",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 जीवन के लिए खतरनाक",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 सुरक्षा",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 तत्काल समय-संवेदनशील",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 जीवन के लिए खतरनाक नहीं",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "सीपीआर / कार्डियक अरेस्ट",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "व्यक्ति अनुत्तरदायी है और सांस नहीं ले रहा है",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "एईडी वितरण",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "तुरंत एक एईडी चाहिए",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "ओवरडोज / नालोक्सोन",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "संदिग्ध दवा ओवरडोज, नालोक्सोन की आवश्यकता",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "घुटन / हीमलिक",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "व्यक्ति घुट रहा है और सांस नहीं ले सकता",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "आग / निकासी",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "आग आपातकाल, निकासी सहायता चाहिए",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "सहमति आपातकाल",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "सुरक्षा शब्द बोला गया, गवाह चाहिए",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "सक्रिय दर्शक गवाह",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "संघर्ष को कम करने के लिए उपस्थिति चाहिए",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "लापता पालतू जानवर",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "पालतू जानवर खो गया या भाग गया, खोज पार्टी चाहिए",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "कल्याण जांच",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "किसी की जांच करें जिसे मदद की आवश्यकता हो सकती है",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "छोड़ने का साथी",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "लालसा से लड़ रहा हूं, समर्थन चाहिए",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "साहचर्य",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "अकेला या अलग-थलग महसूस कर रहा हूं",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "911 समन्वय",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "911 कॉल करने और समन्वय करने में मदद चाहिए",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "एईडी",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "नालोक्सोन/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "मेरी क्षमताएं",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} चयनित",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "अलर्ट शेड्यूल",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "अपनी उपलब्धता घंटे सेट करें",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "विश्वसनीय प्रतिक्रियाकर्ता",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "प्रतिक्रिया इतिहास",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "गोपनीयता और सुरक्षा",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "मदद और सहायता",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Naybor SOS के बारे में",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "शर्तें और गोपनीयता नीति",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "साइन आउट",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "संस्करण {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS आपातकाल में पड़ोसियों को जोड़ता है, तेजी से प्रतिक्रियाकर्ताओं का एक नेटवर्क बनाता है जो पेशेवर प्रथम प्रतिक्रियाकर्ताओं के आने से पहले महत्वपूर्ण सहायता प्रदान कर सकते हैं।",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "हर कोई नायक बन सकता है। जीवन बचाने के लिए आपको विशेष प्रशिक्षण की आवश्यकता नहीं है। कभी-कभी सबसे शक्तिशाली हस्तक्षेप केवल वहां मौजूद होना है।",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs सार्वजनिक लाभ निगम",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "बंद करें",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "साइन आउट करें?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "क्या आप वाकई साइन आउट करना चाहते हैं?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "रद्द करें",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "सफलतापूर्वक साइन आउट किया गया",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "सेटिंग्स",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "कल्याण जांच",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "छोड़ने का साथी",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "सक्रिय दर्शक",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  }
+}
