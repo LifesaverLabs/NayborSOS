@@ -1,22 +1,22 @@
 {
-  "@@locale": "es",
+  "@@locale": "ar",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Minutemen y Minutewomen Modernos",
+  "tagline": "رجال ونساء الدقائق في العصر الحديث",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Regístrate para ayudar a tus vecinos",
+  "signUpToHelp": "سجل لمساعدة جيرانك",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Ingresa tu número de teléfono para comenzar",
+  "enterPhoneNumber": "أدخل رقم هاتفك للبدء",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Número de Teléfono",
+  "phoneNumberLabel": "رقم الهاتف",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +24,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Enviar Código de Verificación",
+  "sendVerificationCode": "إرسال رمز التحقق",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Ingresa el código de verificación",
+  "enterVerificationCode": "أدخل رمز التحقق",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "Enviamos un código a {phoneNumber}",
+  "verificationCodeSent": "تم إرسال رمز إلى {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +42,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Código de Verificación",
+  "verificationCodeLabel": "رمز التحقق",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +50,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verificar y Continuar",
+  "verifyAndContinue": "تحقق ومتابعة",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Cambiar número de teléfono",
+  "changePhoneNumber": "تغيير رقم الهاتف",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Por favor ingresa tu número de teléfono",
+  "pleaseEnterPhoneNumber": "الرجاء إدخال رقم هاتفك",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Por favor ingresa el código de verificación",
+  "pleaseEnterVerificationCode": "الرجاء إدخال رمز التحقق",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Crear Perfil",
+  "createProfile": "إنشاء الملف الشخصي",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Cuéntanos sobre ti",
+  "tellUsAboutYourself": "أخبرنا عن نفسك",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "Esta información nos ayuda a conectarte con vecinos que necesitan ayuda",
+  "profileSetupDescription": "تساعدنا هذه المعلومات في ربطك بالجيران الذين يحتاجون إلى المساعدة",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Agregar foto (opcional)",
+  "addPhotoOptional": "إضافة صورة (اختياري)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Nombre Completo *",
+  "fullNameLabel": "الاسم الكامل *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "Juan García",
+  "fullNameHint": "أحمد محمد",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Dirección de Casa *",
+  "homeAddressLabel": "عنوان المنزل *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "Calle Principal 123, Apt 4B",
+  "homeAddressHint": "شارع الملك فيصل، شقة ٤ب",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Solo se usa para emparejamiento por proximidad",
+  "homeAddressHelper": "يُستخدم فقط لمطابقة القرب",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Edad (opcional)",
+  "ageOptionalLabel": "العمر (اختياري)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +110,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Mayores de 70 pueden configurar horas de alerta suaves",
+  "ageHelper": "الأعمار ٧٠+ يمكنها تعيين ساعات تنبيه لطيفة",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Tu privacidad importa",
+  "yourPrivacyMatters": "خصوصيتك مهمة",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Tu ubicación solo se consulta durante emergencias activas y nunca se almacena a largo plazo.",
+  "privacyNotice": "يتم الاستعلام عن موقعك فقط أثناء حالات الطوارئ النشطة ولا يتم تخزينه على المدى الطويل أبدًا.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continuar",
+  "continueButton": "متابعة",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Por favor completa todos los campos requeridos",
+  "pleaseFillRequiredFields": "الرجاء ملء جميع الحقول المطلوبة",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Inicio",
+  "home": "الرئيسية",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alertas",
+  "alerts": "التنبيهات",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Perfil",
+  "profile": "الملف الشخصي",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Disponible para Responder",
+  "availableToRespond": "متاح للاستجابة",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "No Disponible",
+  "notAvailable": "غير متاح",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "Recibirás alertas de emergencia cercanas",
+  "youllReceiveEmergencyAlerts": "ستتلقى تنبيهات الطوارئ القريبة",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Activa cuando estés listo para ayudar",
+  "toggleOnWhenReady": "قم بالتبديل عندما تكون مستعدًا للمساعدة",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "Ahora estás disponible para responder",
+  "youreNowAvailable": "أنت الآن متاح للاستجابة",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "No recibirás alertas",
+  "youWontReceiveAlerts": "لن تتلقى التنبيهات",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Las alertas de amenaza vital te notificarán 24/7. Las alertas no urgentes respetan tu horario.",
+  "lifeThreatening247Info": "ستقوم التنبيهات المهددة للحياة بإخطارك على مدار الساعة طوال أيام الأسبوع. التنبيهات غير العاجلة تحترم جدولك الزمني.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "SOLICITAR AYUDA",
+  "requestHelp": "طلب المساعدة",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Tu Impacto",
+  "yourImpact": "تأثيرك",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Respuestas",
+  "responses": "الاستجابات",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Tiempo Prom",
+  "avgTime": "متوسط الوقت",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Tus Capacidades",
+  "yourCapabilities": "قدراتك",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Editar",
+  "edit": "تعديل",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Red Comunitaria",
+  "communityNetwork": "شبكة المجتمع",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Respondedores Cercanos",
+  "nearbyResponders": "المستجيبون القريبون",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} disponibles",
+  "nearbyRespondersAvailable": "{count} متاح",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +212,11 @@
       }
     }
   },
-  "coverageRadius": "Radio de Cobertura",
+  "coverageRadius": "نطاق التغطية",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} millas",
+  "coverageRadiusValue": "{distance} ميل",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +226,39 @@
       }
     }
   },
-  "activeAlerts": "Alertas Activas",
+  "activeAlerts": "التنبيهات النشطة",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "Ninguna",
+  "none": "لا يوجد",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Tu Ubicación",
+  "yourLocation": "موقعك",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "¿Con qué necesitas ayuda?",
+  "whatDoYouNeedHelpWith": "بماذا تحتاج المساعدة؟",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Detalles Adicionales (opcional)",
+  "additionalDetailsOptional": "تفاصيل إضافية (اختياري)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe la situación...",
+  "describeSituation": "صف الموقف...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alertar primero a mis respondedores de confianza",
+  "alertTrustedRespondersFirst": "تنبيه المستجيبين الموثوقين أولاً",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Tus amigos/familiares seleccionados serán notificados antes que la comunidad general",
+  "trustedRespondersDescription": "سيتم إخطار الأصدقاء/العائلة المختارين قبل المجتمع العام",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Enviando alerta: {emergencyType}",
+  "sendingAlert": "إرسال تنبيه: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,139 +268,139 @@
       }
     }
   },
-  "sendAlertNow": "ENVIAR ALERTA AHORA",
+  "sendAlertNow": "إرسال التنبيه الآن",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Por favor selecciona un tipo de emergencia",
+  "pleaseSelectEmergencyType": "الرجاء اختيار نوع الطوارئ",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Amenaza Vital",
+  "categoryLifeThreatening": "🔴 مهدد للحياة",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Seguridad",
+  "categorySecuritySafety": "🟠 الأمن/السلامة",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgente Sensible al Tiempo",
+  "categoryUrgentTimeSensitive": "🟡 عاجل حساس للوقت",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 No Amenaza Vital",
+  "categoryNonLifeThreatening": "🟢 غير مهدد للحياة",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "RCP / Paro Cardíaco",
+  "emergencyCprCardiacName": "الإنعاش القلبي الرئوي / السكتة القلبية",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Persona no responde y no respira",
+  "emergencyCprCardiacDesc": "الشخص فاقد للوعي ولا يتنفس",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "Entrega de DEA",
+  "emergencyAedName": "توصيل جهاز إزالة الرجفان",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Necesito un DEA inmediatamente",
+  "emergencyAedDesc": "بحاجة إلى جهاز إزالة رجفان على الفور",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Sobredosis / Naloxona",
+  "emergencyOverdoseName": "جرعة زائدة / نالوكسون",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Sobredosis sospechada, necesito naloxona",
+  "emergencyOverdoseDesc": "اشتباه في جرعة زائدة من المخدرات، بحاجة إلى نالوكسون",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Atragantamiento / Heimlich",
+  "emergencyChokingName": "الاختناق / مناورة هايمليك",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Persona se está atragantando y no puede respirar",
+  "emergencyChokingDesc": "الشخص يختنق ولا يستطيع التنفس",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Incendio / Evacuación",
+  "emergencyFireName": "حريق / إخلاء",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Emergencia de incendio, necesito ayuda para evacuar",
+  "emergencyFireDesc": "طوارئ حريق، بحاجة إلى مساعدة في الإخلاء",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Emergencia de Consentimiento",
+  "emergencyConsentName": "طوارئ موافقة خاصة",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Palabra de seguridad dicha, necesito testigo",
+  "emergencyConsentDesc": "تم استخدام كلمة الأمان، بحاجة إلى شاهد",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Testigo Activo",
+  "emergencyBystanderName": "شاهد نشط",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Necesito presencia para desescalar conflicto",
+  "emergencyBystanderDesc": "بحاجة إلى حضور لتهدئة النزاع",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Mascota Perdida",
+  "emergencyMissingPetName": "حيوان أليف مفقود",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Mascota perdida o escapó, necesito grupo de búsqueda",
+  "emergencyMissingPetDesc": "الحيوان الأليف ضائع أو هرب، بحاجة إلى فريق بحث",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Verificación de Bienestar",
+  "emergencyWellnessCheckName": "فحص الرفاهية",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Verificar a alguien que puede necesitar ayuda",
+  "emergencyWellnessCheckDesc": "التحقق من شخص قد يحتاج إلى مساعدة",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Compañero para Dejar",
+  "emergencyQuitCompanionName": "رفيق الإقلاع",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Luchando contra el deseo, necesito apoyo",
+  "emergencyQuitCompanionDesc": "أحارب الرغبة الشديدة، بحاجة إلى دعم",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Compañía",
+  "emergencyCompanionshipName": "الرفقة",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Sintiéndome solo o aislado",
+  "emergencyCompanionshipDesc": "أشعر بالوحدة أو العزلة",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "Coordinación 911",
+  "emergency911CoordinationName": "تنسيق الطوارئ",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Necesito ayuda llamando y coordinando 911",
+  "emergency911CoordinationDesc": "بحاجة إلى مساعدة في الاتصال وتنسيق الطوارئ",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "DEA",
+  "equipmentAed": "جهاز إزالة الرجفان",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "Naloxona/Narcan",
+  "equipmentNaloxone": "نالوكسون/ناركان",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "Mis Capacidades",
+  "myCapabilities": "قدراتي",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} seleccionadas",
+  "capabilitiesSelected": "{count} محدد",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +410,43 @@
       }
     }
   },
-  "alertSchedule": "Horario de Alertas",
+  "alertSchedule": "جدول التنبيهات",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Establece tus horas de disponibilidad",
+  "setAvailabilityHours": "حدد ساعات توفرك",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Respondedores de Confianza",
+  "trustedResponders": "المستجيبون الموثوقون",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Historial de Respuestas",
+  "responseHistory": "سجل الاستجابات",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacidad y Seguridad",
+  "privacyAndSafety": "الخصوصية والسلامة",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Ayuda y Soporte",
+  "helpAndSupport": "المساعدة والدعم",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "Acerca de Naybor SOS",
+  "aboutNayborSos": "حول Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Términos y Política de Privacidad",
+  "termsAndPrivacyPolicy": "الشروط وسياسة الخصوصية",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Cerrar Sesión",
+  "signOut": "تسجيل الخروج",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Versión {version}",
+  "version": "الإصدار {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,62 +456,52 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS conecta vecinos en emergencias, creando una red de respondedores rápidos que pueden proporcionar ayuda crítica antes de que lleguen los primeros respondedores profesionales.",
+  "aboutDialogContent": "يربط Naybor SOS الجيران في حالات الطوارئ، مما يخلق شبكة من المستجيبين السريعين الذين يمكنهم تقديم المساعدة الحيوية قبل وصول المستجيبين الأوائل المحترفين.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Todos pueden ser héroes. No necesitas entrenamiento especial para salvar una vida. A veces la intervención más poderosa es simplemente aparecer.",
+  "aboutDialogContent2": "يمكن للجميع أن يكونوا أبطالًا. لا تحتاج إلى تدريب خاص لإنقاذ حياة. في بعض الأحيان، التدخل الأقوى هو ببساطة الحضور.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Corporación de Beneficio Público",
+  "lifesaverLabs": "Lifesaver Labs شركة المنفعة العامة",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Cerrar",
+  "close": "إغلاق",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "¿Cerrar Sesión?",
+  "signOutQuestion": "تسجيل الخروج؟",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "¿Estás seguro de que quieres cerrar sesión?",
+  "signOutConfirm": "هل أنت متأكد من رغبتك في تسجيل الخروج؟",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancelar",
+  "cancel": "إلغاء",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Sesión cerrada exitosamente",
+  "signedOutSuccessfully": "تم تسجيل الخروج بنجاح",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Configuración",
+  "settings": "الإعدادات",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Verificación de Bienestar",
-<<<<<<< HEAD
-  "capabilityQuitCompanion": "Compañero para Dejar de Fumar",
-  "capabilityActiveBystander": "Testigo Activo",
-  "demoUserInitials": "JP",
-  "demoUserName": "Juan Pérez",
-  "demoUserPhone": "(555) 123-4567",
-  "demoUserAddress": "Calle Principal 123, Apto 4B"
-}
-=======
+  "capabilityWellnessCheck": "فحص الرفاهية",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Compañero para Dejar",
+  "capabilityQuitCompanion": "رفيق الإقلاع",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Testigo Activo",
+  "capabilityActiveBystander": "شاهد نشط",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   }
 }
->>>>>>> develop

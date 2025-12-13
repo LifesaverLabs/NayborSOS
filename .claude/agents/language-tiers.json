@@ -1,156 +1,18 @@
 {
-  "_meta": {
-    "version": "1.0",
-    "lastUpdated": "2025-12-13",
-    "basedOn": "Claude AI translation confidence as of December 2025",
-    "note": "These tiers reflect Claude AI's current translation capabilities. As language models improve or alternative AI systems gain more advanced language skills, languages may be promoted to higher tiers. Tier assignments should be periodically reviewed and updated."
+  "tier1": {
+    "description": "Major global languages with large speaker populations - Professional review recommended",
+    "languages": ["zh", "hi", "es", "fr", "ar", "bn", "pt", "ru", "ja", "pa", "de", "jv", "ko", "te", "vi", "mr", "ta", "tr", "it", "ur", "th", "gu"]
   },
-  "tierDefinitions": {
-    "tier1": {
-      "name": "High Confidence",
-      "description": "Automated + Standard QA. Extensive corpora available, reliable translations for safety-critical content.",
-      "qualityNote": "High accuracy, natural phrasing, appropriate cultural context"
-    },
-    "tier2": {
-      "name": "Good Confidence",
-      "description": "Automated + Professional Spot-Check. Strong support but recommend professional review of core consent vocabulary.",
-      "qualityNote": "Professional review recommended for safety-critical consent and emergency terminology"
-    },
-    "tier3": {
-      "name": "Moderate Confidence",
-      "description": "Human Review Required for Safety-Critical Phrases. Usable for general content; consent-specific terminology needs human translator verification.",
-      "qualityNote": "⚠️ HUMAN REVIEW REQUIRED for safety-critical emergency phrases before production use"
-    },
-    "tier4": {
-      "name": "Lower Confidence",
-      "description": "Professional Human Translation Recommended. Can draft translations but should be professionally translated for any user-facing safety content.",
-      "qualityNote": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review."
-    }
+  "tier2": {
+    "description": "Regional languages and important secondary languages - Professional review recommended for safety-critical content",
+    "languages": ["pl", "uk", "ml", "kn", "or", "my", "fa", "nl", "ro", "sw", "hu", "cs", "el", "sv", "he", "fi", "da", "no", "sk", "bg", "hr", "sr", "lt", "lv", "et", "sl", "sq", "mk", "am", "ne", "si", "km", "lo", "az", "kk", "uz", "hy", "ka", "id", "ms", "tl", "fil"]
   },
-  "languages": {
-    "tier1": [
-      {"code": "ar", "name": "Arabic"},
-      {"code": "zh", "name": "Chinese (Mandarin)"},
-      {"code": "cs", "name": "Czech"},
-      {"code": "da", "name": "Danish"},
-      {"code": "nl", "name": "Dutch"},
-      {"code": "en", "name": "English/Amerikan"},
-      {"code": "fi", "name": "Finnish"},
-      {"code": "fr", "name": "French"},
-      {"code": "de", "name": "German"},
-      {"code": "el", "name": "Greek"},
-      {"code": "he", "name": "Hebrew"},
-      {"code": "hi", "name": "Hindi"},
-      {"code": "hu", "name": "Hungarian"},
-      {"code": "id", "name": "Indonesian"},
-      {"code": "it", "name": "Italian"},
-      {"code": "ja", "name": "Japanese"},
-      {"code": "ko", "name": "Korean"},
-      {"code": "ms", "name": "Malay"},
-      {"code": "no", "name": "Norwegian"},
-      {"code": "pl", "name": "Polish"},
-      {"code": "pt", "name": "Portuguese"},
-      {"code": "ro", "name": "Romanian"},
-      {"code": "ru", "name": "Russian"},
-      {"code": "es", "name": "Spanish"},
-      {"code": "sv", "name": "Swedish"},
-      {"code": "th", "name": "Thai"},
-      {"code": "tr", "name": "Turkish"},
-      {"code": "uk", "name": "Ukrainian"},
-      {"code": "vi", "name": "Vietnamese"}
-    ],
-    "tier2": [
-      {"code": "af", "name": "Afrikaans"},
-      {"code": "bn", "name": "Bengali"},
-      {"code": "bg", "name": "Bulgarian"},
-      {"code": "ca", "name": "Catalan"},
-      {"code": "hr", "name": "Croatian"},
-      {"code": "et", "name": "Estonian"},
-      {"code": "tl", "name": "Filipino/Tagalog"},
-      {"code": "gu", "name": "Gujarati"},
-      {"code": "kn", "name": "Kannada"},
-      {"code": "lv", "name": "Latvian"},
-      {"code": "lt", "name": "Lithuanian"},
-      {"code": "ml", "name": "Malayalam"},
-      {"code": "mr", "name": "Marathi"},
-      {"code": "fa", "name": "Persian/Farsi"},
-      {"code": "pa", "name": "Punjabi"},
-      {"code": "sr", "name": "Serbian"},
-      {"code": "sk", "name": "Slovak"},
-      {"code": "sl", "name": "Slovenian"},
-      {"code": "sw", "name": "Swahili"},
-      {"code": "ta", "name": "Tamil"},
-      {"code": "te", "name": "Telugu"},
-      {"code": "ur", "name": "Urdu"}
-    ],
-    "tier3": [
-      {"code": "sq", "name": "Albanian"},
-      {"code": "am", "name": "Amharic"},
-      {"code": "hy", "name": "Armenian"},
-      {"code": "az", "name": "Azerbaijani"},
-      {"code": "eu", "name": "Basque"},
-      {"code": "be", "name": "Belarusian"},
-      {"code": "bs", "name": "Bosnian"},
-      {"code": "my", "name": "Burmese"},
-      {"code": "yue", "name": "Chinese (Cantonese)"},
-      {"code": "ka", "name": "Georgian"},
-      {"code": "ha", "name": "Hausa"},
-      {"code": "is", "name": "Icelandic"},
-      {"code": "ga", "name": "Irish"},
-      {"code": "kk", "name": "Kazakh"},
-      {"code": "km", "name": "Khmer"},
-      {"code": "ky", "name": "Kyrgyz"},
-      {"code": "lo", "name": "Lao"},
-      {"code": "mk", "name": "Macedonian"},
-      {"code": "mn", "name": "Mongolian"},
-      {"code": "ne", "name": "Nepali"},
-      {"code": "or", "name": "Odia/Oriya"},
-      {"code": "ps", "name": "Pashto"},
-      {"code": "si", "name": "Sinhala"},
-      {"code": "so", "name": "Somali"},
-      {"code": "tg", "name": "Tajik"},
-      {"code": "uz", "name": "Uzbek"},
-      {"code": "cy", "name": "Welsh"},
-      {"code": "yo", "name": "Yoruba"}
-    ],
-    "tier4": [
-      {"code": "as", "name": "Assamese"},
-      {"code": "bho", "name": "Bhojpuri"},
-      {"code": "ceb", "name": "Cebuano"},
-      {"code": "ny", "name": "Chichewa"},
-      {"code": "gl", "name": "Galician"},
-      {"code": "ht", "name": "Haitian Creole"},
-      {"code": "ig", "name": "Igbo"},
-      {"code": "jv", "name": "Javanese"},
-      {"code": "rw", "name": "Kinyarwanda"},
-      {"code": "ku", "name": "Kurdish"},
-      {"code": "lg", "name": "Luganda"},
-      {"code": "lb", "name": "Luxembourgish"},
-      {"code": "mai", "name": "Maithili"},
-      {"code": "mg", "name": "Malagasy"},
-      {"code": "mt", "name": "Maltese"},
-      {"code": "om", "name": "Oromo"},
-      {"code": "qu", "name": "Quechua"},
-      {"code": "sn", "name": "Shona"},
-      {"code": "sd", "name": "Sindhi"},
-      {"code": "su", "name": "Sundanese"},
-      {"code": "tt", "name": "Tatar"},
-      {"code": "bo", "name": "Tibetan"},
-      {"code": "ti", "name": "Tigrinya"},
-      {"code": "tk", "name": "Turkmen"},
-      {"code": "ug", "name": "Uyghur"},
-      {"code": "wo", "name": "Wolof"},
-      {"code": "xh", "name": "Xhosa"},
-      {"code": "yi", "name": "Yiddish"},
-      {"code": "zu", "name": "Zulu"}
-    ]
+  "tier3": {
+    "description": "Smaller regional languages - Human review required for safety-critical emergency phrases",
+    "languages": ["af", "is", "ga", "cy", "eu", "ca", "gl", "mt", "be", "bs", "mn", "ps", "ku", "sd", "ug", "tk", "ky", "tg", "so", "ha", "ig", "yo", "zu", "xh", "st", "sn", "mg", "ny", "rw"]
   },
-  "statistics": {
-    "tier1Count": 29,
-    "tier2Count": 22,
-    "tier3Count": 28,
-    "tier4Count": 29,
-    "totalLanguages": 108,
-    "estimatedSpeakers": "5+ billion (Tier 1 alone)"
+  "tier4": {
+    "description": "Pacific and specialized regional languages - Professional translation required",
+    "languages": ["mi", "sm", "to", "fj", "haw", "ceb"]
   }
 }
