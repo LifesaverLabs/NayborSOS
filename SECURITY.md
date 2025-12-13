@@ -4,7 +4,7 @@
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Neighbor 911 is life-saving emergency response technology. Security vulnerabilities could directly impact user safety. We take all security reports seriously and will respond promptly.
+Naybor SOS is life-saving emergency response technology. Security vulnerabilities could directly impact user safety. We take all security reports seriously and will respond promptly.
 
 ### How to Report
 
@@ -36,7 +36,7 @@ If you discover a security vulnerability, please email:
 
 ## Security Priorities
 
-Given that Neighbor 911 handles emergency situations, we prioritize:
+Given that Naybor SOS handles emergency situations, we prioritize:
 
 1. **User Privacy** - Location data, health information, and personal details must be protected
 2. **System Reliability** - The alert system must work when needed most
@@ -108,6 +108,6 @@ If you have security questions that are not vulnerabilities, you can:
 
 ---
 
-**Thank you for helping keep Neighbor 911 and our users safe.**
+**Thank you for helping keep Naybor SOS and our users safe.**
 
 *Last Updated: 2025-11-16*
