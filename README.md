@@ -280,7 +280,7 @@ flutter run -d android # Android emulator (requires Android Studio setup)
 - [Detailed Setup & Troubleshooting](flutter_crossplatform_mobile_app/QUICK_START.md) - Project-specific guide
 - [Flutter Doctor Guide](https://docs.flutter.dev/get-started/install#run-flutter-doctor) - Fix setup issues
 
-3. **Join the Calmunity**
+3. **Join the Calmunity⁴⁵**
    - **Discord:** [https://discord.gg/sNdCsNmK](https://discord.gg/sNdCsNmK) - Join for real-time development coordination
    - **Reddit:** [r/neighbor911](https://www.reddit.com/r/neighbor911/) - Community discussions and updates
    - **GitHub Issues:** [Report bugs or suggest features](https://github.com/LifesaverLabs/NayborSOS/issues)
