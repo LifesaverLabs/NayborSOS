@@ -1,23 +1,23 @@
 {
-  "@@locale": "ps",
+  "@@locale": "yue",
   "_notice": "⚠️ HUMAN REVIEW REQUIRED for safety-critical emergency phrases before production use",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "د نننیو ورځو منټمین او منټویمن",
+  "tagline": "現代民兵男女",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "د خپلو ګاونډیانو سره د مرستې لپاره نوملیکنه وکړئ",
+  "signUpToHelp": "註冊幫助你嘅鄰居",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "د پیل لپاره خپل د تلیفون شمیره داخل کړئ",
+  "enterPhoneNumber": "輸入你嘅電話號碼開始",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "د تلیفون شمیره",
+  "phoneNumberLabel": "電話號碼",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -25,15 +25,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "د تصدیق کوډ واستوئ",
+  "sendVerificationCode": "發送驗證碼",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "د تصدیق کوډ داخل کړئ",
+  "enterVerificationCode": "輸入驗證碼",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "موږ {phoneNumber} ته یو کوډ واستاوه",
+  "verificationCodeSent": "我哋已經發送驗證碼到 {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -43,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "د تصدیق کوډ",
+  "verificationCodeLabel": "驗證碼",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -51,59 +51,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "تصدیق او دوام ورکړئ",
+  "verifyAndContinue": "驗證並繼續",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "د تلیفون شمیره بدل کړئ",
+  "changePhoneNumber": "更改電話號碼",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "مهرباني وکړئ خپل د تلیفون شمیره داخل کړئ",
+  "pleaseEnterPhoneNumber": "請輸入你嘅電話號碼",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "مهرباني وکړئ د تصدیق کوډ داخل کړئ",
+  "pleaseEnterVerificationCode": "請輸入驗證碼",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "پروفایل جوړ کړئ",
+  "createProfile": "建立個人檔案",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "موږ ته د خپل ځان په اړه ووایاست",
+  "tellUsAboutYourself": "話俾我哋知關於你嘅資料",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "دا معلومات موږ سره مرسته کوي چې تاسو د هغو ګاونډیانو سره وتړو چې مرستې ته اړتیا لري",
+  "profileSetupDescription": "呢啲資料幫助我哋將你同需要幫助嘅鄰居聯繫起嚟",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "انځور اضافه کړئ (اختیاري)",
+  "addPhotoOptional": "加相片（可選）",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "بشپړ نوم *",
+  "fullNameLabel": "全名 *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "احمد علي",
+  "fullNameHint": "陳大文",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "د کور پته *",
+  "homeAddressLabel": "住址 *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "د اصلي سرک ۱۲۳، شقه ۴ب",
+  "homeAddressHint": "香港島中環皇后大道中123號4B室",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "یوازې د نږدېوالي پورې تړاو لپاره کارول کیږي",
+  "homeAddressHelper": "只用於距離配對",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "عمر (اختیاري)",
+  "ageOptionalLabel": "年齡（可選）",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -111,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "د ۷۰+ کلنۍ کولی شي د نرم خبرداری ساعتونه وټاکي",
+  "ageHelper": "70歲或以上可以設定溫和提示時間",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "ستاسو محرمیت مهم دی",
+  "yourPrivacyMatters": "你嘅私隱好重要",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "ستاسو ځای یوازې د فعالو بیړنیو حالاتو په وخت کې پوښتنه کیږي او هیڅکله اوږدمهاله زیرمه نشي.",
+  "privacyNotice": "你嘅位置只會喺緊急情況期間查詢，絕不會長期儲存。",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "دوام ورکړئ",
+  "continueButton": "繼續",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "مهرباني وکړئ ټول اړین ساحې ډک کړئ",
+  "pleaseFillRequiredFields": "請填寫所有必填欄位",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "کور",
+  "home": "主頁",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "خبرداری",
+  "alerts": "警報",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "پروفایل",
+  "profile": "個人檔案",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "د ځواب ورکولو لپاره چمتو",
+  "availableToRespond": "可以回應",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "شتون نلري",
+  "notAvailable": "唔可以",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "تاسو به د نږدې بیړني خبردارۍ ترلاسه کړئ",
+  "youllReceiveEmergencyAlerts": "你會收到附近嘅緊急警報",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "کله چې د مرستې لپاره چمتو یاست تبدیل کړئ",
+  "toggleOnWhenReady": "準備好幫手時開啟",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "تاسو اوس د ځواب ورکولو لپاره چمتو یاست",
+  "youreNowAvailable": "你而家可以回應緊急情況",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "تاسو به خبردارۍ و نه ګورئ",
+  "youWontReceiveAlerts": "你唔會收到警報",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "د ژوند له خطر څخه ډک خبردارۍ به ۲۴/۷ تاسو ته اطلاع ورکړي. غیر بیړني خبردارۍ ستاسو د وخت احترام کوي.",
+  "lifeThreatening247Info": "危及生命嘅警報會24/7通知你。非緊急警報會尊重你嘅時間安排。",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "د مرستې غوښتنه",
+  "requestHelp": "請求幫助",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "ستاسو تاثیر",
+  "yourImpact": "你嘅貢獻",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "ځوابونه",
+  "responses": "回應次數",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "اوسط وخت",
+  "avgTime": "平均時間",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "ستاسو وړتیاوې",
+  "yourCapabilities": "你嘅能力",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "تصحیح",
+  "edit": "編輯",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "د ټولنې شبکه",
+  "communityNetwork": "社區網絡",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "نږدې ځواب ورکوونکي",
+  "nearbyResponders": "附近回應者",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} شتون لري",
+  "nearbyRespondersAvailable": "{count} 個可用",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -213,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "د پوښښ ریډیوس",
+  "coverageRadius": "覆蓋範圍",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} میله",
+  "coverageRadiusValue": "{distance} 英里",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -227,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "فعال خبردارۍ",
+  "activeAlerts": "活躍警報",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "هیڅ",
+  "none": "冇",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "ستاسو ځای",
+  "yourLocation": "你嘅位置",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "تاسو د څه لپاره مرستې ته اړتیا لرئ؟",
+  "whatDoYouNeedHelpWith": "你需要咩幫助？",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "اضافي توضیحات (اختیاري)",
+  "additionalDetailsOptional": "額外詳情（可選）",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "د وضعیت تشریح وکړئ...",
+  "describeSituation": "描述情況...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "لومړی زما د باور وړ ځواب ورکوونکو ته خبرداری ورکړئ",
+  "alertTrustedRespondersFirst": "優先通知我嘅信任回應者",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "ستاسو غوره شوي ملګري/کورنۍ به د عمومي ټولنې دمخه خبر شي",
+  "trustedRespondersDescription": "你選擇嘅朋友/家人會喺一般社區之前收到通知",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "خبرداری لیږل: {emergencyType}",
+  "sendingAlert": "發送警報：{emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -269,139 +269,139 @@
       }
     }
   },
-  "sendAlertNow": "اوس خبرداری واستوئ",
+  "sendAlertNow": "立即發送警報",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "مهرباني وکړئ د بیړني حالت ډول وټاکئ",
+  "pleaseSelectEmergencyType": "請選擇緊急情況類型",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 د ژوند له خطر څخه ډک",
+  "categoryLifeThreatening": "🔴 危及生命",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 امنیت/خوندیتوب",
+  "categorySecuritySafety": "🟠 保安/安全",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 بیړني وخت حساس",
+  "categoryUrgentTimeSensitive": "🟡 緊急時間敏感",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 د ژوند له خطر څخه بې خطره",
+  "categoryNonLifeThreatening": "🟢 非危及生命",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "د زړه بیا راژوندی کول / د زړه درېدل",
+  "emergencyCprCardiacName": "心肺復甦術 / 心跳停止",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "سړی ځواب نه ورکوي او ساه نه اخلي",
+  "emergencyCprCardiacDesc": "病人失去知覺同無呼吸",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "د AED تحویلي",
+  "emergencyAedName": "自動體外除顫器運送",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "سمدستي AED ته اړتیا لرم",
+  "emergencyAedDesc": "立即需要自動體外除顫器",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "د زیاتو درملو / نالوکسون",
+  "emergencyOverdoseName": "藥物過量 / 納洛酮",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "د زیاتو درملو شک، نالوکسون ته اړتیا",
+  "emergencyOverdoseDesc": "懷疑藥物過量，需要納洛酮",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "ټک کول / هایملیک",
+  "emergencyChokingName": "哽塞 / 海姆立克急救法",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "سړی ټک کوي او نشي ساه واخیستلی",
+  "emergencyChokingDesc": "病人哽塞無法呼吸",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "اور / انتقال",
+  "emergencyFireName": "火災 / 疏散",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "د اور بیړني حالت، د انتقال مرستې ته اړتیا",
+  "emergencyFireDesc": "火災緊急情況，需要疏散幫助",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "د خونې د رضایت بیړني حالت",
+  "emergencyConsentName": "房間同意緊急情況",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "د خوندیتوب کلمه ویل شوې، شاهد ته اړتیا",
+  "emergencyConsentDesc": "叫咗安全詞，需要證人",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "فعال د لیدونکي شاهد",
+  "emergencyBystanderName": "主動旁觀者證人",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "د شخړې د کمولو لپاره شتون ته اړتیا",
+  "emergencyBystanderDesc": "需要在場緩解衝突",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "ورک حیوان",
+  "emergencyMissingPetName": "寵物失蹤",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "حیوان ورک یا وتښتید، د پلټنې ډلې ته اړتیا",
+  "emergencyMissingPetDesc": "寵物走失咗，需要搜索隊",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "د روغتیا کتنه",
+  "emergencyWellnessCheckName": "健康檢查",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "د یو چا څانګه وکړئ چې ممکن مرستې ته اړتیا ولري",
+  "emergencyWellnessCheckDesc": "檢查可能需要幫助嘅人",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "د پریښودو ملګری",
+  "emergencyQuitCompanionName": "戒癮陪伴",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "د لیوالتیا سره جګړه، ملاتړ ته اړتیا",
+  "emergencyQuitCompanionDesc": "對抗癮頭，需要支持",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "ملګرتیا",
+  "emergencyCompanionshipName": "陪伴",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "د یوازیتوب یا جلا کېدو احساس",
+  "emergencyCompanionshipDesc": "感到孤獨或被孤立",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "د ۹۱۱ همغږي",
+  "emergency911CoordinationName": "999協調",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "د ۹۱۱ ټلیفون او همغږۍ کې مرستې ته اړتیا",
+  "emergency911CoordinationDesc": "需要幫助致電同協調999",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "AED",
+  "equipmentAed": "自動體外除顫器",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "نالوکسون/نارکان",
+  "equipmentNaloxone": "納洛酮/Narcan",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "زما وړتیاوې",
+  "myCapabilities": "我嘅能力",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} غوره شوي",
+  "capabilitiesSelected": "已選擇 {count} 個",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -411,43 +411,43 @@
       }
     }
   },
-  "alertSchedule": "د خبرداری مهالویش",
+  "alertSchedule": "警報時間表",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "د خپل شتون ساعتونه وټاکئ",
+  "setAvailabilityHours": "設定你嘅可用時間",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "د باور وړ ځواب ورکوونکي",
+  "trustedResponders": "信任回應者",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "د ځواب تاریخچه",
+  "responseHistory": "回應記錄",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "محرمیت او خوندیتوب",
+  "privacyAndSafety": "私隱同安全",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "مرسته او ملاتړ",
+  "helpAndSupport": "幫助同支援",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "د Naybor SOS په اړه",
+  "aboutNayborSos": "關於 Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "شرایط او د محرمیت پالیسي",
+  "termsAndPrivacyPolicy": "條款同私隱政策",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "وتل",
+  "signOut": "登出",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "نسخه {version}",
+  "version": "版本 {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -457,95 +457,95 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS د بیړنیو حالاتو کې ګاونډیان وصلوي، د چټک ځواب ورکوونکو شبکه جوړوي کوم چې کولی شي د مسلکي لومړنیو ځواب ورکوونکو څخه دمخه اړین مرسته وړاندې کړي.",
+  "aboutDialogContent": "Naybor SOS 喺緊急情況下連接鄰居，建立快速回應者網絡，喺專業急救人員到達之前提供重要援助。",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "هرڅوک کولی شي اتل وي. تاسو د ژوند د ژغورلو لپاره ځانګړي روزنې ته اړتیا نلرئ. ځینې وخت ترټولو قوي لاسوهنه یوازې ښکارېدل دي.",
+  "aboutDialogContent2": "每個人都可以係英雄。你唔需要特別訓練就可以拯救生命。有時最有力嘅介入就係簡單嘅出現。",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs د عامه ګټې شرکت",
+  "lifesaverLabs": "Lifesaver Labs 公共利益公司",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "تړل",
+  "close": "關閉",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "وتل؟",
+  "signOutQuestion": "登出？",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "تاسو ډاډه یاست چې غواړئ ووځئ؟",
+  "signOutConfirm": "你確定要登出？",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "لغوه",
+  "cancel": "取消",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "په بریالیتوب سره وووت",
+  "signedOutSuccessfully": "成功登出",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "تنظیمات",
+  "settings": "設定",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "د روغتیا کتنه",
+  "capabilityWellnessCheck": "健康檢查",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "د پریښودو ملګری",
+  "capabilityQuitCompanion": "戒癮陪伴",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "فعال لیدونکی",
+  "capabilityActiveBystander": "主動旁觀者",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
   },
-  "translationTier1Label": "د لوړ باور د AI ژباړه",
+  "translationTier1Label": "高信心AI翻譯",
   "@translationTier1Label": {
     "description": "Label for Tier 1 translation confidence"
   },
-  "translationTier2Label": "د ښه باور د AI ژباړه",
+  "translationTier2Label": "良好信心AI翻譯",
   "@translationTier2Label": {
     "description": "Label for Tier 2 translation confidence"
   },
-  "translationTier3Label": "د منځني باور د AI ژباړه",
+  "translationTier3Label": "中等信心AI翻譯",
   "@translationTier3Label": {
     "description": "Label for Tier 3 translation confidence"
   },
-  "translationTier4Label": "د ټیټ باور د AI ژباړه",
+  "translationTier4Label": "低信心AI翻譯",
   "@translationTier4Label": {
     "description": "Label for Tier 4 translation confidence"
   },
-  "translationTier1Notice": "دا ژباړه د AI لخوا د لوړ باور سره جوړه شوې. د تولید کارونې لپاره مسلکي بیاکتنه وړاندیز کیږي.",
+  "translationTier1Notice": "呢個翻譯係高信心AI生成。建議喺正式使用前進行專業審查。",
   "@translationTier1Notice": {
     "description": "Notice text for Tier 1 translations"
   },
-  "translationTier2Notice": "دا ژباړه د AI لخوا د ښه باور سره جوړه شوې. د خوندیتوب-اړین رضایت او بیړني اصطلاحاتو لپاره مسلکي بیاکتنه وړاندیز کیږي.",
+  "translationTier2Notice": "呢個翻譯係良好信心AI生成。建議喺安全關鍵同意同緊急術語方面進行專業審查。",
   "@translationTier2Notice": {
     "description": "Notice text for Tier 2 translations"
   },
-  "translationTier3Notice": "⚠️ دا ژباړه د تولید کارونې دمخه د خوندیتوب-اړین بیړنیو جملو لپاره د انساني بیاکتنې ته اړتیا لري.",
+  "translationTier3Notice": "⚠️ 呢個翻譯喺正式使用前需要人工審查安全關鍵緊急短語。",
   "@translationTier3Notice": {
     "description": "Notice text for Tier 3 translations"
   },
-  "translationTier4Notice": "⚠️ دا یوازې د مسودې ژباړه دی. د تولید کارونې دمخه مسلکي ژباړې ته اړتیا.",
+  "translationTier4Notice": "⚠️ 呢個只係草稿翻譯。正式使用前需要專業翻譯。",
   "@translationTier4Notice": {
     "description": "Notice text for Tier 4 translations"
   },
-  "selectLanguage": "ژبه وټاکئ",
+  "selectLanguage": "選擇語言",
   "@selectLanguage": {
     "description": "Language selection screen title"
   },
-  "searchLanguagesHint": "ژبې لټون",
+  "searchLanguagesHint": "搜索語言",
   "@searchLanguagesHint": {
     "description": "Hint text for language search field"
   },
-  "translationQualityLabel": "د ژباړې کیفیت: {quality}",
+  "translationQualityLabel": "翻譯質量：{quality}",
   "@translationQualityLabel": {
     "description": "Label showing translation quality with tier",
     "placeholders": {
@@ -555,7 +555,7 @@
       }
     }
   },
-  "helpImproveTranslations": "د ژباړو ښه کولو کې مرسته وکړئ - ستونزې راپور ورکړئ یا غوره ژباړې مرسته وکړئ!",
+  "helpImproveTranslations": "幫助改善翻譯 - 報告問題或貢獻更好嘅翻譯！",
   "@helpImproveTranslations": {
     "description": "Message encouraging users to help improve translations"
   }

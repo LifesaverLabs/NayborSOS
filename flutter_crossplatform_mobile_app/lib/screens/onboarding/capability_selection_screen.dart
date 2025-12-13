@@ -205,7 +205,7 @@ class _CapabilityTile extends StatelessWidget {
             const SizedBox(width: 12),
             Expanded(
               child: Text(
-                emergencyType.name,
+                emergencyType.name(context),
                 style: Theme.of(context).textTheme.titleMedium,
               ),
             ),
@@ -216,7 +216,7 @@ class _CapabilityTile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(emergencyType.description),
+              Text(emergencyType.description(context)),
               if (emergencyType.requiresEquipment) ...[
                 const SizedBox(height: 4),
                 Row(

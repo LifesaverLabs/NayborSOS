@@ -1,237 +1,561 @@
 {
   "@@locale": "it",
   "appTitle": "Naybor SOS",
-  "@appTitle": {"description": "The title of the application"},
-  "tagline": "Minutemen e Minutewomen Moderni",
-  "@tagline": {"description": "App tagline"},
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Minutemen e Minutewomen dei Giorni Nostri",
+  "@tagline": {
+    "description": "App tagline"
+  },
   "signUpToHelp": "Registrati per aiutare i tuoi vicini",
-  "@signUpToHelp": {"description": "Sign up header text"},
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
   "enterPhoneNumber": "Inserisci il tuo numero di telefono per iniziare",
-  "@enterPhoneNumber": {"description": "Phone number entry instruction"},
-  "phoneNumberLabel": "Numero di telefono",
-  "@phoneNumberLabel": {"description": "Phone number field label"},
-  "phoneNumberHint": "(555) 123-4567",
-  "@phoneNumberHint": {"description": "Phone number field hint"},
-  "sendVerificationCode": "Invia codice di verifica",
-  "@sendVerificationCode": {"description": "Button to send verification code"},
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Numero di Telefono",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "333 123 4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Invia Codice di Verifica",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
   "enterVerificationCode": "Inserisci il codice di verifica",
-  "@enterVerificationCode": {"description": "Verification code header"},
-  "verificationCodeSent": "Abbiamo inviato un codice a {phoneNumber}",
-  "@verificationCodeSent": {"description": "Message showing where code was sent", "placeholders": {"phoneNumber": {"type": "String", "example": "(555) 123-4567"}}},
-  "verificationCodeLabel": "Codice di verifica",
-  "@verificationCodeLabel": {"description": "Verification code field label"},
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Abbiamo inviato un codice al {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Codice di Verifica",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
   "verificationCodeHint": "123456",
-  "@verificationCodeHint": {"description": "Verification code field hint"},
-  "verifyAndContinue": "Verifica e continua",
-  "@verifyAndContinue": {"description": "Button to verify code and continue"},
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Verifica e Continua",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
   "changePhoneNumber": "Cambia numero di telefono",
-  "@changePhoneNumber": {"description": "Button to change phone number"},
-  "pleaseEnterPhoneNumber": "Inserisca il suo numero di telefono",
-  "@pleaseEnterPhoneNumber": {"description": "Error message for empty phone number"},
-  "pleaseEnterVerificationCode": "Inserisca il codice di verifica",
-  "@pleaseEnterVerificationCode": {"description": "Error message for empty verification code"},
-  "createProfile": "Crea profilo",
-  "@createProfile": {"description": "Create profile screen title"},
-  "tellUsAboutYourself": "Parlaci di te",
-  "@tellUsAboutYourself": {"description": "Profile setup header"},
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Inserisci il tuo numero di telefono",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Inserisci il codice di verifica",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Crea Profilo",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Raccontaci di te",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
   "profileSetupDescription": "Queste informazioni ci aiutano a metterti in contatto con i vicini che hanno bisogno di aiuto",
-  "@profileSetupDescription": {"description": "Profile setup description"},
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
   "addPhotoOptional": "Aggiungi foto (facoltativo)",
-  "@addPhotoOptional": {"description": "Add photo text"},
-  "fullNameLabel": "Nome completo *",
-  "@fullNameLabel": {"description": "Full name field label"},
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Nome Completo *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
   "fullNameHint": "Mario Rossi",
-  "@fullNameHint": {"description": "Full name field hint"},
-  "homeAddressLabel": "Indirizzo di casa *",
-  "@homeAddressLabel": {"description": "Home address field label"},
-  "homeAddressHint": "Via Roma 123, Appartamento 4B",
-  "@homeAddressHint": {"description": "Home address field hint"},
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Indirizzo di Casa *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "Via Roma 123, Int. 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
   "homeAddressHelper": "Utilizzato solo per la corrispondenza di prossimità",
-  "@homeAddressHelper": {"description": "Home address helper text"},
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
   "ageOptionalLabel": "Età (facoltativo)",
-  "@ageOptionalLabel": {"description": "Age field label"},
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
   "ageHint": "25",
-  "@ageHint": {"description": "Age field hint"},
-  "ageHelper": "Le persone di 70+ anni possono impostare orari di avviso gentili",
-  "@ageHelper": {"description": "Age helper text"},
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "Le persone di 70+ anni possono impostare orari di allerta delicati",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
   "yourPrivacyMatters": "La tua privacy è importante",
-  "@yourPrivacyMatters": {"description": "Privacy notice title"},
-  "privacyNotice": "La sua posizione viene interrogata solo durante emergenze attive e non viene mai memorizzata a lungo termine.",
-  "@privacyNotice": {"description": "Privacy notice text"},
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "La tua posizione viene interrogata solo durante emergenze attive e non viene mai conservata a lungo termine.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
   "continueButton": "Continua",
-  "@continueButton": {"description": "Continue button"},
-  "pleaseFillRequiredFields": "Compili tutti i campi obbligatori",
-  "@pleaseFillRequiredFields": {"description": "Error message for incomplete form"},
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Compila tutti i campi obbligatori",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
   "home": "Home",
-  "@home": {"description": "Home navigation label"},
-  "alerts": "Avvisi",
-  "@alerts": {"description": "Alerts navigation label"},
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Allerte",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
   "profile": "Profilo",
-  "@profile": {"description": "Profile navigation label"},
-  "availableToRespond": "Disponibile a rispondere",
-  "@availableToRespond": {"description": "Available status text"},
-  "notAvailable": "Non disponibile",
-  "@notAvailable": {"description": "Not available status text"},
-  "youllReceiveEmergencyAlerts": "Riceverà avvisi di emergenza nelle vicinanze",
-  "@youllReceiveEmergencyAlerts": {"description": "Available status description"},
-  "toggleOnWhenReady": "Attivi quando è pronto ad aiutare",
-  "@toggleOnWhenReady": {"description": "Not available status description"},
-  "youreNowAvailable": "Ora è disponibile a rispondere",
-  "@youreNowAvailable": {"description": "Available toggle success message"},
-  "youWontReceiveAlerts": "Non riceverà avvisi",
-  "@youWontReceiveAlerts": {"description": "Unavailable toggle message"},
-  "lifeThreatening247Info": "Gli avvisi potenzialmente letali la avviseranno 24 ore su 24, 7 giorni su 7. Gli avvisi non urgenti rispettano il suo programma.",
-  "@lifeThreatening247Info": {"description": "Alert schedule info message"},
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Disponibile a Rispondere",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Non Disponibile",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Riceverai allerte di emergenza nelle vicinanze",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Attiva quando sei pronto ad aiutare",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Ora sei disponibile a rispondere",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Non riceverai allerte",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Le allerte pericolose per la vita ti notificheranno 24/7. Le allerte non urgenti rispettano il tuo orario.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
   "requestHelp": "RICHIEDI AIUTO",
-  "@requestHelp": {"description": "Request help button text"},
-  "yourImpact": "Il tuo impatto",
-  "@yourImpact": {"description": "Your impact section title"},
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Il Tuo Impatto",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
   "responses": "Risposte",
-  "@responses": {"description": "Responses stat label"},
-  "avgTime": "Tempo medio",
-  "@avgTime": {"description": "Average time stat label"},
-  "yourCapabilities": "Le tue capacità",
-  "@yourCapabilities": {"description": "Your capabilities section title"},
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Tempo Medio",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Le Tue Capacità",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
   "edit": "Modifica",
-  "@edit": {"description": "Edit button text"},
-  "communityNetwork": "Rete comunitaria",
-  "@communityNetwork": {"description": "Community network section title"},
-  "nearbyResponders": "Soccorritori nelle vicinanze",
-  "@nearbyResponders": {"description": "Nearby responders label"},
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Rete della Comunità",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Soccorritori Vicini",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
   "nearbyRespondersAvailable": "{count} disponibili",
-  "@nearbyRespondersAvailable": {"description": "Number of nearby responders available", "placeholders": {"count": {"type": "int", "example": "12"}}},
-  "coverageRadius": "Raggio di copertura",
-  "@coverageRadius": {"description": "Coverage radius label"},
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Raggio di Copertura",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
   "coverageRadiusValue": "{distance} miglia",
-  "@coverageRadiusValue": {"description": "Coverage radius value", "placeholders": {"distance": {"type": "String", "example": "0.5"}}},
-  "activeAlerts": "Avvisi attivi",
-  "@activeAlerts": {"description": "Active alerts label"},
-  "none": "Nessuno",
-  "@none": {"description": "None text"},
-  "yourLocation": "La tua posizione",
-  "@yourLocation": {"description": "Your location label"},
-  "whatDoYouNeedHelpWith": "Con cosa ha bisogno di aiuto?",
-  "@whatDoYouNeedHelpWith": {"description": "Emergency type selection header"},
-  "additionalDetailsOptional": "Dettagli aggiuntivi (facoltativo)",
-  "@additionalDetailsOptional": {"description": "Additional details field label"},
-  "describeSituation": "Descriva la situazione...",
-  "@describeSituation": {"description": "Additional details field hint"},
-  "alertTrustedRespondersFirst": "Avvisa prima i miei soccorritori fidati",
-  "@alertTrustedRespondersFirst": {"description": "Trusted responders checkbox title"},
-  "trustedRespondersDescription": "I suoi amici/familiari selezionati saranno avvisati prima della comunità generale",
-  "@trustedRespondersDescription": {"description": "Trusted responders checkbox description"},
-  "sendingAlert": "Invio avviso: {emergencyType}",
-  "@sendingAlert": {"description": "Message showing which alert is being sent", "placeholders": {"emergencyType": {"type": "String", "example": "CPR / Cardiac Arrest"}}},
-  "sendAlertNow": "INVIA AVVISO ORA",
-  "@sendAlertNow": {"description": "Send alert button text"},
-  "pleaseSelectEmergencyType": "Selezioni un tipo di emergenza",
-  "@pleaseSelectEmergencyType": {"description": "Error message for no emergency type selected"},
-  "categoryLifeThreatening": "🔴 Potenzialmente letale",
-  "@categoryLifeThreatening": {"description": "Life-threatening category label"},
-  "categorySecuritySafety": "🟠 Sicurezza/Incolumità",
-  "@categorySecuritySafety": {"description": "Security/safety category label"},
-  "categoryUrgentTimeSensitive": "🟡 Urgente critico per il tempo",
-  "@categoryUrgentTimeSensitive": {"description": "Urgent time-sensitive category label"},
-  "categoryNonLifeThreatening": "🟢 Non potenzialmente letale",
-  "@categoryNonLifeThreatening": {"description": "Non-life-threatening category label"},
-  "emergencyCprCardiacName": "RCP / Arresto cardiaco",
-  "@emergencyCprCardiacName": {"description": "CPR/Cardiac arrest emergency name"},
-  "emergencyCprCardiacDesc": "La persona è incosciente e non respira",
-  "@emergencyCprCardiacDesc": {"description": "CPR/Cardiac arrest emergency description"},
-  "emergencyAedName": "Consegna defibrillatore",
-  "@emergencyAedName": {"description": "AED delivery emergency name"},
-  "emergencyAedDesc": "Necessità immediata di un defibrillatore",
-  "@emergencyAedDesc": {"description": "AED delivery emergency description"},
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Allerte Attive",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Nessuna",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "La Tua Posizione",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Per cosa hai bisogno di aiuto?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Dettagli Aggiuntivi (facoltativo)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Descrivi la situazione...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Avvisa prima i miei soccorritori di fiducia",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "I tuoi amici/familiari selezionati verranno avvisati prima della comunità generale",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Invio allerta: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "INVIA ALLERTA ORA",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Seleziona un tipo di emergenza",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Pericolo di Vita",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Sicurezza/Protezione",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Urgente Tempo-Critico",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Non Pericoloso per la Vita",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "RCP / Arresto Cardiaco",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "La persona non risponde e non respira",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "Consegna DAE",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "Serve un DAE immediatamente",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
   "emergencyOverdoseName": "Overdose / Naloxone",
-  "@emergencyOverdoseName": {"description": "Overdose/Naloxone emergency name"},
-  "emergencyOverdoseDesc": "Sospetta overdose da droga, necessario naloxone",
-  "@emergencyOverdoseDesc": {"description": "Overdose/Naloxone emergency description"},
-  "emergencyChokingName": "Soffocamento / Heimlich",
-  "@emergencyChokingName": {"description": "Choking/Heimlich emergency name"},
-  "emergencyChokingDesc": "La persona sta soffocando e non riesce a respirare",
-  "@emergencyChokingDesc": {"description": "Choking/Heimlich emergency description"},
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Sospetta overdose da droga, serve naloxone",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Soffocamento / Manovra di Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "La persona sta soffocando e non può respirare",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
   "emergencyFireName": "Incendio / Evacuazione",
-  "@emergencyFireName": {"description": "Fire/Evacuation emergency name"},
-  "emergencyFireDesc": "Emergenza incendio, necessità di aiuto per evacuazione",
-  "@emergencyFireDesc": {"description": "Fire/Evacuation emergency description"},
-  "emergencyConsentName": "Emergenza consensuale privata",
-  "@emergencyConsentName": {"description": "Bedroom consent emergency name"},
-  "emergencyConsentDesc": "Parola di sicurezza pronunciata, necessario testimone",
-  "@emergencyConsentDesc": {"description": "Bedroom consent emergency description"},
-  "emergencyBystanderName": "Testimone attivo",
-  "@emergencyBystanderName": {"description": "Active bystander emergency name"},
-  "emergencyBystanderDesc": "Necessaria presenza per de-escalare il conflitto",
-  "@emergencyBystanderDesc": {"description": "Active bystander emergency description"},
-  "emergencyMissingPetName": "Animale domestico smarrito",
-  "@emergencyMissingPetName": {"description": "Missing pet emergency name"},
-  "emergencyMissingPetDesc": "Animale domestico perso o scappato, necessaria squadra di ricerca",
-  "@emergencyMissingPetDesc": {"description": "Missing pet emergency description"},
-  "emergencyWellnessCheckName": "Controllo benessere",
-  "@emergencyWellnessCheckName": {"description": "Wellness check emergency name"},
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Emergenza incendio, serve aiuto per evacuazione",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Emergenza Consenso Intimità",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Parola di sicurezza pronunciata, serve testimone",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Testimone Attivo",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Serve presenza per de-escalare conflitto",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Animale Smarrito",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "L'animale è perso o scappato, serve squadra di ricerca",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Controllo Benessere",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
   "emergencyWellnessCheckDesc": "Controllare qualcuno che potrebbe aver bisogno di aiuto",
-  "@emergencyWellnessCheckDesc": {"description": "Wellness check emergency description"},
-  "emergencyQuitCompanionName": "Compagno di astinenza",
-  "@emergencyQuitCompanionName": {"description": "Quit companion emergency name"},
-  "emergencyQuitCompanionDesc": "Lottando con il desiderio, necessario supporto",
-  "@emergencyQuitCompanionDesc": {"description": "Quit companion emergency description"},
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Compagno per Smettere",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Combattendo una voglia, serve supporto",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
   "emergencyCompanionshipName": "Compagnia",
-  "@emergencyCompanionshipName": {"description": "Companionship emergency name"},
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
   "emergencyCompanionshipDesc": "Mi sento solo o isolato",
-  "@emergencyCompanionshipDesc": {"description": "Companionship emergency description"},
-  "emergency911CoordinationName": "Coordinamento emergenze",
-  "@emergency911CoordinationName": {"description": "911 coordination emergency name"},
-  "emergency911CoordinationDesc": "Necessità di aiuto per chiamare e coordinare le emergenze",
-  "@emergency911CoordinationDesc": {"description": "911 coordination emergency description"},
-  "equipmentAed": "Defibrillatore",
-  "@equipmentAed": {"description": "AED equipment name"},
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "Coordinamento Servizi di Emergenza",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "Serve aiuto per chiamare e coordinare i servizi di emergenza",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "DAE",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
   "equipmentNaloxone": "Naloxone/Narcan",
-  "@equipmentNaloxone": {"description": "Naloxone equipment name"},
-  "myCapabilities": "Le mie capacità",
-  "@myCapabilities": {"description": "My capabilities menu item"},
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Le Mie Capacità",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
   "capabilitiesSelected": "{count} selezionate",
-  "@capabilitiesSelected": {"description": "Number of capabilities selected", "placeholders": {"count": {"type": "int", "example": "3"}}},
-  "alertSchedule": "Programma avvisi",
-  "@alertSchedule": {"description": "Alert schedule menu item"},
-  "setAvailabilityHours": "Imposti i suoi orari di disponibilità",
-  "@setAvailabilityHours": {"description": "Alert schedule subtitle"},
-  "trustedResponders": "Soccorritori fidati",
-  "@trustedResponders": {"description": "Trusted responders menu item"},
-  "responseHistory": "Cronologia risposte",
-  "@responseHistory": {"description": "Response history menu item"},
-  "privacyAndSafety": "Privacy e sicurezza",
-  "@privacyAndSafety": {"description": "Privacy & safety menu item"},
-  "helpAndSupport": "Aiuto e supporto",
-  "@helpAndSupport": {"description": "Help & support menu item"},
-  "aboutNayborSos": "Informazioni su Naybor SOS",
-  "@aboutNayborSos": {"description": "About Naybor SOS menu item"},
-  "termsAndPrivacyPolicy": "Termini e informativa sulla privacy",
-  "@termsAndPrivacyPolicy": {"description": "Terms & privacy policy menu item"},
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Programma Allerte",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Imposta i tuoi orari di disponibilità",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Soccorritori di Fiducia",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Cronologia Risposte",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Privacy e Sicurezza",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Aiuto e Supporto",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Info su Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Termini e Informativa Privacy",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
   "signOut": "Disconnetti",
-  "@signOut": {"description": "Sign out button"},
+  "@signOut": {
+    "description": "Sign out button"
+  },
   "version": "Versione {version}",
-  "@version": {"description": "Version text", "placeholders": {"version": {"type": "String", "example": "1.0.0 (MVP)"}}},
-  "aboutDialogContent": "Naybor SOS collega i vicini in caso di emergenze, creando una rete di soccorritori rapidi che possono fornire aiuto critico prima dell'arrivo dei soccorritori professionisti.",
-  "@aboutDialogContent": {"description": "About dialog content"},
-  "aboutDialogContent2": "Tutti possono essere eroi. Non serve un addestramento speciale per salvare una vita. A volte l'intervento più potente è semplicemente essere presenti.",
-  "@aboutDialogContent2": {"description": "About dialog second paragraph"},
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS collega i vicini durante le emergenze, creando una rete di soccorritori rapidi che possono fornire aiuto critico prima dell'arrivo dei primi soccorritori professionali.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Tutti possono essere eroi. Non serve un addestramento speciale per salvare una vita. A volte l'intervento più potente è semplicemente presentarsi.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
   "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
-  "@lifesaverLabs": {"description": "Company name"},
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
   "close": "Chiudi",
-  "@close": {"description": "Close button"},
+  "@close": {
+    "description": "Close button"
+  },
   "signOutQuestion": "Disconnettersi?",
-  "@signOutQuestion": {"description": "Sign out dialog title"},
-  "signOutConfirm": "È sicuro di volersi disconnettere?",
-  "@signOutConfirm": {"description": "Sign out dialog content"},
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Sei sicuro di volerti disconnettere?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
   "cancel": "Annulla",
-  "@cancel": {"description": "Cancel button"},
-  "signedOutSuccessfully": "Disconnessione riuscita",
-  "@signedOutSuccessfully": {"description": "Sign out success message"},
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Disconnesso con successo",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
   "settings": "Impostazioni",
-  "@settings": {"description": "Settings text"},
-  "capabilityWellnessCheck": "Controllo benessere",
-  "@capabilityWellnessCheck": {"description": "Wellness check capability"},
-  "capabilityQuitCompanion": "Compagno di astinenza",
-  "@capabilityQuitCompanion": {"description": "Quit companion capability"},
-  "capabilityActiveBystander": "Testimone attivo",
-  "@capabilityActiveBystander": {"description": "Active bystander capability"}
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Controllo Benessere",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Compagno per Smettere",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Testimone Attivo",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Traduzione IA Alta Affidabilità",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Traduzione IA Buona Affidabilità",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Traduzione IA Media Affidabilità",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Traduzione IA Bassa Affidabilità",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Questa traduzione è stata generata dall'IA con alta affidabilità. Revisione professionale raccomandata per uso in produzione.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Questa traduzione è stata generata dall'IA con buona affidabilità. Revisione professionale raccomandata per terminologia critica di sicurezza, consenso ed emergenza.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Questa traduzione richiede revisione umana per frasi di emergenza critiche per la sicurezza prima dell'uso in produzione.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Questa è solo una bozza di traduzione. Traduzione professionale richiesta prima dell'uso in produzione.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Seleziona Lingua",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Cerca lingue",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Qualità Traduzione: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Aiuta a migliorare le traduzioni - segnala problemi o contribuisci con traduzioni migliori!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
 }

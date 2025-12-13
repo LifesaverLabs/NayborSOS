@@ -620,5 +620,71 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+
+  "translationTier1Label": "High Confidence AI Translation",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+
+  "translationTier2Label": "Good Confidence AI Translation",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+
+  "translationTier3Label": "Mid-Confidence AI Translation",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+
+  "translationTier4Label": "Low Confidence AI Translation",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+
+  "translationTier1Notice": "This translation was AI-generated with high confidence. Professional review recommended for production use.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+
+  "translationTier2Notice": "This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+
+  "translationTier3Notice": "⚠️ This translation requires human review for safety-critical emergency phrases before production use.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+
+  "translationTier4Notice": "⚠️ This is a draft translation only. Professional translation required before production use.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+
+  "searchLanguagesHint": "Search languages",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+
+  "translationQualityLabel": "Translation Quality: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+
+  "helpImproveTranslations": "Help improve translations - report issues or contribute better translations!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }
