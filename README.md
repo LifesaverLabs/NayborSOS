@@ -188,6 +188,20 @@ Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corpora
 
 **🌟 Quick Start Tip:** Use web platform (`flutter run -d chrome`) to avoid Android/iOS setup initially!
 
+**📚 New to Flutter?** You don't need to be a Flutter expert to contribute! With Flutter foundations plus AI coding assistants (like Claude Code, GitHub Copilot, or Cursor), you can be productive quickly. Check out these free learning resources:
+
+- **[Official Flutter Documentation](https://docs.flutter.dev/)** - Comprehensive guides and API reference
+- **[Flutter Codelabs](https://docs.flutter.dev/codelabs)** - Hands-on tutorials (free)
+- **[Flutter YouTube Channel](https://www.youtube.com/flutterdev)** - Official videos and widget of the week
+- **[Dart Language Tour](https://dart.dev/language)** - Learn Dart basics in 30 minutes
+- **[Flutter Cookbook](https://docs.flutter.dev/cookbook)** - Common task recipes
+- **[DartPad](https://dartpad.dev/)** - Practice Flutter in your browser (no installation needed)
+- **[Fireship - Flutter in 100 Seconds](https://www.youtube.com/watch?v=lHhRhPV--G0)** - Quick overview (free)
+- **[The Net Ninja - Flutter Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)** - Complete beginner series (free)
+- **[freeCodeCamp Flutter Course](https://www.youtube.com/watch?v=VPvVD8t02U8)** - 37-hour comprehensive course (free)
+
+**💡 Pro Tip:** Learn Flutter basics, then use AI coding assistants to accelerate development. You'll learn faster by building real features with AI guidance than studying alone!
+
 **Step-by-Step Setup:**
 
 ```bash

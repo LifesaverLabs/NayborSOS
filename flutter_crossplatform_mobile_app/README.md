@@ -28,6 +28,38 @@
 
 ---
 
+### 📚 New to Flutter?
+
+You don't need years of Flutter experience to contribute! With basic Flutter knowledge plus AI coding support (Claude Code, GitHub Copilot, Cursor), you can build real features from day one.
+
+**Free Learning Resources:**
+
+- **[Official Flutter Docs](https://docs.flutter.dev/)** - Start here for comprehensive guides
+- **[Flutter Codelabs](https://docs.flutter.dev/codelabs)** - Hands-on interactive tutorials
+- **[Dart Language Tour](https://dart.dev/language)** - Learn Dart syntax in ~30 minutes
+- **[DartPad](https://dartpad.dev/)** - Practice Flutter in your browser without installing anything
+- **[Flutter Widget Catalog](https://docs.flutter.dev/ui/widgets)** - Browse all available UI components
+- **[Flutter Cookbook](https://docs.flutter.dev/cookbook)** - Recipes for common tasks
+
+**Free Video Courses:**
+
+- **[Fireship - Flutter in 100 Seconds](https://www.youtube.com/watch?v=lHhRhPV--G0)** - Perfect overview
+- **[The Net Ninja - Flutter Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ)** - Complete beginner series
+- **[freeCodeCamp - Flutter Course](https://www.youtube.com/watch?v=VPvVD8t02U8)** - 37-hour deep dive
+- **[Flutter Official YouTube](https://www.youtube.com/flutterdev)** - Widget of the Week series
+
+**🤖 AI-Assisted Development:**
+
+Modern AI coding assistants (Claude Code, GitHub Copilot, Cursor) dramatically accelerate Flutter learning:
+- Ask questions about Flutter widgets and APIs
+- Get code suggestions as you type
+- Debug errors with AI explanations
+- Learn patterns by reviewing AI-generated code
+
+**💡 Recommended Approach:** Complete 2-3 Flutter codelabs, then start contributing with AI assistance. You'll learn faster building real features than studying alone!
+
+---
+
 1. **Install mise** (version manager):
    ```bash
    # macOS:
