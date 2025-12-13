@@ -20,28 +20,41 @@ This project uses **`mise`** (version manager) to install and manage Flutter, en
 
 **New developers:** Pick ONE of these options to avoid typing `mise exec -- flutter` constantly:
 
-| Method | Setup Time | Convenience | Recommendation |
-|--------|-----------|-------------|----------------|
-| **mise activate** | 30 seconds | ⭐⭐⭐⭐⭐ | Best for power users |
-| **direnv** | 1 minute | ⭐⭐⭐⭐ | Best for this project |
-| **Shell aliases** | 2 minutes | ⭐⭐⭐ | Good for multi-project |
-| **mise run tasks** | 0 seconds | ⭐⭐ | No setup needed |
-| **Verbose commands** | 0 seconds | ⭐ | You'll hate this |
+| Method | Config Time | What It Does | Recommendation |
+|--------|-------------|--------------|----------------|
+| **mise activate** | 30 seconds | Makes `flutter` work globally | ⭐⭐⭐⭐⭐ Best |
+| **direnv** | 1 minute | Auto-loads Flutter in this dir | ⭐⭐⭐⭐ Great |
+| **Shell aliases** | 2 minutes | Short commands like `frun` | ⭐⭐⭐ Good |
+| **mise run tasks** | 0 seconds | Use `mise run build` etc | ⭐⭐ Limited |
+| **Verbose** | 0 seconds | Type `mise exec --` always | ⭐ Tedious |
 
-**Quick Setup (Recommended):**
+**⚠️ IMPORTANT:** These options do NOT install Flutter! They just make it easier to use.
+You MUST run `mise install` first (takes 5-15 minutes to download Flutter).
+
+**Complete Setup (First Time):**
 
 ```bash
-# Option 1: mise activate (best)
+# 1. Install mise (if not already installed)
+brew install mise  # macOS
+
+# 2. Navigate to project and install Flutter
+cd flutter_crossplatform_mobile_app
+mise trust
+mise install  # ⏰ Downloads Flutter (~1GB, takes 5-15 min)
+
+# 3. Make flutter commands easier (pick ONE):
+
+# Option 1: mise activate (best - works globally)
 echo 'eval "$(mise activate zsh)"' >> ~/.zshrc
 source ~/.zshrc
 # Now: flutter run
 
-# Option 2: direnv (project-specific)
+# Option 2: direnv (auto-activates in this dir)
 echo 'export PATH="$(mise bin-paths):$PATH"' > .envrc
 direnv allow
 # Now: flutter run
 
-# Option 3: Aliases (simple)
+# Option 3: Aliases (shortcuts)
 # See detailed instructions below
 ```
 

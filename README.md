@@ -193,14 +193,19 @@ brew install mise
 # Linux:
 curl https://mise.run | sh
 
-# 3. Trust the mise configuration and install Flutter
+# 3. Trust the mise configuration
 mise trust
-mise install
 
-# 4. Choose ONE setup method to avoid typing "mise exec" constantly:
+# 4. Install Flutter (this takes 5-15 minutes - downloads ~1GB)
+mise install
+# ⏰ Go get coffee while Flutter downloads...
+
+# 5. OPTIONAL: Choose ONE setup method to avoid typing "mise exec" constantly:
 ```
 
-**🌟 RECOMMENDED: mise activate (30 seconds, works everywhere)**
+**🌟 RECOMMENDED: mise activate (Makes commands easier)**
+
+⚠️ **Note:** `mise activate` does NOT install Flutter - it just makes mise-managed tools easier to use!
 
 Add to your shell config (`~/.zshrc` for zsh or `~/.bashrc` for bash):
 
@@ -212,7 +217,7 @@ eval "$(mise activate zsh)"  # or bash, fish, etc.
 source ~/.zshrc
 ```
 
-Now `flutter` commands work automatically in any mise-managed project!
+Now `flutter` commands work automatically in mise-managed projects (no `mise exec --` prefix needed)!
 
 **Alternative: Project-specific aliases**
 

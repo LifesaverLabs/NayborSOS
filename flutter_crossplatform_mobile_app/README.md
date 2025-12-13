@@ -26,7 +26,7 @@
    mise --version
    ```
 
-### One-Time Setup (5 minutes)
+### One-Time Setup (10-20 minutes)
 
 ```bash
 # 1. Navigate to the Flutter app directory
@@ -37,7 +37,9 @@ mise trust
 
 # 3. Install Flutter via mise
 mise install
-# This downloads and installs Flutter automatically (~5 minutes)
+# ⏰ This downloads and installs Flutter (~1GB download)
+# Takes 5-15 minutes depending on internet speed
+# Go get coffee!
 
 # 4. Verify Flutter is working
 mise exec -- flutter doctor -v
@@ -49,9 +51,13 @@ mise exec -- flutter doctor -v
 
 ---
 
-#### 🌟 OPTION 1: mise activate (RECOMMENDED - 30 seconds)
+#### 🌟 OPTION 1: mise activate (RECOMMENDED - 30 seconds to configure)
 
 **Best for:** Everyone. Works globally for all mise-managed projects.
+
+**⚠️ IMPORTANT:** This does NOT install Flutter! You must run `mise install` first (see above).
+
+**What it does:** Makes `flutter` commands work without typing `mise exec --` every time.
 
 Add **ONE LINE** to your shell config:
 
