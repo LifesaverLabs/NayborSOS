@@ -175,11 +175,11 @@
 - 简体中文和地区语言/方言的资源
 
 **如何贡献:**
-1. Fork Neighbor911 仓库
+1. Fork NayborSOS 仓库
 2. 编辑此文件
 3. 提交 pull request
 4. 或发送信息至 team@lifesaverlabs.org
 
 ---
 
-*本页面由 Neighbor 911 社区维护。寻求中国贡献者完成本指南。*
+*本页面由 Naybor SOS 社区维护。寻求中国贡献者完成本指南。*

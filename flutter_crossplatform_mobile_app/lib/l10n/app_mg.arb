@@ -1,22 +1,23 @@
 {
   "@@locale": "mg",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "tagline": "Mpiaro ankehitriny - lehilahy sy vehivavy",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Sign up to help your neighbors",
+  "signUpToHelp": "Midira ho mpikambana mba hanampy ny mpiara-monina aminao",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Enter your phone number to get started",
+  "enterPhoneNumber": "Ampidiro ny nomerao telefaonanao mba hanombohana",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Phone Number",
+  "phoneNumberLabel": "Nomerao Telefaona",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +25,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Send Verification Code",
+  "sendVerificationCode": "Alefaso ny Code Famarinana",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Enter verification code",
+  "enterVerificationCode": "Ampidiro ny code famarinana",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "verificationCodeSent": "Nandefa code tany amin'ny {phoneNumber} izahay",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Verification Code",
+  "verificationCodeLabel": "Code Famarinana",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +51,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verify & Continue",
+  "verifyAndContinue": "Hamarino ary Tohizo",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Change phone number",
+  "changePhoneNumber": "Ovao ny nomerao telefaona",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "pleaseEnterPhoneNumber": "Mba ampidiro ny nomerao telefaonanao azafady",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "pleaseEnterVerificationCode": "Mba ampidiro ny code famarinana azafady",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Create Profile",
+  "createProfile": "Mamorona Profil",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Tell us about yourself",
+  "tellUsAboutYourself": "Lazao aminay ny momba anao",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "profileSetupDescription": "Ireo fampahalalana ireo dia manampy anay hampifandray anao amin'ny mpiara-monina mila fanampiana",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Add photo (optional)",
+  "addPhotoOptional": "Ampio sary (tsy tsy maintsy)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Full Name *",
+  "fullNameLabel": "Anarana Feno *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "John Smith",
+  "fullNameHint": "Rakoto Rabe",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Home Address *",
+  "homeAddressLabel": "Adiresy ao an-trano *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "123 Main St, Apt 4B",
+  "homeAddressHint": "Lot 123 Lalana Lehibe, Efitra 4B",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Used for proximity matching only",
+  "homeAddressHelper": "Ampiasaina ho an'ny fifandraisana akaiky fotsiny",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Age (optional)",
+  "ageOptionalLabel": "Taona (tsy tsy maintsy)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "ageHelper": "Ny 70 taona miakatra dia afaka manao ora fanairana malefaka",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Your privacy matters",
+  "yourPrivacyMatters": "Zava-dehibe ny fiainana manokana",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "privacyNotice": "Ny toerana misy anao dia asaina mandritra ny vonjy maika ihany ary tsy tehirizina maharitra.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continue",
+  "continueButton": "Tohizo",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "pleaseFillRequiredFields": "Mba fenoy ny sehatra takiana rehetra azafady",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Home",
+  "home": "Fandraisana",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alerts",
+  "alerts": "Fanairana",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Profile",
+  "profile": "Profil",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Available to Respond",
+  "availableToRespond": "Vonona Hamaly",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "Not Available",
+  "notAvailable": "Tsy Misy",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "youllReceiveEmergencyAlerts": "Hahazo fanairana maika eo akaikiny ianao",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Toggle on when ready to help",
+  "toggleOnWhenReady": "Alefaso rehefa vonona hanampy",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "You're now available to respond",
+  "youreNowAvailable": "Vonona hamaly ianao izao",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "You won't receive alerts",
+  "youWontReceiveAlerts": "Tsy hahazo fanairana ianao",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "lifeThreatening247Info": "Ny fanairana mampidi-doza amin'ny fiainana dia hampandre anao 24/7. Ny fanairana tsy maika dia manaja ny fandaharana ataonao.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "REQUEST HELP",
+  "requestHelp": "MANGATAKA FANAMPIANA",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Your Impact",
+  "yourImpact": "Ny Fiantraikanao",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Responses",
+  "responses": "Valin-teny",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Avg Time",
+  "avgTime": "Fotoana Salan'isa",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Your Capabilities",
+  "yourCapabilities": "Ny Fahaizanao",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Edit",
+  "edit": "Ovao",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Community Network",
+  "communityNetwork": "Tambajotran'ny Vondrom-piarahamonina",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Nearby Responders",
+  "nearbyResponders": "Mpiara-miasa eo akaikiny",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} available",
+  "nearbyRespondersAvailable": "{count} misy",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "Coverage Radius",
+  "coverageRadius": "Salan'ny Fandrakofana",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} miles",
+  "coverageRadiusValue": "{distance} kilaometatra",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "Active Alerts",
+  "activeAlerts": "Fanairana Mavitrika",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "None",
+  "none": "Tsy misy",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Your Location",
+  "yourLocation": "Ny Toerana misy anao",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "whatDoYouNeedHelpWith": "Inona no mila fanampiana?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Additional Details (optional)",
+  "additionalDetailsOptional": "Antsipirihan-pampahalalana fanampiny (tsy tsy maintsy)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe the situation...",
+  "describeSituation": "Hazavao ny toe-javatra...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "alertTrustedRespondersFirst": "Ampandrenesina aloha ny mpiara-miasa matoky",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "trustedRespondersDescription": "Ny namana/fianakavianao voafidy dia hampandrenesina alohan'ny vondrom-piarahamonina ankapobeny",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Sending alert: {emergencyType}",
+  "sendingAlert": "Mandefa fanairana: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,43 +269,43 @@
       }
     }
   },
-  "sendAlertNow": "SEND ALERT NOW",
+  "sendAlertNow": "ALEFASO NY FANAIRANA ANKEHITRINY",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "pleaseSelectEmergencyType": "Mba fidio ny karazana maika azafady",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "categoryLifeThreatening": "🔴 Mampidi-doza amin'ny Fiainana",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Security/Safety",
+  "categorySecuritySafety": "🟠 Fiarovana/Fandriampahalemana",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "categoryUrgentTimeSensitive": "🟡 Maika sy Mahakasika ny Fotoana",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "categoryNonLifeThreatening": "🟢 Tsy Mampidi-doza amin'ny Fiainana",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "emergencyCprCardiacName": "CPR / Aretina Fo",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "emergencyCprCardiacDesc": "Tsy mahafantatra ary tsy miaina ny olona",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "AED Delivery",
+  "emergencyAedName": "Fandefasana AED",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Need an AED immediately",
+  "emergencyAedDesc": "Mila AED amin'ny fotoana",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
@@ -312,79 +313,79 @@
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "emergencyOverdoseDesc": "Ahiahiana fa overdose zava-mahadomelina, mila naloxone",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Choking / Heimlich",
+  "emergencyChokingName": "Mikenona / Heimlich",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "emergencyChokingDesc": "Mikenona ny olona ary tsy afaka miaina",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Fire / Evacuation",
+  "emergencyFireName": "Afo / Fivoahana",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "emergencyFireDesc": "Vonjy afo maika, mila fanampiana fivoahana",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Bedroom Consent Emergency",
+  "emergencyConsentName": "Vonjy Maika Faneken'ny Efi-trano",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Safeword called, need witness",
+  "emergencyConsentDesc": "Safeword niantsoana, mila vavolombelona",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Active Bystander Witness",
+  "emergencyBystanderName": "Vavolombelona Mpijerena Mavitrika",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "emergencyBystanderDesc": "Mila fisehoana mba hampihenana ny fifanolanana",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Missing Pet",
+  "emergencyMissingPetName": "Biby Fiompy Very",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "emergencyMissingPetDesc": "Very ny biby fiompy, mila ekipa fikarohana",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Wellness Check",
+  "emergencyWellnessCheckName": "Fanamarinana Fahasalamana",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "emergencyWellnessCheckDesc": "Jereo ny olona mety mila fanampiana",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Quit Companion",
+  "emergencyQuitCompanionName": "Namana Fiatoana",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "emergencyQuitCompanionDesc": "Miady amin'ny faniriana, mila fanohanana",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Companionship",
+  "emergencyCompanionshipName": "Fiarahana",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "emergencyCompanionshipDesc": "Mahatsapa ho irery na mitokana",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "911 Coordination",
+  "emergency911CoordinationName": "Fandrindrana 911",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "emergency911CoordinationDesc": "Mila fanampiana fiantsoana sy fandrindrana serivisy maika",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
@@ -396,11 +397,11 @@
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "My Capabilities",
+  "myCapabilities": "Ny Fahaizako",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} selected",
+  "capabilitiesSelected": "{count} voafidy",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,39 +411,39 @@
       }
     }
   },
-  "alertSchedule": "Alert Schedule",
+  "alertSchedule": "Fandaharana Fanairana",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Set your availability hours",
+  "setAvailabilityHours": "Amboary ny ora misy anao",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Trusted Responders",
+  "trustedResponders": "Mpiara-miasa Matoky",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Response History",
+  "responseHistory": "Tantaran'ny Fanalenan-teny",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacy & Safety",
+  "privacyAndSafety": "Fiainana Manokana sy Fiarovana",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Help & Support",
+  "helpAndSupport": "Fanampiana sy Fanohanana",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "About Naybor SOS",
+  "aboutNayborSos": "Momba ny Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "termsAndPrivacyPolicy": "Fepetra sy Politikan'ny Fiainana Manokana",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Sign Out",
+  "signOut": "Mivoaka",
   "@signOut": {
     "description": "Sign out button"
   },
@@ -456,11 +457,11 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "aboutDialogContent": "Ny Naybor SOS dia mampifandray ny mpiara-monina amin'ny toe-javatra maika, mamorona tambajotra mpiara-miasa haingana izay afaka manome fanampiana manan-danja alohan'ny hahatongavan'ny mpiara-miasa voalohany manam-pahaizana.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "aboutDialogContent2": "Ny rehetra dia afaka ho mahery fo. Tsy mila fiofanana manokana ianao mba hamonjena fiainana. Indraindray ny fitsabahana mahery indrindra dia ny fisehoana fotsiny.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
@@ -468,40 +469,94 @@
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Close",
+  "close": "Akatona",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "Sign Out?",
+  "signOutQuestion": "Mivoaka?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "Are you sure you want to sign out?",
+  "signOutConfirm": "Tena te-hivoaka ve ianao?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancel",
+  "cancel": "Foana",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Signed out successfully",
+  "signedOutSuccessfully": "Nivoaka tamim-pahombiazana",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Settings",
+  "settings": "Kirakira",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Wellness Check",
+  "capabilityWellnessCheck": "Fanamarinana Fahasalamana",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Quit Companion",
+  "capabilityQuitCompanion": "Namana Fiatoana",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Active Bystander",
+  "capabilityActiveBystander": "Mpijerena Mavitrika",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Fandikana AI Matoky Be",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Fandikana AI Matoky Tsara",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Fandikana AI Matoky Antonony",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Fandikana AI Matoky Kely",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Ity fandikana ity dia noforonin'ny AI tamin'ny fahatokiana ambony. Asaina ny fandinihana manam-pahaizana ho an'ny fampiasana amin'ny famokarana.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Ity fandikana ity dia noforonin'ny AI tamin'ny fahatokiana tsara. Asaina ny fandinihana manam-pahaizana ho an'ny faneken'ny fiarovana sy ny teny maika.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Ity fandikana ity dia mila fandinihana olona ho an'ny andian-teny maika mampidi-doza amin'ny fiarovana alohan'ny fampiasana amin'ny famokarana.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Drafitra fandikana ihany io. Fandikana manam-pahaizana takiana alohan'ny fampiasana amin'ny famokarana.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Fidio ny Fiteny",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Karohina ny fiteny",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Kalitaon'ny Fandikana: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Ampaharo ny fanatsarana ny fandikana - tatitra ny olana na mandray anjara amin'ny fandikana tsara kokoa!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

@@ -1,0 +1,562 @@
+{
+  "@@locale": "su",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Minutemen & Minutewomen Jaman Ayeuna",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Daptar pikeun mantuan tatangga",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Lebetkeun nomer telepon kanggo ngamimitian",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Nomer Telepon",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(022) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Kirim Kode Verifikasi",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Lebetkeun kode verifikasi",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Kami parantos ngirim kode ka {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Kode Verifikasi",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Verifikasi & Teraskeun",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Robih nomer telepon",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Punten lebetkeun nomer telepon anjeun",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Punten lebetkeun kode verifikasi",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Jieun Profil",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Carioskeun ihwal anjeun",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Inpormasi ieu mantuan kami nyambungkeun anjeun sareng tatangga nu peryogi bantosan",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Tambahkeun poto (pilihan)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Nami Lengkep *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Asep Sunandar",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Alamat Bumi *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "Jl. Merdeka No. 123, RT 02/05",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Dipaké kanggo milarian jarak wungkul",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Umur (pilihan)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "Umur 70+ tiasa nyetél jam peringatan anu lemes",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Privasi anjeun penting",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Lokasi anjeun ngan ukur ditanyakeun nalika darurat aktif sareng henteu disimpen jangka panjang.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Teraskeun",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Punten eusian sadaya widang nu diperyogikeun",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Imah",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Peringatan",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Profil",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Siap Ngarespon",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Henteu Siap",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Anjeun bakal nampi peringatan darurat di sabudeureun",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Hurungkeun nalika siap mantuan",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Anjeun ayeuna siap ngarespon",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Anjeun moal nampi peringatan",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Peringatan anu ngancam jiwa bakal ngabéjakeun anjeun 24/7. Peringatan nu henteu urgent ngahormatan jadwal anjeun.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "MÉNTA BANTOSAN",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Dampak Anjeun",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Réspon",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Waktos Rata-rata",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Kamampuan Anjeun",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Édit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Jaringan Masarakat",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Responder Deukeut",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} sadia",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Radius Jangkauan",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} kilométer",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Peringatan Aktif",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Euweuh",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Lokasi Anjeun",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Naon nu peryogi bantosan?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Rincian Tambahan (pilihan)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Terangkeun kaayaanana...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Béjakeun responder dipercaya heula",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Babaturan/kulawarga pilihan anjeun bakal dibéjakeun sateuacan masarakat umum",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Ngirim peringatan: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "KIRIM PERINGATAN AYEUNA",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Punten pilih jinis darurat",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Ngancam Jiwa",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Kaamanan/Kasalametan",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Urgent Sénsitip Waktos",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Henteu Ngancam Jiwa",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "CPR / Serangan Jantung",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Jalma teu sadar sareng teu napas",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "Pangiriman AED",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "Peryogi AED langsung",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Overdosis / Nalokson",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Disangka overdosis narkoba, peryogi nalokson",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Keselak / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Jalma keselak sareng teu tiasa napas",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Seuneu / Évakuasi",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Darurat seuneu, peryogi bantosan évakuasi",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Darurat Persetujuan Kamar Tidur",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Kecap aman disebut, peryogi saksi",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Saksi Bystander Aktif",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Peryogi ayana pikeun ngurangan konflik",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Sato Peliharaan Leungit",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Sato peliharaan leungit atanapi kabur, peryogi tim milarian",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Pamariksaan Kaséhatan",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Mariksa jalma nu sigana peryogi bantosan",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Pendamping Lirén",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Ngalawan karep, peryogi dukungan",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Pendampingan",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Ngarasa sepi atanapi terasing",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "Koordinasi 911",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "Peryogi bantosan nelepon sareng koordinasi 911",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Nalokson/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Kamampuan Kuring",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} dipilih",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Jadwal Peringatan",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Setel jam kasadiaan anjeun",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Responder Dipercaya",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Riwayat Réspon",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Privasi & Kaamanan",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Bantosan & Dukungan",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Ihwal Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Syarat & Kabijakan Privasi",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Kaluar",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Versi {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS nyambungkeun tatangga dina kaayaan darurat, nyiptakeun jaringan responder gancang nu tiasa nyayogikeun bantosan kritis sateuacan responder profésional datang.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Saha waé tiasa jadi pahlawan. Anjeun henteu peryogi latihan khusus pikeun nyalametkeun jiwa. Sakapeung intervensi anu pangkuatna nyaéta ngan ukur hadir.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Tutup",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Kaluar?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Yakin badé kaluar?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Bolay",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Hasil kaluar",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Setélan",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Pamariksaan Kaséhatan",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Pendamping Lirén",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Bystander Aktif",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Tarjamahan AI Kapercayaan Luhur",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Tarjamahan AI Kapercayaan Alus",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Tarjamahan AI Kapercayaan Sedeng",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Tarjamahan AI Kapercayaan Handap",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Tarjamahan ieu dibangkitkeun ku AI kalayan kapercayaan luhur. Tinjauan profésional disarankeun pikeun pamakéan produksi.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Tarjamahan ieu dibangkitkeun ku AI kalayan kapercayaan alus. Tinjauan profésional disarankeun pikeun terminologi persetujuan sareng darurat anu kritis kaamanan.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Tarjamahan ieu peryogi tinjauan manusa pikeun frasa darurat kritis kaamanan sateuacan pamakéan produksi.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Ieu ngan ukur draf tarjamahan. Tarjamahan profésional diperyogikeun sateuacan pamakéan produksi.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Pilih Basa",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Milarian basa",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Kualitas Tarjamahan: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Bantosan ningkatkeun tarjamahan - laporkeun masalah atanapi nyumbangkeun tarjamahan anu langkung saé!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

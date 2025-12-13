@@ -1,4 +1,4 @@
-# Neighbor 911 - Technical Architecture (PROPOSAL / DRAFT)
+# Naybor SOS - Technical Architecture (PROPOSAL / DRAFT)
 
 **Version:** 0.1 (Living Document)
 **Last Updated:** 2025-11-16
@@ -55,7 +55,7 @@
 ## 1. System Overview
 
 ### 1.1 Core Mission
-Neighbor 911 is a rapid-response mobile application that connects neighbors in emergencies, enabling 2-3 minute response times vs. 8-15 minute professional EMS response.
+Naybor SOS is a rapid-response mobile application that connects neighbors in emergencies, enabling 2-3 minute response times vs. 8-15 minute professional EMS response.
 
 ### 1.2 Key Technical Requirements
 - **Sub-3-second alert delivery** to nearby responders
@@ -104,7 +104,7 @@ Neighbor 911 is a rapid-response mobile application that connects neighbors in e
 
 ### 2.4 External Integrations (Future)
 - **911 Dispatch:** Email/SMS (MVP), CAD API integration (Phase 2)
-- **Safeword App:** REST API webhooks (POST alerts to Neighbor 911)
+- **Safeword App:** REST API webhooks (POST alerts to Naybor SOS)
 - **Civic Data:** Vote.org API, Google Civic Information API (for suffrage features)
 
 ### 2.5 Development & DevOps
@@ -882,7 +882,7 @@ output-localization-file: app_localizations.dart
 {
   "@@locale": "en",
 
-  "appTitle": "Neighbor 911",
+  "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "Application title"
   },
@@ -1066,22 +1066,22 @@ connectivity.when(
 
 ```
 Development:
-  - Firebase Project: neighbor911-dev
+  - Firebase Project: nayborsos-dev
   - iOS: TestFlight (internal)
   - Android: Internal testing
-  - Domain: dev.neighbor911.app
+  - Domain: dev.nayborsos.org
 
 Staging:
-  - Firebase Project: neighbor911-staging
+  - Firebase Project: nayborsos-staging
   - iOS: TestFlight (external)
   - Android: Open testing
-  - Domain: staging.neighbor911.app
+  - Domain: staging.nayborsos.org
 
 Production:
-  - Firebase Project: neighbor911-prod
+  - Firebase Project: nayborsos-prod
   - iOS: App Store
   - Android: Google Play
-  - Domain: neighbor911.app
+  - Domain: nayborsos.org
 ```
 
 ### 13.2 CI/CD Pipeline (GitHub Actions)

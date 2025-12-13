@@ -1,22 +1,23 @@
 {
   "@@locale": "ht",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "tagline": "Sòlda Modèn yo ak Fanm Sòlda yo",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Sign up to help your neighbors",
+  "signUpToHelp": "Enskri w pou ede vwazen yo",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Enter your phone number to get started",
+  "enterPhoneNumber": "Antre nimewo telefòn ou an pou w kòmanse",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Phone Number",
+  "phoneNumberLabel": "Nimewo Telefòn",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +25,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Send Verification Code",
+  "sendVerificationCode": "Voye Kòd Verifikasyon",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Enter verification code",
+  "enterVerificationCode": "Antre kòd verifikasyon an",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "verificationCodeSent": "Nou voye yon kòd nan {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Verification Code",
+  "verificationCodeLabel": "Kòd Verifikasyon",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,47 +51,47 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verify & Continue",
+  "verifyAndContinue": "Verifye ak Kontinye",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Change phone number",
+  "changePhoneNumber": "Chanje nimewo telefòn",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "pleaseEnterPhoneNumber": "Tanpri antre nimewo telefòn ou",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "pleaseEnterVerificationCode": "Tanpri antre kòd verifikasyon an",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Create Profile",
+  "createProfile": "Kreye Pwofil",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Tell us about yourself",
+  "tellUsAboutYourself": "Di nou bagay sou tèt ou",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "profileSetupDescription": "Enfòmasyon sa yo ede nou konekte w ak vwazen yo ki bezwen èd",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Add photo (optional)",
+  "addPhotoOptional": "Ajoute foto (opsyonèl)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Full Name *",
+  "fullNameLabel": "Non Konplè *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "John Smith",
+  "fullNameHint": "Jan Smith",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Home Address *",
+  "homeAddressLabel": "Adrès Kay la *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
@@ -98,11 +99,11 @@
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Used for proximity matching only",
+  "homeAddressHelper": "Yo sèlman itilize sa pou kalkile distans la",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Age (optional)",
+  "ageOptionalLabel": "Laj (opsyonèl)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "ageHelper": "Moun ki gen 70 an ak pi plis ka chwazi èd nan òrè dou yo",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Your privacy matters",
+  "yourPrivacyMatters": "Vi prive w lan enpòtan",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "privacyNotice": "Yo sèlman chèche kote w ye pandan ijans ak yo pa janm kenbe l longè.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continue",
+  "continueButton": "Kontinye",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "pleaseFillRequiredFields": "Tanpri ranpli tout jan yo ki obligatwa yo",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Home",
+  "home": "Kay",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alerts",
+  "alerts": "Alèt yo",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Profile",
+  "profile": "Pwofil",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Available to Respond",
+  "availableToRespond": "Disponib pou Reponn",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "Not Available",
+  "notAvailable": "Pa Disponib",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "youllReceiveEmergencyAlerts": "W ap resevwa alèt ijans yo ki tou pre",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Toggle on when ready to help",
+  "toggleOnWhenReady": "Limen l lè w pare pou ede",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "You're now available to respond",
+  "youreNowAvailable": "Ou disponib kounye a pou reponn",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "You won't receive alerts",
+  "youWontReceiveAlerts": "W ap pa resevwa alèt yo",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "lifeThreatening247Info": "Alèt ki ka touye yo ap notifye w 24/7. Alèt ki pa ijan yo ap respekte òrè w yo.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "REQUEST HELP",
+  "requestHelp": "MANDE ÈD",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Your Impact",
+  "yourImpact": "Enpak Ou",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Responses",
+  "responses": "Repons yo",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Avg Time",
+  "avgTime": "Tan Mwayèn",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Your Capabilities",
+  "yourCapabilities": "Kapasite Ou yo",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Edit",
+  "edit": "Modifye",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Community Network",
+  "communityNetwork": "Rezo Kominote a",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Nearby Responders",
+  "nearbyResponders": "Moun ki ka Reponn yo ki Tou Pre",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} available",
+  "nearbyRespondersAvailable": "{count} disponib",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "Coverage Radius",
+  "coverageRadius": "Zo Kouvèti",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} miles",
+  "coverageRadiusValue": "{distance} mil",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "Active Alerts",
+  "activeAlerts": "Alèt Aktif yo",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "None",
+  "none": "Okenn",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Your Location",
+  "yourLocation": "Kote w ye",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "whatDoYouNeedHelpWith": "Ki sa w bezwen èd ak?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Additional Details (optional)",
+  "additionalDetailsOptional": "Detay Adisyonèl yo (opsyonèl)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe the situation...",
+  "describeSituation": "Dekri sitiyasyon an...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "alertTrustedRespondersFirst": "Avèti moun ki ka reponn yo m fè konfyans yo an premye",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "trustedRespondersDescription": "Zanmi ak fanmi ou chwazi yo ap resevwa avis yo anvan kominote jeneral la",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Sending alert: {emergencyType}",
+  "sendingAlert": "Y ap voye alèt: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,123 +269,123 @@
       }
     }
   },
-  "sendAlertNow": "SEND ALERT NOW",
+  "sendAlertNow": "VOYE ALÈT KOUNYE A",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "pleaseSelectEmergencyType": "Tanpri chwazi yon kalite ijans",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "categoryLifeThreatening": "🔴 Ki Ka Touye",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Security/Safety",
+  "categorySecuritySafety": "🟠 Sekirite/Pwoteksyon",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "categoryUrgentTimeSensitive": "🟡 Ijan ak Sensitif ak Tan",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "categoryNonLifeThreatening": "🟢 Ki Pa Ka Touye",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "emergencyCprCardiacName": "CPR / Krèt Kè",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "emergencyCprCardiacDesc": "Moun nan pa reponn ak li pa respire",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "AED Delivery",
+  "emergencyAedName": "Livrezon AED",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Need an AED immediately",
+  "emergencyAedDesc": "Bezwen yon AED imedyatman",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Overdose / Naloxone",
+  "emergencyOverdoseName": "Sèdòz / Naloxone",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "emergencyOverdoseDesc": "Yo sispèk sèdòz dwòg, bezwen naloxone",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Choking / Heimlich",
+  "emergencyChokingName": "Boukannen / Heimlich",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "emergencyChokingDesc": "Moun nan ap boukannen ak li pa ka respire",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Fire / Evacuation",
+  "emergencyFireName": "Dife / Evakiyasyon",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "emergencyFireDesc": "Ijans dife, bezwen èd pou evakiyasyon",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Bedroom Consent Emergency",
+  "emergencyConsentName": "Ijans Konsantman nan Chanm",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Safeword called, need witness",
+  "emergencyConsentDesc": "Yo rele mo sekirite a, bezwen temwen",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Active Bystander Witness",
+  "emergencyBystanderName": "Temwen Moun k ap Gade",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "emergencyBystanderDesc": "Bezwen prezans pou kalme konfli",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Missing Pet",
+  "emergencyMissingPetName": "Bèt ki Pèdi",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "emergencyMissingPetDesc": "Bèt la pèdi oswa li kouri ale, bezwen gwoup rechèch",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Wellness Check",
+  "emergencyWellnessCheckName": "Kontwòl Sante",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "emergencyWellnessCheckDesc": "Gade yon moun ki ka bezwen èd",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Quit Companion",
+  "emergencyQuitCompanionName": "Konpanyen pou Sispann",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "emergencyQuitCompanionDesc": "Y ap goumen ak antèn, bezwen sipò",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Companionship",
+  "emergencyCompanionshipName": "Konpanyen",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "emergencyCompanionshipDesc": "Santi m izole oswa pou kont mwen",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "911 Coordination",
+  "emergency911CoordinationName": "Kowòdinasyon 911",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "emergency911CoordinationDesc": "Bezwen èd pou rele ak kowòdone 911",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
@@ -396,11 +397,11 @@
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "My Capabilities",
+  "myCapabilities": "Kapasite Mwen yo",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} selected",
+  "capabilitiesSelected": "{count} chwazi",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +411,43 @@
       }
     }
   },
-  "alertSchedule": "Alert Schedule",
+  "alertSchedule": "Orè Alèt yo",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Set your availability hours",
+  "setAvailabilityHours": "Fikse òrè disponibilite w yo",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Trusted Responders",
+  "trustedResponders": "Moun ki ka Reponn yo m Fè Konfyans yo",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Response History",
+  "responseHistory": "Istwa Repons yo",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacy & Safety",
+  "privacyAndSafety": "Vi Prive ak Sekirite",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Help & Support",
+  "helpAndSupport": "Èd ak Sipò",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "About Naybor SOS",
+  "aboutNayborSos": "Bagay sou Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "termsAndPrivacyPolicy": "Kondisyon yo ak Politik Vi Prive",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Sign Out",
+  "signOut": "Soti",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Version {version}",
+  "version": "Vèsyon {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,11 +457,11 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "aboutDialogContent": "Naybor SOS konekte vwazen yo nan ijans yo, li kreye yon rezo moun ki ka reponn rapidman yo ki ka bay èd kritik anvan moun k ap travay nan premye sekou yo rive.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "aboutDialogContent2": "Tout moun ka yon ewo. Ou pa bezwen fòmasyon espesyal pou sove yon lavi. Pafwa entèvansyon ki pi pwisan an se sèlman parèt.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
@@ -468,40 +469,94 @@
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Close",
+  "close": "Fèmen",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "Sign Out?",
+  "signOutQuestion": "Soti?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "Are you sure you want to sign out?",
+  "signOutConfirm": "Èske w si w vle soti?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancel",
+  "cancel": "Anile",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Signed out successfully",
+  "signedOutSuccessfully": "Ou soti ak siksè",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Settings",
+  "settings": "Paramèt yo",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Wellness Check",
+  "capabilityWellnessCheck": "Kontwòl Sante",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Quit Companion",
+  "capabilityQuitCompanion": "Konpanyen pou Sispann",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Active Bystander",
+  "capabilityActiveBystander": "Moun k ap Gade Aktif",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Tradiksyon AI ak Konfyans Segondè",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Tradiksyon AI ak Bon Konfyans",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Tradiksyon AI ak Konfyans Mwayen",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Tradiksyon AI ak Ti Konfyans",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Tradiksyon sa a AI te fè l ak konfyans segondè. Yo rekòmande revizyon pwofesyonèl pou itilizasyon nan pwodiksyon.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Tradiksyon sa a AI te fè l ak bon konfyans. Yo rekòmande revizyon pwofesyonèl pou konsantman ak tèm ijans yo ki kritik pou sekirite.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Tradiksyon sa a mande revizyon moun pou fraz ijans yo ki kritik pou sekirite anvan yo itilize l nan pwodiksyon.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Sa a se sèlman yon bouyon tradiksyon. Yo mande tradiksyon pwofesyonèl anvan itilizasyon nan pwodiksyon.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Chwazi Lang",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Chèche lang yo",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Kalite Tradiksyon: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Ede yo amelyore tradiksyon yo - rapòte pwoblèm yo oswa kontribye tradiksyon yo ki pi bon!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

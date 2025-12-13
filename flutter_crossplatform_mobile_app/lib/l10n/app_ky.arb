@@ -1,22 +1,23 @@
 {
   "@@locale": "ky",
+  "_notice": "⚠️ HUMAN REVIEW REQUIRED for safety-critical emergency phrases before production use",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "tagline": "Азыркы доордогу Минутчу Эркектер жана Аялдар",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Sign up to help your neighbors",
+  "signUpToHelp": "Коңшуларыңызга жардам берүү үчүн катталыңыз",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Enter your phone number to get started",
+  "enterPhoneNumber": "Баштоо үчүн телефон номериңизди киргизиңиз",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Phone Number",
+  "phoneNumberLabel": "Телефон Номери",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +25,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Send Verification Code",
+  "sendVerificationCode": "Ырастоо Кодун Жөнөтүү",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Enter verification code",
+  "enterVerificationCode": "Ырастоо кодун киргизиңиз",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "verificationCodeSent": "Биз {phoneNumber} номерине код жибердик",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Verification Code",
+  "verificationCodeLabel": "Ырастоо Коду",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +51,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verify & Continue",
+  "verifyAndContinue": "Ырастоо жана Улантуу",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Change phone number",
+  "changePhoneNumber": "Телефон номерин өзгөртүү",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "pleaseEnterPhoneNumber": "Телефон номериңизди киргизиңиз",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "pleaseEnterVerificationCode": "Ырастоо кодун киргизиңиз",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Create Profile",
+  "createProfile": "Профиль Түзүү",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Tell us about yourself",
+  "tellUsAboutYourself": "Өзүңүз жөнүндө айтып бериңиз",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "profileSetupDescription": "Бул маалымат сизди жардамга муктаж коңшуларыңыз менен байланыштырууга жардам берет",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Add photo (optional)",
+  "addPhotoOptional": "Сүрөт кошуу (кааласаңыз)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Full Name *",
+  "fullNameLabel": "Толук Аты *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "John Smith",
+  "fullNameHint": "Жон Смит",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Home Address *",
+  "homeAddressLabel": "Үй Дареги *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "123 Main St, Apt 4B",
+  "homeAddressHint": "Негизги көчө 123, 4Б батир",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Used for proximity matching only",
+  "homeAddressHelper": "Жакынча аныктоо үчүн гана колдонулат",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Age (optional)",
+  "ageOptionalLabel": "Жашы (кааласаңыз)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "ageHelper": "70 жаштан өйдө болгондор жумшак эскертүү убактысын коё алышат",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Your privacy matters",
+  "yourPrivacyMatters": "Сиздин купуялуулугуңуз маанилүү",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "privacyNotice": "Сиздин жайгашкан жериңиз шашылыш кырдаалдар учурунда гана суралат жана узак мөөнөткө сакталбайт.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continue",
+  "continueButton": "Улантуу",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "pleaseFillRequiredFields": "Милдеттүү талааларды толтуруңуз",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Home",
+  "home": "Башкы",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alerts",
+  "alerts": "Эскертүүлөр",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Profile",
+  "profile": "Профиль",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Available to Respond",
+  "availableToRespond": "Жооп Берүүгө Даяр",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "Not Available",
+  "notAvailable": "Жеткиликсиз",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "youllReceiveEmergencyAlerts": "Жакындагы шашылыш эскертүүлөрдү алып турасыз",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Toggle on when ready to help",
+  "toggleOnWhenReady": "Жардамга даяр болгондо күйгүзүңүз",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "You're now available to respond",
+  "youreNowAvailable": "Эми жооп берүүгө дайынсыз",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "You won't receive alerts",
+  "youWontReceiveAlerts": "Эскертүүлөрдү албайсыз",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "lifeThreatening247Info": "Өмүргө коркунучтуу эскертүүлөр сизге 24/7 билдирет. Шашылыш эмес эскертүүлөр сиздин графикиңизди урматтайт.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "REQUEST HELP",
+  "requestHelp": "ЖАРДАМ СУРАҢЫЗ",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Your Impact",
+  "yourImpact": "Сиздин Таасириңиз",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Responses",
+  "responses": "Жооптор",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Avg Time",
+  "avgTime": "Орто Убакыт",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Your Capabilities",
+  "yourCapabilities": "Сиздин Жөндөмдөрүңүз",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Edit",
+  "edit": "Өзгөртүү",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Community Network",
+  "communityNetwork": "Коом Тармагы",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Nearby Responders",
+  "nearbyResponders": "Жакындагы Жардамчылар",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} available",
+  "nearbyRespondersAvailable": "{count} жеткиликтүү",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "Coverage Radius",
+  "coverageRadius": "Камтуу Радиусу",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} miles",
+  "coverageRadiusValue": "{distance} миля",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "Active Alerts",
+  "activeAlerts": "Активдүү Эскертүүлөр",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "None",
+  "none": "Жок",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Your Location",
+  "yourLocation": "Сиздин Жайгашкан Жериңиз",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "whatDoYouNeedHelpWith": "Эмне боюнча жардам керек?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Additional Details (optional)",
+  "additionalDetailsOptional": "Кошумча Чоо-жайлар (кааласаңыз)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe the situation...",
+  "describeSituation": "Кырдаалды сыпаттаңыз...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "alertTrustedRespondersFirst": "Адегенде ишенимдүү жардамчыларымды эскертүү",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "trustedRespondersDescription": "Тандалган досторуңуз/үй-бүлөңүз жалпы коомдон мурун эскертилет",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Sending alert: {emergencyType}",
+  "sendingAlert": "Эскертүү жиберилүүдө: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,139 +269,139 @@
       }
     }
   },
-  "sendAlertNow": "SEND ALERT NOW",
+  "sendAlertNow": "АЗЫР ЭЛЕ ЭСКЕРТҮҮ ЖИБЕР",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "pleaseSelectEmergencyType": "Шашылыш кырдаалдын түрүн тандаңыз",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "categoryLifeThreatening": "🔴 Өмүргө Коркунучтуу",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Security/Safety",
+  "categorySecuritySafety": "🟠 Коопсуздук/Безопасность",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "categoryUrgentTimeSensitive": "🟡 Шашылыш Убакытка Байланыштуу",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "categoryNonLifeThreatening": "🟢 Өмүргө Коркунучтуу Эмес",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "emergencyCprCardiacName": "СЛР / Жүрөктүн Токтошу",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "emergencyCprCardiacDesc": "Адам эстен тандык жана дем албайт",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "AED Delivery",
+  "emergencyAedName": "АЕД Жеткирүү",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Need an AED immediately",
+  "emergencyAedDesc": "Дароо АЕД керек",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Overdose / Naloxone",
+  "emergencyOverdoseName": "Артык Доза / Налоксон",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "emergencyOverdoseDesc": "Баңгизат менен уулануу шеги бар, налоксон керек",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Choking / Heimlich",
+  "emergencyChokingName": "Буулануу / Геймлих",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "emergencyChokingDesc": "Адам буулануп, дем ала албайт",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Fire / Evacuation",
+  "emergencyFireName": "Өрт / Эвакуация",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "emergencyFireDesc": "Өрт шашылыш кырдаалы, көчүрүү жардамы керек",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Bedroom Consent Emergency",
+  "emergencyConsentName": "Бөлмөдөгү Макулдашуу Шашылыш Кырдаалы",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Safeword called, need witness",
+  "emergencyConsentDesc": "Токтотуу сөзү айтылды, күбө керек",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Active Bystander Witness",
+  "emergencyBystanderName": "Активдүү Күбө Катнашуу",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "emergencyBystanderDesc": "Конфликтти басаңдатуу үчүн катышуу керек",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Missing Pet",
+  "emergencyMissingPetName": "Жоголгон Үй Жаныбары",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "emergencyMissingPetDesc": "Үй жаныбары жоголду же качты, издөө тобу керек",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Wellness Check",
+  "emergencyWellnessCheckName": "Ден-соолук Текшерүү",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "emergencyWellnessCheckDesc": "Жардамга муктаж болушу мүмкүн адамды текшерүү",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Quit Companion",
+  "emergencyQuitCompanionName": "Таштоо Шеригу",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "emergencyQuitCompanionDesc": "Каалоо менен күрөшүп жатам, колдоо керек",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Companionship",
+  "emergencyCompanionshipName": "Шериктештик",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "emergencyCompanionshipDesc": "Жалгыздык же изоляция сезилүүдө",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "911 Coordination",
+  "emergency911CoordinationName": "911 Координация",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "emergency911CoordinationDesc": "911ге чалуу жана координациялоо жардамы керек",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "AED",
+  "equipmentAed": "АЕД",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
-  "equipmentNaloxone": "Naloxone/Narcan",
+  "equipmentNaloxone": "Налоксон/Наркан",
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "My Capabilities",
+  "myCapabilities": "Менин Жөндөмдөрүм",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} selected",
+  "capabilitiesSelected": "{count} тандалды",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +411,43 @@
       }
     }
   },
-  "alertSchedule": "Alert Schedule",
+  "alertSchedule": "Эскертүү Графиги",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Set your availability hours",
+  "setAvailabilityHours": "Жеткиликтүүлүк убакытыңызды белгилеңиз",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Trusted Responders",
+  "trustedResponders": "Ишенимдүү Жардамчылар",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Response History",
+  "responseHistory": "Жооп Тарыхы",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacy & Safety",
+  "privacyAndSafety": "Купуялуулук жана Коопсуздук",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Help & Support",
+  "helpAndSupport": "Жардам жана Колдоо",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "About Naybor SOS",
+  "aboutNayborSos": "Naybor SOS Жөнүндө",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "termsAndPrivacyPolicy": "Шарттар жана Купуялуулук Саясаты",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Sign Out",
+  "signOut": "Чыгуу",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Version {version}",
+  "version": "Версия {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,52 +457,106 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "aboutDialogContent": "Naybor SOS шашылыш кырдаалдарда коңшуларды байланыштырат, кесипкөй биринчи жардамчылар келгенге чейин маанилүү жардам берүүчү тез жооп берүүчүлөрдүн тармагын түзөт.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "aboutDialogContent2": "Ар ким баатыр болушу мүмкүн. Өмүр сактоо үчүн атайын даярдык керек эмес. Кээде эң күчтүү кийлигишүү - жөн эле келип калуу.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "lifesaverLabs": "Lifesaver Labs Коомдук Пайда Корпорациясы",
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Close",
+  "close": "Жабуу",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "Sign Out?",
+  "signOutQuestion": "Чыгасызбы?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "Are you sure you want to sign out?",
+  "signOutConfirm": "Чыгууну каалайсызбы?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancel",
+  "cancel": "Жокко чыгаруу",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Signed out successfully",
+  "signedOutSuccessfully": "Ийгиликтүү чыктыңыз",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Settings",
+  "settings": "Жөндөөлөр",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Wellness Check",
+  "capabilityWellnessCheck": "Ден-соолук Текшерүү",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Quit Companion",
+  "capabilityQuitCompanion": "Таштоо Шеригу",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Active Bystander",
+  "capabilityActiveBystander": "Активдүү Күбө",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Жогорку Ишенимдүүлүктөгү ИИ Котормосу",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Жакшы Ишенимдүүлүктөгү ИИ Котормосу",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Орто Ишенимдүүлүктөгү ИИ Котормосу",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Төмөн Ишенимдүүлүктөгү ИИ Котормосу",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Бул котормо жогорку ишенимдүүлүк менен ИИ тарабынан жасалган. Продукцияда колдонуу үчүн кесипкөй көз жүгүртүү сунушталат.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Бул котормо жакшы ишенимдүүлүк менен ИИ тарабынан жасалган. Коопсуздукка маанилүү макулдашуу жана шашылыш терминдер үчүн кесипкөй көз жүгүртүү сунушталат.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Бул котормо продукцияда колдонулганга чейин коопсуздукка маанилүү шашылыш фразалар үчүн адамдын көз жүгүртүүсүн талап кылат.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Бул долбоор котормо гана. Продукцияда колдонуудан мурун кесипкөй котормо керек.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Тилди Тандоо",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Тилдерди издөө",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Котормонун Сапаты: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Котормолорду жакшыртууга жардам бериңиз - көйгөйлөрдү кабарлаңыз же жакшы котормолорду салым кошуңуз!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

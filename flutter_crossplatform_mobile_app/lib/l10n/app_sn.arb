@@ -1,38 +1,39 @@
 {
   "@@locale": "sn",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "tagline": "Varwi veZviitiko Zvemazuva ano",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Sign up to help your neighbors",
+  "signUpToHelp": "Nyoresa kuti ubatsire vavakidzani vako",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Enter your phone number to get started",
+  "enterPhoneNumber": "Isa nhamba yako yefoni kuti utange",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Phone Number",
+  "phoneNumberLabel": "Nhamba Yefoni",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
-  "phoneNumberHint": "(555) 123-4567",
+  "phoneNumberHint": "(263) 712-345-678",
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Send Verification Code",
+  "sendVerificationCode": "Tumira Kodhi Yekusimbisa",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Enter verification code",
+  "enterVerificationCode": "Isa kodhi yekusimbisa",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "verificationCodeSent": "Takatumira kodhi ku {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Verification Code",
+  "verificationCodeLabel": "Kodhi Yekusimbisa",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,39 +51,39 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verify & Continue",
+  "verifyAndContinue": "Simbisa & Enderera Mberi",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Change phone number",
+  "changePhoneNumber": "Shandura nhamba yefoni",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "pleaseEnterPhoneNumber": "Ndapota isa nhamba yako yefoni",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "pleaseEnterVerificationCode": "Ndapota isa kodhi yekusimbisa",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Create Profile",
+  "createProfile": "Gadzira Profairo",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Tell us about yourself",
+  "tellUsAboutYourself": "Tiudze nezvewe",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "profileSetupDescription": "Ruzivo urwu runotibaatsira kukubatanidza nevavakidzani vanoda rubatsiro",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Add photo (optional)",
+  "addPhotoOptional": "Isa mufananidzo (kusarudza)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Full Name *",
+  "fullNameLabel": "Zita Rizere *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
@@ -90,7 +91,7 @@
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Home Address *",
+  "homeAddressLabel": "Kero Yepamba *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
@@ -98,11 +99,11 @@
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Used for proximity matching only",
+  "homeAddressHelper": "Inoshandiswa pakuyerera pedyo chete",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Age (optional)",
+  "ageOptionalLabel": "Zera (kusarudza)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "ageHelper": "Mazera 70+ anogona kuisa nguva dzeyambiro nyoro",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Your privacy matters",
+  "yourPrivacyMatters": "Chakafukidza chako chakakosha",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "privacyNotice": "Nzvimbo yako inobvunzwa chete panguva dzenjodzi dzinoita uye haiina kuchengetwa kwenguva refu.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continue",
+  "continueButton": "Enderera Mberi",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "pleaseFillRequiredFields": "Ndapota zadza zvinhu zvose zvinodiwa",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Home",
+  "home": "Musha",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alerts",
+  "alerts": "Yambiro",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Profile",
+  "profile": "Profairo",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Available to Respond",
+  "availableToRespond": "Irippo Kupindura",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "Not Available",
+  "notAvailable": "Haisipo",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "youllReceiveEmergencyAlerts": "Uchagamuchira yambiro dzenjodzi pedyo newe",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Toggle on when ready to help",
+  "toggleOnWhenReady": "Batisa kana wagadzirira kubatsira",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "You're now available to respond",
+  "youreNowAvailable": "Ikozvino wakagarirwa kupindura",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "You won't receive alerts",
+  "youWontReceiveAlerts": "Hauzogamuchiri yambiro",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "lifeThreatening247Info": "Yambiro dzinouraya dzichakuyambira zuva nezuva. Yambiro dzisina kukurumidzwa dzinochengetedza hurongwa hwako.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "REQUEST HELP",
+  "requestHelp": "KUMBIRA RUBATSIRO",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Your Impact",
+  "yourImpact": "Mabatiro ako",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Responses",
+  "responses": "Mhinduro",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Avg Time",
+  "avgTime": "Nguva Yepakati",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Your Capabilities",
+  "yourCapabilities": "Unyanzvi hwako",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Edit",
+  "edit": "Rongorera",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Community Network",
+  "communityNetwork": "Network yeNharaunda",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Nearby Responders",
+  "nearbyResponders": "Vapinduri Vari Pedyo",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} available",
+  "nearbyRespondersAvailable": "{count} varipo",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "Coverage Radius",
+  "coverageRadius": "Hukuru Hwekufukidza",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} miles",
+  "coverageRadiusValue": "{distance} mamaira",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "Active Alerts",
+  "activeAlerts": "Yambiro Dzinoshanda",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "None",
+  "none": "Hakuna",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Your Location",
+  "yourLocation": "Nzvimbo Yako",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "whatDoYouNeedHelpWith": "Chii chaunoda rubatsiro nacho?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Additional Details (optional)",
+  "additionalDetailsOptional": "Mamwe Marondedzero (kusarudza)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe the situation...",
+  "describeSituation": "Tsanangura mamiriro ezvinhu...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "alertTrustedRespondersFirst": "Yambira vapinduri vangu vanovimbika kutanga",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "trustedRespondersDescription": "Shamwari/mhuri yako yakasarudzwa ichaziviswa nharaunda isati yaziviswa",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Sending alert: {emergencyType}",
+  "sendingAlert": "Kutumira yambiro: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,123 +269,123 @@
       }
     }
   },
-  "sendAlertNow": "SEND ALERT NOW",
+  "sendAlertNow": "TUMIRA YAMBIRO IZVOZVI",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "pleaseSelectEmergencyType": "Ndapota sarudza rudzi rwenjodzi",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "categoryLifeThreatening": "🔴 Inouraya",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Security/Safety",
+  "categorySecuritySafety": "🟠 Chengetedzo/Kuchengeteka",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "categoryUrgentTimeSensitive": "🟡 Inokurumidza-Nguva Yakakosha",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "categoryNonLifeThreatening": "🟢 Isingauraye",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "emergencyCprCardiacName": "CPR / Moyo Wakamira",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "emergencyCprCardiacDesc": "Munhu haapindure uye haafemere",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "AED Delivery",
+  "emergencyAedName": "Kuendeswa kweAED",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Need an AED immediately",
+  "emergencyAedDesc": "Ndinoda AED nekukurumidza",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Overdose / Naloxone",
+  "emergencyOverdoseName": "Kudya Zvakawandisa / Naloxone",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "emergencyOverdoseDesc": "Inofungidzirwa kunge kudya zvinodhaka zvakawandisa, noda naloxone",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Choking / Heimlich",
+  "emergencyChokingName": "Kudzivira / Heimlich",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "emergencyChokingDesc": "Munhu ari kudzivira uye haagoni kufemera",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Fire / Evacuation",
+  "emergencyFireName": "Moto / Kutiza",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "emergencyFireDesc": "Njodzi yemoto, noda rubatsiro rwokutiza",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Bedroom Consent Emergency",
+  "emergencyConsentName": "Njodzi Yekubvumirana muImba Yekurara",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Safeword called, need witness",
+  "emergencyConsentDesc": "Shoko rekuchengetedza rakanzi, noda chapupu",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Active Bystander Witness",
+  "emergencyBystanderName": "Chapupu Chinobatsira",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "emergencyBystanderDesc": "Noda kuvapo kudzikisa kurwisana",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Missing Pet",
+  "emergencyMissingPetName": "Mhuka Yakarasika",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "emergencyMissingPetDesc": "Mhuka yakarasika kana kutiza, noda bato rekutsvaga",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Wellness Check",
+  "emergencyWellnessCheckName": "Kutarisa Hutano",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "emergencyWellnessCheckDesc": "Ona mumwe munhu angangoda rubatsiro",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Quit Companion",
+  "emergencyQuitCompanionName": "Shamwari Yekurega",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "emergencyQuitCompanionDesc": "Ndiri kurwisa chishuwo, noda rutsigiro",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Companionship",
+  "emergencyCompanionshipName": "Uwama",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "emergencyCompanionshipDesc": "Ndiri kunzwa ndega kana kwakaparadzanisa",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "911 Coordination",
+  "emergency911CoordinationName": "Kubatanidza Rubatsiro Rwenjodzi",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "emergency911CoordinationDesc": "Noda rubatsiro rwekufona nekubatanidza rubatsiro rwenjodzi",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
@@ -396,11 +397,11 @@
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "My Capabilities",
+  "myCapabilities": "Unyanzvi Hwangu",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} selected",
+  "capabilitiesSelected": "{count} yakasarudzwa",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +411,43 @@
       }
     }
   },
-  "alertSchedule": "Alert Schedule",
+  "alertSchedule": "Hurongwa Hwyambiro",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Set your availability hours",
+  "setAvailabilityHours": "Isa maawa ekuwanikwa kwako",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Trusted Responders",
+  "trustedResponders": "Vapinduri Vanovimbika",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Response History",
+  "responseHistory": "Nhoroondo Yemhinduro",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacy & Safety",
+  "privacyAndSafety": "Chakafukidza & Kuchengeteka",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Help & Support",
+  "helpAndSupport": "Rubatsiro & Rutsigiro",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "About Naybor SOS",
+  "aboutNayborSos": "Nezve Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "termsAndPrivacyPolicy": "Mitemo & Mutemo Wechakafukidza",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Sign Out",
+  "signOut": "Buda",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Version {version}",
+  "version": "Shanduro {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,11 +457,11 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "aboutDialogContent": "Naybor SOS inobatanidza vavakidzani munjodzi, ichigadzira network yevapinduri vanokurumidza vanogona kupa rubatsiro rwakakosha vasati vasvika vapinduri vepabasa.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "aboutDialogContent2": "Munhu wese anogona kuve gamba. Haudi kudzidziswa kwakakosha kuponesa hupenyu. Dzimwe nguva kupindira kwakasimba kwuri kunongouya chete.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
@@ -468,40 +469,94 @@
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Close",
+  "close": "Vhara",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "Sign Out?",
+  "signOutQuestion": "Buda?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "Are you sure you want to sign out?",
+  "signOutConfirm": "Wakatenda here kuti unoda kubuda?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancel",
+  "cancel": "Kanzura",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Signed out successfully",
+  "signedOutSuccessfully": "Wabuda nebudiriro",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Settings",
+  "settings": "Magadzirirwo",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Wellness Check",
+  "capabilityWellnessCheck": "Kutarisa Hutano",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Quit Companion",
+  "capabilityQuitCompanion": "Shamwari Yekurega",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Active Bystander",
+  "capabilityActiveBystander": "Chapupu Chinobatsira",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Shanduro ye AI Ine Chivimbo Chakakwira",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Shanduro ye AI Ine Chivimbo Chakanaka",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Shanduro ye AI Ine Chivimbo Chepakati",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Shanduro ye AI Ine Chivimbo Chakaderera",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Shanduro iyi yakagadzirwa ne AI ine chivimbo chakakwira. Kuongororwa kwehunyanzvi kunokurudzirwa pakushandisa mukugadzira.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Shanduro iyi yakagadzirwa ne AI ine chivimbo chakanaka. Kuongororwa kwehunyanzvi kunokurudzirwa pamazwi ekuchengeteka akakosha ekubvumirana neenjodzi.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Shanduro iyi inoda kuongororwa kwevanhu pamashoko eenjodzi akakosha ekuchengeteka asati ashandiswa mukugadzira.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Iyi ishanduro yedhirafti chete. Shanduro yehunyanzvi inodiwa isati yashandiswa mukugadzira.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Sarudza Mutauro",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Tsvaga mitauro",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Hunhu Hweshanduro: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Batsira kuvandudza zvakashandurwa - shuma matambudziko kana kupa zvakashandurwa zviri nani!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

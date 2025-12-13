@@ -2,7 +2,7 @@
 
 **Every major faith tradition and civic philosophy recognizes a fundamental duty to preserve life.**
 
-Neighbor 911™ operates at the intersection of universal human compassion and religiously/civically mandated obligation to help those in crisis. This document demonstrates that emergency response—particularly neighbor-to-neighbor intervention—enjoys nearly universal theological and ethical support across world religions and secular civic traditions.
+Naybor SOS™ operates at the intersection of universal human compassion and religiously/civically mandated obligation to help those in crisis. This document demonstrates that emergency response—particularly neighbor-to-neighbor intervention—enjoys nearly universal theological and ethical support across world religions and secular civic traditions.
 
 ---
 
@@ -16,7 +16,7 @@ Across billions of adherents worldwide, religious and civic traditions overwhelm
 4. **Helping strangers in danger** is a core spiritual/civic duty
 5. **Fear of ritual violation, privacy concerns, or procedural barriers must yield** to immediate life-saving needs
 
-**For Neighbor 911 volunteers:** Your decision to respond to an emergency is supported by millennia of religious teaching and modern civic ethics. You are fulfilling a sacred duty recognized across cultures.
+**For Naybor SOS volunteers:** Your decision to respond to an emergency is supported by millennia of religious teaching and modern civic ethics. You are fulfilling a sacred duty recognized across cultures.
 
 ---
 
@@ -37,11 +37,11 @@ Across billions of adherents worldwide, religious and civic traditions overwhelm
 
 ---
 
-## What This Means for Neighbor 911 Responders
+## What This Means for Naybor SOS Responders
 
 ### You Have Religious and Civic Backing
 
-When you respond to a Neighbor 911 alert, you are:
+When you respond to a Naybor SOS alert, you are:
 - **Fulfilling a Christian duty** of loving your neighbor (Good Samaritan)
 - **Upholding Islamic *Hifz al-Nafs*** (preservation of life)
 - **Practicing Hindu *Dharma*** (righteous duty)
@@ -113,10 +113,10 @@ Civigion doesn't replace religious faith—it provides a shared ethical foundati
 
 ## Interfaith Emergency Response
 
-### Religious Leaders Support Neighbor 911
+### Religious Leaders Support Naybor SOS
 
 We welcome endorsements and partnerships with religious institutions across all traditions. If your faith community wants to:
-- **Promote Neighbor 911** among congregants
+- **Promote Naybor SOS** among congregants
 - **Organize Heartbeat Drills** at houses of worship
 - **Provide CPR training** as religious service
 - **Clarify religious obligations** around emergency response
@@ -184,7 +184,7 @@ The remarkable consistency across religious and civic traditions suggests:
 
 ### Organize Your Congregation/Community
 
-1. **Announce Neighbor 911** from the pulpit/during services
+1. **Announce Naybor SOS** from the pulpit/during services
 2. **Host CPR training** in your building (partner with Red Cross/AHA)
 3. **Run Heartbeat Drills** after services (see [Know Thy Neighbor](Know%20Thy%20Neighbor.md))
 4. **Build interfaith networks** with nearby houses of worship
@@ -206,7 +206,7 @@ We're building resources to help religious leaders preach/teach on emergency res
 
 **You don't need to choose between religious observance and saving lives—your faith commands both.**
 
-When you respond to a Neighbor 911 alert, you are:
+When you respond to a Naybor SOS alert, you are:
 - Honoring the sacred duty of your faith tradition
 - Fulfilling your civic obligation to your community
 - Embodying the universal human ethic of compassion

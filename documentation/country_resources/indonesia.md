@@ -139,11 +139,11 @@ Examples we'd like to document:
 - Resources in Bahasa Indonesia and regional languages
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create Bahasa Indonesia version
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Indonesian contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Indonesian contributors.*

@@ -76,11 +76,11 @@ If you live in Bangladesh and know about:
 **This guide needs Bangladeshi experts!** Bangladesh has 170+ million people with unique emergency response needs.
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create Bengali version
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Bangladeshi contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Bangladeshi contributors.*

@@ -157,7 +157,7 @@ class _IncomingAlertScreenState extends State<IncomingAlertScreen> {
 
                       // Emergency Type
                       Text(
-                        widget.emergencyType.name,
+                        widget.emergencyType.name(context),
                         style: Theme.of(context).textTheme.displaySmall?.copyWith(
                           fontWeight: FontWeight.bold,
                         ),
@@ -173,7 +173,7 @@ class _IncomingAlertScreenState extends State<IncomingAlertScreen> {
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: Text(
-                          widget.emergencyType.description,
+                          widget.emergencyType.description(context),
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                             color: _getCategoryColor(widget.emergencyType.category),
                           ),

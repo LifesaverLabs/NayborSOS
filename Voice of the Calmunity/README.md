@@ -1,6 +1,6 @@
 # Calmunity Needs Discovery
 
-This directory contains research notes and insights from community conversations about the Neighbor911 service.
+This directory contains research notes and insights from community conversations about the Naybor SOS service.
 
 ## Directory Structure
 

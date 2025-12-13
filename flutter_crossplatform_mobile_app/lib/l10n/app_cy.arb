@@ -1,22 +1,23 @@
 {
   "@@locale": "cy",
+  "_notice": "⚠️ HUMAN REVIEW REQUIRED for safety-critical emergency phrases before production use",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "Modern-Day Minutemen & Minutewomen",
+  "tagline": "Minutemyn a Minutewragedd yr Oes Fodern",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "Sign up to help your neighbors",
+  "signUpToHelp": "Cofrestrwch i helpu eich cymdogion",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
-  "enterPhoneNumber": "Enter your phone number to get started",
+  "enterPhoneNumber": "Rhowch eich rhif ffôn i ddechrau",
   "@enterPhoneNumber": {
     "description": "Phone number entry instruction"
   },
-  "phoneNumberLabel": "Phone Number",
+  "phoneNumberLabel": "Rhif Ffôn",
   "@phoneNumberLabel": {
     "description": "Phone number field label"
   },
@@ -24,15 +25,15 @@
   "@phoneNumberHint": {
     "description": "Phone number field hint"
   },
-  "sendVerificationCode": "Send Verification Code",
+  "sendVerificationCode": "Anfon Côd Dilysu",
   "@sendVerificationCode": {
     "description": "Button to send verification code"
   },
-  "enterVerificationCode": "Enter verification code",
+  "enterVerificationCode": "Rhowch y côd dilysu",
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "We sent a code to {phoneNumber}",
+  "verificationCodeSent": "Anfonwyd côd i {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -42,7 +43,7 @@
       }
     }
   },
-  "verificationCodeLabel": "Verification Code",
+  "verificationCodeLabel": "Côd Dilysu",
   "@verificationCodeLabel": {
     "description": "Verification code field label"
   },
@@ -50,59 +51,59 @@
   "@verificationCodeHint": {
     "description": "Verification code field hint"
   },
-  "verifyAndContinue": "Verify & Continue",
+  "verifyAndContinue": "Dilysu a Pharhau",
   "@verifyAndContinue": {
     "description": "Button to verify code and continue"
   },
-  "changePhoneNumber": "Change phone number",
+  "changePhoneNumber": "Newid rhif ffôn",
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "pleaseEnterPhoneNumber": "Rhowch eich rhif ffôn os gwelwch yn dda",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "Please enter the verification code",
+  "pleaseEnterVerificationCode": "Rhowch y côd dilysu os gwelwch yn dda",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
-  "createProfile": "Create Profile",
+  "createProfile": "Creu Proffil",
   "@createProfile": {
     "description": "Create profile screen title"
   },
-  "tellUsAboutYourself": "Tell us about yourself",
+  "tellUsAboutYourself": "Dywedwch wrthym amdanoch chi eich hun",
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "This information helps us connect you with neighbors who need help",
+  "profileSetupDescription": "Mae'r wybodaeth hon yn ein helpu i'ch cysylltu â chymdogion sydd angen help",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
-  "addPhotoOptional": "Add photo (optional)",
+  "addPhotoOptional": "Ychwanegu llun (dewisol)",
   "@addPhotoOptional": {
     "description": "Add photo text"
   },
-  "fullNameLabel": "Full Name *",
+  "fullNameLabel": "Enw Llawn *",
   "@fullNameLabel": {
     "description": "Full name field label"
   },
-  "fullNameHint": "John Smith",
+  "fullNameHint": "Siôn Jones",
   "@fullNameHint": {
     "description": "Full name field hint"
   },
-  "homeAddressLabel": "Home Address *",
+  "homeAddressLabel": "Cyfeiriad Cartref *",
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "123 Main St, Apt 4B",
+  "homeAddressHint": "123 Stryd Fawr, Fflat 4B",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "Used for proximity matching only",
+  "homeAddressHelper": "Defnyddir ar gyfer paru agosrwydd yn unig",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
-  "ageOptionalLabel": "Age (optional)",
+  "ageOptionalLabel": "Oed (dewisol)",
   "@ageOptionalLabel": {
     "description": "Age field label"
   },
@@ -110,99 +111,99 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "Ages 70+ can set gentle alert hours",
+  "ageHelper": "Gall pobl 70+ osod oriau rhybudd tyner",
   "@ageHelper": {
     "description": "Age helper text"
   },
-  "yourPrivacyMatters": "Your privacy matters",
+  "yourPrivacyMatters": "Mae eich preifatrwydd yn bwysig",
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "Your location is only queried during active emergencies and never stored long-term.",
+  "privacyNotice": "Dim ond yn ystod argyfyngau gweithredol y holir eich lleoliad ac nid yw'n cael ei storio'n hirdymor.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
-  "continueButton": "Continue",
+  "continueButton": "Parhau",
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "Please fill in all required fields",
+  "pleaseFillRequiredFields": "Llenwch yr holl feysydd gofynnol os gwelwch yn dda",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
-  "home": "Home",
+  "home": "Cartref",
   "@home": {
     "description": "Home navigation label"
   },
-  "alerts": "Alerts",
+  "alerts": "Rhybuddion",
   "@alerts": {
     "description": "Alerts navigation label"
   },
-  "profile": "Profile",
+  "profile": "Proffil",
   "@profile": {
     "description": "Profile navigation label"
   },
-  "availableToRespond": "Available to Respond",
+  "availableToRespond": "Ar Gael i Ymateb",
   "@availableToRespond": {
     "description": "Available status text"
   },
-  "notAvailable": "Not Available",
+  "notAvailable": "Ddim ar Gael",
   "@notAvailable": {
     "description": "Not available status text"
   },
-  "youllReceiveEmergencyAlerts": "You'll receive emergency alerts nearby",
+  "youllReceiveEmergencyAlerts": "Byddwch yn derbyn rhybuddion brys gerllaw",
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "Toggle on when ready to help",
+  "toggleOnWhenReady": "Trowch ymlaen pan yn barod i helpu",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
-  "youreNowAvailable": "You're now available to respond",
+  "youreNowAvailable": "Rydych chi nawr ar gael i ymateb",
   "@youreNowAvailable": {
     "description": "Available toggle success message"
   },
-  "youWontReceiveAlerts": "You won't receive alerts",
+  "youWontReceiveAlerts": "Ni fyddwch yn derbyn rhybuddion",
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.",
+  "lifeThreatening247Info": "Bydd rhybuddion sy'n bygwth bywyd yn eich hysbysu 24/7. Mae rhybuddion anfyrbwyll yn parchu eich amserlen.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
-  "requestHelp": "REQUEST HELP",
+  "requestHelp": "GOFYN AM HELP",
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "Your Impact",
+  "yourImpact": "Eich Effaith",
   "@yourImpact": {
     "description": "Your impact section title"
   },
-  "responses": "Responses",
+  "responses": "Ymatebion",
   "@responses": {
     "description": "Responses stat label"
   },
-  "avgTime": "Avg Time",
+  "avgTime": "Amser Cyfartalog",
   "@avgTime": {
     "description": "Average time stat label"
   },
-  "yourCapabilities": "Your Capabilities",
+  "yourCapabilities": "Eich Galluoedd",
   "@yourCapabilities": {
     "description": "Your capabilities section title"
   },
-  "edit": "Edit",
+  "edit": "Golygu",
   "@edit": {
     "description": "Edit button text"
   },
-  "communityNetwork": "Community Network",
+  "communityNetwork": "Rhwydwaith Cymunedol",
   "@communityNetwork": {
     "description": "Community network section title"
   },
-  "nearbyResponders": "Nearby Responders",
+  "nearbyResponders": "Ymatebwyr Cyfagos",
   "@nearbyResponders": {
     "description": "Nearby responders label"
   },
-  "nearbyRespondersAvailable": "{count} available",
+  "nearbyRespondersAvailable": "{count} ar gael",
   "@nearbyRespondersAvailable": {
     "description": "Number of nearby responders available",
     "placeholders": {
@@ -212,11 +213,11 @@
       }
     }
   },
-  "coverageRadius": "Coverage Radius",
+  "coverageRadius": "Radiws Cwmpas",
   "@coverageRadius": {
     "description": "Coverage radius label"
   },
-  "coverageRadiusValue": "{distance} miles",
+  "coverageRadiusValue": "{distance} milltir",
   "@coverageRadiusValue": {
     "description": "Coverage radius value",
     "placeholders": {
@@ -226,39 +227,39 @@
       }
     }
   },
-  "activeAlerts": "Active Alerts",
+  "activeAlerts": "Rhybuddion Gweithredol",
   "@activeAlerts": {
     "description": "Active alerts label"
   },
-  "none": "None",
+  "none": "Dim",
   "@none": {
     "description": "None text"
   },
-  "yourLocation": "Your Location",
+  "yourLocation": "Eich Lleoliad",
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "What do you need help with?",
+  "whatDoYouNeedHelpWith": "Gyda beth mae angen help arnoch?",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
-  "additionalDetailsOptional": "Additional Details (optional)",
+  "additionalDetailsOptional": "Manylion Ychwanegol (dewisol)",
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "Describe the situation...",
+  "describeSituation": "Disgrifiwch y sefyllfa...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
-  "alertTrustedRespondersFirst": "Alert my trusted responders first",
+  "alertTrustedRespondersFirst": "Rhybuddio fy ymatebwyr dibynadwy gyntaf",
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "Your selected friends/family will be notified before the general community",
+  "trustedRespondersDescription": "Caiff eich ffrindiau/teulu a ddewiswyd eu hysbysu cyn y gymuned gyffredinol",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
-  "sendingAlert": "Sending alert: {emergencyType}",
+  "sendingAlert": "Anfon rhybudd: {emergencyType}",
   "@sendingAlert": {
     "description": "Message showing which alert is being sent",
     "placeholders": {
@@ -268,123 +269,123 @@
       }
     }
   },
-  "sendAlertNow": "SEND ALERT NOW",
+  "sendAlertNow": "ANFON RHYBUDD NAWR",
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "Please select an emergency type",
+  "pleaseSelectEmergencyType": "Dewiswch fath o argyfwng os gwelwch yn dda",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
-  "categoryLifeThreatening": "🔴 Life-Threatening",
+  "categoryLifeThreatening": "🔴 Yn Bygwth Bywyd",
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 Security/Safety",
+  "categorySecuritySafety": "🟠 Diogelwch",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
-  "categoryUrgentTimeSensitive": "🟡 Urgent Time-Sensitive",
+  "categoryUrgentTimeSensitive": "🟡 Brys Amser-Sensitif",
   "@categoryUrgentTimeSensitive": {
     "description": "Urgent time-sensitive category label"
   },
-  "categoryNonLifeThreatening": "🟢 Non-Life-Threatening",
+  "categoryNonLifeThreatening": "🟢 Ddim yn Bygwth Bywyd",
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "CPR / Cardiac Arrest",
+  "emergencyCprCardiacName": "CPR / Atal y Galon",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "Person is unresponsive and not breathing",
+  "emergencyCprCardiacDesc": "Mae person yn anymwybodol ac ddim yn anadlu",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "AED Delivery",
+  "emergencyAedName": "Dosbarthu AED",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "Need an AED immediately",
+  "emergencyAedDesc": "Angen AED ar unwaith",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
-  "emergencyOverdoseName": "Overdose / Naloxone",
+  "emergencyOverdoseName": "Gordos / Naloxone",
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "Suspected drug overdose, need naloxone",
+  "emergencyOverdoseDesc": "Gordos cyffuriau tybiedig, angen naloxone",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "Choking / Heimlich",
+  "emergencyChokingName": "Tagu / Heimlich",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
-  "emergencyChokingDesc": "Person is choking and cannot breathe",
+  "emergencyChokingDesc": "Mae person yn tagu ac yn methu anadlu",
   "@emergencyChokingDesc": {
     "description": "Choking/Heimlich emergency description"
   },
-  "emergencyFireName": "Fire / Evacuation",
+  "emergencyFireName": "Tân / Gwacáu",
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "Fire emergency, need evacuation help",
+  "emergencyFireDesc": "Argyfwng tân, angen help gwacáu",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "Bedroom Consent Emergency",
+  "emergencyConsentName": "Argyfwng Cydsyniad Ystafell Wely",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "Safeword called, need witness",
+  "emergencyConsentDesc": "Galwyd gair diogel, angen tyst",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "Active Bystander Witness",
+  "emergencyBystanderName": "Tyst Gweithredol",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "Need presence to de-escalate conflict",
+  "emergencyBystanderDesc": "Angen presenoldeb i ddad-ddrwgdybio gwrthdaro",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
-  "emergencyMissingPetName": "Missing Pet",
+  "emergencyMissingPetName": "Anifail Anwes ar Goll",
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "Pet is lost or ran away, need search party",
+  "emergencyMissingPetDesc": "Mae anifail anwes ar goll neu wedi rhedeg i ffwrdd, angen parti chwilio",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "Wellness Check",
+  "emergencyWellnessCheckName": "Gwiriad Lles",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "Check on someone who may need help",
+  "emergencyWellnessCheckDesc": "Gwirio ar rywun a allai fod angen help",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
-  "emergencyQuitCompanionName": "Quit Companion",
+  "emergencyQuitCompanionName": "Cymar Rhoi'r Gorau",
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "Fighting craving, need support",
+  "emergencyQuitCompanionDesc": "Yn brwydro yn erbyn chwant, angen cefnogaeth",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "Companionship",
+  "emergencyCompanionshipName": "Cwmniaeth",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
-  "emergencyCompanionshipDesc": "Feeling lonely or isolated",
+  "emergencyCompanionshipDesc": "Teimlo'n unig neu wedi'ch ynysu",
   "@emergencyCompanionshipDesc": {
     "description": "Companionship emergency description"
   },
-  "emergency911CoordinationName": "911 Coordination",
+  "emergency911CoordinationName": "Cydlynu 999",
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "Need help calling and coordinating 911",
+  "emergency911CoordinationDesc": "Angen help i ffonio a chydlynu gyda'r gwasanaethau brys",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
@@ -396,11 +397,11 @@
   "@equipmentNaloxone": {
     "description": "Naloxone equipment name"
   },
-  "myCapabilities": "My Capabilities",
+  "myCapabilities": "Fy Ngalluoedd",
   "@myCapabilities": {
     "description": "My capabilities menu item"
   },
-  "capabilitiesSelected": "{count} selected",
+  "capabilitiesSelected": "{count} wedi'u dewis",
   "@capabilitiesSelected": {
     "description": "Number of capabilities selected",
     "placeholders": {
@@ -410,43 +411,43 @@
       }
     }
   },
-  "alertSchedule": "Alert Schedule",
+  "alertSchedule": "Amserlen Rhybuddion",
   "@alertSchedule": {
     "description": "Alert schedule menu item"
   },
-  "setAvailabilityHours": "Set your availability hours",
+  "setAvailabilityHours": "Gosodwch eich oriau argaeledd",
   "@setAvailabilityHours": {
     "description": "Alert schedule subtitle"
   },
-  "trustedResponders": "Trusted Responders",
+  "trustedResponders": "Ymatebwyr Dibynadwy",
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "Response History",
+  "responseHistory": "Hanes Ymateb",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "Privacy & Safety",
+  "privacyAndSafety": "Preifatrwydd a Diogelwch",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
-  "helpAndSupport": "Help & Support",
+  "helpAndSupport": "Help a Chymorth",
   "@helpAndSupport": {
     "description": "Help & support menu item"
   },
-  "aboutNayborSos": "About Naybor SOS",
+  "aboutNayborSos": "Am Naybor SOS",
   "@aboutNayborSos": {
     "description": "About Naybor SOS menu item"
   },
-  "termsAndPrivacyPolicy": "Terms & Privacy Policy",
+  "termsAndPrivacyPolicy": "Telerau a Pholisi Preifatrwydd",
   "@termsAndPrivacyPolicy": {
     "description": "Terms & privacy policy menu item"
   },
-  "signOut": "Sign Out",
+  "signOut": "Allgofnodi",
   "@signOut": {
     "description": "Sign out button"
   },
-  "version": "Version {version}",
+  "version": "Fersiwn {version}",
   "@version": {
     "description": "Version text",
     "placeholders": {
@@ -456,11 +457,11 @@
       }
     }
   },
-  "aboutDialogContent": "Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.",
+  "aboutDialogContent": "Mae Naybor SOS yn cysylltu cymdogion mewn argyfyngau, gan greu rhwydwaith o ymatebwyr cyflym a all ddarparu cymorth hanfodol cyn i ymatebwyr cymorth cyntaf proffesiynol gyrraedd.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "Everyone can be a hero. You don't need special training to save a life. Sometimes the most powerful intervention is simply showing up.",
+  "aboutDialogContent2": "Gall pawb fod yn arwr. Does dim angen hyfforddiant arbennig i achub bywyd. Weithiau'r ymyrraeth fwyaf pwerus yw syml troi i fyny.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
@@ -468,40 +469,94 @@
   "@lifesaverLabs": {
     "description": "Company name"
   },
-  "close": "Close",
+  "close": "Cau",
   "@close": {
     "description": "Close button"
   },
-  "signOutQuestion": "Sign Out?",
+  "signOutQuestion": "Allgofnodi?",
   "@signOutQuestion": {
     "description": "Sign out dialog title"
   },
-  "signOutConfirm": "Are you sure you want to sign out?",
+  "signOutConfirm": "Ydych chi'n siŵr eich bod am allgofnodi?",
   "@signOutConfirm": {
     "description": "Sign out dialog content"
   },
-  "cancel": "Cancel",
+  "cancel": "Canslo",
   "@cancel": {
     "description": "Cancel button"
   },
-  "signedOutSuccessfully": "Signed out successfully",
+  "signedOutSuccessfully": "Allgofnodwyd yn llwyddiannus",
   "@signedOutSuccessfully": {
     "description": "Sign out success message"
   },
-  "settings": "Settings",
+  "settings": "Gosodiadau",
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "Wellness Check",
+  "capabilityWellnessCheck": "Gwiriad Lles",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
-  "capabilityQuitCompanion": "Quit Companion",
+  "capabilityQuitCompanion": "Cymar Rhoi'r Gorau",
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "Active Bystander",
+  "capabilityActiveBystander": "Gwyliwr Gweithredol",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Cyfieithiad AI Hyder Uchel",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Cyfieithiad AI Hyder Da",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Cyfieithiad AI Hyder Canolig",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Cyfieithiad AI Hyder Isel",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Cynhyrchwyd y cyfieithiad hwn gan AI gyda hyder uchel. Argymhellir adolygiad proffesiynol ar gyfer defnydd cynhyrchu.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Cynhyrchwyd y cyfieithiad hwn gan AI gyda hyder da. Argymhellir adolygiad proffesiynol ar gyfer terminoleg cydsyniad a brys sy'n hanfodol i ddiogelwch.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Mae'r cyfieithiad hwn yn gofyn am adolygiad dynol ar gyfer ymadroddion brys sy'n hanfodol i ddiogelwch cyn defnydd cynhyrchu.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Drafft cyfieithiad yn unig yw hwn. Mae angen cyfieithiad proffesiynol cyn defnydd cynhyrchu.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Dewis Iaith",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Chwilio ieithoedd",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Ansawdd Cyfieithiad: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Helpwch wella cyfieithiadau - rhowch wybod am broblemau neu gyfranwch gyfieithiadau gwell!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

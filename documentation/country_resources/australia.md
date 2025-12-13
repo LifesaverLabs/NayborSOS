@@ -88,11 +88,11 @@ Examples might include:
 - Wildfire preparedness and response resources
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file with your knowledge
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org with information
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Australian contributors to complete this guide.*
+*This page is maintained by the Naybor SOS community. Seeking Australian contributors to complete this guide.*

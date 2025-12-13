@@ -9,7 +9,7 @@
 
 ## 🌍 About This Guide
 
-This guide documents emergency response resources, training programs, apps, and community groups in Portugal. Our goal is to help Neighbor 911 visitors and Minute Responders discover local resources that can help them prepare for emergencies.
+This guide documents emergency response resources, training programs, apps, and community groups in Portugal. Our goal is to help Naybor SOS visitors and Minute Responders discover local resources that can help them prepare for emergencies.
 
 **What's included:**
 - Emergency response apps and alert systems
@@ -23,7 +23,7 @@ This guide documents emergency response resources, training programs, apps, and 
 
 ## 🚨 START YOUR NEIGHBORHOOD EMERGENCY NETWORK TODAY
 
-**Você não precisa esperar pelo Neighbor 911™.** O que você pode fazer AGORA:
+**Você não precisa esperar pelo Naybor SOS™.** O que você pode fazer AGORA:
 
 ### Bata às Portas. Conheça Seus Vizinhos. Construa uma Rede.
 
@@ -327,7 +327,7 @@ Each município (municipality) has civil protection services:
 
 ---
 
-## How Neighbor 911 Supports These Resources
+## How Naybor SOS Supports These Resources
 
 **We encourage all Minute Responders in Portugal to:**
 - Get certified in SBV (Suporte Básico de Vida) through Cruz Vermelha or other accredited providers
@@ -338,7 +338,7 @@ Each município (municipality) has civil protection services:
 - Know the location of nearest DAE/AED
 - Keep SNS 24 (808 24 24 24) and 112 easily accessible
 
-**Portugal-specific Neighbor 911 integration (planned):**
+**Portugal-specific Naybor SOS integration (planned):**
 - Coordination with INEM for emergency medical dispatch
 - Partnership discussions with Cruz Vermelha Portuguesa
 - Integration with ANPC alert systems
@@ -354,7 +354,7 @@ Each município (municipality) has civil protection services:
 
 ### Cruz Vermelha Portuguesa
 **Status:** 🟡 Proposed Partnership
-**Vision:** Training pathways for Neighbor 911 responders, mutual promotion of emergency preparedness
+**Vision:** Training pathways for Naybor SOS responders, mutual promotion of emergency preparedness
 
 ### Bombeiros Voluntários (National Federation)
 **Status:** 🟡 Proposed Partnership
@@ -396,4 +396,4 @@ This guide needs translation to Portuguese.
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
+*This page is maintained by the Naybor SOS community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*

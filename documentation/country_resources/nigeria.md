@@ -81,11 +81,11 @@ Examples we'd like to document:
 **This guide needs Nigerian experts!** Nigeria has 220+ million people across diverse states, regions, and ethnic groups.
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create language-specific versions
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Nigerian contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Nigerian contributors.*

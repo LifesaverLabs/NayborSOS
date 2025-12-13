@@ -4,7 +4,7 @@ This directory contains curated emergency response resources, training programs,
 
 ## Purpose
 
-Neighbor 911 is part of a larger emergency response "calmunity" (community). We believe in:
+Naybor SOS is part of a larger emergency response "calmunity" (community). We believe in:
 - **Promoting existing solutions** that are already working and saving lives
 - **Supporting training organizations** that prepare citizens to respond
 - **Building partnerships** with complementary apps and services
@@ -12,7 +12,7 @@ Neighbor 911 is part of a larger emergency response "calmunity" (community). We 
 
 ## 🚨 Start Building Your Neighbor Network TODAY
 
-**You don't need to wait for Neighbor 911™ to be built.** The most powerful thing you can do RIGHT NOW is:
+**You don't need to wait for Naybor SOS™ to be built.** The most powerful thing you can do RIGHT NOW is:
 
 ### Knock on Doors. Meet Your Neighbors. Build a Call Tree.
 
@@ -47,13 +47,13 @@ Neighbor 911 is part of a larger emergency response "calmunity" (community). We 
 
 ### Vision: Global Calmunity Coverage Map
 
-We're planning to build **Neighbor911.org** - a global mapping solution where:
+We're planning to build **NayborSOS.org** - a global mapping solution where:
 - **Neighbors can claim territory** - Register your local calmunity group and mark your coverage area on the map
 - **See the resource stack** - Type in your address and see ALL resources available to you:
   - Hyperlocal: Your immediate neighbor network (street, block, building)
   - Local: Nearby calmunity groups and volunteer responders
   - Regional: City/county emergency services and community programs
-  - National: Apps like PulsePoint™ (US), GoodSAM (UK), Rescue 1122 (Pakistan), or Neighbor 911™ (when built)
+  - National: Apps like PulsePoint™ (US), GoodSAM (UK), Rescue 1122 (Pakistan), or Naybor SOS™ (when built)
 - **Find coverage gaps** - See where networks exist and where they're urgently needed
 - **Connect with neighboring groups** - Mesh networks together for complete coverage
 - **Register your preferred resources** - Each hyperlocal group can list their recommended training providers, equipment sources, and best practices

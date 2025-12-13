@@ -2,11 +2,11 @@
 
 ## Current Financial Status
 
-**We currently do not have a source of financial support.** Neighbor 911 is in the early development stage and is actively seeking funding to support our mission of democratizing emergency response through community-based technology.
+**We currently do not have a source of financial support.** Naybor SOS is in the early development stage and is actively seeking funding to support our mission of democratizing emergency response through community-based technology.
 
 ## Volunteer Contributions
 
-**All contributions to Neighbor 911 are currently unpaid and at-will, including those of the founder.** We do not currently have funds to compensate volunteers for their time and expertise. 
+**All contributions to Naybor SOS are currently unpaid and at-will, including those of the founder.** We do not currently have funds to compensate volunteers for their time and expertise. 
 
 While this situation isn't ideal for recruiting and sustaining the widest possible network of talent, we hope that many will step forward out of:
 - **Civic motivation** - A desire to strengthen community resilience and emergency response
@@ -17,7 +17,7 @@ We recognize the significant sacrifice this represents and deeply appreciate all
 
 ## Future Compensation Plans
 
-If and when we secure funding, we are committed to discussing how to equitably support those who dedicate significant time and effort to accelerating this project. Our goal is to fairly compensate contributors who make substantial commitments to making Neighbor 911 a reality.
+If and when we secure funding, we are committed to discussing how to equitably support those who dedicate significant time and effort to accelerating this project. Our goal is to fairly compensate contributors who make substantial commitments to making Naybor SOS a reality.
 
 ## Seeking Financial Support
 
@@ -30,7 +30,7 @@ We welcome and are actively seeking various forms of financial support:
 
 ## Legal Structure
 
-Neighbor 911 is organized as a **Public Benefit Corporation (PBC)**. This structure allows us to:
+Naybor SOS is organized as a **Public Benefit Corporation (PBC)**. This structure allows us to:
 
 - Pursue both profit and public benefit
 - Maintain accountability to our social mission
@@ -49,7 +49,7 @@ While we are currently structured as a PBC (not a nonprofit), we can establish a
 
 ## Business Model (In Development)
 
-Our business model for Neighbor 911 is still evolving nascently, but we anticipate we will be able to someday support ourselves and grow sustainably or even rapidly with revenue streams from:
+Our business model for Naybor SOS is still evolving nascently, but we anticipate we will be able to someday support ourselves and grow sustainably or even rapidly with revenue streams from:
 
 - Software licensing to municipalities and organizations
 - Professional services and implementation support
@@ -63,4 +63,4 @@ It is just not clear yet how this will be supportively adequately financed for e
 
 ## Contact for Funding Discussions
 
-Organizations or individuals interested in supporting Neighbor 911 financially should reach out through our official channels to discuss partnership opportunities and funding arrangements. If you have trouble making contact with us through any other means, please write funding@lifesaverlabs.org with [FUNDING] in the subject line.
+Organizations or individuals interested in supporting Naybor SOS financially should reach out through our official channels to discuss partnership opportunities and funding arrangements. If you have trouble making contact with us through any other means, please write funding@lifesaverlabs.org with [FUNDING] in the subject line.

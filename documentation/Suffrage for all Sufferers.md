@@ -1,5 +1,5 @@
 # Sufferer ⇋ Suffrage (Longterm Goal: All Minutewomen and Minutemen)
-## Civic Engagement & Voting Rights in Neighbor 911™
+## Civic Engagement & Voting Rights in Naybor SOS™
 
 **Version:** 1.0
 **Last Updated:** 2025-11-07
@@ -29,7 +29,7 @@ If you don't believe 13 year olds can cast ballots intelligently and responsibly
 
 ## United States Goal: 90%+ Voting Rate by November 2026
 
-We aim for **over 90% self-reported voting rates** among all Neighbor 911 users with voting rights in the November 2026 election and beyond, across **all parties and political philosophies**. We believe democracy works best when everyone participates.
+We aim for **over 90% self-reported voting rates** among all Naybor SOS users with voting rights in the November 2026 election and beyond, across **all parties and political philosophies**. We believe democracy works best when everyone participates.
 
 **Timeline Priority:**
 - This is **not the most immediate life-threatening feature** (we have time until November 2026)
@@ -349,7 +349,7 @@ A symbolic ballot filled out by a disenfranchised citizen to:
 🗳️ YOU ARE A DISENFRANCHISED CITIZEN
 
 You're old enough to recognize community
-emergencies and respond as a Neighbor 911 user.
+emergencies and respond as a Naybor SOS user.
 
 But you're too young to vote.
 
@@ -437,8 +437,8 @@ My voice matters. Count me.
 
 Signature: ________________________
 
-Generated via Neighbor 911 Civic Engagement
-www.neighbor911.org
+Generated via Naybor SOS Civic Engagement
+www.nayborsos.org
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -615,7 +615,7 @@ Top Voting Neighborhoods:
   2. ZIP 12347 - 91%
   3. Your ZIP - 87%
 
-National Neighbor 911 Average: 82%
+National Naybor SOS Average: 82%
 
 LET'S GET TO 95% NEXT TIME!
 
@@ -676,7 +676,7 @@ LET'S GET TO 95% NEXT TIME!
 
 ### Phase 1 (MVP - 8 weeks)
 
-**Important Context:** Civic engagement features are **not the most immediate life-threatening priority** for Neighbor 911. We have time until November 2026 to achieve 95%+ voter participation rates. However, we need a strong foundation in place now.
+**Important Context:** Civic engagement features are **not the most immediate life-threatening priority** for Naybor SOS. We have time until November 2026 to achieve 95%+ voter participation rates. However, we need a strong foundation in place now.
 
 **MVP Features:**
 - ✅ Voter registration status collection (including disenfranchisement status)
@@ -753,6 +753,6 @@ If disenfranchised citizens (youth, felons) don't show up and make themselves vi
 ---
 
 **Related Documents:**
-- [Main PRD](PRD.md) - Core Neighbor 911 emergency response features
+- [Main PRD](PRD.md) - Core Naybor SOS emergency response features
 - [USER_STORIES.md](USER_STORIES.md) - User stories including civic engagement scenarios
 - [INTELLECTUAL_PROPERTY.md](INTELLECTUAL_PROPERTY.md) - IP and open source philosophy

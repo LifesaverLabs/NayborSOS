@@ -257,7 +257,7 @@ class _ResponseNavigationScreenState extends State<ResponseNavigationScreen> {
                                   ),
                                   const SizedBox(height: 4),
                                   Text(
-                                    widget.emergencyType.equipmentNeeded ?? '',
+                                    widget.emergencyType.equipmentNeeded(context) ?? '',
                                     style: Theme.of(context).textTheme.bodyLarge,
                                   ),
                                 ],

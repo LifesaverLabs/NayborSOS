@@ -10,7 +10,7 @@ We are committed to providing a welcoming, inclusive, and harassment-free experi
 
 ## Expected Behavior
 
-As members of the Neighbor 911 community, we expect all participants to:
+As members of the Naybor SOS community, we expect all participants to:
 
 - **Be respectful** - Treat everyone with kindness and empathy
 - **Be constructive** - Offer helpful feedback and accept it gracefully

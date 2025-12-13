@@ -1,0 +1,562 @@
+{
+  "@@locale": "qu",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Kunan Pachak Yanapakuqkuna",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Qayllaykikuna yanapanaykipaq qillqakuy",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Telefono yupaykita qillqay qallariykunaykipaq",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Telefono Yupay",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Takyachiy Codigo Kachay",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Takyachiy codigota qillqay",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Huk codigota kachaykuqa {phoneNumber}-man",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Takyachiy Codigo",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Takyachiy hinaspa Purichiy",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Telefono yupayta tikray",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Ama hina kaspa, telefono yupaykita qillqay",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Ama hina kaspa, takyachiy codigota qillqay",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Perfil Ruray",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Kikiykimanta willaykuway",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Kay willaykuna yanapawankuqa yanapana munaq qayllaykikunawan tinkichinaykupaq",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Foto yapay (munasqa)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Hunt'a Suti *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Juan Quispe",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Wasiyki Direccion *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "123 Hatun Ñan, Cuarto 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Askhaylla maskhanaypaqlla llamk'achisqa",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Wata (munasqalla)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "70 watayuq aswan hatunkuna sumaq alerta pachakuna churaymanku",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Pakasqayki ancha chanin",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Maypiykasqayki emergenciakuna kaqllapi tapusqa, manataqmi unay pachapaq waqaychasqachu kanqa.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Purichiy",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Ama hina kaspa, llapa necesario kaq qillqakunata hunt'achiy",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Wasi",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Alertakuna",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Perfil",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Kutichiykunapaq Wakichisqa",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Mana Wakichisqa",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Qayllaykipi emergencia alertakuna chaskimunki",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Yanapaykunapaq wakichisqa kaptiyki wichay",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Kunanqa wakichisqañam kanki kutichiypaq",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Mana alertakuna chaskimunkichu",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Kawsaypa pisiyachiq alertakuna 24/7 willanki. Mana utqaylla alertakuna horariykiraq kasunkichik.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "YANAPAKUY MAÑAY",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Rurasqayki",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Kutichiykuna",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Chawpi Pacha",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Atiyniykikuna",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Allichay",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Ayllu Llika",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Qaylla Kutichiq",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} wakichisqa",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Qhapaq Radio",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} milla",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Llamk'aq Alertakuna",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Mana ima",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Maypiykasqayki",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Imataq yanapakuyta necesitanki?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Yapana Riqsichikuy (munasqalla)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Imaynatam kasqanta willay...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Ñawpaqta confiasqa kutichiqniykunata alertar",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Aklasqayki amigokuna/ayllu ñawpaqta willasqa kanqaku sapan ayllu kachkaspa",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Alertata kachashani: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "KUNAN ALERTATA KACHAY",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Ama hina kaspa, emergencia layata akllakuy",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Kawsaypa Pisiyachiq",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Waqaychay/Takyay",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Utqay Pacha Sentitivo",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Mana Kawsaypa Pisiyachiq",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "CPR / Sonqo Sayay",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Runakaq mana kutichiqchu hinaspa mana samaqchuña",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "AED Apamuy",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "AED utqayllaña necesitakuni",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Overdosis / Naloxone",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Jampi unuy yuyasqa, naloxone necesitakuni",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "T'uquy / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Runakaq t'uqushaqmi hinaspa mana atinchu samaqta",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Nina / Lluqsichiy",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Nina emergencia, lluqsichiy yanapakuy necesitakuni",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Puñuy Wasi Suyay Emergencia",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Waqayrimana rimana, qhawaq necesitakuni",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Llamk'aq Qhawaq Rikuq",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Makinakuyta pisiyachinaypaq kayay necesitakuni",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Chinkasqa Uywa",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Uyway chinkasqam utaq ayqerusqam, maskay ayllu necesitakuni",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Qhali Kay Qhaway",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Pipas yanapakuy necesitanman chayta qhaway",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Saqey Yanapaykuq",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Munaywan makinakushani, yanapakuy necesitakuni",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Yanay Kay",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Saqrasqa utaq karu sientekuni",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "911 Coordinacion",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "911 waqaypi hinaspa coordinaypi yanapakuy necesitakuni",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Naloxone/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Atiyniykuna",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} aklasqa",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Alerta Pachakuy",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Wakichikuy pachakunayki churaykuy",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Confiasqa Kutichiqkuna",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Kutichiy Historia",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Pakasqa hinaspa Takyay",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Yanapay hinaspa Yanapakuy",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Naybor SOS-manta",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Kamachikuy hinaspa Pakasqa Kamachiy",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Lluqsiy",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Version {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS emergenciakunapi qayllakunata tinkin, utqay kutichiqkunaq llikanta ruraspa profesional ñawpaq kutichiq jamunankama yanapakuy qunku.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Tukuymi heroe kayta atinku. Mana especialista yachay necesitankichu kawsayta qhispichiykunapaq. Wakinpi aswan kallpasapa yanapakuyqa chayayllam.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs Sapan Allin Kay Compañia",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Wichqay",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Lluqsiyta munanki?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Chiqaqtachu lluqsiyta munanki?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Saykuy",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Allinta lluqsishani",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Churanakuna",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Qhali Kay Qhaway",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Saqey Yanapaykuq",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Llamk'aq Qhawaq",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Hatun Confianza AI T'ikray",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Allin Confianza AI T'ikray",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Chawpi Confianza AI T'ikray",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Pisilla Confianza AI T'ikray",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Kay t'ikrayqa AI-wan rurasqa hatun confianzawan. Profesional qhaway recomendado ruray llamk'aypaq.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Kay t'ikrayqa AI-wan rurasqa allin confianzawan. Profesional qhaway recomendado waqaychay-critico suyay hinaspa emergencia rimaykuna.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Kay t'ikrayqa runa qhaway necesitan waqaychay-critico emergencia rimaykunapaq ruray kachkaspa.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Kayqa borrador t'ikrayllam. Profesional t'ikray necesario ruray kachkaspa.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Rimay Akllakuy",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Rimaykunata maskay",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "T'ikray Kalidad: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "T'ikraykunata aswan allinta ruyayta yanapay - sasachakuykunata willakuy utaq aswan allin t'ikraykunawan yanapakuy!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

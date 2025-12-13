@@ -307,7 +307,7 @@ A: Start by:
 1. Contacting your local emergency services (fire department, EMS)
 2. Presenting the concept to your city council or municipal government
 3. Partnering with local hospitals or health departments
-4. Connecting with us at [contact info](team@neighbor911.us) for deployment support
+4. Connecting with us at [contact info](team@nayborsos.org) for deployment support
 5. Organizing community BLS training events
 
 **Q: I'm a developer. How can I contribute?**
@@ -389,10 +389,10 @@ We're working to change that.
 ---
 
 **For more information:**
-- Website: [neighbor911.org](https://neighbor911.org)
+- Website: [nayborsos.org](https://wwww.nayborsos.org)
 - GitHub: [Repository URL]
 - Twitter/X: [@NeighborSOS]
-- Email: team@neighbor911.us
+- Email: team@nayborsos.org
 
 ---
 

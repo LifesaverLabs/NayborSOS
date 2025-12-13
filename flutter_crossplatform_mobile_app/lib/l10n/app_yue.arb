@@ -1,0 +1,562 @@
+{
+  "@@locale": "yue",
+  "_notice": "⚠️ HUMAN REVIEW REQUIRED for safety-critical emergency phrases before production use",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "現代民兵男女",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "註冊幫助你嘅鄰居",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "輸入你嘅電話號碼開始",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "電話號碼",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "發送驗證碼",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "輸入驗證碼",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "我哋已經發送驗證碼到 {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "驗證碼",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "驗證並繼續",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "更改電話號碼",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "請輸入你嘅電話號碼",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "請輸入驗證碼",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "建立個人檔案",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "話俾我哋知關於你嘅資料",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "呢啲資料幫助我哋將你同需要幫助嘅鄰居聯繫起嚟",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "加相片（可選）",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "全名 *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "陳大文",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "住址 *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "香港島中環皇后大道中123號4B室",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "只用於距離配對",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "年齡（可選）",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "70歲或以上可以設定溫和提示時間",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "你嘅私隱好重要",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "你嘅位置只會喺緊急情況期間查詢，絕不會長期儲存。",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "繼續",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "請填寫所有必填欄位",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "主頁",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "警報",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "個人檔案",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "可以回應",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "唔可以",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "你會收到附近嘅緊急警報",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "準備好幫手時開啟",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "你而家可以回應緊急情況",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "你唔會收到警報",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "危及生命嘅警報會24/7通知你。非緊急警報會尊重你嘅時間安排。",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "請求幫助",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "你嘅貢獻",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "回應次數",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "平均時間",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "你嘅能力",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "編輯",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "社區網絡",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "附近回應者",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} 個可用",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "覆蓋範圍",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} 英里",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "活躍警報",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "冇",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "你嘅位置",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "你需要咩幫助？",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "額外詳情（可選）",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "描述情況...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "優先通知我嘅信任回應者",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "你選擇嘅朋友/家人會喺一般社區之前收到通知",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "發送警報：{emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "立即發送警報",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "請選擇緊急情況類型",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 危及生命",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 保安/安全",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 緊急時間敏感",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 非危及生命",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "心肺復甦術 / 心跳停止",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "病人失去知覺同無呼吸",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "自動體外除顫器運送",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "立即需要自動體外除顫器",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "藥物過量 / 納洛酮",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "懷疑藥物過量，需要納洛酮",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "哽塞 / 海姆立克急救法",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "病人哽塞無法呼吸",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "火災 / 疏散",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "火災緊急情況，需要疏散幫助",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "房間同意緊急情況",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "叫咗安全詞，需要證人",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "主動旁觀者證人",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "需要在場緩解衝突",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "寵物失蹤",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "寵物走失咗，需要搜索隊",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "健康檢查",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "檢查可能需要幫助嘅人",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "戒癮陪伴",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "對抗癮頭，需要支持",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "陪伴",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "感到孤獨或被孤立",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "999協調",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "需要幫助致電同協調999",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "自動體外除顫器",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "納洛酮/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "我嘅能力",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "已選擇 {count} 個",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "警報時間表",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "設定你嘅可用時間",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "信任回應者",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "回應記錄",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "私隱同安全",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "幫助同支援",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "關於 Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "條款同私隱政策",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "登出",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "版本 {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS 喺緊急情況下連接鄰居，建立快速回應者網絡，喺專業急救人員到達之前提供重要援助。",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "每個人都可以係英雄。你唔需要特別訓練就可以拯救生命。有時最有力嘅介入就係簡單嘅出現。",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs 公共利益公司",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "關閉",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "登出？",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "你確定要登出？",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "成功登出",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "健康檢查",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "戒癮陪伴",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "主動旁觀者",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "高信心AI翻譯",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "良好信心AI翻譯",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "中等信心AI翻譯",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "低信心AI翻譯",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "呢個翻譯係高信心AI生成。建議喺正式使用前進行專業審查。",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "呢個翻譯係良好信心AI生成。建議喺安全關鍵同意同緊急術語方面進行專業審查。",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ 呢個翻譯喺正式使用前需要人工審查安全關鍵緊急短語。",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ 呢個只係草稿翻譯。正式使用前需要專業翻譯。",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "選擇語言",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "搜索語言",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "翻譯質量：{quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "幫助改善翻譯 - 報告問題或貢獻更好嘅翻譯！",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

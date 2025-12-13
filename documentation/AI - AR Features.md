@@ -1,4 +1,4 @@
-# Neighbor 911 - AI, AR, and Advanced Features
+# Naybor SOS - AI, AR, and Advanced Features
 
 **Version:** 0.2 (Draft)
 **Last Updated:** 2025-11-10
@@ -9,7 +9,7 @@
 
 ## ⚠️ CRITICAL: PSAP Primacy & Safety Limitations
 
-**Neighbor 911 is NOT a replacement for 911.**
+**Naybor SOS is NOT a replacement for 911.**
 
 For life-threatening emergencies requiring professional EMS, **users must call 911 FIRST.**
 
@@ -20,7 +20,7 @@ For life-threatening emergencies requiring professional EMS, **users must call 9
 - Legal framework and liability protections
 - Battle-tested infrastructure
 
-**Neighbor 911's role:** Supplement, not replace. We coordinate faster neighbor response WHILE professional help is en route.
+**Naybor SOS's role:** Supplement, not replace. We coordinate faster neighbor response WHILE professional help is en route.
 
 ---
 
@@ -66,9 +66,9 @@ We recognize **three maturity stages** based on technical capability and PSAP pa
 **Stage 3: Full Integration (Year 2+)**
 - ✅ Seamless AI ↔ PSAP handoff
 - ✅ Lossless information relay (address, medical history, context)
-- ✅ E911 location features work through Neighbor 911
-- ✅ PSAP can preempt/takeover Neighbor 911 calls at will
-- ✅ Neighbor 911 can shotgun-seat on PSAP calls
+- ✅ E911 location features work through Naybor SOS
+- ✅ PSAP can preempt/takeover Naybor SOS calls at will
+- ✅ Naybor SOS can shotgun-seat on PSAP calls
 - ✅ Mobile OS authorization for emergency calling
 
 ---
@@ -77,10 +77,10 @@ We recognize **three maturity stages** based on technical capability and PSAP pa
 
 ### 2.1 Stage 1 (MVP): "Call 911 First" Protocol
 
-**User Experience: Someone mistakenly calls Neighbor 911 for cardiac arrest**
+**User Experience: Someone mistakenly calls Naybor SOS for cardiac arrest**
 
 ```
-User: "Hey Neighbor 911, my dad just collapsed! He's not breathing!"
+User: "Hey Naybor SOS, my dad just collapsed! He's not breathing!"
 
 AI: "🚨 STOP - CALL 911 RIGHT NOW 🚨
 
@@ -166,14 +166,14 @@ AI: "That's okay. Call 911 and they can locate you
 **Prerequisites for Stage 2:**
 - ✅ Signed partnership agreement with local PSAP
 - ✅ Tested call transfer protocol
-- ✅ PSAP can see Neighbor 911 caller ID
-- ✅ PSAP trained on "Neighbor 911 transfer" protocol
+- ✅ PSAP can see Naybor SOS caller ID
+- ✅ PSAP trained on "Naybor SOS transfer" protocol
 - ✅ Legal framework for shared liability
 
 **User Experience: Cardiac arrest call with PSAP handoff**
 
 ```
-User: "Hey Neighbor 911, my dad collapsed and isn't breathing!"
+User: "Hey Naybor SOS, my dad collapsed and isn't breathing!"
 
 AI: "Cardiac arrest - connecting you to 911 NOW.
      Stay on the line.
@@ -222,7 +222,7 @@ User: "Yes!"
 
 [Mike takes over CPR + AED while user stays on with 911]
 
-911: [To Mike] "Are you the Neighbor 911 responder?"
+911: [To Mike] "Are you the Naybor SOS responder?"
 
 Mike: "Yes, I have AED applied. Analyzing rhythm now."
 
@@ -241,7 +241,7 @@ Mike: "Yes, handing off now."
 
 911: "Thank you for your help. You can disconnect."
 
-Mike: [Marks alert as resolved in Neighbor 911 app]
+Mike: [Marks alert as resolved in Naybor SOS app]
 ```
 
 **Technical Implementation (Stage 2):**
@@ -313,17 +313,17 @@ interface ThreeWayCall {
 
 **Prerequisites for Stage 3:**
 - ✅ Mobile OS (iOS/Android) grants emergency calling permissions
-- ✅ E911 location features work through Neighbor 911
+- ✅ E911 location features work through Naybor SOS
 - ✅ Medical ID / emergency contacts relay to PSAP
-- ✅ PSAP can preempt Neighbor 911 calls
-- ✅ Neighbor 911 can monitor PSAP calls (with consent)
+- ✅ PSAP can preempt Naybor SOS calls
+- ✅ Naybor SOS can monitor PSAP calls (with consent)
 - ✅ CAD system bidirectional integration
 - ✅ Multi-year track record of safe handoffs
 
 **User Experience: Seamless integration**
 
 ```
-User: "Hey Neighbor 911, my dad collapsed!"
+User: "Hey Naybor SOS, my dad collapsed!"
 
 AI: "Cardiac arrest. Connecting to 911 and dispatching
      neighbors now."
@@ -364,10 +364,10 @@ AI: [To 911 via data] "Neighbor responder on scene."
 ```
 
 **PSAP Preemption (Stage 3):**
-If PSAP detects Neighbor 911 user needs immediate help:
+If PSAP detects Naybor SOS user needs immediate help:
 
 ```
-[User calls Neighbor 911 for wellness check]
+[User calls Naybor SOS for wellness check]
 
 User: "Can someone check on my neighbor? Haven't seen her in days."
 
@@ -382,18 +382,18 @@ PSAP: [Preempts call]
 User: "Oh, okay. 456 Oak Street."
 
 PSAP: "Officer dispatched. ETA 15 minutes. I'm also sending
-       a Neighbor 911 responder to arrive sooner. Is that okay?"
+       a Naybor SOS responder to arrive sooner. Is that okay?"
 
 User: "Yes, thank you."
 
-[PSAP + Neighbor 911 coordinate response]
+[PSAP + Naybor SOS coordinate response]
 ```
 
 **Technical Requirements for Stage 3:**
 - Mobile OS emergency calling API access
 - E911 Phase II location accuracy
 - Health app data relay (with user consent)
-- Real-time CAD ↔ Neighbor 911 sync
+- Real-time CAD ↔ Naybor SOS sync
 - PSAP operator training on hybrid dispatch
 - Legal framework for shared dispatch authority
 
@@ -454,7 +454,7 @@ AI: "Sending alert to 5 nearby adults who support youth brain safety advocacy."
 - Dispatcher can talk through landmarks
 - Battle-tested location verification
 
-**Why Neighbor 911 struggles:**
+**Why Naybor SOS struggles:**
 - User might not give address before hanging up
 - GPS can be inaccurate indoors (±10-50m)
 - Apartment/unit number often missing
@@ -541,7 +541,7 @@ AI: "That's okay. Call 911 - they can locate you from your phone.
 
 ### 3.2 What AI Monitors For
 
-When user is on a 911 call and has opted into Neighbor 911 audio monitoring:
+When user is on a 911 call and has opted into Naybor SOS audio monitoring:
 
 ✅ **Location confirmation** - Extract address, apartment number, cross streets
 ✅ **Emergency type** - Cardiac arrest, overdose, fire, etc.
@@ -555,7 +555,7 @@ When user is on a 911 call and has opted into Neighbor 911 audio monitoring:
 **User must explicitly opt-in:**
 ```
 During onboarding:
-□ Allow Neighbor 911 AI to monitor my 911 calls
+□ Allow Naybor SOS AI to monitor my 911 calls
   to coordinate neighbor response faster
 
 What this means:
@@ -633,7 +633,7 @@ User: "Yes, thank you!"
 
 **Key Insight:** In an emergency, every second counts. AR can shave 30-60 seconds off arrival time by eliminating navigation confusion.
 
-### 4.2 AR Use Cases for Neighbor 911
+### 4.2 AR Use Cases for Naybor SOS
 
 #### 4.2.1 AR Turn-by-Turn Navigation to Emergency
 

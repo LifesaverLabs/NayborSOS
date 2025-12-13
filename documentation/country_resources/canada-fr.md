@@ -122,11 +122,11 @@ Exemples que nous savons exister mais qui nécessitent des détails:
 - Ressources disponibles en français et autres langues
 
 **Comment contribuer:**
-1. Forkez le dépôt Neighbor911
+1. Forkez le dépôt NayborSOS
 2. Modifiez ce fichier avec vos connaissances
 3. Soumettez une pull request
 4. Ou envoyez un courriel à team@lifesaverlabs.org avec les informations
 
 ---
 
-*Cette page est maintenue par la communauté Neighbor 911. À la recherche de contributeurs canadiens pour compléter ce guide.*
+*Cette page est maintenue par la communauté Naybor SOS. À la recherche de contributeurs canadiens pour compléter ce guide.*

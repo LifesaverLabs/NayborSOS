@@ -1,0 +1,562 @@
+{
+  "@@locale": "lg",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Abasawo b'Obudde bwa Leero Abasajja n'Abakazi",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Kwegatta okuyamba baliraanwa bo",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Yingiza ennamba yo ey'essimu otandike",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Ennamba y'Essimu",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Sindika Koodi y'Okukakasa",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Yingiza koodi y'okukakasa",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Twatumye koodi ku {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Koodi y'Okukakasa",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Kakasa era Oyongere Mu Maaso",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Kyuusa ennamba y'essimu",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Nsaba oyingize ennamba yo ey'essimu",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Nsaba oyingize koodi y'okukakasa",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Kola Ppurofayiro",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Tubuulire ku ggwe",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Amawulire gano gayamba okukugatta n'abaliraanwa abeetaaga obuyambi",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Gattako ekifaananyi (si kya tteeka)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Erinnya Lyonna *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Ssalongo Mukasa",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Endagiriro y'Awaka *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "123 Luguudo lw'Awakati, Chumba 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Kikozesebwa ku kugatta abantu mu bitundu bye bimu bokka",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Emyaka (si gya tteeka)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "Abakadde ab'emyaka 70+ basobola okussaawo essaawa z'obubonero obuwombeefu",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Ekyama kyo kikulu",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Ekifo kyo kibuuzibwa nga waliwo akabi k'amaanyi gokka era tekiramulirwa mirundi mingi.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Yongera Mu Maaso",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Nsaba ojjuze ebikulu byonna ebyetaagisa",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Awaka",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Obubaka bw'Obubenje",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Ppurofayiro",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Nnina Obusobozi Okuddamu",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Sirina Busobozi",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Ojja kufuna obubaka bw'ebyobubenje okumpi nawe",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Bikkirize bw'onooba omukka okuyamba",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Kati nnina obusobozi okuddamu",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Tojja kufuna bubaka",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Obubaka obw'obulamu obuli mu katyabaga bujja kukumanyisa obudde bwonna. Obubaka obutali bwa maanyi bussaayo omukka ku nteekateeka yo.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "SABA OBUYAMBI",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Ky'Okoledde",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Okuddamu",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Obudde bwa Wakati",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Obusobozi Bwo",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Kyuusa",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Omutimbagano gw'Ekitundu",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Abaddamu Abali Okumpi",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} abali nga bamukka",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Ekitundu Ekikwatiddwa",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "Mayiro {distance}",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Obubaka Obukyakola",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Tewali",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Ekifo Kyo",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Ki ky'weetaaga obuyambi nakyo?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Ebikwata ku Nsonga Ebirala (si bya tteeka)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Nnyonnyola embeera...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Labula abaddamu be neesiga okusooka",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Mikwano gyo n'ab'amaka gyo abalondeddwa bajja kumanyisibwa nga tekunnaba bamuliramu bantu bonna",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Ntuma obubaka: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "SINDIKA OBUBAKA KATI",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Nsaba olonde ekika ky'akabi",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Ekitiisa Obulamu",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Obukuumi/Obukangavvuzi",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Ekyanguyira Ekira Obudde",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Ekitakola Bubabi ku Bulamu",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "CPR / Omutima Oguyimiridde",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Omuntu taddamu era tamiira",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "Okutuusa AED",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "Neetaaga AED mangu ddala",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Okunywa Eddagala Okusukkiridde / Naloxone",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Okuteebereza nti anyidde eddagala okusukkiridde, neetaaga naloxone",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Okulemererwa / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Omuntu alemeddwa era tasobola kussa mukka",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Omuliro / Okudda",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Akabi k'omuliro, neetaaga obuyambi mu kudduka",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Akabi k'Okukkiriza mu Kisenge",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Ekigambo eky'obukuumi kiyitiddwa, neetaaga omujulirwa",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Omujulirwa Omuyambi",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Neetaaga omuntu akennye obusungu",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Ensolo y'Omu Nnyumba Ebuze",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Ensolo ebuze oba eedduse, neetaaga abaginoonya",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Okukebera Obulamu",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Okukebera omuntu ayinza okwetaaga obuyambi",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Munywani w'Okuleka",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Nnyiganye n'okulonda okubi, neetaaga obuwagizi",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Obunyangiri",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Mporera oba ndi mu bwereere",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "Okutegeka 911",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "Neetaaga obuyambi mu kuyita n'okutegeka 911",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Naloxone/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Obusobozi Bwange",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} bilondeddwa",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Enteekateeka y'Obubaka",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Teeka essaawa zo ez'okubeerawo",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Abaddamu Abeesigika",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Ebyafaayo by'Okuddamu",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Ekyama n'Obukuumi",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Obuyambi n'Obuwagizi",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Ku Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Obukwakkulizo n'Enkola y'Ekyama",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Fuluma",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Omulingo {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS egatta abaliraanwa mu biseera by'obubenje, okutondawo omutimbagano gw'abaddamu abaanguwa abasobola okuwa obuyambi obukulu nga abasawo ab'edda tebannaba kutuuka.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Buli omu asobola okubeera muduumizi. Teetaaga kuyigirwa kwanjawulo okutaasa obulamu. Oluusi okuyingira okusinga amaanyi kwe kujja bukajjo.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Ggalawo",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Fuluma?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Ddala oyagala okufuluma?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Sazaamu",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Ofulumye obulungi",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Enteekateeka",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Okukebera Obulamu",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Munywani w'Okuleka",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Omujulirwa Omuyambi",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Okuvvuunula kwa AI Obwesigwa Ennyo",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Okuvvuunula kwa AI Obulungi",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Okuvvuunula kwa AI Obwa Wakati",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Okuvvuunula kwa AI Obutono",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Okuvvuunula kuno kwakozeseddwa AI n'obwesigwa obungi. Okukeberwa kw'omukugu kuteeseddwa okukozesebwa mu bulamu.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Okuvvuunula kuno kwakozeseddwa AI n'obwesigwa obulungi. Okukeberwa kw'omukugu kuteeseddwa ku bigambo by'obubenje n'okukkiriza ebikulu.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Okuvvuunula kuno kwetaaga omuntu akikebere mu bigambo by'obubenje ebikulu nga tekunnakozesebwa mu bulamu.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Kuno kuvvuunula kwa kugezaako kwokka. Okuvvuunula kw'omukugu kwetaagisa nga tekunnakozesebwa mu bulamu.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Londa Olulimi",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Noonya ennimi",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Omutindo gw'Okuvvuunula: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Yamba okulongoosa okuvvuunula - loopa ensonga oba waayo okuvvuunula okulungi!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

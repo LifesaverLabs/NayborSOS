@@ -103,11 +103,11 @@ Exemplos que gostaríamos de documentar:
 **Este guia precisa de especialistas brasileiros!** O Brasil tem mais de 215 milhões de pessoas em diversos estados e regiões.
 
 **Como contribuir:**
-1. Faça um fork do repositório Neighbor911
+1. Faça um fork do repositório NayborSOS
 2. Edite este arquivo
 3. Envie um pull request
 4. Ou envie um e-mail para team@lifesaverlabs.org
 
 ---
 
-*Esta página é mantida pela comunidade Neighbor 911. Procurando colaboradores brasileiros.*
+*Esta página é mantida pela comunidade Naybor SOS. Procurando colaboradores brasileiros.*

@@ -2,7 +2,7 @@
 
 **The best time to meet your neighbors is before an emergency happens.**
 
-When seconds count, knowing who lives next door—and having their trust—can mean the difference between life and death. This guide shows you how to build a hyperlocal emergency response network in your building, street, or neighborhood right now, even before Neighbor 911 fully launches.
+When seconds count, knowing who lives next door—and having their trust—can mean the difference between life and death. This guide shows you how to build a hyperlocal emergency response network in your building, street, or neighborhood right now, even before Naybor SOS fully launches.
 
 ---
 
@@ -32,8 +32,8 @@ A **micro-calmunity** (μcalmunity) is your hyperlocal emergency response networ
 
 **Example group name:** "Oak Street Emergency Network" or "Building 7 Floor 3 Safety"
 
-**Before Neighbor 911 launches:** Use existing messaging apps (WhatsApp, Signal, etc.)
-**After Neighbor 911 launches:** We'll integrate with your existing network and make coordination easier
+**Before Naybor SOS launches:** Use existing messaging apps (WhatsApp, Signal, etc.)
+**After Naybor SOS launches:** We'll integrate with your existing network and make coordination easier
 
 ### Critical Ground Rules
 
@@ -262,9 +262,9 @@ With a known μcalmunity:
 
 ---
 
-## Integration with Neighbor 911 (When Available)
+## Integration with Naybor SOS (When Available)
 
-Once Neighbor 911 launches, we'll help your μcalmunity:
+Once Naybor SOS launches, we'll help your μcalmunity:
 - **Digitize your network** - Import existing group members
 - **Automate drills** - Schedule Heartbeat Drills through the app
 - **Track response times** - See improvement over time
@@ -407,7 +407,7 @@ Ready to build your μcalmunity? Here's your action plan:
 - Building emergency kits
 - Family emergency planning
 
-### Neighbor 911 Integration (Coming Soon)
+### Naybor SOS Integration (Coming Soon)
 - Digital μcalmunity setup
 - Automated Heartbeat Drill scheduling
 - Response time tracking and analytics

@@ -4,11 +4,11 @@
   "@appTitle": {
     "description": "The title of the application"
   },
-  "tagline": "رجال ونساء الدقائق في العصر الحديث",
+  "tagline": "المقاتلون المعاصرون والمقاتلات المعاصرات",
   "@tagline": {
     "description": "App tagline"
   },
-  "signUpToHelp": "سجل لمساعدة جيرانك",
+  "signUpToHelp": "سجّل للمساعدة في جيرانك",
   "@signUpToHelp": {
     "description": "Sign up header text"
   },
@@ -32,7 +32,7 @@
   "@enterVerificationCode": {
     "description": "Verification code header"
   },
-  "verificationCodeSent": "تم إرسال رمز إلى {phoneNumber}",
+  "verificationCodeSent": "أرسلنا رمزاً إلى {phoneNumber}",
   "@verificationCodeSent": {
     "description": "Message showing where code was sent",
     "placeholders": {
@@ -58,11 +58,11 @@
   "@changePhoneNumber": {
     "description": "Button to change phone number"
   },
-  "pleaseEnterPhoneNumber": "الرجاء إدخال رقم هاتفك",
+  "pleaseEnterPhoneNumber": "يرجى إدخال رقم هاتفك",
   "@pleaseEnterPhoneNumber": {
     "description": "Error message for empty phone number"
   },
-  "pleaseEnterVerificationCode": "الرجاء إدخال رمز التحقق",
+  "pleaseEnterVerificationCode": "يرجى إدخال رمز التحقق",
   "@pleaseEnterVerificationCode": {
     "description": "Error message for empty verification code"
   },
@@ -74,7 +74,7 @@
   "@tellUsAboutYourself": {
     "description": "Profile setup header"
   },
-  "profileSetupDescription": "تساعدنا هذه المعلومات في ربطك بالجيران الذين يحتاجون إلى المساعدة",
+  "profileSetupDescription": "هذه المعلومات تساعدنا في ربطك بالجيران الذين يحتاجون المساعدة",
   "@profileSetupDescription": {
     "description": "Profile setup description"
   },
@@ -94,11 +94,11 @@
   "@homeAddressLabel": {
     "description": "Home address field label"
   },
-  "homeAddressHint": "شارع الملك فيصل، شقة ٤ب",
+  "homeAddressHint": "شارع النصر 123، شقة 4ب",
   "@homeAddressHint": {
     "description": "Home address field hint"
   },
-  "homeAddressHelper": "يُستخدم فقط لمطابقة القرب",
+  "homeAddressHelper": "يُستخدم لمطابقة القرب فقط",
   "@homeAddressHelper": {
     "description": "Home address helper text"
   },
@@ -110,7 +110,7 @@
   "@ageHint": {
     "description": "Age field hint"
   },
-  "ageHelper": "الأعمار ٧٠+ يمكنها تعيين ساعات تنبيه لطيفة",
+  "ageHelper": "الأعمار 70+ يمكنها تحديد ساعات التنبيه المريحة",
   "@ageHelper": {
     "description": "Age helper text"
   },
@@ -118,7 +118,7 @@
   "@yourPrivacyMatters": {
     "description": "Privacy notice title"
   },
-  "privacyNotice": "يتم الاستعلام عن موقعك فقط أثناء حالات الطوارئ النشطة ولا يتم تخزينه على المدى الطويل أبدًا.",
+  "privacyNotice": "موقعك يتم الاستعلام عنه فقط أثناء الطوارئ النشطة ولا يُحفظ على المدى الطويل.",
   "@privacyNotice": {
     "description": "Privacy notice text"
   },
@@ -126,7 +126,7 @@
   "@continueButton": {
     "description": "Continue button"
   },
-  "pleaseFillRequiredFields": "الرجاء ملء جميع الحقول المطلوبة",
+  "pleaseFillRequiredFields": "يرجى ملء جميع الحقول المطلوبة",
   "@pleaseFillRequiredFields": {
     "description": "Error message for incomplete form"
   },
@@ -154,7 +154,7 @@
   "@youllReceiveEmergencyAlerts": {
     "description": "Available status description"
   },
-  "toggleOnWhenReady": "قم بالتبديل عندما تكون مستعدًا للمساعدة",
+  "toggleOnWhenReady": "فعّل عندما تكون مستعداً للمساعدة",
   "@toggleOnWhenReady": {
     "description": "Not available status description"
   },
@@ -166,7 +166,7 @@
   "@youWontReceiveAlerts": {
     "description": "Unavailable toggle message"
   },
-  "lifeThreatening247Info": "ستقوم التنبيهات المهددة للحياة بإخطارك على مدار الساعة طوال أيام الأسبوع. التنبيهات غير العاجلة تحترم جدولك الزمني.",
+  "lifeThreatening247Info": "تنبيهات الطوارئ المهددة للحياة ستصلك على مدار الساعة. التنبيهات غير العاجلة تحترم جدولك الزمني.",
   "@lifeThreatening247Info": {
     "description": "Alert schedule info message"
   },
@@ -174,7 +174,7 @@
   "@requestHelp": {
     "description": "Request help button text"
   },
-  "yourImpact": "تأثيرك",
+  "yourImpact": "أثرك",
   "@yourImpact": {
     "description": "Your impact section title"
   },
@@ -238,7 +238,7 @@
   "@yourLocation": {
     "description": "Your location label"
   },
-  "whatDoYouNeedHelpWith": "بماذا تحتاج المساعدة؟",
+  "whatDoYouNeedHelpWith": "في أي شيء تحتاج المساعدة؟",
   "@whatDoYouNeedHelpWith": {
     "description": "Emergency type selection header"
   },
@@ -246,7 +246,7 @@
   "@additionalDetailsOptional": {
     "description": "Additional details field label"
   },
-  "describeSituation": "صف الموقف...",
+  "describeSituation": "اوصف الموقف...",
   "@describeSituation": {
     "description": "Additional details field hint"
   },
@@ -254,7 +254,7 @@
   "@alertTrustedRespondersFirst": {
     "description": "Trusted responders checkbox title"
   },
-  "trustedRespondersDescription": "سيتم إخطار الأصدقاء/العائلة المختارين قبل المجتمع العام",
+  "trustedRespondersDescription": "الأصدقاء/العائلة المختارون سيتم إشعارهم قبل المجتمع العام",
   "@trustedRespondersDescription": {
     "description": "Trusted responders checkbox description"
   },
@@ -272,7 +272,7 @@
   "@sendAlertNow": {
     "description": "Send alert button text"
   },
-  "pleaseSelectEmergencyType": "الرجاء اختيار نوع الطوارئ",
+  "pleaseSelectEmergencyType": "يرجى اختيار نوع الطارئة",
   "@pleaseSelectEmergencyType": {
     "description": "Error message for no emergency type selected"
   },
@@ -280,7 +280,7 @@
   "@categoryLifeThreatening": {
     "description": "Life-threatening category label"
   },
-  "categorySecuritySafety": "🟠 الأمن/السلامة",
+  "categorySecuritySafety": "🟠 أمن/سلامة",
   "@categorySecuritySafety": {
     "description": "Security/safety category label"
   },
@@ -292,19 +292,19 @@
   "@categoryNonLifeThreatening": {
     "description": "Non-life-threatening category label"
   },
-  "emergencyCprCardiacName": "الإنعاش القلبي الرئوي / السكتة القلبية",
+  "emergencyCprCardiacName": "إنعاش قلبي رئوي / توقف القلب",
   "@emergencyCprCardiacName": {
     "description": "CPR/Cardiac arrest emergency name"
   },
-  "emergencyCprCardiacDesc": "الشخص فاقد للوعي ولا يتنفس",
+  "emergencyCprCardiacDesc": "الشخص فاقد الوعي ولا يتنفس",
   "@emergencyCprCardiacDesc": {
     "description": "CPR/Cardiac arrest emergency description"
   },
-  "emergencyAedName": "توصيل جهاز إزالة الرجفان",
+  "emergencyAedName": "توصيل جهاز صدمات القلب",
   "@emergencyAedName": {
     "description": "AED delivery emergency name"
   },
-  "emergencyAedDesc": "بحاجة إلى جهاز إزالة رجفان على الفور",
+  "emergencyAedDesc": "أحتاج جهاز صدمات القلب فوراً",
   "@emergencyAedDesc": {
     "description": "AED delivery emergency description"
   },
@@ -312,11 +312,11 @@
   "@emergencyOverdoseName": {
     "description": "Overdose/Naloxone emergency name"
   },
-  "emergencyOverdoseDesc": "اشتباه في جرعة زائدة من المخدرات، بحاجة إلى نالوكسون",
+  "emergencyOverdoseDesc": "اشتباه في جرعة زائدة من المخدرات، أحتاج نالوكسون",
   "@emergencyOverdoseDesc": {
     "description": "Overdose/Naloxone emergency description"
   },
-  "emergencyChokingName": "الاختناق / مناورة هايمليك",
+  "emergencyChokingName": "اختناق / مناورة هايمليك",
   "@emergencyChokingName": {
     "description": "Choking/Heimlich emergency name"
   },
@@ -328,23 +328,23 @@
   "@emergencyFireName": {
     "description": "Fire/Evacuation emergency name"
   },
-  "emergencyFireDesc": "طوارئ حريق، بحاجة إلى مساعدة في الإخلاء",
+  "emergencyFireDesc": "طارئة حريق، أحتاج مساعدة في الإخلاء",
   "@emergencyFireDesc": {
     "description": "Fire/Evacuation emergency description"
   },
-  "emergencyConsentName": "طوارئ موافقة خاصة",
+  "emergencyConsentName": "طارئة موافقة غرفة النوم",
   "@emergencyConsentName": {
     "description": "Bedroom consent emergency name"
   },
-  "emergencyConsentDesc": "تم استخدام كلمة الأمان، بحاجة إلى شاهد",
+  "emergencyConsentDesc": "تم استخدام كلمة الأمان، أحتاج شاهد",
   "@emergencyConsentDesc": {
     "description": "Bedroom consent emergency description"
   },
-  "emergencyBystanderName": "شاهد نشط",
+  "emergencyBystanderName": "شاهد نشط متدخل",
   "@emergencyBystanderName": {
     "description": "Active bystander emergency name"
   },
-  "emergencyBystanderDesc": "بحاجة إلى حضور لتهدئة النزاع",
+  "emergencyBystanderDesc": "أحتاج حضور لتهدئة النزاع",
   "@emergencyBystanderDesc": {
     "description": "Active bystander emergency description"
   },
@@ -352,15 +352,15 @@
   "@emergencyMissingPetName": {
     "description": "Missing pet emergency name"
   },
-  "emergencyMissingPetDesc": "الحيوان الأليف ضائع أو هرب، بحاجة إلى فريق بحث",
+  "emergencyMissingPetDesc": "الحيوان الأليف ضائع أو هرب، أحتاج فريق بحث",
   "@emergencyMissingPetDesc": {
     "description": "Missing pet emergency description"
   },
-  "emergencyWellnessCheckName": "فحص الرفاهية",
+  "emergencyWellnessCheckName": "فحص سلامة",
   "@emergencyWellnessCheckName": {
     "description": "Wellness check emergency name"
   },
-  "emergencyWellnessCheckDesc": "التحقق من شخص قد يحتاج إلى مساعدة",
+  "emergencyWellnessCheckDesc": "فحص شخص قد يحتاج مساعدة",
   "@emergencyWellnessCheckDesc": {
     "description": "Wellness check emergency description"
   },
@@ -368,11 +368,11 @@
   "@emergencyQuitCompanionName": {
     "description": "Quit companion emergency name"
   },
-  "emergencyQuitCompanionDesc": "أحارب الرغبة الشديدة، بحاجة إلى دعم",
+  "emergencyQuitCompanionDesc": "أحارب الرغبة الشديدة، أحتاج دعم",
   "@emergencyQuitCompanionDesc": {
     "description": "Quit companion emergency description"
   },
-  "emergencyCompanionshipName": "الرفقة",
+  "emergencyCompanionshipName": "رفقة",
   "@emergencyCompanionshipName": {
     "description": "Companionship emergency name"
   },
@@ -384,11 +384,11 @@
   "@emergency911CoordinationName": {
     "description": "911 coordination emergency name"
   },
-  "emergency911CoordinationDesc": "بحاجة إلى مساعدة في الاتصال وتنسيق الطوارئ",
+  "emergency911CoordinationDesc": "أحتاج مساعدة في الاتصال بخدمات الطوارئ وتنسيقها",
   "@emergency911CoordinationDesc": {
     "description": "911 coordination emergency description"
   },
-  "equipmentAed": "جهاز إزالة الرجفان",
+  "equipmentAed": "جهاز صدمات القلب",
   "@equipmentAed": {
     "description": "AED equipment name"
   },
@@ -422,11 +422,11 @@
   "@trustedResponders": {
     "description": "Trusted responders menu item"
   },
-  "responseHistory": "سجل الاستجابات",
+  "responseHistory": "تاريخ الاستجابات",
   "@responseHistory": {
     "description": "Response history menu item"
   },
-  "privacyAndSafety": "الخصوصية والسلامة",
+  "privacyAndSafety": "الخصوصية والأمان",
   "@privacyAndSafety": {
     "description": "Privacy & safety menu item"
   },
@@ -456,15 +456,15 @@
       }
     }
   },
-  "aboutDialogContent": "يربط Naybor SOS الجيران في حالات الطوارئ، مما يخلق شبكة من المستجيبين السريعين الذين يمكنهم تقديم المساعدة الحيوية قبل وصول المستجيبين الأوائل المحترفين.",
+  "aboutDialogContent": "يربط Naybor SOS الجيران في الطوارئ، مما ينشئ شبكة من المستجيبين السريعين الذين يمكنهم تقديم المساعدة الحيوية قبل وصول المستجيبين المحترفين.",
   "@aboutDialogContent": {
     "description": "About dialog content"
   },
-  "aboutDialogContent2": "يمكن للجميع أن يكونوا أبطالًا. لا تحتاج إلى تدريب خاص لإنقاذ حياة. في بعض الأحيان، التدخل الأقوى هو ببساطة الحضور.",
+  "aboutDialogContent2": "يمكن للجميع أن يكونوا أبطالاً. لا تحتاج تدريباً خاصاً لإنقاذ حياة. أحياناً أقوى تدخل هو مجرد الحضور.",
   "@aboutDialogContent2": {
     "description": "About dialog second paragraph"
   },
-  "lifesaverLabs": "Lifesaver Labs شركة المنفعة العامة",
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
   "@lifesaverLabs": {
     "description": "Company name"
   },
@@ -492,7 +492,7 @@
   "@settings": {
     "description": "Settings text"
   },
-  "capabilityWellnessCheck": "فحص الرفاهية",
+  "capabilityWellnessCheck": "فحص السلامة",
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
@@ -500,8 +500,62 @@
   "@capabilityQuitCompanion": {
     "description": "Quit companion capability"
   },
-  "capabilityActiveBystander": "شاهد نشط",
+  "capabilityActiveBystander": "الشاهد النشط",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ترجمة ذكاء اصطناعي عالية الثقة",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ترجمة ذكاء اصطناعي جيدة الثقة",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ترجمة ذكاء اصطناعي متوسطة الثقة",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ترجمة ذكاء اصطناعي منخفضة الثقة",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "هذه الترجمة تم إنتاجها بالذكاء الاصطناعي بثقة عالية. يُوصى بالمراجعة المهنية للاستخدام الإنتاجي.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "هذه الترجمة تم إنتاجها بالذكاء الاصطناعي بثقة جيدة. يُوصى بالمراجعة المهنية لمصطلحات الموافقة والطوارئ الحرجة للسلامة.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ هذه الترجمة تتطلب مراجعة بشرية لعبارات الطوارئ الحرجة للسلامة قبل الاستخدام الإنتاجي.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ هذه مسودة ترجمة فقط. الترجمة المهنية مطلوبة قبل الاستخدام الإنتاجي.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "اختر اللغة",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ابحث في اللغات",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "جودة الترجمة: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ساعد في تحسين الترجمات - أبلغ عن المشاكل أو ساهم بترجمات أفضل!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

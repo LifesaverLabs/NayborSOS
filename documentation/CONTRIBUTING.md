@@ -1,6 +1,6 @@
-# Contributing to Neighbor 911™
+# Contributing to Naybor SOS™
 
-**Thank you for helping build life-saving technology!** We're excited to have you as part of the Neighbor 911 calmunity.
+**Thank you for helping build life-saving technology!** We're excited to have you as part of the Naybor SOS calmunity.
 
 ---
 
@@ -25,8 +25,8 @@ Before contributing, please join our community spaces:
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/Neighbor911.git
-cd Neighbor911
+git clone https://github.com/LifesaverLabs/NayborSOS.git
+cd NayborSOS
 
 # Install Flutter dependencies
 flutter pub get
@@ -90,7 +90,7 @@ Violations of the code of conduct may be reported to team@lifesaverlabs.org. All
 
 ### Contributions
 
-**By contributing code, designs, documentation, or other creative works to Neighbor 911, you agree that:**
+**By contributing code, designs, documentation, or other creative works to Naybor SOS, you agree that:**
 
 1. **Your contributions become the property of Lifesaver Labs Public Benefit Corporation**
    - This allows us to maintain the project long-term
@@ -110,7 +110,7 @@ Violations of the code of conduct may be reported to team@lifesaverlabs.org. All
 
 4. **You grant Lifesaver Labs PBC irrevocable rights to:**
    - Use, modify, distribute, and sublicense your contributions
-   - Incorporate your work into Neighbor 911 and derivative works
+   - Incorporate your work into Naybor SOS and derivative works
    - Relicense the code if needed for the project's benefit
    - Use your contributions for any lawful purpose aligned with our mission
 
@@ -125,9 +125,9 @@ Clear intellectual property assignment allows us to:
 
 ### Trademark & Branding
 
-- **"Neighbor 911™"** is a trademark of Lifesaver Labs PBC
+- **"Naybor SOS™"** is a trademark of Lifesaver Labs PBC
 - Code is MIT-licensed; the trademark is protected separately
-- You can use the code, but using the "Neighbor 911" name requires permission
+- You can use the code, but using the "Naybor SOS" name requires permission
 - See [INTELLECTUAL_PROPERTY.md](INTELLECTUAL_PROPERTY.md) for details
 
 ### Design Contributions

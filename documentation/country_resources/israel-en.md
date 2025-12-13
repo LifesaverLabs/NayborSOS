@@ -9,7 +9,7 @@
 
 ## 🌍 About This Guide
 
-This guide documents emergency response resources, training programs, apps, and community groups in Israel. Our goal is to help Neighbor 911 visitors and Minute Responders discover local resources that can help them prepare for emergencies.
+This guide documents emergency response resources, training programs, apps, and community groups in Israel. Our goal is to help Naybor SOS visitors and Minute Responders discover local resources that can help them prepare for emergencies.
 
 **What's included:**
 - Emergency response apps and alert systems
@@ -23,7 +23,7 @@ This guide documents emergency response resources, training programs, apps, and 
 
 ## 🚨 START YOUR NEIGHBORHOOD EMERGENCY NETWORK TODAY
 
-**אינך צריך לחכות ל-Neighbor 911™.** מה שאתה יכול לעשות עכשיו:
+**אינך צריך לחכות ל-Naybor SOS™.** מה שאתה יכול לעשות עכשיו:
 
 ### דפוק בדלתות. הכר את השכנים שלך. בנה רשת.
 
@@ -63,10 +63,10 @@ This guide documents emergency response resources, training programs, apps, and 
 ### United Hatzalah (הצלה)
 **Website:** [israelrescue.org](https://www.israelrescue.org/) | [1221.org.il](https://www.1221.org.il/)
 **Status:** Operational nationwide
-**Partnership Status:** 🟡 **PROPOSED MAJOR PARTNERSHIP** - Core Inspiration for Neighbor 911
+**Partnership Status:** 🟡 **PROPOSED MAJOR PARTNERSHIP** - Core Inspiration for Naybor SOS
 
 **What They Do:**
-United Hatzalah is the **primary inspiration** for Neighbor 911™, proving that **90-second response times are achievable**. They dispatch volunteer EMTs, paramedics, and doctors on motorcycles ("ambucycles"), bikes, and foot to reach emergencies faster than ambulances.
+United Hatzalah is the **primary inspiration** for Naybor SOS™, proving that **90-second response times are achievable**. They dispatch volunteer EMTs, paramedics, and doctors on motorcycles ("ambucycles"), bikes, and foot to reach emergencies faster than ambulances.
 
 **Their Achievement:**
 - Average response time: **~90 seconds in urban areas**
@@ -82,11 +82,11 @@ United Hatzalah is the **primary inspiration** for Neighbor 911™, proving that
 - Proven track record saving thousands of lives annually
 - Motorcycle/bicycle dispatch for urban mobility
 
-**How Neighbor 911™ Differs & Complements:**
+**How Naybor SOS™ Differs & Complements:**
 
 United Hatzalah maintains exceptional professional standards, which limits geographic growth to areas with enough certified responders.
 
-**Neighbor 911™ offers complementary coverage:**
+**Naybor SOS™ offers complementary coverage:**
 - **Lower barrier to entry** - Non-professional neighbors can help in ALL emergencies, including cardiac arrest
 - **Even faster first response** - The neighbor 30 seconds away can start CPR before even United Hatzalah arrives
 - **Broader emergency types** - Cardiac arrest, wellness checks, mental health crises, addiction support, consent conflicts, choking, falls
@@ -100,12 +100,12 @@ This is our **HIGHEST PRIORITY PARTNERSHIP** opportunity. We seek deep collabora
 1. **Layer response coverage** - Immediate neighbor response (0-60 seconds) + United Hatzalah professional (60-120 seconds) + ambulance (8-15 minutes) = **maximum survival**
 2. **Unified dispatch** - Send both neighbors AND United Hatzalah professionals simultaneously
 3. **Cross-training pathways** - Neighbors who start with basic CPR can pursue United Hatzalah volunteer certification
-4. **Share best practices** - United Hatzalah's 90-second dispatch expertise + Neighbor 911's hyperlocal grassroots model
+4. **Share best practices** - United Hatzalah's 90-second dispatch expertise + Naybor SOS's hyperlocal grassroots model
 5. **Expand globally together** - Both organizations growing internationally, potential for joint expansion
 
 **Why This Partnership Matters:**
 - United Hatzalah **proves** 90-second professional response works
-- Neighbor 911™ **proves** 30-60 second neighbor response is even faster
+- Naybor SOS™ **proves** 30-60 second neighbor response is even faster
 - Together: CPR starts in 30-60 seconds (neighbor), professional equipment arrives in 90 seconds (United Hatzalah), full ambulance in 8-15 minutes (MDA)
 - **Result:** World's fastest emergency response system, saving maximum lives
 
@@ -113,7 +113,7 @@ This is our **HIGHEST PRIORITY PARTNERSHIP** opportunity. We seek deep collabora
 - Email: team@lifesaverlabs.org
 - Subject: [PARTNERSHIP - United Hatzalah - PRIORITY]
 
-**Special Note:** As a dual US-Israeli citizen deeply inspired by United Hatzalah's work, building this partnership is a core mission of Neighbor 911™. We see United Hatzalah as the gold standard in volunteer emergency response that we aim to complement and amplify.
+**Special Note:** As a dual US-Israeli citizen deeply inspired by United Hatzalah's work, building this partnership is a core mission of Naybor SOS™. We see United Hatzalah as the gold standard in volunteer emergency response that we aim to complement and amplify.
 
 ---
 
@@ -416,7 +416,7 @@ Israel has strong Good Samaritan protections:
 
 ---
 
-## How Neighbor 911 Supports These Resources
+## How Naybor SOS Supports These Resources
 
 **We encourage all Minute Responders in Israel to:**
 - Get certified in CPR/first aid through MDA or other providers
@@ -427,7 +427,7 @@ Israel has strong Good Samaritan protections:
 - Build neighborhood emergency networks (especially in apartment buildings)
 - If in security-sensitive areas, coordinate with local security coordinators
 
-**Israel-specific Neighbor 911 integration (planned):**
+**Israel-specific Naybor SOS integration (planned):**
 - **Coordination with United Hatzalah** - Our highest priority partnership
 - Integration with MDA dispatch system
 - Support for Hebrew/Arabic bilingual emergency response
@@ -477,4 +477,4 @@ Contact: team@lifesaverlabs.org or submit a pull request.
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*
+*This page is maintained by the Naybor SOS community. Last verified: 2025-11-16. If you notice outdated information, please submit a pull request or contact us at team@lifesaverlabs.org.*

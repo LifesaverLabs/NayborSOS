@@ -2,7 +2,7 @@
 
 ## Lifesaver Labs Public Benefit Corporation
 
-This document consolidates information about Lifesaver Labs PBC's property, including domain names and telephone numbers reserved for the Neighbor 911 / Naybor SOS™ project.
+This document consolidates information about Lifesaver Labs PBC's property, including domain names and telephone numbers reserved for the Naybor SOS / Naybor SOS™ project.
 
 ---
 
@@ -12,7 +12,7 @@ This document consolidates information about Lifesaver Labs PBC's property, incl
 **+1-844-2-911-119** (UHH-2-911-119)
 
 - **Vanity Spelling:** UHH-2-911-119
-- **Purpose:** Primary toll-free emergency support line for Neighbor 911 services
+- **Purpose:** Primary toll-free emergency support line for Naybor SOS services
 - **Coverage:** United States toll-free calling
 - **Format:** +1 (844) 2-911-119
 
@@ -20,7 +20,7 @@ This document consolidates information about Lifesaver Labs PBC's property, incl
 **442-2-911-123** (HI-22-911-123)
 
 - **Vanity Spelling:** HI-22-911-123
-- **Purpose:** Local access number for Neighbor 911 services
+- **Purpose:** Local access number for Naybor SOS services
 - **Advantages:**
   - Local number avoids toll-free charges
   - Cost-effective in an era where most users have prepaid phone service or unlimited calling plans
@@ -47,7 +47,7 @@ We've secured emergency number domains to support international interoperability
 | nghbrsos| ✅ | ✅ | ✅ | — | - |
 | neighbour911 | ✅ | ✅ | ✅ | — | - |
 
-The current thinking is for neighbor911.us (more UNited States) and neighbor911.org (more global and international) to be the principal internet domains and web frontends, with the rest mirroring or forwarding back to those two primaries.
+The current thinking is for nayborsos.us (more UNited States) and nayborsos.org (more global and international) to be the principal internet domains and web frontends, with the rest mirroring or forwarding back to those two primaries.
 
 ---
 
@@ -56,7 +56,7 @@ The current thinking is for neighbor911.us (more UNited States) and neighbor911.
 For information about trademark strategy and intellectual property, see [Intellectual Property.md](Intellectual Property.md).
 
 Key trademarks include:
-- **Neighbor 911™** (core trademark)
+- **Naybor SOS™** (core trademark)
 - **Naybor SOS™** (evolving global brand identity)
 - Multilingual variants and emergency number variants
 
@@ -87,7 +87,7 @@ Contact us at team@lifesaverlabs.org to discuss funding opportunities, partnersh
 - **Email:** team@lifesaverlabs.org
 - **Website:** [lifesaverlabs.org](https://lifesaverlabs.org)
 
-### Neighbor 911 Support
+### Naybor SOS Support
 - **Primary Toll-Free:** +1-844-2-911-119
 - **Local Access:** 442-2-911-123
 

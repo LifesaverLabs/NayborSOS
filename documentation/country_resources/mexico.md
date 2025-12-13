@@ -103,11 +103,11 @@ Examples we'd like to document:
 **This guide needs Mexican experts!** Mexico has 125+ million people across diverse states and regions.
 
 **How to contribute:**
-1. Fork the Neighbor911 repository
+1. Fork the NayborSOS repository
 2. Edit this file or create Spanish version
 3. Submit a pull request
 4. Or email team@lifesaverlabs.org
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Seeking Mexican contributors.*
+*This page is maintained by the Naybor SOS community. Seeking Mexican contributors.*

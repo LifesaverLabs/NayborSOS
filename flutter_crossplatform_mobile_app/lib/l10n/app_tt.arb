@@ -1,0 +1,562 @@
+{
+  "@@locale": "tt",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Хәзерге заман минутчылары",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Күршеләрегезгә ярдәм итү өчен теркәлегез",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Башлау өчен телефон номерыгызны кертегез",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Телефон номеры",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Раслау кодын җибәрү",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Раслау кодын кертегез",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Без {phoneNumber} номерына код җибәрдек",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Раслау коды",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Раслау һәм дәвам итү",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Телефон номерын үзгәртү",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Зинһар, телефон номерыгызны кертегез",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Зинһар, раслау кодын кертегез",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Профиль төзү",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Үзегез турында сөйләгез",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Бу мәгълүмат безгә сезне ярдәм кирәк күршеләр белән тоташтырырга ярдәм итә",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Фото өстәү (ихтыярый)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Тулы исем *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Иван Петров",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Өй адресы *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "Төп урам, 123 йорт, 4Б фатир",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Якынлык тикшерү өчен генә кулланыла",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Яше (ихтыярый)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "70 яшьтән өлкәннәр йомшак сигнал сәгатьләрен билгеләп була",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Сезнең хосусыйлыгыгыз мөһим",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Сезнең урныгыз тик активь фораҗи хәлләрендә генә сорала һәм озак вакыт саклалмый.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Дәвам итү",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Зинһар, барлык кирәкле кырларны тутырыгыз",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Баш бит",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Сигналлар",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Профиль",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Җавап бирергә әзер",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Әзер түгел",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Сез якын-тирәдәге фораҗи сигналларны алырсыз",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Ярдәм итәргә әзер булганда кабызыгыз",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Сез хәзер җавап бирергә әзерсез",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Сез сигналлар алмаячаксыз",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Тормышка куркыныч сигналлар сезне тәүлек буе хәбәр итәчәк. Кискен булмаган сигналлар сезнең график белән исәпләшә.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "ЯРДӘМ СОРАУ",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Сезнең йогынты",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Җаваплар",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Уртача вакыт",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Сезнең мөмкинлекләр",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Үзгәртү",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Җәмгыять челтәре",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Якын җавапчылар",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} әзер",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Үз эченә алу радиусы",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} чакрым",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Активь сигналлар",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Юк",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Сезнең урныгыз",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Нәрсә буенча ярдәм кирәк?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Өстәмә мәгълүматлар (ихтыярый)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Хәлне тасвирлагыз...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Беренче чиратта ышанычлы җавапчыларымны хәбәр итегез",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Сезнең сайланган дусларыгыз/гаиләгез гомуми җәмгыятьтән алда хәбәр ителәчәк",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Сигнал җибәрү: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "ХӘЗЕР СИГНАЛ ҖИБӘРҮ",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Зинһар, фораҗи хәл төрен сайлагыз",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Тормышка куркыныч",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Куркынычсызлык/Иминлек",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Кискен вакытлы",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Тормышка куркынычлы түгел",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "Йөрәк массажы / Йөрәк тукталуы",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Кеше аңсыз һәм сулымый",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "АЕД китерү",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "Шашып АЕД кирәк",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Артык доза / Налоксон",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Наркотик артык дозасы шикләнә, налоксон кирәк",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Буылу / Хеймлих",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Кеше буыла һәм сулый алмый",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Янгын / Эвакуация",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Янгын фораҗихәле, эвакуацияне ярдәм кирәк",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Хосур йөкү фораҗихәле",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Иминлек сүзе әйтелде, шаһит кирәк",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Активь шаһит",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Конфликтны басу өчен булу кирәк",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Югалган йорт хайваны",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Йорт хайваны югалган, эзләү төркеме кирәк",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Сәламәтлек тикшерүе",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Ярдәм кирәк булырга мөмкин кешене тикшерү",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Ташлау иптәше",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Теләк белән көрәш, ярдәм кирәк",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Иптәшлек",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Ялгызлык хисе",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "911 координациясе",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "911 шалтыратуда һәм координацияләүдә ярдәм кирәк",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "АЕД",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Налоксон/Наркан",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Минем мөмкинлекләрем",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} сайланды",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Сигнал графигы",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Мөмкинлек сәгатьләрегезне билгеләгез",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Ышанычлы җавапчылар",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Җавап тарихы",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Хосусыйлык һәм иминлек",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Ярдәм һәм ярдәм",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Naybor SOS турында",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Шартлар һәм хосусыйлык сәясәте",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Чыгу",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Версия {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS фораҗи хәлләрдә күршеләрне тоташтыра, профессиональ беренче ярдәмчеләр килгәнче мөһим ярдәм бирә алучы тиз җавапчылар челтәрен төзи.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Һәркем герой була ала. Тормыш коткару өчен махсус әзерлек кирәкми. Кайвакыт иң көчле интервенция - җитеп бару.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Ябу",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Чыгармы?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Сез чыгырга телисезме?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Баш тарту",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Уңышлы чыктыгыз",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Көйләүләр",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Сәламәтлек тикшерүе",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Ташлау иптәше",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Активь шаһит",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Югары ышанычлы ЯИ тәрҗемәсе",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Яхшы ышанычлы ЯИ тәрҗемәсе",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Урта ышанычлы ЯИ тәрҗемәсе",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Түбән ышанычлы ЯИ тәрҗемәсе",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Бу тәрҗемә ЯИ белән югары ышанычлылык белән ясалды. Продукциядә куллану өчен профессиональ карау сүнәреләдә.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Бу тәрҗемә ЯИ белән яхшы ышанычлылык белән ясалды. Куркынычсызлык мөһим разилык һәм фораҗи терминология өчен профессиональ карау тәкъдим ителә.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Бу тәрҗемә продукцияне куллану алдыннан куркынычсызлык мөһим фораҗи фразалар өчен кеше каравы таләп итә.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Бу тик проект тәрҗемәсе. Продукцияне куллану алдыннан профессиональ тәрҗемә кирәк.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Тел сайлау",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Телләрне эзләү",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Тәрҗемә сыйфаты: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Тәрҗемәләрне яхшыртуда ярдәм итегез - проблемалар турында хәбәр итегез яки яхшырак тәрҗемәләр кертегез!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

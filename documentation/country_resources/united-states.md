@@ -2,13 +2,13 @@
 
 **Last Updated:** 2025-11-15
 
-This page contains emergency response apps, training providers, certification programs, and community groups in the United States that we promote to Neighbor 911 visitors and Minute Responders.
+This page contains emergency response apps, training providers, certification programs, and community groups in the United States that we promote to Naybor SOS visitors and Minute Responders.
 
 ---
 
 ## 🚨 START YOUR NEIGHBORHOOD EMERGENCY NETWORK TODAY
 
-**You don't need to wait for Neighbor 911™ to be built.** The most powerful thing you can do is:
+**You don't need to wait for Naybor SOS™ to be built.** The most powerful thing you can do is:
 
 ### Knock on Doors. Meet Your Neighbors. Build a Call Tree.
 
@@ -57,7 +57,7 @@ Based on US data, the most common time-critical emergencies where neighbors save
 **Partnership Status:** 🟡 Proposed Partnership - Seeking Collaboration
 
 **What They Do:**
-United Hatzalah is a volunteer-based emergency medical service that helped inspire Neighbor 911™ with their extraordinary goal of **90-second response times**. They dispatch fully-trained emergency medical responders (EMTs and paramedics) on motorcycles, bicycles, and foot to reach patients before ambulances arrive.
+United Hatzalah is a volunteer-based emergency medical service that helped inspire Naybor SOS™ with their extraordinary goal of **90-second response times**. They dispatch fully-trained emergency medical responders (EMTs and paramedics) on motorcycles, bicycles, and foot to reach patients before ambulances arrive.
 
 **Their Model:**
 - Professional/semi-professional volunteers (EMTs, paramedics, doctors)
@@ -65,10 +65,10 @@ United Hatzalah is a volunteer-based emergency medical service that helped inspi
 - Proven 90-second response time success in dense urban areas
 - Primary focus: Israel, with expansion to other countries
 
-**How Neighbor 911™ Differs & Complements:**
+**How Naybor SOS™ Differs & Complements:**
 United Hatzalah maintains rigorous professional standards, requiring extensive medical training. This high-quality bar has limited their geographic growth—they can only expand where enough certified responders exist.
 
-**Neighbor 911™ takes a complementary approach:**
+**Naybor SOS™ takes a complementary approach:**
 - **Lower barrier to entry** - Amateur, non-professional neighbors can help in ALL emergencies, including cardiac arrest
 - **Even faster first response** - The neighbor 30 seconds away can start CPR/chest compressions before even the fastest professional arrives
 - **Broader emergency types** - Cardiac arrest, wellness checks, mental health support, addiction crises, consent conflicts, choking, falls, overdoses
@@ -87,13 +87,13 @@ We are seeking deeper collaboration with United Hatzalah and similar professiona
 
 **Why This Partnership Matters:**
 - United Hatzalah proves 90-second professional response is achievable
-- Neighbor 911™ proves immediate neighbor response (often 30-60 seconds) is even faster
+- Naybor SOS™ proves immediate neighbor response (often 30-60 seconds) is even faster
 - Together: someone starts CPR in 30-60 seconds (neighbor), professional equipment arrives in 90-180 seconds (United Hatzalah), ambulance arrives in 8-15 minutes
 - **Result:** Maximum survival rates across all emergency types
 
 **Geographic Opportunities:**
 - United States (both organizations expanding)
-- Israel (United Hatzalah established, Neighbor 911™ international support)
+- Israel (United Hatzalah established, Naybor SOS™ international support)
 - Other countries with dense populations and emergency response gaps
 
 **Contact for Partnership Discussions:**
@@ -118,15 +118,15 @@ The American Red Cross is the nation's premier provider of CPR, first aid, AED, 
 **Proposed Partnership Vision:**
 We seek collaboration with the American Red Cross to:
 
-1. **In-app training integration** - Link Neighbor 911 users directly to Red Cross CPR/AED certification courses
-2. **Certification verification** - Allow users to display Red Cross certifications in their Neighbor 911 responder profiles
+1. **In-app training integration** - Link Naybor SOS users directly to Red Cross CPR/AED certification courses
+2. **Certification verification** - Allow users to display Red Cross certifications in their Naybor SOS responder profiles
 3. **Micro-calmunity training events** - Red Cross instructors lead Heartbeat Drill training sessions for neighborhood emergency networks
-4. **Cross-promotion** - Red Cross promotes Neighbor 911 to newly certified CPR responders as a way to use their skills
+4. **Cross-promotion** - Red Cross promotes Naybor SOS to newly certified CPR responders as a way to use their skills
 5. **Training scholarships** - Partner to subsidize CPR training for high-need communities building emergency networks
 
 **Why This Partnership Matters:**
-- Red Cross trains millions in CPR → Neighbor 911 gives them immediate ways to use those skills
-- Neighbor 911 motivates people to get trained → Red Cross provides the training
+- Red Cross trains millions in CPR → Naybor SOS gives them immediate ways to use those skills
+- Naybor SOS motivates people to get trained → Red Cross provides the training
 - Together: more trained neighbors + more active responders = maximum lives saved
 
 **Contact for Partnership Discussions:**
@@ -151,15 +151,15 @@ The American Heart Association is the leading authority on cardiovascular health
 **Proposed Partnership Vision:**
 We seek collaboration with the AHA to:
 
-1. **Hands-Only CPR promotion** - Integrate AHA's Hands-Only CPR training into Neighbor 911 onboarding for non-certified users
+1. **Hands-Only CPR promotion** - Integrate AHA's Hands-Only CPR training into Naybor SOS onboarding for non-certified users
 2. **Research collaboration** - Partner on studies measuring neighbor response time impact on cardiac arrest survival
-3. **Training certification pathways** - Direct Neighbor 911 users to AHA CPR courses and track certification
+3. **Training certification pathways** - Direct Naybor SOS users to AHA CPR courses and track certification
 4. **AED access mapping** - Collaborate to map and share AED locations across neighborhoods
-5. **Data sharing** - Aggregate anonymous cardiac arrest response data to improve AHA guidelines and Neighbor 911 dispatch algorithms
+5. **Data sharing** - Aggregate anonymous cardiac arrest response data to improve AHA guidelines and Naybor SOS dispatch algorithms
 
 **Why This Partnership Matters:**
-- AHA research shows every minute without CPR reduces survival by 10% → Neighbor 911 gets CPR started in 30-90 seconds
-- AHA promotes Hands-Only CPR for untrained bystanders → Neighbor 911 dispatches those bystanders immediately
+- AHA research shows every minute without CPR reduces survival by 10% → Naybor SOS gets CPR started in 30-90 seconds
+- AHA promotes Hands-Only CPR for untrained bystanders → Naybor SOS dispatches those bystanders immediately
 - Together: evidence-based protocols + rapid neighbor dispatch = proven survival improvements
 
 **Contact for Partnership Discussions:**
@@ -186,7 +186,7 @@ Active in 4,500+ communities across the United States, covering millions of citi
 - **Proven Track Record:** Years of successful cardiac emergency responses
 - **Complementary Mission:** Focuses on cardiac arrest while we expand to other emergency types
 - **Future Integration Vision:** We hope to partner with PulsePoint to create a unified alert system where:
-  - Neighbor 911 can send cardiac emergency alerts to the PulsePoint calmunity
+  - Naybor SOS can send cardiac emergency alerts to the PulsePoint calmunity
   - PulsePoint alerts can dispatch our Minute Responders
   - Response coverage is maximized across both networks
 
@@ -352,7 +352,7 @@ Uncontrolled bleeding is a leading cause of preventable death. Stop the Bleed tr
 An 8-hour course that teaches how to identify, understand, and respond to signs of mental illness and substance use disorders.
 
 **Why We Promote It:**
-Many Neighbor 911 emergencies involve mental health crises. Mental Health First Aid prepares responders to provide compassionate, effective support until professional help arrives.
+Many Naybor SOS emergencies involve mental health crises. Mental Health First Aid prepares responders to provide compassionate, effective support until professional help arrives.
 
 **Cost:** Typically $25-$50 (often free through community partners)
 **Format:** In-person or virtual instructor-led
@@ -422,7 +422,7 @@ Contact your city or county emergency management office for:
 
 ---
 
-## How Neighbor 911 Supports These Resources
+## How Naybor SOS Supports These Resources
 
 We promote these organizations and programs to:
 1. **Build a Stronger Calmunity:** More trained citizens = more lives saved
@@ -430,7 +430,7 @@ We promote these organizations and programs to:
 3. **Support Partnerships:** Organizations like PulsePoint are allies, not competitors
 4. **Expand Coverage:** Working together, we can respond to more emergency types in more locations
 
-**We encourage all Neighbor 911 Minute Responders to:**
+**We encourage all Naybor SOS Minute Responders to:**
 - Get CPR/AED certified (American Red Cross or American Heart Association)
 - Download and activate the PulsePoint app
 - Complete CERT training if available in your area
@@ -451,4 +451,4 @@ We promote these organizations and programs to:
 
 ---
 
-*This page is maintained by the Neighbor 911 community. Last verified: 2025-11-15. If you notice outdated information, please submit a pull request or contact us.*
+*This page is maintained by the Naybor SOS community. Last verified: 2025-11-15. If you notice outdated information, please submit a pull request or contact us.*

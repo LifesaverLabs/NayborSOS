@@ -1,4 +1,4 @@
-# Neighbor 911™
+# Naybor SOS™
 
 ## For Everyone: Your Neighbors Are Your Fastest Lifeline
 
@@ -8,9 +8,9 @@
 
 Every year, thousands die waiting for ambulances that arrive in 8-15 minutes. Cardiac arrest victims lose 10% survival chance every minute without CPR. Overdose victims need naloxone within minutes. Mental health crises escalate without human presence. Bedroom consent conflicts spiral into confusion and harm without active bystanders performing wellness checks. **The help people need is often already nearby—we just need to connect them.**
 
-### The Solution: Neighbor 911
+### The Solution: Naybor SOS
 
-Neighbor 911 is a community emergency response network that alerts nearby neighbors who can arrive in 1-3 minutes with CPR, AEDs, naloxone, or simply caring presence—while professional responders are on the way.
+Naybor SOS is a community emergency response network that alerts nearby neighbors who can arrive in 1-3 minutes with CPR, AEDs, naloxone, or simply caring presence—while professional responders are on the way.
 
 ### Why This Works
 
@@ -49,7 +49,7 @@ Your neighbors are already there. They can:
 
 ### Emergency Response Resources & Calmunity Partners
 
-**Neighbor 911 is part of a larger emergency response "calmunity."** We believe in promoting existing solutions, training organizations, apps, and community groups that are already saving lives.
+**Naybor SOS is part of a larger emergency response "calmunity."** We believe in promoting existing solutions, training organizations, apps, and community groups that are already saving lives.
 
 **We maintain country-specific resource guides covering:**
 - Emergency response apps (like PulsePoint™ in the US)
@@ -89,7 +89,7 @@ Your neighbors are already there. They can:
 - Distribute CPR face shields to your neighbors
 - Create muscle memory for real emergencies
 
-**The best time to meet your neighbors is before an emergency.** This guide shows you how to save lives starting today, even before Neighbor 911 launches.
+**The best time to meet your neighbors is before an emergency.** This guide shows you how to save lives starting today, even before Naybor SOS launches.
 
 **Credit:** The Heartbeat Drill concept comes from Shai G. (Focusmate) and Sam Pevzner, MD, PhD.
 
@@ -103,7 +103,7 @@ This is about more than an app—it's about strengthening the fabric of our comm
 
 ## For Contributors: Help Build Life-Saving Technology
 
-Neighbor 911 is an open-source project by [Lifesaver Labs Public Benefit Corporation](https://lifesaverlabs.org). We're seeking volunteers across all disciplines to help build technology that saves lives.
+Naybor SOS is an open-source project by [Lifesaver Labs Public Benefit Corporation](https://lifesaverlabs.org). We're seeking volunteers across all disciplines to help build technology that saves lives.
 
 ### We Need Your Help
 
@@ -306,7 +306,7 @@ This project involves life-and-death situations. We take safety extremely seriou
 ### License & Intellectual Property
 
 - **Code:** MIT License (fully open source)
-- **Trademark:** Neighbor 911™ is a trademark of Lifesaver Labs PBC
+- **Trademark:** Naybor SOS™ is a trademark of Lifesaver Labs PBC
 - **Philosophy:** Open code, protected brand for community coherence
 
 ### Contact

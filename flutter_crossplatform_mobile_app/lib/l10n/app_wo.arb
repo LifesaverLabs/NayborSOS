@@ -1,0 +1,562 @@
+{
+  "@@locale": "wo",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Jëfandikukat yu bees yi ak jigéen yi",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Bind ngir di dimbalilu sa mbokk mi",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Dugal sa nimero telefon ngir tambali",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Nimero Telefon",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Yónne kodu tàbbante bi",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Dugal kodu tàbbante bi",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Yónnal na kodu ci {phoneNumber}",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Kodu Tàbbante",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Tàbbante te Kontine",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Soppi nimero telefon",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Dugal sa nimero telefon",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Dugal kodu tàbbante bi",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Sos profil",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Waxal nu fi yow",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Xëtu-xëtu yi di na nu dim ak mbokk yi ñu soxla dimbalante",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Yokk nataal (su bëggee)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Tur gi lépp *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Ousmane Diop",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Adres gi ci kër *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "123 Mbedd bu Mag, Apt 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Jëfandikoo rekk ngir xarale ci bendoo",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Yoon (su bëggee)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "Yoon yi 70+ mën na doxal waxtu tànk yi",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Sa sutura dafa wëy",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Sa bees bi di ñaan rekk ci waxtu yu am yàqu-yàqu te dut nataal ci diir bu sore.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Kontine",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Feesal loxo yi ñu laaj",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Kër",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Yéenekaay",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Profil",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Am ci ngir jaabante",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Amul",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Dinaa am yéenekaay yu yàqu-yàqu yu jëgesi bendoo",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Ubbeeku su pare ngir dimbalante",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Leegi am nga ci ngir jaabante",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Du leen am yéenekaay",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Yéenekaay yu mën fa bàyyi cuddu dinañu ko yéenekaat bësu ak fan 24/7. Yéenekaay yu mucc dina naan sa waxtu.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "ÑAAN DIMBALANTE",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Sa jafe",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Jaabi",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Waxtu Yëkëti",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Sa xam-xam",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Soppi",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Réeso mbindéef mi",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Jaabaykatu jëgesi",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} am na",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Radius mu gis",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "{distance} mille",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Yéenekaay yu fécc",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Dara",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Sa bees",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Lu nga bëgg dimbalante?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Deetaay yu ci yokk (su bëggee)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Làññ xëy si...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Yéenekaat sama jaabaykatu yu maa jëm ba njëkk",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Sa xarit ak sa mbokk ñu fii dinañu ko xamante ba ci mbindéef mi",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Yónnante yéenekaay: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "YÓNNE YÉENEKAAY LEEGI",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Tann benn xeetu yàqu-yàqu",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Yàqu-yàqu bu mën fa bàyyi cuddu",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Këru-kaw",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Yàqu-yàqu bu yagg bu am waxtu",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Yàqu-yàqu bu mucc",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "CPR / Bët bu xol",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Kii du jaabi te du neelaw",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "Yóbbu AED",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "Bëgg AED ci diis yi",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Overdose / Naloxone",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Overdose bu tuuti, bëgg naloxone",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Topp / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Kii dafa topp te mënul neelaw",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Safar / Génn",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Yàqu-yàqu bu safar, bëgg dimbalante ngir génn",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Yàqu-yàqu bu mbindam ci nag",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Wees bu këru la wax, bëgg gëstukatu",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Gëstukatu yu fécc",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Bëgg am ngir wàññi fit",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Rab bu reer",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Rab bi reer na walla di jaaw, bëgg àndakatukay",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Toppante werante",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Toppante ku mën na mënul dimbalante",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Xarit bu yëgle",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Ngi fit ak fitnaan, bëgg ndimbalante",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Mbooloom",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Dama soxla mbooloom",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "Yeggante 911",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "Bëgg dimbalante ngir woo te yeggante 911",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Naloxone/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Sama xam-xam",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} tann na",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Waxtu yéenekaay",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Doxal sa waxtu am",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Jaabaykatu yu maa jëm",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Jaar bu jaabi",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Sutura ak këru-kaw",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Dimbalante ak ndimbalante",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Ci Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Sarax ak politiik sutura",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Génn",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Modél {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS dinaa jëfandi mbokk yi ci yàqu-yàqu, sos benn réeso jaabaykatu yu gaaw ñu mën di jox dimbalante bu baax ba ñu gisee jëfandikukat ñi dëgg.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Ku nekk mën na doon Hero. War nga am formation bu taax ngir reykat kenn. Dina yàgg ba reer ngir teddoo ci bees bi.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Tëj",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Génn?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Xëy nga bëgg génn?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Wuutu",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Génn ci mbir",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Doxaliin",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Toppante werante",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Xarit bu yëgle",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Gëstukatu yu fécc",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Tektal AI bu Jëm Lool",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Tektal AI bu Baax",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Tektal AI bu Digante",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Tektal AI bu Mucc",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Tektal bii AI la defar ak jëm bu bees. Xoolkat jëfandikukat dafa ñu naan ngir jëfandikoo ci jafe.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Tektal bii AI la defar ak jëm bu baax. Xoolkat jëfandikukat dafa ñu naan ngir ëmbit ak yàqu-yàqu yu wëy.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Tektal bii soxla xoolkat nit ba ngi jafe ngir waxtu yàqu-yàqu yu wëy.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Tektal bii dara taaytu la. Tektal jëfandikukat la naan ba ngi jëfandikoo.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Tann làkk",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Ceet làkk yi",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Mbir tektal: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Dimbalal ngir ñi gëna tektal yi - waxal dëggu walla jox tektal yi gëna!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}

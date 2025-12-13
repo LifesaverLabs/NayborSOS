@@ -1,0 +1,562 @@
+{
+  "@@locale": "om",
+  "_notice": "⚠️ PROFESSIONAL TRANSLATION REQUIRED - This is a draft translation only. Do not use for production without professional review.",
+  "appTitle": "Naybor SOS",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "tagline": "Yeroo Ammaa Gargaartoota Daqiiqaa",
+  "@tagline": {
+    "description": "App tagline"
+  },
+  "signUpToHelp": "Olloota kee gargaaruuf galmaa'i",
+  "@signUpToHelp": {
+    "description": "Sign up header text"
+  },
+  "enterPhoneNumber": "Jalqabuuf lakkoofsa bilbilaa keetii galchi",
+  "@enterPhoneNumber": {
+    "description": "Phone number entry instruction"
+  },
+  "phoneNumberLabel": "Lakkoofsa Bilbilaa",
+  "@phoneNumberLabel": {
+    "description": "Phone number field label"
+  },
+  "phoneNumberHint": "(555) 123-4567",
+  "@phoneNumberHint": {
+    "description": "Phone number field hint"
+  },
+  "sendVerificationCode": "Koodii Mirkaneessaa Ergi",
+  "@sendVerificationCode": {
+    "description": "Button to send verification code"
+  },
+  "enterVerificationCode": "Koodii mirkaneessaa galchi",
+  "@enterVerificationCode": {
+    "description": "Verification code header"
+  },
+  "verificationCodeSent": "Koodii gara {phoneNumber}tti ergine",
+  "@verificationCodeSent": {
+    "description": "Message showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "(555) 123-4567"
+      }
+    }
+  },
+  "verificationCodeLabel": "Koodii Mirkaneessaa",
+  "@verificationCodeLabel": {
+    "description": "Verification code field label"
+  },
+  "verificationCodeHint": "123456",
+  "@verificationCodeHint": {
+    "description": "Verification code field hint"
+  },
+  "verifyAndContinue": "Mirkanee'ii Itti Fufi",
+  "@verifyAndContinue": {
+    "description": "Button to verify code and continue"
+  },
+  "changePhoneNumber": "Lakkoofsa bilbilaa jijjiiri",
+  "@changePhoneNumber": {
+    "description": "Button to change phone number"
+  },
+  "pleaseEnterPhoneNumber": "Maaloo lakkoofsa bilbilaa keetii galchi",
+  "@pleaseEnterPhoneNumber": {
+    "description": "Error message for empty phone number"
+  },
+  "pleaseEnterVerificationCode": "Maaloo koodii mirkaneessaa galchi",
+  "@pleaseEnterVerificationCode": {
+    "description": "Error message for empty verification code"
+  },
+  "createProfile": "Seenaa Dhuunfaa Uumi",
+  "@createProfile": {
+    "description": "Create profile screen title"
+  },
+  "tellUsAboutYourself": "Waa'ee keetii nutti himi",
+  "@tellUsAboutYourself": {
+    "description": "Profile setup header"
+  },
+  "profileSetupDescription": "Odeeffannoon kun olloota gargaarsa barbaadan waliin si qunnamsiisuu keenya gargaara",
+  "@profileSetupDescription": {
+    "description": "Profile setup description"
+  },
+  "addPhotoOptional": "Suuraa dabali (dirqama miti)",
+  "@addPhotoOptional": {
+    "description": "Add photo text"
+  },
+  "fullNameLabel": "Maqaa Guutuu *",
+  "@fullNameLabel": {
+    "description": "Full name field label"
+  },
+  "fullNameHint": "Jaawaar Mohaammad",
+  "@fullNameHint": {
+    "description": "Full name field hint"
+  },
+  "homeAddressLabel": "Teessoo Manaa *",
+  "@homeAddressLabel": {
+    "description": "Home address field label"
+  },
+  "homeAddressHint": "Daandii Guddoo 123, Kutaa 4B",
+  "@homeAddressHint": {
+    "description": "Home address field hint"
+  },
+  "homeAddressHelper": "Dhiyeenyummaa madaaluuf qofa kan itti fayyadaman",
+  "@homeAddressHelper": {
+    "description": "Home address helper text"
+  },
+  "ageOptionalLabel": "Umurii (dirqama miti)",
+  "@ageOptionalLabel": {
+    "description": "Age field label"
+  },
+  "ageHint": "25",
+  "@ageHint": {
+    "description": "Age field hint"
+  },
+  "ageHelper": "Umuriin 70 oli ta'an sa'aatii akeekkachiisaa lallaafaa kaa'uu danda'u",
+  "@ageHelper": {
+    "description": "Age helper text"
+  },
+  "yourPrivacyMatters": "Dhuunfummaan kee barbaachisaa dha",
+  "@yourPrivacyMatters": {
+    "description": "Privacy notice title"
+  },
+  "privacyNotice": "Bakki ati jirtu yeroo balaan jiru qofa gaafatama malee yeroo dheeraa hin kuufamu.",
+  "@privacyNotice": {
+    "description": "Privacy notice text"
+  },
+  "continueButton": "Itti Fufi",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "pleaseFillRequiredFields": "Maaloo dirree barbaachisoo hunda guuti",
+  "@pleaseFillRequiredFields": {
+    "description": "Error message for incomplete form"
+  },
+  "home": "Mana",
+  "@home": {
+    "description": "Home navigation label"
+  },
+  "alerts": "Akeekkachiisa",
+  "@alerts": {
+    "description": "Alerts navigation label"
+  },
+  "profile": "Seenaa Dhuunfaa",
+  "@profile": {
+    "description": "Profile navigation label"
+  },
+  "availableToRespond": "Deebii Kennuuf Qophaa'e",
+  "@availableToRespond": {
+    "description": "Available status text"
+  },
+  "notAvailable": "Hin Argamu",
+  "@notAvailable": {
+    "description": "Not available status text"
+  },
+  "youllReceiveEmergencyAlerts": "Akeekkachiisa hatattamaa naannoo keetii argatta",
+  "@youllReceiveEmergencyAlerts": {
+    "description": "Available status description"
+  },
+  "toggleOnWhenReady": "Gargaaruuf qophaa'etti banaa",
+  "@toggleOnWhenReady": {
+    "description": "Not available status description"
+  },
+  "youreNowAvailable": "Amma deebii kennuuf qophaa'eerta",
+  "@youreNowAvailable": {
+    "description": "Available toggle success message"
+  },
+  "youWontReceiveAlerts": "Akeekkachiisa hin argattu",
+  "@youWontReceiveAlerts": {
+    "description": "Unavailable toggle message"
+  },
+  "lifeThreatening247Info": "Akeekkachiisni jireenya balleessu sa'aatii 24/7 si beeksisa. Akeekkachiisni ariifachiisaa hin taane sagantaa kee kabaja.",
+  "@lifeThreatening247Info": {
+    "description": "Alert schedule info message"
+  },
+  "requestHelp": "GARGAARSA GAAFADHU",
+  "@requestHelp": {
+    "description": "Request help button text"
+  },
+  "yourImpact": "Dhiibbaa Keetii",
+  "@yourImpact": {
+    "description": "Your impact section title"
+  },
+  "responses": "Deebii",
+  "@responses": {
+    "description": "Responses stat label"
+  },
+  "avgTime": "Yeroo Giddugaleessaa",
+  "@avgTime": {
+    "description": "Average time stat label"
+  },
+  "yourCapabilities": "Dandeettii Keetii",
+  "@yourCapabilities": {
+    "description": "Your capabilities section title"
+  },
+  "edit": "Gulaal",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "communityNetwork": "Neetworkii Hawaasaa",
+  "@communityNetwork": {
+    "description": "Community network section title"
+  },
+  "nearbyResponders": "Deebistoota Naannoo",
+  "@nearbyResponders": {
+    "description": "Nearby responders label"
+  },
+  "nearbyRespondersAvailable": "{count} argaman",
+  "@nearbyRespondersAvailable": {
+    "description": "Number of nearby responders available",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "coverageRadius": "Daangaa Haguuguu",
+  "@coverageRadius": {
+    "description": "Coverage radius label"
+  },
+  "coverageRadiusValue": "Maayilii {distance}",
+  "@coverageRadiusValue": {
+    "description": "Coverage radius value",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.5"
+      }
+    }
+  },
+  "activeAlerts": "Akeekkachiisa Ka'aa Jiran",
+  "@activeAlerts": {
+    "description": "Active alerts label"
+  },
+  "none": "Homaa",
+  "@none": {
+    "description": "None text"
+  },
+  "yourLocation": "Bakka Ati Jirtu",
+  "@yourLocation": {
+    "description": "Your location label"
+  },
+  "whatDoYouNeedHelpWith": "Maal irratti gargaarsa barbaadda?",
+  "@whatDoYouNeedHelpWith": {
+    "description": "Emergency type selection header"
+  },
+  "additionalDetailsOptional": "Bal'ina Dabalataa (dirqama miti)",
+  "@additionalDetailsOptional": {
+    "description": "Additional details field label"
+  },
+  "describeSituation": "Haala sana ibsi...",
+  "@describeSituation": {
+    "description": "Additional details field hint"
+  },
+  "alertTrustedRespondersFirst": "Deebistoota amanaman koo jalqaba akeekkachiisi",
+  "@alertTrustedRespondersFirst": {
+    "description": "Trusted responders checkbox title"
+  },
+  "trustedRespondersDescription": "Hiriyyoota/maatiin kee filattan dura hawaasa waliigalaa hin beeksisin",
+  "@trustedRespondersDescription": {
+    "description": "Trusted responders checkbox description"
+  },
+  "sendingAlert": "Akeekkachiisa ergaa jiru: {emergencyType}",
+  "@sendingAlert": {
+    "description": "Message showing which alert is being sent",
+    "placeholders": {
+      "emergencyType": {
+        "type": "String",
+        "example": "CPR / Cardiac Arrest"
+      }
+    }
+  },
+  "sendAlertNow": "AMMA AKEEKKACHIISA ERGI",
+  "@sendAlertNow": {
+    "description": "Send alert button text"
+  },
+  "pleaseSelectEmergencyType": "Maaloo gosa hatattamaa fili",
+  "@pleaseSelectEmergencyType": {
+    "description": "Error message for no emergency type selected"
+  },
+  "categoryLifeThreatening": "🔴 Jireenya Balleessu",
+  "@categoryLifeThreatening": {
+    "description": "Life-threatening category label"
+  },
+  "categorySecuritySafety": "🟠 Nageenyaa/Ittisaa",
+  "@categorySecuritySafety": {
+    "description": "Security/safety category label"
+  },
+  "categoryUrgentTimeSensitive": "🟡 Ariifachiisaa Yeroo Murteessaa",
+  "@categoryUrgentTimeSensitive": {
+    "description": "Urgent time-sensitive category label"
+  },
+  "categoryNonLifeThreatening": "🟢 Jireenya Hin Balleessin",
+  "@categoryNonLifeThreatening": {
+    "description": "Non-life-threatening category label"
+  },
+  "emergencyCprCardiacName": "CPR / Dhaabbata Onnee",
+  "@emergencyCprCardiacName": {
+    "description": "CPR/Cardiac arrest emergency name"
+  },
+  "emergencyCprCardiacDesc": "Namichi deebii hin kennu fi hafuuraa baafachuu hin danda'u",
+  "@emergencyCprCardiacDesc": {
+    "description": "CPR/Cardiac arrest emergency description"
+  },
+  "emergencyAedName": "AED Dhiheessuu",
+  "@emergencyAedName": {
+    "description": "AED delivery emergency name"
+  },
+  "emergencyAedDesc": "AED battalumatti barbaachisa",
+  "@emergencyAedDesc": {
+    "description": "AED delivery emergency description"
+  },
+  "emergencyOverdoseName": "Maaddii Garmalee / Naloxone",
+  "@emergencyOverdoseName": {
+    "description": "Overdose/Naloxone emergency name"
+  },
+  "emergencyOverdoseDesc": "Maaddii garmalee shakkaman, naloxone barbaachisa",
+  "@emergencyOverdoseDesc": {
+    "description": "Overdose/Naloxone emergency description"
+  },
+  "emergencyChokingName": "Hudhaa / Heimlich",
+  "@emergencyChokingName": {
+    "description": "Choking/Heimlich emergency name"
+  },
+  "emergencyChokingDesc": "Namichi hudhaadhaan hafuuraa baafachuu hin danda'u",
+  "@emergencyChokingDesc": {
+    "description": "Choking/Heimlich emergency description"
+  },
+  "emergencyFireName": "Ibidda / Ba'uu",
+  "@emergencyFireName": {
+    "description": "Fire/Evacuation emergency name"
+  },
+  "emergencyFireDesc": "Balaa ibiddaa, gargaarsa ba'iinsaaf barbaachisa",
+  "@emergencyFireDesc": {
+    "description": "Fire/Evacuation emergency description"
+  },
+  "emergencyConsentName": "Balaa Eeyyama Kutaa Hirriba",
+  "@emergencyConsentName": {
+    "description": "Bedroom consent emergency name"
+  },
+  "emergencyConsentDesc": "Jecha ittisaa dubbatame, ragaa barbaachisa",
+  "@emergencyConsentDesc": {
+    "description": "Bedroom consent emergency description"
+  },
+  "emergencyBystanderName": "Ragaa Ilaalchisaa Ka'aa",
+  "@emergencyBystanderName": {
+    "description": "Active bystander emergency name"
+  },
+  "emergencyBystanderDesc": "Waldhabdee gad-buusuuf argamuu barbaachisa",
+  "@emergencyBystanderDesc": {
+    "description": "Active bystander emergency description"
+  },
+  "emergencyMissingPetName": "Bineensa Manaa Bade",
+  "@emergencyMissingPetName": {
+    "description": "Missing pet emergency name"
+  },
+  "emergencyMissingPetDesc": "Bineensni manaa badee ykn baqatee, garee barbaacha barbaachisa",
+  "@emergencyMissingPetDesc": {
+    "description": "Missing pet emergency description"
+  },
+  "emergencyWellnessCheckName": "Qorannoo Fayyaa",
+  "@emergencyWellnessCheckName": {
+    "description": "Wellness check emergency name"
+  },
+  "emergencyWellnessCheckDesc": "Nama gargaarsa barbaachisuu danda'u irratti qorannoo godhuu",
+  "@emergencyWellnessCheckDesc": {
+    "description": "Wellness check emergency description"
+  },
+  "emergencyQuitCompanionName": "Hiriyaa Dhiisuu",
+  "@emergencyQuitCompanionName": {
+    "description": "Quit companion emergency name"
+  },
+  "emergencyQuitCompanionDesc": "Hawwii hamaa waliin lolaa jira, deeggarsa barbaachisa",
+  "@emergencyQuitCompanionDesc": {
+    "description": "Quit companion emergency description"
+  },
+  "emergencyCompanionshipName": "Hiriyummaa",
+  "@emergencyCompanionshipName": {
+    "description": "Companionship emergency name"
+  },
+  "emergencyCompanionshipDesc": "Kophummaa ykn kophaatti hafuu dhaga'amaa jira",
+  "@emergencyCompanionshipDesc": {
+    "description": "Companionship emergency description"
+  },
+  "emergency911CoordinationName": "Qindoomina 911",
+  "@emergency911CoordinationName": {
+    "description": "911 coordination emergency name"
+  },
+  "emergency911CoordinationDesc": "911 bilbiluu fi qindoomina gargaarsa barbaachisa",
+  "@emergency911CoordinationDesc": {
+    "description": "911 coordination emergency description"
+  },
+  "equipmentAed": "AED",
+  "@equipmentAed": {
+    "description": "AED equipment name"
+  },
+  "equipmentNaloxone": "Naloxone/Narcan",
+  "@equipmentNaloxone": {
+    "description": "Naloxone equipment name"
+  },
+  "myCapabilities": "Dandeettii Koo",
+  "@myCapabilities": {
+    "description": "My capabilities menu item"
+  },
+  "capabilitiesSelected": "{count} filataman",
+  "@capabilitiesSelected": {
+    "description": "Number of capabilities selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "alertSchedule": "Sagantaa Akeekkachiisaa",
+  "@alertSchedule": {
+    "description": "Alert schedule menu item"
+  },
+  "setAvailabilityHours": "Sa'aatii argamuu keetii kaa'i",
+  "@setAvailabilityHours": {
+    "description": "Alert schedule subtitle"
+  },
+  "trustedResponders": "Deebistota Amanaman",
+  "@trustedResponders": {
+    "description": "Trusted responders menu item"
+  },
+  "responseHistory": "Seenaa Deebii",
+  "@responseHistory": {
+    "description": "Response history menu item"
+  },
+  "privacyAndSafety": "Dhuunfummaa fi Nageenyaa",
+  "@privacyAndSafety": {
+    "description": "Privacy & safety menu item"
+  },
+  "helpAndSupport": "Gargaarsa fi Deeggarsa",
+  "@helpAndSupport": {
+    "description": "Help & support menu item"
+  },
+  "aboutNayborSos": "Waa'ee Naybor SOS",
+  "@aboutNayborSos": {
+    "description": "About Naybor SOS menu item"
+  },
+  "termsAndPrivacyPolicy": "Haala fi Imaammata Dhuunfummaa",
+  "@termsAndPrivacyPolicy": {
+    "description": "Terms & privacy policy menu item"
+  },
+  "signOut": "Bahuun",
+  "@signOut": {
+    "description": "Sign out button"
+  },
+  "version": "Fooyya'iinsa {version}",
+  "@version": {
+    "description": "Version text",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0 (MVP)"
+      }
+    }
+  },
+  "aboutDialogContent": "Naybor SOS yeroo baloo olloota walqunnamsiisa, neetworkii deebistoota saffisaa kan gargaarsa murteessaa ogeessota jalqabaa osoo hin dhufin dura kennuu danda'an uuma.",
+  "@aboutDialogContent": {
+    "description": "About dialog content"
+  },
+  "aboutDialogContent2": "Namni hundinuu gootaa ta'uu danda'a. Jireenya baraaruuf leenjii addaa si hin barbaachisu. Yeroo tokko tokko gochichi cimaan hunda caalu mul'achuu qofaa dha.",
+  "@aboutDialogContent2": {
+    "description": "About dialog second paragraph"
+  },
+  "lifesaverLabs": "Lifesaver Labs Public Benefit Corporation",
+  "@lifesaverLabs": {
+    "description": "Company name"
+  },
+  "close": "Cufi",
+  "@close": {
+    "description": "Close button"
+  },
+  "signOutQuestion": "Bahuun?",
+  "@signOutQuestion": {
+    "description": "Sign out dialog title"
+  },
+  "signOutConfirm": "Dhugumaan bahuun barbaaddaa?",
+  "@signOutConfirm": {
+    "description": "Sign out dialog content"
+  },
+  "cancel": "Dhiisi",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "signedOutSuccessfully": "Milkaa'inaan bahame",
+  "@signedOutSuccessfully": {
+    "description": "Sign out success message"
+  },
+  "settings": "Qindaa'ina",
+  "@settings": {
+    "description": "Settings text"
+  },
+  "capabilityWellnessCheck": "Qorannoo Fayyaa",
+  "@capabilityWellnessCheck": {
+    "description": "Wellness check capability"
+  },
+  "capabilityQuitCompanion": "Hiriyaa Dhiisuu",
+  "@capabilityQuitCompanion": {
+    "description": "Quit companion capability"
+  },
+  "capabilityActiveBystander": "Ilaalchisaa Ka'aa",
+  "@capabilityActiveBystander": {
+    "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Hiikkaa AI Amanamummaa Olaanaa",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Hiikkaa AI Amanamummaa Gaarii",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Hiikkaa AI Amanamummaa Giddugaleessaa",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Hiikkaa AI Amanamummaa Gadaanaa",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Hiikki kun AI-tiin amanamummaa olaanaatiin uumame. Itti fayyadama oomiishaaf gamaaggama ogeessaa gorsama.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Hiikki kun AI-tiin amanamummaa gaariitin uumame. Jecha eeyyamaa nageenyaa murteessaa fi hatattamaaf gamaaggama ogeessaa gorsama.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Hiikki kun gamaaggama namaatiin jecha hatattamaa nageenyaa murteessaaf osoo hin oomishin dura barbaachisa.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Kun hiikkaa qorannoo qofaa dha. Osoo hin oomishin dura hiikkaa ogeessaa barbaachisa.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Afaan Fili",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Afaanota barbaadi",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Qulqullina Hiikkaa: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Hiikkaa fooyyeessuuf gargaari - rakkoolee gabaasi ykn hiikkaa fooyya'aa kenni!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
+  }
+}
