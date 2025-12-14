@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Μετάφραση AI Υψηλής Εμπιστοσύνης",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Μετάφραση AI Καλής Εμπιστοσύνης",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Μετάφραση AI Μεσαίας Εμπιστοσύνης",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Μετάφραση AI Χαμηλής Εμπιστοσύνης",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Αυτή η μετάφραση δημιουργήθηκε από AI με υψηλή εμπιστοσύνη. Συνιστάται επαγγελματική επισκόπηση για χρήση σε παραγωγή.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Αυτή η μετάφραση δημιουργήθηκε από AI με καλή εμπιστοσύνη. Συνιστάται επαγγελματική επισκόπηση για κρίσιμη ορολογία ασφάλειας και έκτακτης ανάγκης.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Αυτή η μετάφραση απαιτεί ανθρώπινη επισκόπηση για κρίσιμες φράσεις έκτακτης ανάγκης πριν τη χρήση σε παραγωγή.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Αυτή είναι μόνο μια πρόχειρη μετάφραση. Απαιτείται επαγγελματική μετάφραση πριν τη χρήση σε παραγωγή.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Επιλογή Γλώσσας",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Αναζήτηση γλωσσών",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Ποιότητα μετάφρασης: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Βοηθήστε να βελτιώσουμε τις μεταφράσεις - αναφέρετε προβλήματα ή συνεισφέρετε καλύτερες μεταφράσεις!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

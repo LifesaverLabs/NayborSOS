@@ -383,45 +383,45 @@ class AppLocalizationsAm extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'ከፍተኛ መተማመኛ AI ትርጉም';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'ጥሩ መተማመኛ AI ትርጉም';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'መካከለኛ-መተማመኛ AI ትርጉም';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'ዝቅተኛ መተማመኛ AI ትርጉም';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'ይህ ትርጉም በከፍተኛ መተማመን በ AI ተፈጥሯል። ለምርት አጠቃቀም ሙያዊ ግምገማ ይመከራል።';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'ይህ ትርጉም በጥሩ መተማመን በ AI ተፈጥሯል። ለደህንነት-ወሳኝ ስምምነት እና የአስቸኳይ ጊዜ ቃላት ሙያዊ ግምገማ ይመከራል።';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ ይህ ትርጉም ከምርት አጠቃቀም በፊት ለደህንነት-ወሳኝ የአስቸኳይ ጊዜ ሀረጎች የሰው ግምገማ ይጠይቃል።';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ ይህ የረቂቅ ትርጉም ብቻ ነው። ከምርት አጠቃቀም በፊት ሙያዊ ትርጉም ያስፈልጋል።';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'ቋንቋ ይምረጡ';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ቋንቋዎችን ይፈልጉ';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'የትርጉም ጥራት: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'ትርጉሞችን ለማሻሻል ይርዱ - ችግሮችን ያሳውቁ ወይም የተሻሉ ትርጉሞችን ያበርክቱ!';
 }

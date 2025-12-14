@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ઉચ્ચ વિશ્વાસ AI અનુવાદ",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "સારો વિશ્વાસ AI અનુવાદ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "મધ્યમ-વિશ્વાસ AI અનુવાદ",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ઓછો વિશ્વાસ AI અનુવાદ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "આ અનુવાદ ઉચ્ચ વિશ્વાસ સાથે AI દ્વારા જનરેટ કરવામાં આવ્યો હતો. ઉત્પાદન ઉપયોગ માટે વ્યાવસાયિક સમીક્ષાની ભલામણ કરવામાં આવે છે.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "આ અનુવાદ સારા વિશ્વાસ સાથે AI દ્વારા જનરેટ કરવામાં આવ્યો હતો. સુરક્ષા-મહત્વપૂર્ણ સંમતિ અને કટોકટી શબ્દભંડોળ માટે વ્યાવસાયિક સમીક્ષાની ભલામણ કરવામાં આવે છે.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ આ અનુવાદને ઉત્પાદન ઉપયોગ પહેલાં સુરક્ષા-મહત્વપૂર્ણ કટોકટી શબ્દસમૂહો માટે માનવ સમીક્ષાની જરૂર છે.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ આ માત્ર એક ડ્રાફ્ટ અનુવાદ છે. ઉત્પાદન ઉપયોગ પહેલાં વ્યાવસાયિક અનુવાદ જરૂરી છે.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ભાષા પસંદ કરો",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ભાષાઓ શોધો",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "અનુવાદ ગુણવત્તા: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "અનુવાદો સુધારવામાં મદદ કરો - સમસ્યાઓની જાણ કરો અથવા વધુ સારા અનુવાદોનું યોગદાન આપો!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

@@ -12,291 +12,305 @@ class AppLocalizationsMt extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Minutemen u Minutewomen tal-Ġurnata Tal-Llum';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp => 'Irreġistra biex tgħin lill-ġirien tiegħek';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber =>
+      'Daħħal in-numru tat-telefon tiegħek biex tibda';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Numru tat-Telefon';
 
   @override
-  String get phoneNumberHint => '(555) 123-4567';
+  String get phoneNumberHint => '(21) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Ibgħat Kodiċi ta\' Verifika';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Daħħal il-kodiċi ta\' verifika';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Bgħatna kodiċi għal $phoneNumber';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Kodiċi ta\' Verifika';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Ivverifika u Kompli';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Ibdel in-numru tat-telefon';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Jekk jogħġbok daħħal in-numru tat-telefon tiegħek';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Jekk jogħġbok daħħal il-kodiċi ta\' verifika';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Oħloq Profil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Għidilna dwarek';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Din l-informazzjoni tgħinna nwasslok ma\' ġirien li jeħtieġu għajnuna';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Żid ritratt (mhux obbligatorju)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Isem Sħiħ *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Ġużeppi Borg';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Indirizz tad-Dar *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => '123 Triq Repubblika, Apt 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper => 'Jintuża biss għal qrib il-post';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Età (mhux obbligatorju)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Etajiet 70+ jistgħu jissettjaw siegħat ta\' avviż ħafif';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Il-privatezza tiegħek timporta';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Il-post tiegħek jintalab biss waqt emerġenzi attivi u qatt ma jinżamm għal żmien twil.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Kompli';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Jekk jogħġbok imla l-oqsma kollha meħtieġa';
 
   @override
-  String get home => 'Home';
+  String get home => 'Dar';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Allarmijiet';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Disponibbli biex Nwieġeb';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Mhux Disponibbli';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Se tirċievi allarmijiet ta\' emerġenza fil-qrib';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Ixgħel meta tkun lest biex tgħin';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Issa int disponibbli biex twieġeb';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Mhux se tirċievi allarmijiet';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Allarmijiet ta\' theddid għall-ħajja jinavvizawk 24/7. Allarmijiet mhux urġenti jirrespettaw l-iskeda tiegħek.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'ITLOB GĦAJNUNA';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'L-Impatt Tiegħek';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Tweġibiet';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Ħin Medju';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Il-Kapaċitajiet Tiegħek';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Editja';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Network tal-Komunità';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Respondenti fil-Qrib';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count disponibbli';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Raqq tal-Kopertura';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance mil';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Allarmijiet Attivi';
 
   @override
-  String get none => 'None';
+  String get none => 'Ebda';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Il-Post Tiegħek';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'X\'għajnuna għandek bżonn?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional =>
+      'Dettalji Addizzjonali (mhux obbligatorju)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Iddeskrivi s-sitwazzjoni...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Navviza l-respondenti fil-fiduċja tiegħi l-ewwel';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'L-għażliet ħbieb/familja tiegħek se jiġu avvizati qabel il-komunità ġenerali';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Qed nibgħat allarm: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'IBGĦAT ALLARM ISSA';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType =>
+      'Jekk jogħġbok agħżel tip ta\' emerġenza';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Theddid għall-Ħajja';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Sigurtà/Sikurezza';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Urġenti u Sensittiv għall-Ħin';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening => '🟢 Mhux Theddid għall-Ħajja';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Arrest Kardijaku';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Persuna mhix qed twieġeb u mhix qed tieħu n-nifs';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Kunsinna AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Għandi bżonn AED immedjatament';
 
   @override
   String get emergencyOverdoseName => 'Overdose / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Suspett ta\' overdose ta\' droga, għandi bżonn naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Hanaq / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc =>
+      'Persuna qed tanqad u ma tistax tieħu n-nifs';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Nar / Evakwazzjoni';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc =>
+      'Emerġenza ta\' nar, għandi bżonn għajnuna għall-evakwazzjoni';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName =>
+      'Emerġenza ta\' Kunsens fil-Kamra tas-Sodda';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Safeword sejħa, għandi bżonn xhud';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Xhud Attiv ta\' Bystander';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Għandi bżonn preżenza biex niżdieġ konflitt';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Annimal Domestiku Mitluf';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Annimal domestiku mitluf jew ħarab, għandi bżonn parti ta\' tfittxija';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Verifika tas-Saħħa';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Iċċekkja fuq xi ħadd li jista\' jkollu bżonn għajnuna';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Sieħeb ta\' Quit';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Niġġieled ma\' xewqa, għandi bżonn appoġġ';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Sħubija';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Nħoss waħdani jew iżolat';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Koordinazzjoni 911';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Għandi bżonn għajnuna biex nissejjaħ u nikkoordina s-servizzi ta\' emerġenza';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,123 +319,124 @@ class AppLocalizationsMt extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Il-Kapaċitajiet Tiegħi';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count magħżula';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Skeda tal-Allarmijiet';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours =>
+      'Issettja s-siegħat ta\' disponibbiltà tiegħek';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Respondenti fil-Fiduċja';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Storja tar-Risposti';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Privatezza u Sikurezza';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Għajnuna u Appoġġ';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Dwar Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy => 'Termini u Politika tal-Privatezza';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Oħroġ';
 
   @override
   String version(String version) {
-    return 'Version $version';
+    return 'Verżjoni $version';
   }
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Naybor SOS jgħaqqad lill-ġirien f\'emerġenzi, joħloq network ta\' respondenti mgħaġġla li jistgħu jipprovdu għajnuna kritika qabel ma jaslu r-respondenti professjonali l-ewwel.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Kulħadd jista\' jkun erou. M\'għandekx bżonn taħriġ speċjali biex tissalva ħajja. Xi kultant l-aktar intervent b\'saħħtu hu sempliċement li tidher.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Agħlaq';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Toħroġ?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Int żgur li trid toħroġ?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Ikkanċella';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Ħriġt b\'suċċess';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Settijiet';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Verifika tas-Saħħa';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Sieħeb ta\' Quit';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Bystander Attiv';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Traduzzjoni AI b\'Kunfidenza Għolja';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Traduzzjoni AI b\'Kunfidenza Tajba';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Traduzzjoni AI b\'Kunfidenza Medja';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Traduzzjoni AI b\'Kunfidenza Baxxa';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Din it-traduzzjoni ġiet iġġenerata mill-AI b\'kunfidenza għolja. Reviżjoni professjonali rakkomandata għall-użu fil-produzzjoni.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Din it-traduzzjoni ġiet iġġenerata mill-AI b\'kunfidenza tajba. Reviżjoni professjonali rakkomandata għat-terminoloġija ta\' kunsens u emerġenza kritika għas-sikurezza.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Din it-traduzzjoni teħtieġ reviżjoni umana għal frażijiet ta\' emerġenza kritiċi għas-sikurezza qabel l-użu fil-produzzjoni.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Din hija traduzzjoni abbozz biss. Traduzzjoni professjonali meħtieġa qabel l-użu fil-produzzjoni.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Agħżel Lingwa';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Fittex lingwi';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kwalità tat-Traduzzjoni: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Għin biex intejjbu t-traduzzjonijiet - irrapporta kwistjonijiet jew ikkontribwixxi traduzzjonijiet aħjar!';
 }

@@ -383,45 +383,45 @@ class AppLocalizationsTg extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Тарҷумаи AI бо Эътимоди Баланд';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Тарҷумаи AI бо Эътимоди Хуб';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Тарҷумаи AI бо Эътимоди Миёна';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Тарҷумаи AI бо Эътимоди Паст';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Ин тарҷума аз ҷониби AI бо эътимоди баланд офарида шудааст. Барои истифодаи истеҳсолӣ санҷиши касбӣ тавсия дода мешавад.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Ин тарҷума аз ҷониби AI бо эътимоди хуб офарида шудааст. Барои истилоҳоти фавқулодда ва розигии бехатарии муҳим санҷиши касбӣ тавсия дода мешавад.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Ин тарҷума пеш аз истифода дар истеҳсолот барои ҷумлаҳои фавқулоддаи бехатарии муҳим санҷиши инсонӣ талаб мекунад.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ин танҳо тарҷумаи лоиҳавӣ аст. Пеш аз истифода дар истеҳсолот тарҷумаи касбӣ лозим аст.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Интихоби Забон';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Ҷустуҷӯи забонҳо';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Сифати Тарҷума: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Барои беҳтар кардани тарҷумаҳо кӯмак кунед - дар бораи мушкилот хабар диҳед ё тарҷумаҳои беҳтар пешниҳод кунед!';
 }

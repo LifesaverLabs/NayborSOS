@@ -4,6 +4,25 @@ import '../../theme/app_theme.dart';
 import '../../models/language_info.dart';
 import 'phone_verification_screen.dart';
 
+/// Language selection screen for onboarding flow.
+///
+/// TRANSLATION STRATEGY:
+/// This app supports 109 languages, but translations are managed in BATCHES
+/// rather than continuously. During active development:
+///
+/// - All new features are developed in American English
+/// - Proper localization keys are added to app_en.arb immediately
+/// - Full translation to 108+ languages happens in batches:
+///   * Before major release candidates
+///   * When volunteer translators contribute
+///   * During country-specific launch pushes
+///
+/// This batch approach maintains development velocity while ensuring proper
+/// i18n architecture. Incremental translation of 109 languages at every step
+/// would significantly slow development. Features stabilize first, then get
+/// fully translated during release preparation.
+///
+/// See INTERNATIONALIZATION.md for complete translation workflow.
 class LanguageSelectionScreen extends StatefulWidget {
   const LanguageSelectionScreen({super.key});
 

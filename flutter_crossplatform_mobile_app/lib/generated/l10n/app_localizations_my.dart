@@ -383,45 +383,45 @@ class AppLocalizationsMy extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'အရည်အသွေးမြင့် AI ဘာသာပြန်ချက်';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'ကောင်းမွန်သော AI ဘာသာပြန်ချက်';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'အလယ်အလတ်အရည်အသွေး AI ဘာသာပြန်ချက်';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'နိမ့်ကျသော AI ဘာသာပြန်ချက်';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'ဤဘာသာပြန်ချက်ကို မြင့်မားသောယုံကြည်မှုဖြင့် AI မှထုတ်လုပ်ထားပါသည်။ ထုတ်ကုန်အသုံးပြုမှုအတွက် ပညာရှင်ပြန်လည်သုံးသပ်ချက်ကို အကြံပြုပါသည်။';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'ဤဘာသာပြန်ချက်ကို ကောင်းမွန်သောယုံကြည်မှုဖြင့် AI မှထုတ်လုပ်ထားပါသည်။ ဘေးကင်းရေး-အရေးကြီးသော သဘောတူညီမှုနှင့် အရေးပေါ်ဝေါဟာရများအတွက် ပညာရှင်ပြန်လည်သုံးသပ်ချက်ကို အကြံပြုပါသည်။';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ ထုတ်ကုန်အသုံးပြုခြင်းမပြုမီ ဘေးကင်းရေး-အရေးကြီးသော အရေးပေါ်စကားစုများအတွက် ဤဘာသာပြန်ချက်သည် လူ့သုံးသပ်ချက်လိုအပ်ပါသည်။';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ ဤသည်မူကြမ်းဘာသာပြန်ချက်သာဖြစ်သည်။ ထုတ်ကုန်အသုံးပြုခြင်းမပြုမီ ပညာရှင်ဘာသာပြန်ခြင်းလိုအပ်ပါသည်။';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'ဘာသာစကားရွေးချယ်ပါ';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ဘာသာစကားများရှာဖွေပါ';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'ဘာသာပြန်အရည်အသွေး: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'ဘာသာပြန်ချက်များတိုးတက်အောင်ကူညီပါ - ပြဿနာများအစီရင်ခံပါ သို့မဟုတ် ပိုကောင်းသောဘာသာပြန်ချက်များပံ့ပိုးပါ!';
 }

@@ -383,45 +383,45 @@ class AppLocalizationsFj extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'AI Vakadeitaka Vakavinavinaka Levu';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'AI Vakadeitaka Vakavinavinaka Vinaka';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'AI Vakadeitaka Vakavinavinaka Vica';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'AI Vakadeitaka Vakavinavinaka Lalai';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Oqo e vakadeitaki ena AI me baleta na vakavinavinaka levu. Vakavinavinakataki na ivakaraitaki veiqaravi ni gauna ni cakacaka.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Oqo e vakadeitaki ena AI me baleta na vakavinavinaka vinaka. Vakavinavinakataki na ivakaraitaki veiqaravi ni gauna ni yavu ni salusalu ka na itukutuku ni tarotaro.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Oqo e gadrevi na ivakaraitaki tamata ni gauna ni vosa ni tarotaro ni yavu ni salusalu e sega ni cakacaka.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Oqo e dua na vakadeitaki vakatarai ga. E gadrevi na vakadeitaki veiqaravi e sega ni cakacaka.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Digitaka na Vosa';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Qaravi na vosa';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Vakavinavinaka ni Vakadeitaki: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Veivuke na vakabulabulataki na vakadeitaki - wilika na itukutuku se solia na vakadeitaki vinaka duadua!';
 }

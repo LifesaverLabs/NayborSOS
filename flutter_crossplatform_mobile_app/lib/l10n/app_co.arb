@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Traduzzione AI d'alta cunfidenza",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Traduzzione AI di bona cunfidenza",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Traduzzione AI di media cunfidenza",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Traduzzione AI di bassa cunfidenza",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Sta traduzzione hè stata generata da l'IA cù alta cunfidenza. Rivista prufessiunale cunsigliata per l'usu di produzzione.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Sta traduzzione hè stata generata da l'IA cù bona cunfidenza. Rivista prufessiunale cunsigliata per a terminulugia critica per a sicurezza è l'emergenza.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Sta traduzzione richiede una rivista umana per e frasi d'emergenza critiche per a sicurezza prima di l'usu di produzzione.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Questu hè solu un abbozzu di traduzzione. Traduzzione prufessiunale necessaria prima di l'usu di produzzione.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Selezziunà a Lingua",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Cerca lingue",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Qualità di traduzzione: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Aiutate à migliurà e traduzzioni - signalate i prublemi o cuntribuite traduzioni migliori!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

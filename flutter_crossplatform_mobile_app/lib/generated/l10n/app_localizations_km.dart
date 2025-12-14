@@ -383,45 +383,45 @@ class AppLocalizationsKm extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'ការបកប្រែ AI ដែលមានទំនុកចិត្តខ្ពស់';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'ការបកប្រែ AI ដែលមានទំនុកចិត្តល្អ';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'ការបកប្រែ AI ដែលមានទំនុកចិត្តមធ្យម';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'ការបកប្រែ AI ដែលមានទំនុកចិត្តទាប';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'ការបកប្រែនេះត្រូវបានបង្កើតដោយ AI ជាមួយនឹងទំនុកចិត្តខ្ពស់។ ការពិនិត្យឡើងវិញជំនាញត្រូវបានណែនាំសម្រាប់ការប្រើប្រាស់ផលិតកម្ម។';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'ការបកប្រែនេះត្រូវបានបង្កើតដោយ AI ជាមួយនឹងទំនុកចិត្តល្អ។ ការពិនិត្យឡើងវិញជំនាញត្រូវបានណែនាំសម្រាប់ការយល់ព្រមសុវត្ថិភាព និងពាក្យបច្ចេកទេសពេលអាសន្ន។';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ ការបកប្រែនេះត្រូវការការពិនិត្យឡើងវិញដោយមនុស្សសម្រាប់ឃ្លាសុវត្ថិភាពពេលអាសន្នមុនពេលប្រើប្រាស់ផលិតកម្ម។';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ នេះគ្រាន់តែជាការបកប្រែសេចក្តីព្រាងប៉ុណ្ណោះ។ ការបកប្រែជំនាញត្រូវការមុនពេលប្រើប្រាស់ផលិតកម្ម។';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'ជ្រើសរើសភាសា';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ស្វែងរកភាសា';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'គុណភាពការបកប្រែ: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'ជួយកែលម្អការបកប្រែ - រាយការណ៍បញ្ហា ឬរួមចំណែកការបកប្រែប្រសើរជាងមុន!';
 }

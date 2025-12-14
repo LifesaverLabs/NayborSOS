@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ഉയർന്ന വിശ്വാസ്യത AI വിവർത്തനം",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "നല്ല വിശ്വാസ്യത AI വിവർത്തനം",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ഇടത്തരം-വിശ്വാസ്യത AI വിവർത്തനം",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "കുറഞ്ഞ വിശ്വാസ്യത AI വിവർത്തനം",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ഈ വിവർത്തനം ഉയർന്ന വിശ്വാസ്യതയോടെ AI സൃഷ്ടിച്ചതാണ്. ഉൽപ്പാദന ഉപയോഗത്തിന് പ്രൊഫഷണൽ അവലോകനം ശുപാർശ ചെയ്യുന്നു.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ഈ വിവർത്തനം നല്ല വിശ്വാസ്യതയോടെ AI സൃഷ്ടിച്ചതാണ്. സുരക്ഷാ-നിർണായക സമ്മത, അടിയന്തര പദാവലികൾക്ക് പ്രൊഫഷണൽ അവലോകനം ശുപാർശ ചെയ്യുന്നു.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ഈ വിവർത്തനത്തിന് ഉൽപ്പാദന ഉപയോഗത്തിന് മുമ്പ് സുരക്ഷാ-നിർണായക അടിയന്തര പദസമുച്ചയങ്ങൾക്ക് മനുഷ്യ അവലോകനം ആവശ്യമാണ്.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ഇത് ഒരു കരട് വിവർത്തനം മാത്രമാണ്. ഉൽപ്പാദന ഉപയോഗത്തിന് മുമ്പ് പ്രൊഫഷണൽ വിവർത്തനം ആവശ്യമാണ്.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ഭാഷകൾ തിരയുക",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "വിവർത്തന നിലവാരം: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "വിവർത്തനങ്ങൾ മെച്ചപ്പെടുത്താൻ സഹായിക്കുക - പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യുക അല്ലെങ്കിൽ മെച്ചപ്പെട്ട വിവർത്തനങ്ങൾ സംഭാവന ചെയ്യുക!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

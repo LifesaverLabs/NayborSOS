@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Өндөр Итгэлтэй AI Орчуулга",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Сайн Итгэлтэй AI Орчуулга",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Дунд Итгэлтэй AI Орчуулга",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Бага Итгэлтэй AI Орчуулга",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Энэ орчуулгыг AI өндөр итгэлтэйгээр үүсгэсэн. Үйлдвэрлэлд ашиглахын өмнө мэргэжлийн хяналт хийхийг зөвлөж байна.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Энэ орчуулгыг AI сайн итгэлтэйгээр үүсгэсэн. Аюулын болон зөвшөөрлийн чухал нэр томъёонд мэргэжлийн хяналт хийхийг зөвлөж байна.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Энэ орчуулга нь үйлдвэрлэлд ашиглахаас өмнө аюулын нөхцөл байдлын чухал өгүүлбэрт хүний хяналт шаардлагатай.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Энэ бол зөвхөн ноорог орчуулга юм. Үйлдвэрлэлд ашиглахаас өмнө мэргэжлийн орчуулга шаардлагатай.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Хэл Сонгох",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Хэл хайх",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Орчуулгын Чанар: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Орчуулгыг сайжруулахад туслаарай - асуудлыг мэдээлэх эсвэл илүү сайн орчуулга оруулаарай!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

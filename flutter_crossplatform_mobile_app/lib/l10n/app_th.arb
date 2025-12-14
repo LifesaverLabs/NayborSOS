@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "การแปลด้วย AI ที่มีความเชื่อมั่นสูง",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "การแปลด้วย AI ที่มีความเชื่อมั่นดี",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "การแปลด้วย AI ที่มีความเชื่อมั่นปานกลาง",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "การแปลด้วย AI ที่มีความเชื่อมั่นต่ำ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "การแปลนี้สร้างโดย AI ด้วยความเชื่อมั่นสูง แนะนำให้มีการตรวจสอบโดยผู้เชี่ยวชาญก่อนใช้งานจริง",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "การแปลนี้สร้างโดย AI ด้วยความเชื่อมั่นดี แนะนำให้มีการตรวจสอบโดยผู้เชี่ยวชาญสำหรับคำศัพท์เกี่ยวกับการยินยอมและเหตุฉุกเฉินที่สำคัญต่อความปลอดภัย",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ การแปลนี้ต้องการการตรวจสอบโดยมนุษย์สำหรับวลีเหตุฉุกเฉินที่สำคัญต่อความปลอดภัยก่อนใช้งานจริง",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ นี่เป็นเพียงการแปลร่างเท่านั้น ต้องการการแปลโดยผู้เชี่ยวชาญก่อนใช้งานจริง",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "เลือกภาษา",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ค้นหาภาษา",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "คุณภาพการแปล: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ช่วยปรับปรุงการแปล - รายงานปัญหาหรือมีส่วนร่วมในการแปลที่ดีกว่า!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

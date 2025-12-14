@@ -383,45 +383,45 @@ class AppLocalizationsTo extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Liliu AI Falala Māʻolunga';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Liliu AI Falala Lelei';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Liliu AI Falala Lotolotonga';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Liliu AI Falala Māʻulalo';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Naʻe fai ʻe he AI ʻa e liliu ni mo e falala māʻolunga. ʻOku fakafokifa ke fai ha vakai fakapotopoto ki he ngāue fakahinohino.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Naʻe fai ʻe he AI ʻa e liliu ni mo e falala lelei. ʻOku fakafokifa ke fai ha vakai fakapotopoto ki he lea fakamālohi mo e lea fakakakato malu-māhina.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ ʻOku fie maʻu ʻe he liliu ni ha vakai tangata ki he ngaahi lea fakamālohi malu-māhina kae teʻeki ngāue fakahinohino.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ko e tohi liliu pē eni. ʻOku fie maʻu ha liliu fakapotopoto kae teʻeki ngāue fakahinohino.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Fili Lea';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Kumi lea';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Lelei ʻo e Liliu: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Tokoni ke fakaleleiʻi ʻa e ngaahi liliu - fakamatala ʻa e ngaahi faingataʻa pe ʻatu ha ngaahi liliu leleiange!';
 }

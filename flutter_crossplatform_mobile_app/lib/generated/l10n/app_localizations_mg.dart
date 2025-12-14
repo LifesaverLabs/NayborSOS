@@ -12,291 +12,304 @@ class AppLocalizationsMg extends AppLocalizations {
   String get appTitle => 'Naybor SOS';
 
   @override
-  String get tagline => 'Modern-Day Minutemen & Minutewomen';
+  String get tagline => 'Mpiaro ankehitriny - lehilahy sy vehivavy';
 
   @override
-  String get signUpToHelp => 'Sign up to help your neighbors';
+  String get signUpToHelp =>
+      'Midira ho mpikambana mba hanampy ny mpiara-monina aminao';
 
   @override
-  String get enterPhoneNumber => 'Enter your phone number to get started';
+  String get enterPhoneNumber =>
+      'Ampidiro ny nomerao telefaonanao mba hanombohana';
 
   @override
-  String get phoneNumberLabel => 'Phone Number';
+  String get phoneNumberLabel => 'Nomerao Telefaona';
 
   @override
   String get phoneNumberHint => '(555) 123-4567';
 
   @override
-  String get sendVerificationCode => 'Send Verification Code';
+  String get sendVerificationCode => 'Alefaso ny Code Famarinana';
 
   @override
-  String get enterVerificationCode => 'Enter verification code';
+  String get enterVerificationCode => 'Ampidiro ny code famarinana';
 
   @override
   String verificationCodeSent(String phoneNumber) {
-    return 'We sent a code to $phoneNumber';
+    return 'Nandefa code tany amin\'ny $phoneNumber izahay';
   }
 
   @override
-  String get verificationCodeLabel => 'Verification Code';
+  String get verificationCodeLabel => 'Code Famarinana';
 
   @override
   String get verificationCodeHint => '123456';
 
   @override
-  String get verifyAndContinue => 'Verify & Continue';
+  String get verifyAndContinue => 'Hamarino ary Tohizo';
 
   @override
-  String get changePhoneNumber => 'Change phone number';
+  String get changePhoneNumber => 'Ovao ny nomerao telefaona';
 
   @override
-  String get pleaseEnterPhoneNumber => 'Please enter your phone number';
+  String get pleaseEnterPhoneNumber =>
+      'Mba ampidiro ny nomerao telefaonanao azafady';
 
   @override
   String get pleaseEnterVerificationCode =>
-      'Please enter the verification code';
+      'Mba ampidiro ny code famarinana azafady';
 
   @override
-  String get createProfile => 'Create Profile';
+  String get createProfile => 'Mamorona Profil';
 
   @override
-  String get tellUsAboutYourself => 'Tell us about yourself';
+  String get tellUsAboutYourself => 'Lazao aminay ny momba anao';
 
   @override
   String get profileSetupDescription =>
-      'This information helps us connect you with neighbors who need help';
+      'Ireo fampahalalana ireo dia manampy anay hampifandray anao amin\'ny mpiara-monina mila fanampiana';
 
   @override
-  String get addPhotoOptional => 'Add photo (optional)';
+  String get addPhotoOptional => 'Ampio sary (tsy tsy maintsy)';
 
   @override
-  String get fullNameLabel => 'Full Name *';
+  String get fullNameLabel => 'Anarana Feno *';
 
   @override
-  String get fullNameHint => 'John Smith';
+  String get fullNameHint => 'Rakoto Rabe';
 
   @override
-  String get homeAddressLabel => 'Home Address *';
+  String get homeAddressLabel => 'Adiresy ao an-trano *';
 
   @override
-  String get homeAddressHint => '123 Main St, Apt 4B';
+  String get homeAddressHint => 'Lot 123 Lalana Lehibe, Efitra 4B';
 
   @override
-  String get homeAddressHelper => 'Used for proximity matching only';
+  String get homeAddressHelper =>
+      'Ampiasaina ho an\'ny fifandraisana akaiky fotsiny';
 
   @override
-  String get ageOptionalLabel => 'Age (optional)';
+  String get ageOptionalLabel => 'Taona (tsy tsy maintsy)';
 
   @override
   String get ageHint => '25';
 
   @override
-  String get ageHelper => 'Ages 70+ can set gentle alert hours';
+  String get ageHelper =>
+      'Ny 70 taona miakatra dia afaka manao ora fanairana malefaka';
 
   @override
-  String get yourPrivacyMatters => 'Your privacy matters';
+  String get yourPrivacyMatters => 'Zava-dehibe ny fiainana manokana';
 
   @override
   String get privacyNotice =>
-      'Your location is only queried during active emergencies and never stored long-term.';
+      'Ny toerana misy anao dia asaina mandritra ny vonjy maika ihany ary tsy tehirizina maharitra.';
 
   @override
-  String get continueButton => 'Continue';
+  String get continueButton => 'Tohizo';
 
   @override
-  String get pleaseFillRequiredFields => 'Please fill in all required fields';
+  String get pleaseFillRequiredFields =>
+      'Mba fenoy ny sehatra takiana rehetra azafady';
 
   @override
-  String get home => 'Home';
+  String get home => 'Fandraisana';
 
   @override
-  String get alerts => 'Alerts';
+  String get alerts => 'Fanairana';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get availableToRespond => 'Available to Respond';
+  String get availableToRespond => 'Vonona Hamaly';
 
   @override
-  String get notAvailable => 'Not Available';
+  String get notAvailable => 'Tsy Misy';
 
   @override
   String get youllReceiveEmergencyAlerts =>
-      'You\'ll receive emergency alerts nearby';
+      'Hahazo fanairana maika eo akaikiny ianao';
 
   @override
-  String get toggleOnWhenReady => 'Toggle on when ready to help';
+  String get toggleOnWhenReady => 'Alefaso rehefa vonona hanampy';
 
   @override
-  String get youreNowAvailable => 'You\'re now available to respond';
+  String get youreNowAvailable => 'Vonona hamaly ianao izao';
 
   @override
-  String get youWontReceiveAlerts => 'You won\'t receive alerts';
+  String get youWontReceiveAlerts => 'Tsy hahazo fanairana ianao';
 
   @override
   String get lifeThreatening247Info =>
-      'Life-threatening alerts will notify you 24/7. Non-urgent alerts respect your schedule.';
+      'Ny fanairana mampidi-doza amin\'ny fiainana dia hampandre anao 24/7. Ny fanairana tsy maika dia manaja ny fandaharana ataonao.';
 
   @override
-  String get requestHelp => 'REQUEST HELP';
+  String get requestHelp => 'MANGATAKA FANAMPIANA';
 
   @override
-  String get yourImpact => 'Your Impact';
+  String get yourImpact => 'Ny Fiantraikanao';
 
   @override
-  String get responses => 'Responses';
+  String get responses => 'Valin-teny';
 
   @override
-  String get avgTime => 'Avg Time';
+  String get avgTime => 'Fotoana Salan\'isa';
 
   @override
-  String get yourCapabilities => 'Your Capabilities';
+  String get yourCapabilities => 'Ny Fahaizanao';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Ovao';
 
   @override
-  String get communityNetwork => 'Community Network';
+  String get communityNetwork => 'Tambajotran\'ny Vondrom-piarahamonina';
 
   @override
-  String get nearbyResponders => 'Nearby Responders';
+  String get nearbyResponders => 'Mpiara-miasa eo akaikiny';
 
   @override
   String nearbyRespondersAvailable(int count) {
-    return '$count available';
+    return '$count misy';
   }
 
   @override
-  String get coverageRadius => 'Coverage Radius';
+  String get coverageRadius => 'Salan\'ny Fandrakofana';
 
   @override
   String coverageRadiusValue(String distance) {
-    return '$distance miles';
+    return '$distance kilaometatra';
   }
 
   @override
-  String get activeAlerts => 'Active Alerts';
+  String get activeAlerts => 'Fanairana Mavitrika';
 
   @override
-  String get none => 'None';
+  String get none => 'Tsy misy';
 
   @override
-  String get yourLocation => 'Your Location';
+  String get yourLocation => 'Ny Toerana misy anao';
 
   @override
-  String get whatDoYouNeedHelpWith => 'What do you need help with?';
+  String get whatDoYouNeedHelpWith => 'Inona no mila fanampiana?';
 
   @override
-  String get additionalDetailsOptional => 'Additional Details (optional)';
+  String get additionalDetailsOptional =>
+      'Antsipirihan-pampahalalana fanampiny (tsy tsy maintsy)';
 
   @override
-  String get describeSituation => 'Describe the situation...';
+  String get describeSituation => 'Hazavao ny toe-javatra...';
 
   @override
-  String get alertTrustedRespondersFirst => 'Alert my trusted responders first';
+  String get alertTrustedRespondersFirst =>
+      'Ampandrenesina aloha ny mpiara-miasa matoky';
 
   @override
   String get trustedRespondersDescription =>
-      'Your selected friends/family will be notified before the general community';
+      'Ny namana/fianakavianao voafidy dia hampandrenesina alohan\'ny vondrom-piarahamonina ankapobeny';
 
   @override
   String sendingAlert(String emergencyType) {
-    return 'Sending alert: $emergencyType';
+    return 'Mandefa fanairana: $emergencyType';
   }
 
   @override
-  String get sendAlertNow => 'SEND ALERT NOW';
+  String get sendAlertNow => 'ALEFASO NY FANAIRANA ANKEHITRINY';
 
   @override
-  String get pleaseSelectEmergencyType => 'Please select an emergency type';
+  String get pleaseSelectEmergencyType => 'Mba fidio ny karazana maika azafady';
 
   @override
-  String get categoryLifeThreatening => '🔴 Life-Threatening';
+  String get categoryLifeThreatening => '🔴 Mampidi-doza amin\'ny Fiainana';
 
   @override
-  String get categorySecuritySafety => '🟠 Security/Safety';
+  String get categorySecuritySafety => '🟠 Fiarovana/Fandriampahalemana';
 
   @override
-  String get categoryUrgentTimeSensitive => '🟡 Urgent Time-Sensitive';
+  String get categoryUrgentTimeSensitive => '🟡 Maika sy Mahakasika ny Fotoana';
 
   @override
-  String get categoryNonLifeThreatening => '🟢 Non-Life-Threatening';
+  String get categoryNonLifeThreatening =>
+      '🟢 Tsy Mampidi-doza amin\'ny Fiainana';
 
   @override
-  String get emergencyCprCardiacName => 'CPR / Cardiac Arrest';
+  String get emergencyCprCardiacName => 'CPR / Aretina Fo';
 
   @override
   String get emergencyCprCardiacDesc =>
-      'Person is unresponsive and not breathing';
+      'Tsy mahafantatra ary tsy miaina ny olona';
 
   @override
-  String get emergencyAedName => 'AED Delivery';
+  String get emergencyAedName => 'Fandefasana AED';
 
   @override
-  String get emergencyAedDesc => 'Need an AED immediately';
+  String get emergencyAedDesc => 'Mila AED amin\'ny fotoana';
 
   @override
   String get emergencyOverdoseName => 'Overdose / Naloxone';
 
   @override
-  String get emergencyOverdoseDesc => 'Suspected drug overdose, need naloxone';
+  String get emergencyOverdoseDesc =>
+      'Ahiahiana fa overdose zava-mahadomelina, mila naloxone';
 
   @override
-  String get emergencyChokingName => 'Choking / Heimlich';
+  String get emergencyChokingName => 'Mikenona / Heimlich';
 
   @override
-  String get emergencyChokingDesc => 'Person is choking and cannot breathe';
+  String get emergencyChokingDesc => 'Mikenona ny olona ary tsy afaka miaina';
 
   @override
-  String get emergencyFireName => 'Fire / Evacuation';
+  String get emergencyFireName => 'Afo / Fivoahana';
 
   @override
-  String get emergencyFireDesc => 'Fire emergency, need evacuation help';
+  String get emergencyFireDesc => 'Vonjy afo maika, mila fanampiana fivoahana';
 
   @override
-  String get emergencyConsentName => 'Bedroom Consent Emergency';
+  String get emergencyConsentName => 'Vonjy Maika Faneken\'ny Efi-trano';
 
   @override
-  String get emergencyConsentDesc => 'Safeword called, need witness';
+  String get emergencyConsentDesc => 'Safeword niantsoana, mila vavolombelona';
 
   @override
-  String get emergencyBystanderName => 'Active Bystander Witness';
+  String get emergencyBystanderName => 'Vavolombelona Mpijerena Mavitrika';
 
   @override
-  String get emergencyBystanderDesc => 'Need presence to de-escalate conflict';
+  String get emergencyBystanderDesc =>
+      'Mila fisehoana mba hampihenana ny fifanolanana';
 
   @override
-  String get emergencyMissingPetName => 'Missing Pet';
+  String get emergencyMissingPetName => 'Biby Fiompy Very';
 
   @override
   String get emergencyMissingPetDesc =>
-      'Pet is lost or ran away, need search party';
+      'Very ny biby fiompy, mila ekipa fikarohana';
 
   @override
-  String get emergencyWellnessCheckName => 'Wellness Check';
+  String get emergencyWellnessCheckName => 'Fanamarinana Fahasalamana';
 
   @override
-  String get emergencyWellnessCheckDesc => 'Check on someone who may need help';
+  String get emergencyWellnessCheckDesc =>
+      'Jereo ny olona mety mila fanampiana';
 
   @override
-  String get emergencyQuitCompanionName => 'Quit Companion';
+  String get emergencyQuitCompanionName => 'Namana Fiatoana';
 
   @override
-  String get emergencyQuitCompanionDesc => 'Fighting craving, need support';
+  String get emergencyQuitCompanionDesc =>
+      'Miady amin\'ny faniriana, mila fanohanana';
 
   @override
-  String get emergencyCompanionshipName => 'Companionship';
+  String get emergencyCompanionshipName => 'Fiarahana';
 
   @override
-  String get emergencyCompanionshipDesc => 'Feeling lonely or isolated';
+  String get emergencyCompanionshipDesc => 'Mahatsapa ho irery na mitokana';
 
   @override
-  String get emergency911CoordinationName => '911 Coordination';
+  String get emergency911CoordinationName => 'Fandrindrana 911';
 
   @override
   String get emergency911CoordinationDesc =>
-      'Need help calling and coordinating 911';
+      'Mila fanampiana fiantsoana sy fandrindrana serivisy maika';
 
   @override
   String get equipmentAed => 'AED';
@@ -305,39 +318,40 @@ class AppLocalizationsMg extends AppLocalizations {
   String get equipmentNaloxone => 'Naloxone/Narcan';
 
   @override
-  String get myCapabilities => 'My Capabilities';
+  String get myCapabilities => 'Ny Fahaizako';
 
   @override
   String capabilitiesSelected(int count) {
-    return '$count selected';
+    return '$count voafidy';
   }
 
   @override
-  String get alertSchedule => 'Alert Schedule';
+  String get alertSchedule => 'Fandaharana Fanairana';
 
   @override
-  String get setAvailabilityHours => 'Set your availability hours';
+  String get setAvailabilityHours => 'Amboary ny ora misy anao';
 
   @override
-  String get trustedResponders => 'Trusted Responders';
+  String get trustedResponders => 'Mpiara-miasa Matoky';
 
   @override
-  String get responseHistory => 'Response History';
+  String get responseHistory => 'Tantaran\'ny Fanalenan-teny';
 
   @override
-  String get privacyAndSafety => 'Privacy & Safety';
+  String get privacyAndSafety => 'Fiainana Manokana sy Fiarovana';
 
   @override
-  String get helpAndSupport => 'Help & Support';
+  String get helpAndSupport => 'Fanampiana sy Fanohanana';
 
   @override
-  String get aboutNayborSos => 'About Naybor SOS';
+  String get aboutNayborSos => 'Momba ny Naybor SOS';
 
   @override
-  String get termsAndPrivacyPolicy => 'Terms & Privacy Policy';
+  String get termsAndPrivacyPolicy =>
+      'Fepetra sy Politikan\'ny Fiainana Manokana';
 
   @override
-  String get signOut => 'Sign Out';
+  String get signOut => 'Mivoaka';
 
   @override
   String version(String version) {
@@ -346,82 +360,82 @@ class AppLocalizationsMg extends AppLocalizations {
 
   @override
   String get aboutDialogContent =>
-      'Naybor SOS connects neighbors in emergencies, creating a network of rapid responders who can provide critical aid before professional first responders arrive.';
+      'Ny Naybor SOS dia mampifandray ny mpiara-monina amin\'ny toe-javatra maika, mamorona tambajotra mpiara-miasa haingana izay afaka manome fanampiana manan-danja alohan\'ny hahatongavan\'ny mpiara-miasa voalohany manam-pahaizana.';
 
   @override
   String get aboutDialogContent2 =>
-      'Everyone can be a hero. You don\'t need special training to save a life. Sometimes the most powerful intervention is simply showing up.';
+      'Ny rehetra dia afaka ho mahery fo. Tsy mila fiofanana manokana ianao mba hamonjena fiainana. Indraindray ny fitsabahana mahery indrindra dia ny fisehoana fotsiny.';
 
   @override
   String get lifesaverLabs => 'Lifesaver Labs Public Benefit Corporation';
 
   @override
-  String get close => 'Close';
+  String get close => 'Akatona';
 
   @override
-  String get signOutQuestion => 'Sign Out?';
+  String get signOutQuestion => 'Mivoaka?';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Tena te-hivoaka ve ianao?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Foana';
 
   @override
-  String get signedOutSuccessfully => 'Signed out successfully';
+  String get signedOutSuccessfully => 'Nivoaka tamim-pahombiazana';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Kirakira';
 
   @override
-  String get capabilityWellnessCheck => 'Wellness Check';
+  String get capabilityWellnessCheck => 'Fanamarinana Fahasalamana';
 
   @override
-  String get capabilityQuitCompanion => 'Quit Companion';
+  String get capabilityQuitCompanion => 'Namana Fiatoana';
 
   @override
-  String get capabilityActiveBystander => 'Active Bystander';
+  String get capabilityActiveBystander => 'Mpijerena Mavitrika';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Fandikana AI Matoky Be';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Fandikana AI Matoky Tsara';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Fandikana AI Matoky Antonony';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Fandikana AI Matoky Kely';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Ity fandikana ity dia noforonin\'ny AI tamin\'ny fahatokiana ambony. Asaina ny fandinihana manam-pahaizana ho an\'ny fampiasana amin\'ny famokarana.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Ity fandikana ity dia noforonin\'ny AI tamin\'ny fahatokiana tsara. Asaina ny fandinihana manam-pahaizana ho an\'ny faneken\'ny fiarovana sy ny teny maika.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Ity fandikana ity dia mila fandinihana olona ho an\'ny andian-teny maika mampidi-doza amin\'ny fiarovana alohan\'ny fampiasana amin\'ny famokarana.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Drafitra fandikana ihany io. Fandikana manam-pahaizana takiana alohan\'ny fampiasana amin\'ny famokarana.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Fidio ny Fiteny';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Karohina ny fiteny';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kalitaon\'ny Fandikana: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Ampaharo ny fanatsarana ny fandikana - tatitra ny olana na mandray anjara amin\'ny fandikana tsara kokoa!';
 }

@@ -383,45 +383,45 @@ class AppLocalizationsEl extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Μετάφραση AI Υψηλής Εμπιστοσύνης';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Μετάφραση AI Καλής Εμπιστοσύνης';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Μετάφραση AI Μεσαίας Εμπιστοσύνης';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Μετάφραση AI Χαμηλής Εμπιστοσύνης';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Αυτή η μετάφραση δημιουργήθηκε από AI με υψηλή εμπιστοσύνη. Συνιστάται επαγγελματική επισκόπηση για χρήση σε παραγωγή.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Αυτή η μετάφραση δημιουργήθηκε από AI με καλή εμπιστοσύνη. Συνιστάται επαγγελματική επισκόπηση για κρίσιμη ορολογία ασφάλειας και έκτακτης ανάγκης.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Αυτή η μετάφραση απαιτεί ανθρώπινη επισκόπηση για κρίσιμες φράσεις έκτακτης ανάγκης πριν τη χρήση σε παραγωγή.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Αυτή είναι μόνο μια πρόχειρη μετάφραση. Απαιτείται επαγγελματική μετάφραση πριν τη χρήση σε παραγωγή.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Επιλογή Γλώσσας';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Αναζήτηση γλωσσών';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Ποιότητα μετάφρασης: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Βοηθήστε να βελτιώσουμε τις μεταφράσεις - αναφέρετε προβλήματα ή συνεισφέρετε καλύτερες μεταφράσεις!';
 }

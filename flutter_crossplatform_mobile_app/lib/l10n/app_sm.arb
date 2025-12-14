@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Faaliliuga AI Faatuatuaga Maualuga",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Faaliliuga AI Faatuatuaga Lelei",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Faaliliuga AI Faatuatuaga Feololo",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Faaliliuga AI Faatuatuaga Maualalo",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "O lenei faaliliuga na faia e AI ma le faatuatuaga maualuga. Ua fautuaina le iloiloina faapolofesa mo le faaaogaina o le gaosiga.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "O lenei faaliliuga na faia e AI ma le faatuatuaga lelei. Ua fautuaina le iloiloina faapolofesa mo upu faalavelave ma upu ioeina saogalemu-taua.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ E manaomia e lenei faaliliuga le iloiloina tagata mo fuaitau faalavelave saogalemu-taua a o lei faaaogaina i le gaosiga.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ O se faaliliuga tusitusiga lava lenei. E manaomia le faaliliuga faapolofesa a o lei faaaogaina i le gaosiga.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Filifili Gagana",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Saili gagana",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Tulaga o le Faaliliuga: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Fesoasoani e faaa lelei ai faaliliuga - lipoti faafitauli pe saofaga faaliliuga sili atu!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

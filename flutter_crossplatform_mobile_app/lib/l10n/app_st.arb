@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Phetolelo ea AI e Tšepahalang Haholo",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Phetolelo ea AI e Tšepahalang Hantle",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Phetolelo ea AI e Tšepahalang Hare Feela",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Phetolelo ea AI e Tšepahalang Hanyane",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Phetolelo ena e hlahisitsoe ke AI ka tšepo e phahameng. Ho khothaletsoa tlhahlobo ea setsebi bakeng sa tšebeliso ea tlhahiso.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Phetolelo ena e hlahisitsoe ke AI ka tšepo e ntle. Ho khothaletsoa tlhahlobo ea setsebi bakeng sa mantsoe a tšohanyetso le mantsoe a tumellano ea polokeho ea bohlokoa.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Phetolelo ena e hloka tlhahlobo ea motho bakeng sa lipolelo tsa tšohanyetso ea polokeho ea bohlokoa pele e sebelisoa tlhahisong.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Ena ke phetolelo ea sengoli feela. Ho hlokahala phetolelo ea setsebi pele e sebelisoa tlhahisong.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Khetha Puo",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Batla lipuo",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Boleng ba Phetolelo: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Thusa ho ntlafatsa liphetolelo - tlaleha mathata kapa fana ka liphetolelo tse betere!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

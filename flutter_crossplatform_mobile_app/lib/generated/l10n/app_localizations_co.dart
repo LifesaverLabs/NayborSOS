@@ -383,45 +383,45 @@ class AppLocalizationsCo extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Traduzzione AI d\'alta cunfidenza';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Traduzzione AI di bona cunfidenza';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Traduzzione AI di media cunfidenza';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Traduzzione AI di bassa cunfidenza';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Sta traduzzione hè stata generata da l\'IA cù alta cunfidenza. Rivista prufessiunale cunsigliata per l\'usu di produzzione.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Sta traduzzione hè stata generata da l\'IA cù bona cunfidenza. Rivista prufessiunale cunsigliata per a terminulugia critica per a sicurezza è l\'emergenza.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Sta traduzzione richiede una rivista umana per e frasi d\'emergenza critiche per a sicurezza prima di l\'usu di produzzione.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Questu hè solu un abbozzu di traduzzione. Traduzzione prufessiunale necessaria prima di l\'usu di produzzione.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Selezziunà a Lingua';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Cerca lingue';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Qualità di traduzzione: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Aiutate à migliurà e traduzzioni - signalate i prublemi o cuntribuite traduzioni migliori!';
 }

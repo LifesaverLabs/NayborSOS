@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ការបកប្រែ AI ដែលមានទំនុកចិត្តខ្ពស់",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ការបកប្រែ AI ដែលមានទំនុកចិត្តល្អ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ការបកប្រែ AI ដែលមានទំនុកចិត្តមធ្យម",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ការបកប្រែ AI ដែលមានទំនុកចិត្តទាប",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ការបកប្រែនេះត្រូវបានបង្កើតដោយ AI ជាមួយនឹងទំនុកចិត្តខ្ពស់។ ការពិនិត្យឡើងវិញជំនាញត្រូវបានណែនាំសម្រាប់ការប្រើប្រាស់ផលិតកម្ម។",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ការបកប្រែនេះត្រូវបានបង្កើតដោយ AI ជាមួយនឹងទំនុកចិត្តល្អ។ ការពិនិត្យឡើងវិញជំនាញត្រូវបានណែនាំសម្រាប់ការយល់ព្រមសុវត្ថិភាព និងពាក្យបច្ចេកទេសពេលអាសន្ន។",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ការបកប្រែនេះត្រូវការការពិនិត្យឡើងវិញដោយមនុស្សសម្រាប់ឃ្លាសុវត្ថិភាពពេលអាសន្នមុនពេលប្រើប្រាស់ផលិតកម្ម។",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ នេះគ្រាន់តែជាការបកប្រែសេចក្តីព្រាងប៉ុណ្ណោះ។ ការបកប្រែជំនាញត្រូវការមុនពេលប្រើប្រាស់ផលិតកម្ម។",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ជ្រើសរើសភាសា",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ស្វែងរកភាសា",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "គុណភាពការបកប្រែ: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ជួយកែលម្អការបកប្រែ - រាយការណ៍បញ្ហា ឬរួមចំណែកការបកប្រែប្រសើរជាងមុន!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

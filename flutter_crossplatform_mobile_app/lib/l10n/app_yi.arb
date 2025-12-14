@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "הויך בטחון AI איבערזעצונג",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "גוט בטחון AI איבערזעצונג",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "מיטל בטחון AI איבערזעצונג",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "נידעריק בטחון AI איבערזעצונג",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "דעם איבערזעצונג איז געשאפן געווארן דורך AI מיט הויך בטחון. פראפעסיאנעלע איבערקוק ווערט רעקאמענדירט פאר פראדוקציע נוצן.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "דעם איבערזעצונג איז געשאפן געווארן דורך AI מיט גוט בטחון. פראפעסיאנעלע איבערקוק ווערט רעקאמענדירט פאר נויטפאל און צושטימונג זיכערהייט-קריטיש טערמינאלאגיע.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ דעם איבערזעצונג דארף מענטשלעכע איבערקוק פאר זיכערהייט-קריטיש נויטפאל פראזן איידער פראדוקציע נוצן.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ דאס איז בלויז אן אנטווארף איבערזעצונג. פראפעסיאנעלע איבערזעצונג נויטיק איידער פראדוקציע נוצן.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "אויסקלייבן שפראך",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "זוכן שפראכן",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "איבערזעצונג קוואליטעט: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "העלפן פארבעסערן איבערזעצונגען - באריכטן פראבלעמען אדער ביישטייערן בעסערע איבערזעצונגען!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

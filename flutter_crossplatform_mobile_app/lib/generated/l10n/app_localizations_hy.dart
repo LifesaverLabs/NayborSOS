@@ -383,45 +383,45 @@ class AppLocalizationsHy extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Բարձր վստահության AI թարգմանություն';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Լավ վստահության AI թարգմանություն';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Միջին վստահության AI թարգմանություն';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Ցածր վստահության AI թարգմանություն';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Այս թարգմանությունը AI-ի կողմից ստեղծվել է բարձր վստահությամբ: Արտադրական օգտագործման համար խորհուրդ է տրվում մասնագիտական վերանայում:';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Այս թարգմանությունը AI-ի կողմից ստեղծվել է լավ վստահությամբ: Անվտանգության կարևոր համաձայնության և արտակարգ իրավիճակների տերմինաբանության համար խորհուրդ է տրվում մասնագիտական վերանայում:';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Այս թարգմանությանը անհրաժեշտ է մարդկային վերանայում անվտանգության կարևոր արտակարգ արտահայտությունների համար արտադրական օգտագործումից առաջ:';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Սա միայն նախագիծ թարգմանություն է: Արտադրական օգտագործումից առաջ անհրաժեշտ է մասնագիտական թարգմանություն:';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Ընտրեք լեզուն';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Որոնել լեզուներ';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Թարգմանության որակ: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Օգնեք բարելավել թարգմանությունները - զեկուցեք խնդիրների մասին կամ ներդրեք ավելի լավ թարգմանություններ!';
 }

@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ከፍተኛ መተማመኛ AI ትርጉም",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ጥሩ መተማመኛ AI ትርጉም",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "መካከለኛ-መተማመኛ AI ትርጉም",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ዝቅተኛ መተማመኛ AI ትርጉም",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ይህ ትርጉም በከፍተኛ መተማመን በ AI ተፈጥሯል። ለምርት አጠቃቀም ሙያዊ ግምገማ ይመከራል።",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ይህ ትርጉም በጥሩ መተማመን በ AI ተፈጥሯል። ለደህንነት-ወሳኝ ስምምነት እና የአስቸኳይ ጊዜ ቃላት ሙያዊ ግምገማ ይመከራል።",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ይህ ትርጉም ከምርት አጠቃቀም በፊት ለደህንነት-ወሳኝ የአስቸኳይ ጊዜ ሀረጎች የሰው ግምገማ ይጠይቃል።",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ይህ የረቂቅ ትርጉም ብቻ ነው። ከምርት አጠቃቀም በፊት ሙያዊ ትርጉም ያስፈልጋል።",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ቋንቋ ይምረጡ",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ቋንቋዎችን ይፈልጉ",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "የትርጉም ጥራት: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ትርጉሞችን ለማሻሻል ይርዱ - ችግሮችን ያሳውቁ ወይም የተሻሉ ትርጉሞችን ያበርክቱ!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

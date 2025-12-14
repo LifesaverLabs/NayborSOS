@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Whakamaoritanga AI Whakawhirinaki Teitei",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Whakamaoritanga AI Whakawhirinaki Pai",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Whakamaoritanga AI Whakawhirinaki Waenganui",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Whakamaoritanga AI Whakawhirinaki Iti",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "I hangaia tenei whakamaoritanga e AI me te whakawhirinaki teitei. Ka tūtohu i te arotake ngaiotanga mo te whakamahi whakaputanga.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "I hangaia tenei whakamaoritanga e AI me te whakawhirinaki pai. Ka tūtohu i te arotake ngaiotanga mo nga kupu ohorere me nga kupu whakaae haumarutanga-nui.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Me arotake e te tangata tenei whakamaoritanga mo nga rerenga korero ohorere haumarutanga-nui i mua i te whakamahi whakaputanga.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ He tauira whakamaoritanga anake tenei. Me whakamaori ngaiotanga i mua i te whakamahi whakaputanga.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Kowhiri Reo",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Rapu reo",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Kounga Whakamaoritanga: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Awhina ki te whakapai ake i nga whakamaoritanga - whakaaturanga i nga raruraru, homai whakamaoritanga pai ake ranei!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Témoin actif",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Traduction IA de Haute Confiance",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Traduction IA de Bonne Confiance",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Traduction IA de Confiance Moyenne",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Traduction IA de Faible Confiance",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Cette traduction a été générée par IA avec une haute confiance. Révision professionnelle recommandée pour une utilisation en production.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Cette traduction a été générée par IA avec une bonne confiance. Révision professionnelle recommandée pour la terminologie critique de sécurité et d'urgence.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Cette traduction nécessite une révision humaine pour les phrases d'urgence critiques pour la sécurité avant l'utilisation en production.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Ceci n'est qu'une traduction provisoire. Traduction professionnelle requise avant l'utilisation en production.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Sélectionner la Langue",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Rechercher des langues",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Qualité de traduction: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Aidez à améliorer les traductions - signalez les problèmes ou contribuez de meilleures traductions!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

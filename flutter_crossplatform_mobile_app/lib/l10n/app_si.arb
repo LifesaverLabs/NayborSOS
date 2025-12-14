@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ඉහළ විශ්වාසනීය AI පරිවර්තනය",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "හොඳ විශ්වාසනීය AI පරිවර්තනය",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "මධ්‍යම විශ්වාසනීය AI පරිවර්තනය",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "අඩු විශ්වාසනීය AI පරිවර්තනය",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "මෙම පරිවර්තනය ඉහළ විශ්වාසනීයත්වයකින් AI විසින් ජනනය කරන ලදී. නිෂ්පාදන භාවිතය සඳහා වෘත්තීය සමාලෝචනය නිර්දේශ කෙරේ.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "මෙම පරිවර්තනය හොඳ විශ්වාසනීයත්වයකින් AI විසින් ජනනය කරන ලදී. ආරක්ෂණ-තීරණාත්මක එකඟත්වය සහ හදිසි පාරිභාෂිතය සඳහා වෘත්තීය සමාලෝචනය නිර්දේශ කෙරේ.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ නිෂ්පාදන භාවිතයට පෙර ආරක්ෂණ-තීරණාත්මක හදිසි වාක්‍ය ඛණ්ඩ සඳහා මෙම පරිවර්තනයට මානව සමාලෝචනය අවශ්‍යයි.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ මෙය කෙටුම්පත් පරිවර්තනයක් පමණි. නිෂ්පාදන භාවිතයට පෙර වෘත්තීය පරිවර්තනය අවශ්‍යයි.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "භාෂාව තෝරන්න",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "භාෂා සොයන්න",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "පරිවර්තන ගුණත්වය: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "පරිවර්තන වැඩිදියුණු කිරීමට උදව් කරන්න - ගැටළු වාර්තා කරන්න හෝ වඩා හොඳ පරිවර්තන දායක වන්න!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

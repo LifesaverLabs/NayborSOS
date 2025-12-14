@@ -374,45 +374,40 @@ class AppLocalizationsZh extends AppLocalizations {
   String get capabilityActiveBystander => '积极旁观者';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => '高置信度 AI 翻译';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => '良好置信度 AI 翻译';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => '中等置信度 AI 翻译';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => '低置信度 AI 翻译';
 
   @override
-  String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+  String get translationTier1Notice => '此翻译由 AI 高置信度生成。建议在生产使用前进行专业审核。';
 
   @override
-  String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+  String get translationTier2Notice => '此翻译由 AI 良好置信度生成。建议对安全关键的同意和紧急术语进行专业审核。';
 
   @override
-  String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+  String get translationTier3Notice => '⚠️ 此翻译在生产使用前需要对安全关键的紧急短语进行人工审核。';
 
   @override
-  String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+  String get translationTier4Notice => '⚠️ 这只是草稿翻译。生产使用前需要专业翻译。';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => '选择语言';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => '搜索语言';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return '翻译质量：$quality';
   }
 
   @override
-  String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+  String get helpImproveTranslations => '帮助改进翻译 - 报告问题或贡献更好的翻译！';
 }

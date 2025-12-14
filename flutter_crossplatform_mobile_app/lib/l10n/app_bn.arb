@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "উচ্চ আত্মবিশ্বাস AI অনুবাদ",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ভাল আত্মবিশ্বাস AI অনুবাদ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "মধ্য-আত্মবিশ্বাস AI অনুবাদ",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "নিম্ন আত্মবিশ্বাস AI অনুবাদ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "এই অনুবাদটি উচ্চ আত্মবিশ্বাসের সাথে AI দ্বারা তৈরি করা হয়েছে। উৎপাদন ব্যবহারের জন্য পেশাদার পর্যালোচনা প্রস্তাবিত।",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "এই অনুবাদটি ভাল আত্মবিশ্বাসের সাথে AI দ্বারা তৈরি করা হয়েছে। নিরাপত্তা-সমালোচনামূলক সম্মতি এবং জরুরী পরিভাষার জন্য পেশাদার পর্যালোচনা প্রস্তাবিত।",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ উৎপাদন ব্যবহারের আগে নিরাপত্তা-সমালোচনামূলক জরুরী বাক্যাংশের জন্য এই অনুবাদের মানবিক পর্যালোচনা প্রয়োজন।",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ এটি শুধুমাত্র একটি খসড়া অনুবাদ। উৎপাদন ব্যবহারের আগে পেশাদার অনুবাদ প্রয়োজন।",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ভাষা নির্বাচন করুন",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ভাষা অনুসন্ধান করুন",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "অনুবাদ মান: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "অনুবাদ উন্নত করতে সাহায্য করুন - সমস্যাগুলি রিপোর্ট করুন বা আরও ভাল অনুবাদ অবদান রাখুন!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

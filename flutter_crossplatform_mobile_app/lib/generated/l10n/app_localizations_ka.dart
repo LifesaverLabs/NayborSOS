@@ -383,45 +383,45 @@ class AppLocalizationsKa extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'მაღალი ნდობის AI თარგმანი';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'კარგი ნდობის AI თარგმანი';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'საშუალო ნდობის AI თარგმანი';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'დაბალი ნდობის AI თარგმანი';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'ეს თარგმანი შექმნილია AI-ის მიერ მაღალი ნდობით. რეკომენდირებულია პროფესიონალური გადახედვა წარმოების გამოყენებისთვის.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'ეს თარგმანი შექმნილია AI-ის მიერ კარგი ნდობით. რეკომენდირებულია პროფესიონალური გადახედვა უსაფრთხოების კრიტიკული თანხმობის და გადაუდებელი ტერმინოლოგიისთვის.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ ეს თარგმანი საჭიროებს ადამიანის გადახედვას უსაფრთხოების კრიტიკული გადაუდებელი ფრაზებისთვის წარმოების გამოყენებამდე.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ ეს მხოლოდ პროექტის თარგმანია. საჭიროა პროფესიონალური თარგმანი წარმოების გამოყენებამდე.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'აირჩიეთ ენა';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ენების ძიება';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'თარგმანის ხარისხი: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'დაეხმარეთ თარგმანების გაუმჯობესებას - მოახსენეთ პრობლემების შესახებ ან შესთავაზეთ უკეთესი თარგმანები!';
 }

@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "అధిక విశ్వాసం AI అనువాదం",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "మంచి విశ్వాసం AI అనువాదం",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "మధ్యస్థ విశ్వాసం AI అనువాదం",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "తక్కువ విశ్వాసం AI అనువాదం",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ఈ అనువాదం అధిక విశ్వాసంతో AI ద్వారా రూపొందించబడింది. ఉత్పత్తి ఉపయోగం కోసం వృత్తిపరమైన సమీక్ష సిఫార్సు చేయబడింది.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ఈ అనువాదం మంచి విశ్వాసంతో AI ద్వారా రూపొందించబడింది. భద్రత-క్లిష్టమైన సమ్మతి మరియు అత్యవసర పదజాలం కోసం వృత్తిపరమైన సమీక్ష సిఫార్సు చేయబడింది.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ఉత్పత్తి ఉపయోగం ముందు భద్రత-క్లిష్టమైన అత్యవసర పదబంధాల కోసం ఈ అనువాదానికి మానవ సమీక్ష అవసరం.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ఇది కేవలం ముసాయిదా అనువాదం మాత్రమే. ఉత్పత్తి ఉపయోగం ముందు వృత్తిపరమైన అనువాదం అవసరం.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "భాషను ఎంచుకోండి",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "భాషలను శోధించండి",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "అనువాద నాణ్యత: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "అనువాదాలను మెరుగుపరచడానికి సహాయం చేయండి - సమస్యలను నివేదించండి లేదా మెరుగైన అనువాదాలను అందించండి!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

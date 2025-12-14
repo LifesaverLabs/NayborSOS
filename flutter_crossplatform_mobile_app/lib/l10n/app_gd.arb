@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Eadar-theangachadh AI le Misneachd Àrd",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Eadar-theangachadh AI le Misneachd Mhath",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Eadar-theangachadh AI le Misneachd Mheadhanach",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Eadar-theangachadh AI le Misneachd Ìosal",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Chaidh an t-eadar-theangachadh seo a chruthachadh le AI le misneachd àrd. Molar lèirmheas proifeasanta airson cleachdadh cinneasachaidh.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Chaidh an t-eadar-theangachadh seo a chruthachadh le AI le misneachd mhath. Molar lèirmheas proifeasanta airson briathrachas èiginneil agus aonta tèarainteachd-chrìochdail.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Feumaidh an t-eadar-theangachadh seo lèirmheas daonna airson abairtean èiginneach tèarainteachd-chrìochdail mus tèid a chleachdadh ann an cinneasachadh.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Chan eil seo ach dreachd eadar-theangachaidh. Feumar eadar-theangachadh proifeasanta mus tèid a chleachdadh ann an cinneasachadh.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Tagh Cànan",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Lorg cànanan",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Càileachd Eadar-theangachaidh: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Cuidich le bhith a' leasachadh eadar-theangachaidhean - innis dhuinn mu dhuilgheadasan no cuir taic ri eadar-theangachaidhean nas fheàrr!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

@@ -395,45 +395,45 @@ class AppLocalizationsEs extends AppLocalizations {
   String get capabilityActiveBystander => 'Testigo Activo';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Traducción IA de Alta Confianza';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Traducción IA de Buena Confianza';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Traducción IA de Confianza Media';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Traducción IA de Baja Confianza';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Esta traducción fue generada por IA con alta confianza. Se recomienda revisión profesional para uso en producción.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Esta traducción fue generada por IA con buena confianza. Se recomienda revisión profesional para terminología crítica de seguridad y emergencias.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Esta traducción requiere revisión humana para frases de emergencia críticas para la seguridad antes del uso en producción.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Esta es solo una traducción provisional. Se requiere traducción profesional antes del uso en producción.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Seleccionar Idioma';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Buscar idiomas';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Calidad de traducción: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Ayuda a mejorar las traducciones - reporta problemas o contribuye mejores traducciones!';
 }

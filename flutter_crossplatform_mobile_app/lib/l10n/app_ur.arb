@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "اعلیٰ اعتماد AI ترجمہ",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "اچھا اعتماد AI ترجمہ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "درمیانی اعتماد AI ترجمہ",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "کم اعتماد AI ترجمہ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "یہ ترجمہ AI کے ذریعے اعلیٰ اعتماد کے ساتھ تیار کیا گیا ہے۔ پروڈکشن استعمال کے لیے پیشہ ورانہ جائزہ تجویز کیا جاتا ہے۔",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "یہ ترجمہ AI کے ذریعے اچھے اعتماد کے ساتھ تیار کیا گیا ہے۔ حفاظتی نازک رضامندی اور ہنگامی اصطلاحات کے لیے پیشہ ورانہ جائزہ تجویز کیا جاتا ہے۔",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ اس ترجمے کو پروڈکشن استعمال سے پہلے حفاظتی نازک ہنگامی فقروں کے لیے انسانی جائزے کی ضرورت ہے۔",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ یہ صرف مسودہ ترجمہ ہے۔ پروڈکشن استعمال سے پہلے پیشہ ورانہ ترجمے کی ضرورت ہے۔",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "زبان منتخب کریں",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "زبانیں تلاش کریں",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "ترجمے کا معیار: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "تراجم کو بہتر بنانے میں مدد کریں - مسائل کی اطلاع دیں یا بہتر تراجم میں حصہ ڈالیں!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

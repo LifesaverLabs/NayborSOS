@@ -383,45 +383,48 @@ class AppLocalizationsGd extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Eadar-theangachadh AI le Misneachd Àrd';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label =>
+      'Eadar-theangachadh AI le Misneachd Mhath';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Eadar-theangachadh AI le Misneachd Mheadhanach';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label =>
+      'Eadar-theangachadh AI le Misneachd Ìosal';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Chaidh an t-eadar-theangachadh seo a chruthachadh le AI le misneachd àrd. Molar lèirmheas proifeasanta airson cleachdadh cinneasachaidh.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Chaidh an t-eadar-theangachadh seo a chruthachadh le AI le misneachd mhath. Molar lèirmheas proifeasanta airson briathrachas èiginneil agus aonta tèarainteachd-chrìochdail.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Feumaidh an t-eadar-theangachadh seo lèirmheas daonna airson abairtean èiginneach tèarainteachd-chrìochdail mus tèid a chleachdadh ann an cinneasachadh.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Chan eil seo ach dreachd eadar-theangachaidh. Feumar eadar-theangachadh proifeasanta mus tèid a chleachdadh ann an cinneasachadh.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Tagh Cànan';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Lorg cànanan';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Càileachd Eadar-theangachaidh: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Cuidich le bhith a\' leasachadh eadar-theangachaidhean - innis dhuinn mu dhuilgheadasan no cuir taic ri eadar-theangachaidhean nas fheàrr!';
 }

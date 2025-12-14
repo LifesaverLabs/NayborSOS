@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ການແປ AI ທີ່ມີຄວາມໝັ້ນໃຈສູງ",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ການແປ AI ທີ່ມີຄວາມໝັ້ນໃຈດີ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ການແປ AI ທີ່ມີຄວາມໝັ້ນໃຈປານກາງ",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ການແປ AI ທີ່ມີຄວາມໝັ້ນໃຈຕໍ່າ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ການແປນີ້ຖືກສ້າງໂດຍ AI ດ້ວຍຄວາມໝັ້ນໃຈສູງ. ແນະນໍາໃຫ້ມີການທົບທວນແບບມືອາຊີບສໍາລັບການນໍາໃຊ້ຜະລິດຕະພັນ.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ການແປນີ້ຖືກສ້າງໂດຍ AI ດ້ວຍຄວາມໝັ້ນໃຈດີ. ແນະນໍາໃຫ້ມີການທົບທວນແບບມືອາຊີບສໍາລັບການຍິນຍອມດ້ານຄວາມປອດໄພ ແລະ ຄໍາສັບດ້ານສຸກເສີນ.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ການແປນີ້ຕ້ອງການການທົບທວນໂດຍມະນຸດສໍາລັບປະໂຫຍກສຸກເສີນດ້ານຄວາມປອດໄພກ່ອນນໍາໃຊ້ຜະລິດຕະພັນ.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ນີ້ເປັນພຽງແຕ່ການແປຮ່າງເທົ່ານັ້ນ. ຕ້ອງການການແປແບບມືອາຊີບກ່ອນນໍາໃຊ້ຜະລິດຕະພັນ.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ເລືອກພາສາ",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ຄົ້ນຫາພາສາ",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "ຄຸນນະພາບການແປ: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ຊ່ວຍປັບປຸງການແປ - ລາຍງານບັນຫາ ຫຼື ປະກອບສ່ວນການແປທີ່ດີກວ່າ!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

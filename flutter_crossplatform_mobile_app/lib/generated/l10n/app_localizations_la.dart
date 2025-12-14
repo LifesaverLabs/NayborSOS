@@ -383,45 +383,45 @@ class AppLocalizationsLa extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Interpretatio AI Fidentia Alta';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Interpretatio AI Fidentia Bona';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Interpretatio AI Fidentia Media';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Interpretatio AI Fidentia Humilis';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Haec interpretatio ab AI cum fidentia alta generata est. Recensio professionale commendatur ad usum productionis.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Haec interpretatio ab AI cum fidentia bona generata est. Recensio professionale commendatur ad terminologiam necessitatis et consensus securitatis-criticalis.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Haec interpretatio requirit recensionem humanam ad phrases necessitatis securitatis-criticalis ante usum productionis.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Haec tantum est schemata interpretationis. Interpretatio professionale requiritur ante usum productionis.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Eligere Linguam';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Quaerere linguas';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Qualitas Interpretationis: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Adiuva meliores interpretationes - nuntia problemata aut contribute meliores interpretationes!';
 }

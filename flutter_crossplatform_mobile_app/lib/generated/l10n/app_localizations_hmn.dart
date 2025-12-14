@@ -383,45 +383,46 @@ class AppLocalizationsHmn extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Kev Txhais Lus AI Muaj Kev Ntseeg Siab';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Kev Txhais Lus AI Muaj Kev Ntseeg Zoo';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Kev Txhais Lus AI Muaj Kev Ntseeg Nruab Nrab';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Kev Txhais Lus AI Muaj Kev Ntseeg Qis';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Qhov kev txhais lus no yog tsim los ntawm AI nrog kev ntseeg siab. Pom zoo kom muaj kev tshuaj xyuas tus kws tshaj lij ua ntej siv rau kev tsim khoom.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Qhov kev txhais lus no yog tsim los ntawm AI nrog kev ntseeg zoo. Pom zoo kom muaj kev tshuaj xyuas tus kws tshaj lij rau cov lus xwm txheej ceev thiab kev pom zoo txog kev nyab xeeb.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Qhov kev txhais lus no xav tau kev tshuaj xyuas tib neeg rau cov kab lus xwm txheej ceev txog kev nyab xeeb ua ntej siv rau kev tsim khoom.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Qhov no tsuas yog ib daim ntawv txhais lus xwb. Yuav tsum tau kev txhais lus tus kws tshaj lij ua ntej siv rau kev tsim khoom.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Xaiv Lus';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Nrhiav lus';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Qhov Zoo Ntawm Kev Txhais Lus: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Pab txhim kho kev txhais lus - qhia txog teeb meem lossis pab txhais lus zoo dua!';
 }

@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "उच्च विश्वास AI अनुवाद",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "राम्रो विश्वास AI अनुवाद",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "मध्यम-विश्वास AI अनुवाद",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "कम विश्वास AI अनुवाद",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "यो अनुवाद उच्च विश्वाससँग AI द्वारा उत्पन्न गरिएको थियो। उत्पादन प्रयोगको लागि व्यावसायिक समीक्षा सिफारिस गरिन्छ।",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "यो अनुवाद राम्रो विश्वाससँग AI द्वारा उत्पन्न गरिएको थियो। सुरक्षा-महत्वपूर्ण सहमति र आपतकालीन शब्दावलीको लागि व्यावसायिक समीक्षा सिफारिस गरिन्छ।",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ यो अनुवादलाई उत्पादन प्रयोग अघि सुरक्षा-महत्वपूर्ण आपतकालीन वाक्यांशहरूको लागि मानव समीक्षा आवश्यक छ।",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ यो केवल एक मस्यौदा अनुवाद हो। उत्पादन प्रयोग अघि व्यावसायिक अनुवाद आवश्यक छ।",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "भाषा छान्नुहोस्",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "भाषाहरू खोज्नुहोस्",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "अनुवाद गुणस्तर: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "अनुवादहरू सुधार गर्न मद्दत गर्नुहोस् - समस्याहरू रिपोर्ट गर्नुहोस् वा राम्रो अनुवादहरू योगदान गर्नुहोस्!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

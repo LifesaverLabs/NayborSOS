@@ -1,5 +1,6 @@
 {
   "@@locale": "fy",
+  "_notice": "⚠️ This is a draft translation only. Professional translation required before production use.",
   "appTitle": "Naybor SOS",
   "@appTitle": {
     "description": "The title of the application"
@@ -503,5 +504,58 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Heech Fertrouwen AI Oersetting",
+  "@translationTier1Label": {
+    "description": "Translation tier 1 label"
+  },
+  "translationTier2Label": "Goed Fertrouwen AI Oersetting",
+  "@translationTier2Label": {
+    "description": "Translation tier 2 label"
+  },
+  "translationTier3Label": "Middel Fertrouwen AI Oersetting",
+  "@translationTier3Label": {
+    "description": "Translation tier 3 label"
+  },
+  "translationTier4Label": "Leech Fertrouwen AI Oersetting",
+  "@translationTier4Label": {
+    "description": "Translation tier 4 label"
+  },
+  "translationTier1Notice": "Dizze oersetting is AI-generearre mei heech fertrouwen. Profesjonele resinsje oanrikkemandearre foar produksjegebruik.",
+  "@translationTier1Notice": {
+    "description": "Translation tier 1 notice"
+  },
+  "translationTier2Notice": "Dizze oersetting is AI-generearre mei goed fertrouwen. Profesjonele resinsje oanrikkemandearre foar feiligens-krityske tastimming en needtsjinst terminolochy.",
+  "@translationTier2Notice": {
+    "description": "Translation tier 2 notice"
+  },
+  "translationTier3Notice": "⚠️ Dizze oersetting fereasket minsklike resinsje foar feiligens-krityske needsinnen foar produksjegebruik.",
+  "@translationTier3Notice": {
+    "description": "Translation tier 3 notice"
+  },
+  "translationTier4Notice": "⚠️ Dit is allinnich in ûntwerp oersetting. Profesjonele oersetting fereaske foar produksjegebruik.",
+  "@translationTier4Notice": {
+    "description": "Translation tier 4 notice"
+  },
+  "selectLanguage": "Selektearje Taal",
+  "@selectLanguage": {
+    "description": "Select language text"
+  },
+  "searchLanguagesHint": "Sykje talen",
+  "@searchLanguagesHint": {
+    "description": "Search languages hint"
+  },
+  "translationQualityLabel": "Oersettingskwaliteit: {quality}",
+  "@translationQualityLabel": {
+    "description": "Translation quality label",
+    "placeholders": {
+      "quality": {
+        "type": "String"
+      }
+    }
+  },
+  "helpImproveTranslations": "Help mei it ferbetterjen fan oersettingen - rapportearje problemen of draach bettere oersettingen by!",
+  "@helpImproveTranslations": {
+    "description": "Help improve translations text"
   }
 }

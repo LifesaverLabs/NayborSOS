@@ -493,15 +493,6 @@
     "description": "Settings text"
   },
   "capabilityWellnessCheck": "Verificación de Bienestar",
-<<<<<<< HEAD
-  "capabilityQuitCompanion": "Compañero para Dejar de Fumar",
-  "capabilityActiveBystander": "Testigo Activo",
-  "demoUserInitials": "JP",
-  "demoUserName": "Juan Pérez",
-  "demoUserPhone": "(555) 123-4567",
-  "demoUserAddress": "Calle Principal 123, Apto 4B"
-}
-=======
   "@capabilityWellnessCheck": {
     "description": "Wellness check capability"
   },
@@ -512,6 +503,59 @@
   "capabilityActiveBystander": "Testigo Activo",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Traducción IA de Alta Confianza",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Traducción IA de Buena Confianza",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Traducción IA de Confianza Media",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Traducción IA de Baja Confianza",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Esta traducción fue generada por IA con alta confianza. Se recomienda revisión profesional para uso en producción.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Esta traducción fue generada por IA con buena confianza. Se recomienda revisión profesional para terminología crítica de seguridad y emergencias.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Esta traducción requiere revisión humana para frases de emergencia críticas para la seguridad antes del uso en producción.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Esta es solo una traducción provisional. Se requiere traducción profesional antes del uso en producción.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Seleccionar Idioma",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Buscar idiomas",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Calidad de traducción: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Ayuda a mejorar las traducciones - reporta problemas o contribuye mejores traducciones!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }
->>>>>>> develop

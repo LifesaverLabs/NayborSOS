@@ -383,45 +383,45 @@ class AppLocalizationsFil extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Mataas na Tiwala AI Pagsasalin';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Magandang Tiwala AI Pagsasalin';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Katamtamang Tiwala AI Pagsasalin';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Mababang Tiwala AI Pagsasalin';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Ang pagsasaling ito ay nabuo ng AI na may mataas na tiwala. Inirerekomenda ang propesyonal na pagsusuri para sa paggamit sa produksyon.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Ang pagsasaling ito ay nabuo ng AI na may magandang tiwala. Inirerekomenda ang propesyonal na pagsusuri para sa kritikal na terminolohiya ng kaligtasan at emergency.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Ang pagsasaling ito ay nangangailangan ng pagsusuri ng tao para sa kritikal na emergency phrases bago gamitin sa produksyon.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ito ay draft na pagsasalin lamang. Kailangan ang propesyonal na pagsasalin bago gamitin sa produksyon.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Pumili ng Wika';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Maghanap ng mga wika';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kalidad ng Pagsasalin: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Tulungan na pahusayin ang mga pagsasalin - mag-ulat ng mga isyu o mag-ambag ng mas magagandang pagsasalin!';
 }

@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "يۇقىرى ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ياخشى ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ئوتتۇرا ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "تۆۋەن ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "بۇ تەرجىمە سۈنئى ئەقىل تەرىپىدىن يۇقىرى ئىشەنچ بىلەن ھاسىل قىلىنغان. ئىشلەپچىقىرىش ئىشلىتىشتىن بۇرۇن كەسپىي تەكشۈرۈش تەۋسىيە قىلىنىدۇ.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "بۇ تەرجىمە سۈنئى ئەقىل تەرىپىدىن ياخشى ئىشەنچ بىلەن ھاسىل قىلىنغان. جىددى ۋەزىيەت ۋە بىخەتەرلىك-مۇھىم ماقۇللىشىش ئاتالغۇلىرى ئۈچۈن كەسپىي تەكشۈرۈش تەۋسىيە قىلىنىدۇ.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ بۇ تەرجىمە ئىشلەپچىقىرىشتا ئىشلىتىشتىن بۇرۇن بىخەتەرلىك-مۇھىم جىددىي ۋەزىيەت جۈملىلىرى ئۈچۈن ئىنسان تەكشۈرۈشىگە ئېھتىياجلىق.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ بۇ پەقەت دەسلەپكى تەرجىمە. ئىشلەپچىقىرىشتا ئىشلىتىشتىن بۇرۇن كەسپىي تەرجىمە تەلەپ قىلىنىدۇ.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "تىل تاللاش",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "تىل ئىزدەش",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "تەرجىمە سۈپىتى: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "تەرجىمىنى ياخشىلاشقا ياردەم بېرىڭ - مەسىلىلەرنى دوكلات قىلىڭ ياكى تېخىمۇ ياخشى تەرجىمە تەقدىم قىلىڭ!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

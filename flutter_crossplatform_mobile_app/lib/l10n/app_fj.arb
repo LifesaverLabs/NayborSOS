@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "AI Vakadeitaka Vakavinavinaka Levu",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "AI Vakadeitaka Vakavinavinaka Vinaka",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "AI Vakadeitaka Vakavinavinaka Vica",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "AI Vakadeitaka Vakavinavinaka Lalai",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Oqo e vakadeitaki ena AI me baleta na vakavinavinaka levu. Vakavinavinakataki na ivakaraitaki veiqaravi ni gauna ni cakacaka.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Oqo e vakadeitaki ena AI me baleta na vakavinavinaka vinaka. Vakavinavinakataki na ivakaraitaki veiqaravi ni gauna ni yavu ni salusalu ka na itukutuku ni tarotaro.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Oqo e gadrevi na ivakaraitaki tamata ni gauna ni vosa ni tarotaro ni yavu ni salusalu e sega ni cakacaka.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Oqo e dua na vakadeitaki vakatarai ga. E gadrevi na vakadeitaki veiqaravi e sega ni cakacaka.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Digitaka na Vosa",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Qaravi na vosa",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Vakavinavinaka ni Vakadeitaki: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Veivuke na vakabulabulataki na vakadeitaki - wilika na itukutuku se solia na vakadeitaki vinaka duadua!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

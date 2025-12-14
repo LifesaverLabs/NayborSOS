@@ -383,45 +383,47 @@ class AppLocalizationsMi extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label =>
+      'Whakamaoritanga AI Whakawhirinaki Teitei';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Whakamaoritanga AI Whakawhirinaki Pai';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Whakamaoritanga AI Whakawhirinaki Waenganui';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Whakamaoritanga AI Whakawhirinaki Iti';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'I hangaia tenei whakamaoritanga e AI me te whakawhirinaki teitei. Ka tūtohu i te arotake ngaiotanga mo te whakamahi whakaputanga.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'I hangaia tenei whakamaoritanga e AI me te whakawhirinaki pai. Ka tūtohu i te arotake ngaiotanga mo nga kupu ohorere me nga kupu whakaae haumarutanga-nui.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Me arotake e te tangata tenei whakamaoritanga mo nga rerenga korero ohorere haumarutanga-nui i mua i te whakamahi whakaputanga.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ He tauira whakamaoritanga anake tenei. Me whakamaori ngaiotanga i mua i te whakamahi whakaputanga.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Kowhiri Reo';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Rapu reo';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Kounga Whakamaoritanga: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Awhina ki te whakapai ake i nga whakamaoritanga - whakaaturanga i nga raruraru, homai whakamaoritanga pai ake ranei!';
 }

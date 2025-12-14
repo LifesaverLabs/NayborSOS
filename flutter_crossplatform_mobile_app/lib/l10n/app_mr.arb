@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "उच्च विश्वास AI भाषांतर",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "चांगला विश्वास AI भाषांतर",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "मध्यम-विश्वास AI भाषांतर",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "कमी विश्वास AI भाषांतर",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "हे भाषांतर उच्च विश्वासासह AI ने तयार केले आहे. उत्पादन वापरासाठी व्यावसायिक पुनरावलोकनाची शिफारस केली जाते.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "हे भाषांतर चांगल्या विश्वासासह AI ने तयार केले आहे. सुरक्षा-गंभीर संमती आणि आपत्कालीन शब्दावलीसाठी व्यावसायिक पुनरावलोकनाची शिफारस केली जाते.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ या भाषांतराला उत्पादन वापरापूर्वी सुरक्षा-गंभीर आपत्कालीन वाक्यांशांसाठी मानवी पुनरावलोकनाची आवश्यकता आहे.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ हे केवळ मसुदा भाषांतर आहे. उत्पादन वापरापूर्वी व्यावसायिक भाषांतर आवश्यक आहे.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "भाषा निवडा",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "भाषा शोधा",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "भाषांतर गुणवत्ता: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "भाषांतर सुधारण्यास मदत करा - समस्या नोंदवा किंवा चांगली भाषांतरे योगदान द्या!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

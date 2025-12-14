@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Kev Txhais Lus AI Muaj Kev Ntseeg Siab",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Kev Txhais Lus AI Muaj Kev Ntseeg Zoo",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Kev Txhais Lus AI Muaj Kev Ntseeg Nruab Nrab",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Kev Txhais Lus AI Muaj Kev Ntseeg Qis",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Qhov kev txhais lus no yog tsim los ntawm AI nrog kev ntseeg siab. Pom zoo kom muaj kev tshuaj xyuas tus kws tshaj lij ua ntej siv rau kev tsim khoom.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Qhov kev txhais lus no yog tsim los ntawm AI nrog kev ntseeg zoo. Pom zoo kom muaj kev tshuaj xyuas tus kws tshaj lij rau cov lus xwm txheej ceev thiab kev pom zoo txog kev nyab xeeb.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Qhov kev txhais lus no xav tau kev tshuaj xyuas tib neeg rau cov kab lus xwm txheej ceev txog kev nyab xeeb ua ntej siv rau kev tsim khoom.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Qhov no tsuas yog ib daim ntawv txhais lus xwb. Yuav tsum tau kev txhais lus tus kws tshaj lij ua ntej siv rau kev tsim khoom.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Xaiv Lus",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Nrhiav lus",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Qhov Zoo Ntawm Kev Txhais Lus: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Pab txhim kho kev txhais lus - qhia txog teeb meem lossis pab txhais lus zoo dua!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

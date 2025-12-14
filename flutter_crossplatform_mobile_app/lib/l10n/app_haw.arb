@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Unuhi AI me ka Paulele Kiʻekiʻe",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Unuhi AI me ka Paulele Maikaʻi",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Unuhi AI me ka Paulele Waena",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Unuhi AI me ka Paulele Haʻahaʻa",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Ua hoʻokumu ʻia kēia unuhi e AI me ka paulele kiʻekiʻe. Ua paipai ʻia ka nānā loea no ka hoʻohana ʻana i ka hoʻolaha.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Ua hoʻokumu ʻia kēia unuhi e AI me ka paulele maikaʻi. Ua paipai ʻia ka nānā loea no nā huaʻōlelo pilikia a me nā huaʻōlelo ʻae palekana-koʻikoʻi.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Pono kēia unuhi i ka nānā kanaka no nā ʻōlelo pilikia palekana-koʻikoʻi ma mua o ka hoʻohana ʻana i ka hoʻolaha.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ He palapala unuhi wale nō kēia. Pono i ka unuhi loea ma mua o ka hoʻohana ʻana i ka hoʻolaha.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Koho ʻŌlelo",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ʻImi i nā ʻōlelo",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Ke Ano o ka Unuhi: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "E kōkua i ka hoʻomaikaʻi ʻana i nā unuhi - e haʻi i nā pilikia a haʻawi i nā unuhi maikaʻi aʻe!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

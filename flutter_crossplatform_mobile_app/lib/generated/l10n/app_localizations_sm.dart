@@ -383,45 +383,45 @@ class AppLocalizationsSm extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Faaliliuga AI Faatuatuaga Maualuga';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Faaliliuga AI Faatuatuaga Lelei';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Faaliliuga AI Faatuatuaga Feololo';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Faaliliuga AI Faatuatuaga Maualalo';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'O lenei faaliliuga na faia e AI ma le faatuatuaga maualuga. Ua fautuaina le iloiloina faapolofesa mo le faaaogaina o le gaosiga.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'O lenei faaliliuga na faia e AI ma le faatuatuaga lelei. Ua fautuaina le iloiloina faapolofesa mo upu faalavelave ma upu ioeina saogalemu-taua.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ E manaomia e lenei faaliliuga le iloiloina tagata mo fuaitau faalavelave saogalemu-taua a o lei faaaogaina i le gaosiga.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ O se faaliliuga tusitusiga lava lenei. E manaomia le faaliliuga faapolofesa a o lei faaaogaina i le gaosiga.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Filifili Gagana';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Saili gagana';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Tulaga o le Faaliliuga: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Fesoasoani e faaa lelei ai faaliliuga - lipoti faafitauli pe saofaga faaliliuga sili atu!';
 }

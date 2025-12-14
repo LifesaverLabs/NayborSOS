@@ -383,45 +383,45 @@ class AppLocalizationsHaw extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Unuhi AI me ka Paulele Kiʻekiʻe';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Unuhi AI me ka Paulele Maikaʻi';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'Unuhi AI me ka Paulele Waena';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Unuhi AI me ka Paulele Haʻahaʻa';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Ua hoʻokumu ʻia kēia unuhi e AI me ka paulele kiʻekiʻe. Ua paipai ʻia ka nānā loea no ka hoʻohana ʻana i ka hoʻolaha.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Ua hoʻokumu ʻia kēia unuhi e AI me ka paulele maikaʻi. Ua paipai ʻia ka nānā loea no nā huaʻōlelo pilikia a me nā huaʻōlelo ʻae palekana-koʻikoʻi.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Pono kēia unuhi i ka nānā kanaka no nā ʻōlelo pilikia palekana-koʻikoʻi ma mua o ka hoʻohana ʻana i ka hoʻolaha.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ He palapala unuhi wale nō kēia. Pono i ka unuhi loea ma mua o ka hoʻohana ʻana i ka hoʻolaha.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Koho ʻŌlelo';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ʻImi i nā ʻōlelo';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Ke Ano o ka Unuhi: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'E kōkua i ka hoʻomaikaʻi ʻana i nā unuhi - e haʻi i nā pilikia a haʻawi i nā unuhi maikaʻi aʻe!';
 }

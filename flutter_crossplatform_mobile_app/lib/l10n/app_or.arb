@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "ଉଚ୍ଚ ବିଶ୍ୱାସ AI ଅନୁବାଦ",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ଭଲ ବିଶ୍ୱାସ AI ଅନୁବାଦ",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "ମଧ୍ୟମ ବିଶ୍ୱାସ AI ଅନୁବାଦ",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "ନିମ୍ନ ବିଶ୍ୱାସ AI ଅନୁବାଦ",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ଏହି ଅନୁବାଦ AI ଦ୍ୱାରା ଉଚ୍ଚ ବିଶ୍ୱାସ ସହିତ ସୃଷ୍ଟି କରାଯାଇଛି। ଉତ୍ପାଦନ ବ୍ୟବହାର ପାଇଁ ବୃତ୍ତିଗତ ସମୀକ୍ଷା ସୁପାରିଶ କରାଯାଏ।",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ଏହି ଅନୁବାଦ AI ଦ୍ୱାରା ଭଲ ବିଶ୍ୱାସ ସହିତ ସୃଷ୍ଟି କରାଯାଇଛି। ସୁରକ୍ଷା-ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସମ୍ମତି ଏବଂ ଜରୁରୀ ଶବ୍ଦାବଳୀ ପାଇଁ ବୃତ୍ତିଗତ ସମୀକ୍ଷା ସୁପାରିଶ କରାଯାଏ।",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ଏହି ଅନୁବାଦ ଉତ୍ପାଦନ ବ୍ୟବହାର ପୂର୍ବରୁ ସୁରକ୍ଷା-ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଜରୁରୀ ବାକ୍ୟାଂଶ ପାଇଁ ମାନବ ସମୀକ୍ଷା ଆବଶ୍ୟକ କରେ।",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ଏହା କେବଳ ଏକ ଡ୍ରାଫ୍ଟ ଅନୁବାଦ। ଉତ୍ପାଦନ ବ୍ୟବହାର ପୂର୍ବରୁ ବୃତ୍ତିଗତ ଅନୁବାଦ ଆବଶ୍ୟକ।",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ଭାଷା ବାଛନ୍ତୁ",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ଭାଷା ଖୋଜନ୍ତୁ",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "ଅନୁବାଦ ଗୁଣବତ୍ତା: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ଅନୁବାଦ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ - ସମସ୍ୟା ରିପୋର୍ଟ କରନ୍ତୁ କିମ୍ବା ଉନ୍ନତ ଅନୁବାଦ ଯୋଗଦାନ କରନ୍ତୁ!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

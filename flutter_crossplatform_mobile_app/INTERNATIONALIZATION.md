@@ -4,10 +4,37 @@ This document describes the internationalization setup for the Naybor SOS Flutte
 
 ## Overview
 
-The app uses Flutter's built-in internationalization support with ARB (Application Resource Bundle) files to manage translations. Currently, the app supports:
+The app uses Flutter's built-in internationalization support with ARB (Application Resource Bundle) files to manage translations. Currently, the app supports 109 languages with varying levels of translation completeness.
 
-- **English (en)** - Default language
-- **Spanish (es)** - Full translation
+### Development Translation Strategy
+
+**IMPORTANT: Batch Translation Approach**
+
+To maintain development velocity, translations are managed in batches rather than continuously:
+
+- **Primary Development Language:** American English (en)
+- **Translation Timeline:** Batch updates occur at major milestones:
+  - Before usable release candidates
+  - When volunteer translators contribute
+  - During country-specific launch pushes
+
+**Why Batch Translation?**
+
+Supporting 109 languages continuously at every development step would significantly slow progress. Instead:
+
+1. ✅ **Development Phase:** Write all new features in easy-to-localize American English
+2. ✅ **Follow i18n Best Practices:** Use `AppLocalizations.of(context)!` for ALL user-facing strings
+3. ✅ **Add English Keys:** New strings go immediately into `app_en.arb`
+4. ⏸️ **Defer Full Translation:** Machine translation to 108+ languages happens in batches
+5. 🚀 **Release Preparation:** Full translation sweep before major releases
+
+This approach:
+- Keeps development fast and focused
+- Maintains proper i18n architecture throughout
+- Ensures translations don't become stale during rapid iteration
+- Allows efficient bulk translation when features stabilize
+
+**For Contributors:** If you're adding new features, focus on proper English localization keys. Full multi-language support will be added during release preparation cycles.
 
 ## Architecture
 

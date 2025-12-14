@@ -383,45 +383,45 @@ class AppLocalizationsUg extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'يۇقىرى ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'ياخشى ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'ئوتتۇرا ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'تۆۋەن ئىشەنچلىك سۈنئى ئەقىل تەرجىمىسى';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'بۇ تەرجىمە سۈنئى ئەقىل تەرىپىدىن يۇقىرى ئىشەنچ بىلەن ھاسىل قىلىنغان. ئىشلەپچىقىرىش ئىشلىتىشتىن بۇرۇن كەسپىي تەكشۈرۈش تەۋسىيە قىلىنىدۇ.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'بۇ تەرجىمە سۈنئى ئەقىل تەرىپىدىن ياخشى ئىشەنچ بىلەن ھاسىل قىلىنغان. جىددى ۋەزىيەت ۋە بىخەتەرلىك-مۇھىم ماقۇللىشىش ئاتالغۇلىرى ئۈچۈن كەسپىي تەكشۈرۈش تەۋسىيە قىلىنىدۇ.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ بۇ تەرجىمە ئىشلەپچىقىرىشتا ئىشلىتىشتىن بۇرۇن بىخەتەرلىك-مۇھىم جىددىي ۋەزىيەت جۈملىلىرى ئۈچۈن ئىنسان تەكشۈرۈشىگە ئېھتىياجلىق.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ بۇ پەقەت دەسلەپكى تەرجىمە. ئىشلەپچىقىرىشتا ئىشلىتىشتىن بۇرۇن كەسپىي تەرجىمە تەلەپ قىلىنىدۇ.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'تىل تاللاش';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'تىل ئىزدەش';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'تەرجىمە سۈپىتى: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'تەرجىمىنى ياخشىلاشقا ياردەم بېرىڭ - مەسىلىلەرنى دوكلات قىلىڭ ياكى تېخىمۇ ياخشى تەرجىمە تەقدىم قىلىڭ!';
 }

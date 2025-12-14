@@ -383,45 +383,46 @@ class AppLocalizationsSt extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'Phetolelo ea AI e Tšepahalang Haholo';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'Phetolelo ea AI e Tšepahalang Hantle';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label =>
+      'Phetolelo ea AI e Tšepahalang Hare Feela';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'Phetolelo ea AI e Tšepahalang Hanyane';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'Phetolelo ena e hlahisitsoe ke AI ka tšepo e phahameng. Ho khothaletsoa tlhahlobo ea setsebi bakeng sa tšebeliso ea tlhahiso.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'Phetolelo ena e hlahisitsoe ke AI ka tšepo e ntle. Ho khothaletsoa tlhahlobo ea setsebi bakeng sa mantsoe a tšohanyetso le mantsoe a tumellano ea polokeho ea bohlokoa.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ Phetolelo ena e hloka tlhahlobo ea motho bakeng sa lipolelo tsa tšohanyetso ea polokeho ea bohlokoa pele e sebelisoa tlhahisong.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ Ena ke phetolelo ea sengoli feela. Ho hlokahala phetolelo ea setsebi pele e sebelisoa tlhahisong.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'Khetha Puo';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'Batla lipuo';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'Boleng ba Phetolelo: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'Thusa ho ntlafatsa liphetolelo - tlaleha mathata kapa fana ka liphetolelo tse betere!';
 }

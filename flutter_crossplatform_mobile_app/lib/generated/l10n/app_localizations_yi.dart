@@ -383,45 +383,45 @@ class AppLocalizationsYi extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'הויך בטחון AI איבערזעצונג';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'גוט בטחון AI איבערזעצונג';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'מיטל בטחון AI איבערזעצונג';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'נידעריק בטחון AI איבערזעצונג';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'דעם איבערזעצונג איז געשאפן געווארן דורך AI מיט הויך בטחון. פראפעסיאנעלע איבערקוק ווערט רעקאמענדירט פאר פראדוקציע נוצן.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'דעם איבערזעצונג איז געשאפן געווארן דורך AI מיט גוט בטחון. פראפעסיאנעלע איבערקוק ווערט רעקאמענדירט פאר נויטפאל און צושטימונג זיכערהייט-קריטיש טערמינאלאגיע.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ דעם איבערזעצונג דארף מענטשלעכע איבערקוק פאר זיכערהייט-קריטיש נויטפאל פראזן איידער פראדוקציע נוצן.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ דאס איז בלויז אן אנטווארף איבערזעצונג. פראפעסיאנעלע איבערזעצונג נויטיק איידער פראדוקציע נוצן.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'אויסקלייבן שפראך';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'זוכן שפראכן';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'איבערזעצונג קוואליטעט: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'העלפן פארבעסערן איבערזעצונגען - באריכטן פראבלעמען אדער ביישטייערן בעסערע איבערזעצונגען!';
 }

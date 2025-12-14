@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "Тарҷумаи AI бо Эътимоди Баланд",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "Тарҷумаи AI бо Эътимоди Хуб",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "Тарҷумаи AI бо Эътимоди Миёна",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "Тарҷумаи AI бо Эътимоди Паст",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "Ин тарҷума аз ҷониби AI бо эътимоди баланд офарида шудааст. Барои истифодаи истеҳсолӣ санҷиши касбӣ тавсия дода мешавад.",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "Ин тарҷума аз ҷониби AI бо эътимоди хуб офарида шудааст. Барои истилоҳоти фавқулодда ва розигии бехатарии муҳим санҷиши касбӣ тавсия дода мешавад.",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ Ин тарҷума пеш аз истифода дар истеҳсолот барои ҷумлаҳои фавқулоддаи бехатарии муҳим санҷиши инсонӣ талаб мекунад.",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ Ин танҳо тарҷумаи лоиҳавӣ аст. Пеш аз истифода дар истеҳсолот тарҷумаи касбӣ лозим аст.",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "Интихоби Забон",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "Ҷустуҷӯи забонҳо",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "Сифати Тарҷума: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "Барои беҳтар кардани тарҷумаҳо кӯмак кунед - дар бораи мушкилот хабар диҳед ё тарҷумаҳои беҳтар пешниҳод кунед!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }

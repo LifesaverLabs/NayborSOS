@@ -383,45 +383,45 @@ class AppLocalizationsGu extends AppLocalizations {
   String get capabilityActiveBystander => 'Active Bystander';
 
   @override
-  String get translationTier1Label => 'High Confidence AI Translation';
+  String get translationTier1Label => 'ઉચ્ચ વિશ્વાસ AI અનુવાદ';
 
   @override
-  String get translationTier2Label => 'Good Confidence AI Translation';
+  String get translationTier2Label => 'સારો વિશ્વાસ AI અનુવાદ';
 
   @override
-  String get translationTier3Label => 'Mid-Confidence AI Translation';
+  String get translationTier3Label => 'મધ્યમ-વિશ્વાસ AI અનુવાદ';
 
   @override
-  String get translationTier4Label => 'Low Confidence AI Translation';
+  String get translationTier4Label => 'ઓછો વિશ્વાસ AI અનુવાદ';
 
   @override
   String get translationTier1Notice =>
-      'This translation was AI-generated with high confidence. Professional review recommended for production use.';
+      'આ અનુવાદ ઉચ્ચ વિશ્વાસ સાથે AI દ્વારા જનરેટ કરવામાં આવ્યો હતો. ઉત્પાદન ઉપયોગ માટે વ્યાવસાયિક સમીક્ષાની ભલામણ કરવામાં આવે છે.';
 
   @override
   String get translationTier2Notice =>
-      'This translation was AI-generated with good confidence. Professional review recommended for safety-critical consent and emergency terminology.';
+      'આ અનુવાદ સારા વિશ્વાસ સાથે AI દ્વારા જનરેટ કરવામાં આવ્યો હતો. સુરક્ષા-મહત્વપૂર્ણ સંમતિ અને કટોકટી શબ્દભંડોળ માટે વ્યાવસાયિક સમીક્ષાની ભલામણ કરવામાં આવે છે.';
 
   @override
   String get translationTier3Notice =>
-      '⚠️ This translation requires human review for safety-critical emergency phrases before production use.';
+      '⚠️ આ અનુવાદને ઉત્પાદન ઉપયોગ પહેલાં સુરક્ષા-મહત્વપૂર્ણ કટોકટી શબ્દસમૂહો માટે માનવ સમીક્ષાની જરૂર છે.';
 
   @override
   String get translationTier4Notice =>
-      '⚠️ This is a draft translation only. Professional translation required before production use.';
+      '⚠️ આ માત્ર એક ડ્રાફ્ટ અનુવાદ છે. ઉત્પાદન ઉપયોગ પહેલાં વ્યાવસાયિક અનુવાદ જરૂરી છે.';
 
   @override
-  String get selectLanguage => 'Select Language';
+  String get selectLanguage => 'ભાષા પસંદ કરો';
 
   @override
-  String get searchLanguagesHint => 'Search languages';
+  String get searchLanguagesHint => 'ભાષાઓ શોધો';
 
   @override
   String translationQualityLabel(String quality) {
-    return 'Translation Quality: $quality';
+    return 'અનુવાદ ગુણવત્તા: $quality';
   }
 
   @override
   String get helpImproveTranslations =>
-      'Help improve translations - report issues or contribute better translations!';
+      'અનુવાદો સુધારવામાં મદદ કરો - સમસ્યાઓની જાણ કરો અથવા વધુ સારા અનુવાદોનું યોગદાન આપો!';
 }

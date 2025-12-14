@@ -503,5 +503,59 @@
   "capabilityActiveBystander": "Active Bystander",
   "@capabilityActiveBystander": {
     "description": "Active bystander capability"
+  },
+  "translationTier1Label": "အရည်အသွေးမြင့် AI ဘာသာပြန်ချက်",
+  "@translationTier1Label": {
+    "description": "Label for Tier 1 translation confidence"
+  },
+  "translationTier2Label": "ကောင်းမွန်သော AI ဘာသာပြန်ချက်",
+  "@translationTier2Label": {
+    "description": "Label for Tier 2 translation confidence"
+  },
+  "translationTier3Label": "အလယ်အလတ်အရည်အသွေး AI ဘာသာပြန်ချက်",
+  "@translationTier3Label": {
+    "description": "Label for Tier 3 translation confidence"
+  },
+  "translationTier4Label": "နိမ့်ကျသော AI ဘာသာပြန်ချက်",
+  "@translationTier4Label": {
+    "description": "Label for Tier 4 translation confidence"
+  },
+  "translationTier1Notice": "ဤဘာသာပြန်ချက်ကို မြင့်မားသောယုံကြည်မှုဖြင့် AI မှထုတ်လုပ်ထားပါသည်။ ထုတ်ကုန်အသုံးပြုမှုအတွက် ပညာရှင်ပြန်လည်သုံးသပ်ချက်ကို အကြံပြုပါသည်။",
+  "@translationTier1Notice": {
+    "description": "Notice text for Tier 1 translations"
+  },
+  "translationTier2Notice": "ဤဘာသာပြန်ချက်ကို ကောင်းမွန်သောယုံကြည်မှုဖြင့် AI မှထုတ်လုပ်ထားပါသည်။ ဘေးကင်းရေး-အရေးကြီးသော သဘောတူညီမှုနှင့် အရေးပေါ်ဝေါဟာရများအတွက် ပညာရှင်ပြန်လည်သုံးသပ်ချက်ကို အကြံပြုပါသည်။",
+  "@translationTier2Notice": {
+    "description": "Notice text for Tier 2 translations"
+  },
+  "translationTier3Notice": "⚠️ ထုတ်ကုန်အသုံးပြုခြင်းမပြုမီ ဘေးကင်းရေး-အရေးကြီးသော အရေးပေါ်စကားစုများအတွက် ဤဘာသာပြန်ချက်သည် လူ့သုံးသပ်ချက်လိုအပ်ပါသည်။",
+  "@translationTier3Notice": {
+    "description": "Notice text for Tier 3 translations"
+  },
+  "translationTier4Notice": "⚠️ ဤသည်မူကြမ်းဘာသာပြန်ချက်သာဖြစ်သည်။ ထုတ်ကုန်အသုံးပြုခြင်းမပြုမီ ပညာရှင်ဘာသာပြန်ခြင်းလိုအပ်ပါသည်။",
+  "@translationTier4Notice": {
+    "description": "Notice text for Tier 4 translations"
+  },
+  "selectLanguage": "ဘာသာစကားရွေးချယ်ပါ",
+  "@selectLanguage": {
+    "description": "Language selection screen title"
+  },
+  "searchLanguagesHint": "ဘာသာစကားများရှာဖွေပါ",
+  "@searchLanguagesHint": {
+    "description": "Hint text for language search field"
+  },
+  "translationQualityLabel": "ဘာသာပြန်အရည်အသွေး: {quality}",
+  "@translationQualityLabel": {
+    "description": "Label showing translation quality with tier",
+    "placeholders": {
+      "quality": {
+        "type": "String",
+        "example": "High Confidence AI Translation"
+      }
+    }
+  },
+  "helpImproveTranslations": "ဘာသာပြန်ချက်များတိုးတက်အောင်ကူညီပါ - ပြဿနာများအစီရင်ခံပါ သို့မဟုတ် ပိုကောင်းသောဘာသာပြန်ချက်များပံ့ပိုးပါ!",
+  "@helpImproveTranslations": {
+    "description": "Message encouraging users to help improve translations"
   }
 }
