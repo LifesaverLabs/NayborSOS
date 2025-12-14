@@ -428,14 +428,14 @@ class AppLocalizationsHt extends AppLocalizations {
       'Ede yo amelyore tradiksyon yo - rapòte pwoblèm yo oswa kontribye tradiksyon yo ki pi bon!';
 
   @override
-  String get demoUserInitials => 'JD';
+  String get demoUserInitials => '[EN PLACEHOLDER] JD';
 
   @override
-  String get demoUserName => 'John Doe';
+  String get demoUserName => '[EN PLACEHOLDER] John Doe';
 
   @override
-  String get demoUserPhone => '(555) 123-4567';
+  String get demoUserPhone => '[EN PLACEHOLDER] (555) 123-4567';
 
   @override
-  String get demoUserAddress => '123 Main St, Apt 4B';
+  String get demoUserAddress => '[EN PLACEHOLDER] 123 Main St, Apt 4B';
 }

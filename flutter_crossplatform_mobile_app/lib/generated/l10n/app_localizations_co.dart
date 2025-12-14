@@ -426,14 +426,14 @@ class AppLocalizationsCo extends AppLocalizations {
       'Aiutate à migliurà e traduzzioni - signalate i prublemi o cuntribuite traduzioni migliori!';
 
   @override
-  String get demoUserInitials => 'JD';
+  String get demoUserInitials => '[EN PLACEHOLDER] JD';
 
   @override
-  String get demoUserName => 'John Doe';
+  String get demoUserName => '[EN PLACEHOLDER] John Doe';
 
   @override
-  String get demoUserPhone => '(555) 123-4567';
+  String get demoUserPhone => '[EN PLACEHOLDER] (555) 123-4567';
 
   @override
-  String get demoUserAddress => '123 Main St, Apt 4B';
+  String get demoUserAddress => '[EN PLACEHOLDER] 123 Main St, Apt 4B';
 }
