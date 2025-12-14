@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:NayborSOS/generated/l10n/app_localizations.dart';
+import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import '../../theme/app_theme.dart';
 import 'profile_setup_screen.dart';
 
@@ -15,6 +16,8 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
   final _codeController = TextEditingController();
   bool _codeSent = false;
   bool _isLoading = false;
+  PhoneNumber _phoneNumber = PhoneNumber(isoCode: 'US');
+  bool _isValidPhone = false;
 
   @override
   void dispose() {
@@ -24,7 +27,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
   }
 
   void _sendCode() {
-    if (_phoneController.text.isEmpty) {
+    if (!_isValidPhone) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(AppLocalizations.of(context)!.pleaseEnterPhoneNumber)),
       );
@@ -58,9 +61,11 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
 
     // Simulate verification
     Future.delayed(const Duration(seconds: 1), () {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const ProfileSetupScreen()),
-      );
+      if (mounted) {
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => const ProfileSetupScreen()),
+        );
+      }
     });
   }
 
@@ -123,14 +128,40 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 24),
-                TextField(
-                  controller: _phoneController,
-                  keyboardType: TextInputType.phone,
-                  decoration: InputDecoration(
-                    labelText: AppLocalizations.of(context)!.phoneNumberLabel,
-                    hintText: AppLocalizations.of(context)!.phoneNumberHint,
-                    prefixIcon: const Icon(Icons.phone),
+                InternationalPhoneNumberInput(
+                  onInputChanged: (PhoneNumber number) {
+                    setState(() {
+                      _phoneNumber = number;
+                    });
+                  },
+                  onInputValidated: (bool value) {
+                    setState(() {
+                      _isValidPhone = value;
+                    });
+                  },
+                  selectorConfig: const SelectorConfig(
+                    selectorType: PhoneInputSelectorType.BOTTOM_SHEET,
+                    useBottomSheetSafeArea: true,
+                    setSelectorButtonAsPrefixIcon: true,
+                    leadingPadding: 20,
+                    trailingSpace: false,
                   ),
+                  ignoreBlank: false,
+                  autoValidateMode: AutovalidateMode.onUserInteraction,
+                  selectorTextStyle: const TextStyle(color: Colors.black),
+                  textFieldController: _phoneController,
+                  formatInput: true,
+                  keyboardType: const TextInputType.numberWithOptions(
+                    signed: false,
+                    decimal: false,
+                  ),
+                  inputDecoration: InputDecoration(
+                    labelText: AppLocalizations.of(context)!.phoneNumberLabel,
+                    border: const OutlineInputBorder(),
+                  ),
+                  onSaved: (PhoneNumber number) {
+                    _phoneNumber = number;
+                  },
                 ),
               ] else ...[
                 Text(
@@ -139,7 +170,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  AppLocalizations.of(context)!.verificationCodeSent(_phoneController.text),
+                  AppLocalizations.of(context)!.verificationCodeSent(_phoneNumber.phoneNumber ?? _phoneController.text),
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 24),
