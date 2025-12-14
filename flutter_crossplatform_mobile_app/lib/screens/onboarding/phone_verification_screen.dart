@@ -149,6 +149,7 @@ class _PhoneVerificationScreenState extends State<PhoneVerificationScreen> {
                   ignoreBlank: false,
                   autoValidateMode: AutovalidateMode.onUserInteraction,
                   selectorTextStyle: const TextStyle(color: Colors.black),
+                  initialValue: _phoneNumber,
                   textFieldController: _phoneController,
                   formatInput: true,
                   keyboardType: const TextInputType.numberWithOptions(
