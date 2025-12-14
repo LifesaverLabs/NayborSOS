@@ -426,4 +426,16 @@ class AppLocalizationsPs extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'د ژباړو ښه کولو کې مرسته وکړئ - ستونزې راپور ورکړئ یا غوره ژباړې مرسته وکړئ!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

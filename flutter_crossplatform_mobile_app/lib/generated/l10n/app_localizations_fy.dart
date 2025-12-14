@@ -424,4 +424,16 @@ class AppLocalizationsFy extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Help mei it ferbetterjen fan oersettingen - rapportearje problemen of draach bettere oersettingen by!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

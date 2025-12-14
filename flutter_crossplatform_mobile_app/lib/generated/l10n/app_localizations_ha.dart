@@ -434,4 +434,16 @@ class AppLocalizationsHa extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Taimaka inganta fassarori - ba da rahoto kan matsaloli ko ba da gudummawa mafi kyawun fassarori!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

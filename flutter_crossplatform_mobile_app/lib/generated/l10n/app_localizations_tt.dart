@@ -427,4 +427,16 @@ class AppLocalizationsTt extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Тәрҗемәләрне яхшыртуда ярдәм итегез - проблемалар турында хәбәр итегез яки яхшырак тәрҗемәләр кертегез!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

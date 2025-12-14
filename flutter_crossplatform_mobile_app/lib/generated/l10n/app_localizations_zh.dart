@@ -410,4 +410,16 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get helpImproveTranslations => '帮助改进翻译 - 报告问题或贡献更好的翻译！';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

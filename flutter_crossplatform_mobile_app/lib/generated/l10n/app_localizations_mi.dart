@@ -426,4 +426,16 @@ class AppLocalizationsMi extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Awhina ki te whakapai ake i nga whakamaoritanga - whakaaturanga i nga raruraru, homai whakamaoritanga pai ake ranei!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

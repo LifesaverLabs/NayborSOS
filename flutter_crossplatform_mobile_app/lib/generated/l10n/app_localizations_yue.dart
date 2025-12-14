@@ -410,4 +410,16 @@ class AppLocalizationsYue extends AppLocalizations {
 
   @override
   String get helpImproveTranslations => '幫助改善翻譯 - 報告問題或貢獻更好嘅翻譯！';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

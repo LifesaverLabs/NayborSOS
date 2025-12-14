@@ -427,4 +427,16 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'अनुवाद सुधारने में मदद करें - समस्याओं की रिपोर्ट करें या बेहतर अनुवाद का योगदान दें!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

@@ -424,4 +424,16 @@ class AppLocalizationsYi extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'העלפן פארבעסערן איבערזעצונגען - באריכטן פראבלעמען אדער ביישטייערן בעסערע איבערזעצונגען!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

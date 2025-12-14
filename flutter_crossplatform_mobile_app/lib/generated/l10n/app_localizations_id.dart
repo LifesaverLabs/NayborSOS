@@ -428,4 +428,16 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Bantu perbaiki terjemahan - laporkan masalah atau kontribusikan terjemahan yang lebih baik!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

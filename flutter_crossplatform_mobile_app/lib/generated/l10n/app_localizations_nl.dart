@@ -427,4 +427,16 @@ class AppLocalizationsNl extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Help vertalingen verbeteren - meld problemen of draag betere vertalingen bij!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

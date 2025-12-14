@@ -432,4 +432,16 @@ class AppLocalizationsDa extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Hjælp med at forbedre oversættelser - rapporter problemer eller bidrag med bedre oversættelser!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

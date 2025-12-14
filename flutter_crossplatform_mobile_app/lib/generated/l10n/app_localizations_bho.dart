@@ -424,4 +424,16 @@ class AppLocalizationsBho extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'अनुवाद सुधारे में मदद करीं - समस्या रिपोर्ट करीं या बेहतर अनुवाद योगदान करीं!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

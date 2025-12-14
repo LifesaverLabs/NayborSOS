@@ -425,4 +425,16 @@ class AppLocalizationsHmn extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Pab txhim kho kev txhais lus - qhia txog teeb meem lossis pab txhais lus zoo dua!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

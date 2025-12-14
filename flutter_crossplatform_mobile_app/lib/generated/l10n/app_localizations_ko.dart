@@ -416,4 +416,16 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       '번역 개선에 도움을 주세요 - 문제를 신고하거나 더 나은 번역에 기여해 주세요!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

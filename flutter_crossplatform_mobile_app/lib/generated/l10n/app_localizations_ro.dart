@@ -436,4 +436,16 @@ class AppLocalizationsRo extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Ajută la îmbunătățirea traducerilor - raportează probleme sau contribuie cu traduceri mai bune!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

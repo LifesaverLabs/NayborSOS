@@ -424,4 +424,16 @@ class AppLocalizationsFil extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Tulungan na pahusayin ang mga pagsasalin - mag-ulat ng mga isyu o mag-ambag ng mas magagandang pagsasalin!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

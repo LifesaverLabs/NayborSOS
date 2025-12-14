@@ -426,4 +426,16 @@ class AppLocalizationsYo extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Ran wa lọwọ lati mu awọn itumọ dara si - ṣe ijabọ awọn ọran tabi ṣe alabapin awọn itumọ ti o dara julọ!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

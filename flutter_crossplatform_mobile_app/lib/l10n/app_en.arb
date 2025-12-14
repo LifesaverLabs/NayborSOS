@@ -686,5 +686,25 @@
   "helpImproveTranslations": "Help improve translations - report issues or contribute better translations!",
   "@helpImproveTranslations": {
     "description": "Message encouraging users to help improve translations"
+  },
+
+  "demoUserInitials": "JD",
+  "@demoUserInitials": {
+    "description": "Demo user initials"
+  },
+
+  "demoUserName": "John Doe",
+  "@demoUserName": {
+    "description": "Demo user name"
+  },
+
+  "demoUserPhone": "(555) 123-4567",
+  "@demoUserPhone": {
+    "description": "Demo user phone number"
+  },
+
+  "demoUserAddress": "123 Main St, Apt 4B",
+  "@demoUserAddress": {
+    "description": "Demo user address"
   }
 }

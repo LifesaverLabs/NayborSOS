@@ -431,4 +431,16 @@ class AppLocalizationsBg extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Помогнете за подобряване на преводите - докладвайте проблеми или допринесете с по-добри преводи!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

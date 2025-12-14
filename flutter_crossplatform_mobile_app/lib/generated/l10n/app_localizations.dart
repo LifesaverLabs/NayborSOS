@@ -1101,6 +1101,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Help improve translations - report issues or contribute better translations!'**
   String get helpImproveTranslations;
+
+  /// Demo user initials
+  ///
+  /// In en, this message translates to:
+  /// **'JD'**
+  String get demoUserInitials;
+
+  /// Demo user name
+  ///
+  /// In en, this message translates to:
+  /// **'John Doe'**
+  String get demoUserName;
+
+  /// Demo user phone number
+  ///
+  /// In en, this message translates to:
+  /// **'(555) 123-4567'**
+  String get demoUserPhone;
+
+  /// Demo user address
+  ///
+  /// In en, this message translates to:
+  /// **'123 Main St, Apt 4B'**
+  String get demoUserAddress;
 }
 
 class _AppLocalizationsDelegate

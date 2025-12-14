@@ -438,4 +438,16 @@ class AppLocalizationsMg extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Ampaharo ny fanatsarana ny fandikana - tatitra ny olana na mandray anjara amin\'ny fandikana tsara kokoa!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

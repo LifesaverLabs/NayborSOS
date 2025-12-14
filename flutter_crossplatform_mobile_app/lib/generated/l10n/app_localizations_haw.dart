@@ -424,4 +424,16 @@ class AppLocalizationsHaw extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'E kōkua i ka hoʻomaikaʻi ʻana i nā unuhi - e haʻi i nā pilikia a haʻawi i nā unuhi maikaʻi aʻe!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

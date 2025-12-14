@@ -424,4 +424,16 @@ class AppLocalizationsKn extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'ಅನುವಾದಗಳನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡಿ - ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಿ ಅಥವಾ ಉತ್ತಮ ಅನುವಾದಗಳನ್ನು ಕೊಡುಗೆ ನೀಡಿ!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

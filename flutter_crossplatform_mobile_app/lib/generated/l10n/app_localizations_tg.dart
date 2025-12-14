@@ -424,4 +424,16 @@ class AppLocalizationsTg extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Барои беҳтар кардани тарҷумаҳо кӯмак кунед - дар бораи мушкилот хабар диҳед ё тарҷумаҳои беҳтар пешниҳод кунед!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

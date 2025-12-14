@@ -424,4 +424,16 @@ class AppLocalizationsMy extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'ဘာသာပြန်ချက်များတိုးတက်အောင်ကူညီပါ - ပြဿနာများအစီရင်ခံပါ သို့မဟုတ် ပိုကောင်းသောဘာသာပြန်ချက်များပံ့ပိုးပါ!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

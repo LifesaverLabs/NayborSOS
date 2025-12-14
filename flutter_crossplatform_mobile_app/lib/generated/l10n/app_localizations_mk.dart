@@ -435,4 +435,16 @@ class AppLocalizationsMk extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Помогни да се подобрат преводите - пријави проблеми или придонеси подобри преводи!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

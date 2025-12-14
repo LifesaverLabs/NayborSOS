@@ -424,4 +424,16 @@ class AppLocalizationsFj extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Veivuke na vakabulabulataki na vakadeitaki - wilika na itukutuku se solia na vakadeitaki vinaka duadua!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

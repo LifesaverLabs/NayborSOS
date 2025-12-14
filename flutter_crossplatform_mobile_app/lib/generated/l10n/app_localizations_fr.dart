@@ -438,4 +438,16 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Aidez à améliorer les traductions - signalez les problèmes ou contribuez de meilleures traductions!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

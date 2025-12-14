@@ -437,4 +437,16 @@ class AppLocalizationsHu extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Segítsen javítani a fordításokat - jelentse a problémákat vagy járuljon hozzá jobb fordításokkal!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

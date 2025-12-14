@@ -424,4 +424,16 @@ class AppLocalizationsSd extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'ترجمن کي بهتر بڻائڻ ۾ مدد ڪريو - مسئلن جي رپورٽ ڪريو يا بهتر ترجما جمع ڪرايو!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

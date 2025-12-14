@@ -558,4 +558,21 @@
   "@helpImproveTranslations": {
     "description": "Help improve translations text"
   }
+  ,
+  "demoUserInitials": "[EN PLACEHOLDER] JD",
+  "@demoUserInitials": {
+    "description": "Demo user initials"
+  },
+  "demoUserName": "[EN PLACEHOLDER] John Doe",
+  "@demoUserName": {
+    "description": "Demo user name"
+  },
+  "demoUserPhone": "[EN PLACEHOLDER] (555) 123-4567",
+  "@demoUserPhone": {
+    "description": "Demo user phone number"
+  },
+  "demoUserAddress": "[EN PLACEHOLDER] 123 Main St, Apt 4B",
+  "@demoUserAddress": {
+    "description": "Demo user address"
+  }
 }

@@ -437,4 +437,16 @@ class AppLocalizationsNy extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Thandizani kukonza kumasulira - nenani mavuto kapena perekani kumasulira kwabwinoko!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

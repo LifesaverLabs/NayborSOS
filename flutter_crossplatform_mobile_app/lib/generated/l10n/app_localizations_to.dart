@@ -424,4 +424,16 @@ class AppLocalizationsTo extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Tokoni ke fakaleleiʻi ʻa e ngaahi liliu - fakamatala ʻa e ngaahi faingataʻa pe ʻatu ha ngaahi liliu leleiange!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }

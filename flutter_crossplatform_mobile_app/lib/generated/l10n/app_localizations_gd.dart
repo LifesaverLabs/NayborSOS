@@ -427,4 +427,16 @@ class AppLocalizationsGd extends AppLocalizations {
   @override
   String get helpImproveTranslations =>
       'Cuidich le bhith a\' leasachadh eadar-theangachaidhean - innis dhuinn mu dhuilgheadasan no cuir taic ri eadar-theangachaidhean nas fheàrr!';
+
+  @override
+  String get demoUserInitials => 'JD';
+
+  @override
+  String get demoUserName => 'John Doe';
+
+  @override
+  String get demoUserPhone => '(555) 123-4567';
+
+  @override
+  String get demoUserAddress => '123 Main St, Apt 4B';
 }
