@@ -93,6 +93,7 @@ Neighbors who sign up to respond to specific emergency types based on their skil
 - Understand "do no harm" principles
 - Accept basic liability terms
 - Be willing to show up
+- (Ethicist/Civic routing strength): Emergency ethics problem: What should I/we do?
 
 #### Tier 2: Intermediate Response (Moderate Training)
 *Basic skills that can be learned quickly.*

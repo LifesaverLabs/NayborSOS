@@ -1,0 +1,1108 @@
+{
+  "@@locale": "en",
+
+  "appName": "Naybor SOS",
+  "@appName": {
+    "description": "The name of the application"
+  },
+
+  "tagline": "Neighbors helping neighbors in minutes",
+  "@tagline": {
+    "description": "App tagline shown on splash/welcome screens"
+  },
+
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "Button to start onboarding"
+  },
+
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Generic continue button"
+  },
+
+  "cancelButton": "Cancel",
+  "@cancelButton": {
+    "description": "Generic cancel button"
+  },
+
+  "saveButton": "Save",
+  "@saveButton": {
+    "description": "Generic save button"
+  },
+
+  "doneButton": "Done",
+  "@doneButton": {
+    "description": "Generic done button"
+  },
+
+  "skipButton": "Skip",
+  "@skipButton": {
+    "description": "Generic skip button"
+  },
+
+  "backButton": "Back",
+  "@backButton": {
+    "description": "Generic back button"
+  },
+
+  "phoneVerificationTitle": "Verify Your Phone",
+  "@phoneVerificationTitle": {
+    "description": "Title for phone verification screen"
+  },
+
+  "phoneVerificationSubtitle": "We'll send you a verification code to confirm your identity",
+  "@phoneVerificationSubtitle": {
+    "description": "Subtitle explaining phone verification"
+  },
+
+  "phoneNumberLabel": "Phone Number",
+  "@phoneNumberLabel": {
+    "description": "Label for phone number input"
+  },
+
+  "phoneNumberHint": "Enter your phone number",
+  "@phoneNumberHint": {
+    "description": "Hint text for phone number input"
+  },
+
+  "sendCodeButton": "Send Verification Code",
+  "@sendCodeButton": {
+    "description": "Button to send SMS verification code"
+  },
+
+  "verificationCodeTitle": "Enter Verification Code",
+  "@verificationCodeTitle": {
+    "description": "Title for OTP entry screen"
+  },
+
+  "verificationCodeSubtitle": "Enter the 6-digit code sent to {phoneNumber}",
+  "@verificationCodeSubtitle": {
+    "description": "Subtitle showing where code was sent",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "example": "+1 555-123-4567"
+      }
+    }
+  },
+
+  "verificationCodeHint": "Enter 6-digit code",
+  "@verificationCodeHint": {
+    "description": "Hint for verification code input"
+  },
+
+  "verifyButton": "Verify",
+  "@verifyButton": {
+    "description": "Button to verify the code"
+  },
+
+  "resendCodeButton": "Resend Code",
+  "@resendCodeButton": {
+    "description": "Button to resend verification code"
+  },
+
+  "resendCodeIn": "Resend code in {seconds}s",
+  "@resendCodeIn": {
+    "description": "Countdown until code can be resent",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+
+  "profileSetupTitle": "Create Your Profile",
+  "@profileSetupTitle": {
+    "description": "Title for profile setup screen"
+  },
+
+  "profileSetupSubtitle": "Tell us a little about yourself",
+  "@profileSetupSubtitle": {
+    "description": "Subtitle for profile setup"
+  },
+
+  "firstNameLabel": "First Name",
+  "@firstNameLabel": {
+    "description": "Label for first name input"
+  },
+
+  "firstNameHint": "Enter your first name",
+  "@firstNameHint": {
+    "description": "Hint for first name input"
+  },
+
+  "lastNameLabel": "Last Name",
+  "@lastNameLabel": {
+    "description": "Label for last name input"
+  },
+
+  "lastNameHint": "Enter your last name",
+  "@lastNameHint": {
+    "description": "Hint for last name input"
+  },
+
+  "ageLabel": "Age (optional)",
+  "@ageLabel": {
+    "description": "Label for age input"
+  },
+
+  "ageHint": "Enter your age",
+  "@ageHint": {
+    "description": "Hint for age input"
+  },
+
+  "addressTitle": "Your Location",
+  "@addressTitle": {
+    "description": "Title for address section"
+  },
+
+  "addressSubtitle": "We only store your city to connect you with nearby emergencies",
+  "@addressSubtitle": {
+    "description": "Privacy explanation for address"
+  },
+
+  "cityLabel": "City",
+  "@cityLabel": {
+    "description": "Label for city input"
+  },
+
+  "cityHint": "Enter your city",
+  "@cityHint": {
+    "description": "Hint for city input"
+  },
+
+  "stateLabel": "State/Province",
+  "@stateLabel": {
+    "description": "Label for state input"
+  },
+
+  "stateHint": "Enter your state or province",
+  "@stateHint": {
+    "description": "Hint for state input"
+  },
+
+  "zipCodeLabel": "ZIP/Postal Code",
+  "@zipCodeLabel": {
+    "description": "Label for zip code input"
+  },
+
+  "zipCodeHint": "Enter your ZIP code",
+  "@zipCodeHint": {
+    "description": "Hint for zip code input"
+  },
+
+  "countryLabel": "Country",
+  "@countryLabel": {
+    "description": "Label for country input"
+  },
+
+  "capabilitySelectionTitle": "How Can You Help?",
+  "@capabilitySelectionTitle": {
+    "description": "Title for capability selection screen"
+  },
+
+  "capabilitySelectionSubtitle": "Select the types of emergencies you're willing and able to respond to",
+  "@capabilitySelectionSubtitle": {
+    "description": "Subtitle explaining capability selection"
+  },
+
+  "lifeThreatening": "Life-Threatening",
+  "@lifeThreatening": {
+    "description": "Category label for life-threatening emergencies"
+  },
+
+  "securitySafety": "Security & Safety",
+  "@securitySafety": {
+    "description": "Category label for security emergencies"
+  },
+
+  "urgentTimeSensitive": "Urgent & Time-Sensitive",
+  "@urgentTimeSensitive": {
+    "description": "Category label for urgent emergencies"
+  },
+
+  "nonLifeThreatening": "Non-Life-Threatening",
+  "@nonLifeThreatening": {
+    "description": "Category label for non-life-threatening situations"
+  },
+
+  "alertCardiacArrest": "Cardiac Arrest / CPR",
+  "@alertCardiacArrest": {
+    "description": "Emergency type: Cardiac arrest requiring CPR"
+  },
+
+  "alertCardiacArrestDesc": "Provide CPR and use AED if available",
+  "@alertCardiacArrestDesc": {
+    "description": "Description of cardiac arrest response"
+  },
+
+  "alertAed": "AED Delivery",
+  "@alertAed": {
+    "description": "Emergency type: AED delivery"
+  },
+
+  "alertAedDesc": "Bring your AED to someone in cardiac arrest",
+  "@alertAedDesc": {
+    "description": "Description of AED delivery"
+  },
+
+  "alertOverdose": "Overdose / Naloxone",
+  "@alertOverdose": {
+    "description": "Emergency type: Drug overdose"
+  },
+
+  "alertOverdoseDesc": "Administer naloxone and provide support",
+  "@alertOverdoseDesc": {
+    "description": "Description of overdose response"
+  },
+
+  "alertChoking": "Choking / Heimlich",
+  "@alertChoking": {
+    "description": "Emergency type: Choking"
+  },
+
+  "alertChokingDesc": "Perform Heimlich maneuver",
+  "@alertChokingDesc": {
+    "description": "Description of choking response"
+  },
+
+  "alertDrowning": "Drowning Response",
+  "@alertDrowning": {
+    "description": "Emergency type: Drowning"
+  },
+
+  "alertDrowningDesc": "Water rescue and CPR if needed",
+  "@alertDrowningDesc": {
+    "description": "Description of drowning response"
+  },
+
+  "alertFire": "Fire / Evacuation",
+  "@alertFire": {
+    "description": "Emergency type: Fire"
+  },
+
+  "alertFireDesc": "Help with evacuation and fire response",
+  "@alertFireDesc": {
+    "description": "Description of fire response"
+  },
+
+  "alertConsentEmergency": "Consent Emergency",
+  "@alertConsentEmergency": {
+    "description": "Emergency type: Bedroom consent emergency"
+  },
+
+  "alertConsentEmergencyDesc": "Interrupt a potentially non-consensual situation",
+  "@alertConsentEmergencyDesc": {
+    "description": "Description of consent emergency response"
+  },
+
+  "alertActiveBystander": "Active Bystander",
+  "@alertActiveBystander": {
+    "description": "Emergency type: Active bystander witness"
+  },
+
+  "alertActiveBystanderDesc": "Witness and document concerning situations",
+  "@alertActiveBystanderDesc": {
+    "description": "Description of active bystander role"
+  },
+
+  "alertDomesticAbuse": "Domestic Abuse",
+  "@alertDomesticAbuse": {
+    "description": "Emergency type: Domestic abuse intervention"
+  },
+
+  "alertDomesticAbuseDesc": "De-escalate and provide safe presence",
+  "@alertDomesticAbuseDesc": {
+    "description": "Description of domestic abuse response"
+  },
+
+  "alertWellnessCheck": "Wellness Check",
+  "@alertWellnessCheck": {
+    "description": "Emergency type: Wellness check"
+  },
+
+  "alertWellnessCheckDesc": "Check on someone who may need help",
+  "@alertWellnessCheckDesc": {
+    "description": "Description of wellness check"
+  },
+
+  "alertMentalHealth": "Mental Health Crisis",
+  "@alertMentalHealth": {
+    "description": "Emergency type: Mental health crisis"
+  },
+
+  "alertMentalHealthDesc": "Provide calming presence and support",
+  "@alertMentalHealthDesc": {
+    "description": "Description of mental health response"
+  },
+
+  "alertQuitCompanion": "Quit Companion",
+  "@alertQuitCompanion": {
+    "description": "Emergency type: Addiction support"
+  },
+
+  "alertQuitCompanionDesc": "Support someone trying to quit substances",
+  "@alertQuitCompanionDesc": {
+    "description": "Description of quit companion role"
+  },
+
+  "alertCompanionship": "Companionship",
+  "@alertCompanionship": {
+    "description": "Emergency type: Loneliness/companionship"
+  },
+
+  "alertCompanionshipDesc": "Provide company to someone who is lonely",
+  "@alertCompanionshipDesc": {
+    "description": "Description of companionship response"
+  },
+
+  "alert911Coordination": "911 Coordination",
+  "@alert911Coordination": {
+    "description": "Emergency type: 911 coordination"
+  },
+
+  "alert911CoordinationDesc": "Help coordinate with emergency services",
+  "@alert911CoordinationDesc": {
+    "description": "Description of 911 coordination"
+  },
+
+  "alertMissingPet": "Missing Pet",
+  "@alertMissingPet": {
+    "description": "Emergency type: Missing pet search"
+  },
+
+  "alertMissingPetDesc": "Help search for a lost pet",
+  "@alertMissingPetDesc": {
+    "description": "Description of missing pet search"
+  },
+
+  "termsTitle": "Terms & Safety",
+  "@termsTitle": {
+    "description": "Title for terms acceptance screen"
+  },
+
+  "termsSubtitle": "Please review and accept to continue",
+  "@termsSubtitle": {
+    "description": "Subtitle for terms screen"
+  },
+
+  "liabilityWaiverTitle": "Liability Waiver",
+  "@liabilityWaiverTitle": {
+    "description": "Title for liability waiver section"
+  },
+
+  "liabilityWaiverText": "I understand that by responding to emergencies, I am voluntarily providing assistance. I agree to act in good faith and to the best of my abilities. I understand that Good Samaritan laws may provide legal protection for my actions.",
+  "@liabilityWaiverText": {
+    "description": "Liability waiver text"
+  },
+
+  "termsOfServiceTitle": "Terms of Service",
+  "@termsOfServiceTitle": {
+    "description": "Title for terms of service"
+  },
+
+  "termsOfServiceText": "I agree to use this app responsibly and to help my community in times of need. I will not misuse the alert system.",
+  "@termsOfServiceText": {
+    "description": "Terms of service summary"
+  },
+
+  "iAgreeToTerms": "I agree to the terms and conditions",
+  "@iAgreeToTerms": {
+    "description": "Checkbox label for terms agreement"
+  },
+
+  "viewFullTerms": "View full terms",
+  "@viewFullTerms": {
+    "description": "Link to view full terms"
+  },
+
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Title for home screen/tab"
+  },
+
+  "alertsTitle": "Alerts",
+  "@alertsTitle": {
+    "description": "Title for alerts screen/tab"
+  },
+
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "Title for profile screen/tab"
+  },
+
+  "availableNow": "Available Now",
+  "@availableNow": {
+    "description": "Toggle label for availability"
+  },
+
+  "availableNowSubtitle": "You will receive alerts for emergencies near you",
+  "@availableNowSubtitle": {
+    "description": "Explanation when available"
+  },
+
+  "notAvailable": "Not Available",
+  "@notAvailable": {
+    "description": "Status when not available"
+  },
+
+  "notAvailableSubtitle": "Turn on to start receiving emergency alerts",
+  "@notAvailableSubtitle": {
+    "description": "Explanation when not available"
+  },
+
+  "requestHelpButton": "REQUEST HELP",
+  "@requestHelpButton": {
+    "description": "Large button to request emergency help"
+  },
+
+  "myCapabilities": "My Capabilities",
+  "@myCapabilities": {
+    "description": "Section header for user's capabilities"
+  },
+
+  "communityStats": "Community Stats",
+  "@communityStats": {
+    "description": "Section header for community statistics"
+  },
+
+  "neighborsReady": "{count} neighbors ready to help",
+  "@neighborsReady": {
+    "description": "Count of available responders",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "47"
+      }
+    }
+  },
+
+  "responsesThisMonth": "{count} responses this month",
+  "@responsesThisMonth": {
+    "description": "Count of responses this month",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+
+  "avgResponseTime": "Avg response: {minutes} min",
+  "@avgResponseTime": {
+    "description": "Average response time",
+    "placeholders": {
+      "minutes": {
+        "type": "String",
+        "example": "2.5"
+      }
+    }
+  },
+
+  "createAlertTitle": "What's the Emergency?",
+  "@createAlertTitle": {
+    "description": "Title for create alert screen"
+  },
+
+  "createAlertSubtitle": "Select the type of help you need",
+  "@createAlertSubtitle": {
+    "description": "Subtitle for create alert screen"
+  },
+
+  "descriptionLabel": "Description (optional)",
+  "@descriptionLabel": {
+    "description": "Label for emergency description"
+  },
+
+  "descriptionHint": "Any additional details that might help",
+  "@descriptionHint": {
+    "description": "Hint for description input"
+  },
+
+  "locationLabel": "Location",
+  "@locationLabel": {
+    "description": "Label for location section"
+  },
+
+  "currentLocation": "Current Location",
+  "@currentLocation": {
+    "description": "Using current GPS location"
+  },
+
+  "changeLocation": "Change Location",
+  "@changeLocation": {
+    "description": "Button to change location"
+  },
+
+  "sendAlertButton": "SEND ALERT",
+  "@sendAlertButton": {
+    "description": "Button to send the emergency alert"
+  },
+
+  "call911First": "CALL 911 FIRST",
+  "@call911First": {
+    "description": "Warning to call 911 for life-threatening emergencies"
+  },
+
+  "call911Message": "For life-threatening emergencies, professional EMS is essential. Neighbors will help until they arrive.",
+  "@call911Message": {
+    "description": "Message explaining 911 primacy"
+  },
+
+  "alertSentTitle": "Alert Sent",
+  "@alertSentTitle": {
+    "description": "Title when alert is sent"
+  },
+
+  "alertSentMessage": "Reaching out to {count} nearby neighbors",
+  "@alertSentMessage": {
+    "description": "Message showing alert is being sent",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "waitingForResponse": "Waiting for response...",
+  "@waitingForResponse": {
+    "description": "Status while waiting for responder"
+  },
+
+  "responderAccepted": "{name} is on the way!",
+  "@responderAccepted": {
+    "description": "Status when responder accepts",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sarah"
+      }
+    }
+  },
+
+  "responderArrived": "{name} has arrived",
+  "@responderArrived": {
+    "description": "Status when responder arrives",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Sarah"
+      }
+    }
+  },
+
+  "emergencyResolved": "Emergency Resolved",
+  "@emergencyResolved": {
+    "description": "Status when emergency is resolved"
+  },
+
+  "cancelAlertButton": "Cancel Alert",
+  "@cancelAlertButton": {
+    "description": "Button to cancel an alert"
+  },
+
+  "callResponderButton": "Call Responder",
+  "@callResponderButton": {
+    "description": "Button to call the responding neighbor"
+  },
+
+  "incomingAlertTitle": "EMERGENCY NEARBY",
+  "@incomingAlertTitle": {
+    "description": "Title for incoming alert screen"
+  },
+
+  "distanceAway": "{distance} away",
+  "@distanceAway": {
+    "description": "Distance to emergency",
+    "placeholders": {
+      "distance": {
+        "type": "String",
+        "example": "0.3 miles"
+      }
+    }
+  },
+
+  "respondInSeconds": "Respond in {seconds} seconds",
+  "@respondInSeconds": {
+    "description": "Countdown to respond",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+
+  "acceptAlertButton": "ACCEPT - I'M ON MY WAY",
+  "@acceptAlertButton": {
+    "description": "Button to accept emergency alert"
+  },
+
+  "declineAlertButton": "DECLINE - FIND SOMEONE ELSE",
+  "@declineAlertButton": {
+    "description": "Button to decline emergency alert"
+  },
+
+  "alertAcceptedTitle": "Alert Accepted",
+  "@alertAcceptedTitle": {
+    "description": "Title when alert is accepted"
+  },
+
+  "rememberToGrab": "Remember to grab:",
+  "@rememberToGrab": {
+    "description": "Header for equipment reminder"
+  },
+
+  "yourAed": "Your AED",
+  "@yourAed": {
+    "description": "Equipment reminder: AED"
+  },
+
+  "yourPhone": "Your phone",
+  "@yourPhone": {
+    "description": "Equipment reminder: phone"
+  },
+
+  "flashlight": "Flashlight (if dark)",
+  "@flashlight": {
+    "description": "Equipment reminder: flashlight"
+  },
+
+  "naloxoneKit": "Naloxone kit",
+  "@naloxoneKit": {
+    "description": "Equipment reminder: naloxone"
+  },
+
+  "startNavigationButton": "START NAVIGATION",
+  "@startNavigationButton": {
+    "description": "Button to start GPS navigation"
+  },
+
+  "navigationTitle": "Navigate to Emergency",
+  "@navigationTitle": {
+    "description": "Title for navigation screen"
+  },
+
+  "etaLabel": "ETA",
+  "@etaLabel": {
+    "description": "Label for estimated time of arrival"
+  },
+
+  "minutesAbbrev": "{minutes} min",
+  "@minutesAbbrev": {
+    "description": "Minutes abbreviation",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "arrivedButton": "I'VE ARRIVED",
+  "@arrivedButton": {
+    "description": "Button to mark arrival"
+  },
+
+  "onSceneTitle": "You've Arrived",
+  "@onSceneTitle": {
+    "description": "Title for on-scene screen"
+  },
+
+  "quickTips": "Quick Tips",
+  "@quickTips": {
+    "description": "Header for emergency tips"
+  },
+
+  "viewFullInstructions": "View Full Instructions",
+  "@viewFullInstructions": {
+    "description": "Link to detailed instructions"
+  },
+
+  "call911Button": "CALL 911",
+  "@call911Button": {
+    "description": "Button to call 911"
+  },
+
+  "markResolvedButton": "MARK EMERGENCY RESOLVED",
+  "@markResolvedButton": {
+    "description": "Button to mark emergency as resolved"
+  },
+
+  "cprTip1": "Check responsiveness and breathing",
+  "@cprTip1": {
+    "description": "CPR tip 1"
+  },
+
+  "cprTip2": "Call out for help",
+  "@cprTip2": {
+    "description": "CPR tip 2"
+  },
+
+  "cprTip3": "Start chest compressions (100-120/min)",
+  "@cprTip3": {
+    "description": "CPR tip 3"
+  },
+
+  "cprTip4": "Apply AED pads as shown",
+  "@cprTip4": {
+    "description": "CPR tip 4"
+  },
+
+  "cprTip5": "Follow AED voice instructions",
+  "@cprTip5": {
+    "description": "CPR tip 5"
+  },
+
+  "overdoseTip1": "Check for responsiveness",
+  "@overdoseTip1": {
+    "description": "Overdose tip 1"
+  },
+
+  "overdoseTip2": "Call 911 immediately",
+  "@overdoseTip2": {
+    "description": "Overdose tip 2"
+  },
+
+  "overdoseTip3": "Administer naloxone if available",
+  "@overdoseTip3": {
+    "description": "Overdose tip 3"
+  },
+
+  "overdoseTip4": "Start rescue breathing if needed",
+  "@overdoseTip4": {
+    "description": "Overdose tip 4"
+  },
+
+  "overdoseTip5": "Stay with the person until help arrives",
+  "@overdoseTip5": {
+    "description": "Overdose tip 5"
+  },
+
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Title for settings screen"
+  },
+
+  "alertScheduleTitle": "Alert Schedule",
+  "@alertScheduleTitle": {
+    "description": "Title for alert schedule settings"
+  },
+
+  "alertScheduleSubtitle": "Choose when you receive different types of alerts",
+  "@alertScheduleSubtitle": {
+    "description": "Subtitle for alert schedule"
+  },
+
+  "lifeThreatening24_7": "Life-threatening alerts: Always on (24/7)",
+  "@lifeThreatening24_7": {
+    "description": "Life-threatening alerts are always on"
+  },
+
+  "lifeThreatening24_7Subtitle": "These alerts cannot be disabled as they may save lives",
+  "@lifeThreatening24_7Subtitle": {
+    "description": "Explanation for always-on life-threatening alerts"
+  },
+
+  "securityAlertsTitle": "Security & Safety Alerts",
+  "@securityAlertsTitle": {
+    "description": "Title for security alert settings"
+  },
+
+  "nonCriticalAlertsTitle": "Non-Critical Alerts",
+  "@nonCriticalAlertsTitle": {
+    "description": "Title for non-critical alert settings"
+  },
+
+  "scheduleOption24_7": "Always (24/7)",
+  "@scheduleOption24_7": {
+    "description": "Schedule option: always on"
+  },
+
+  "scheduleOptionScheduled": "During my schedule",
+  "@scheduleOptionScheduled": {
+    "description": "Schedule option: scheduled hours only"
+  },
+
+  "scheduleOptionOff": "Off",
+  "@scheduleOptionOff": {
+    "description": "Schedule option: disabled"
+  },
+
+  "weeklyScheduleTitle": "Weekly Schedule",
+  "@weeklyScheduleTitle": {
+    "description": "Title for weekly schedule section"
+  },
+
+  "monday": "Monday",
+  "@monday": {
+    "description": "Day of week"
+  },
+
+  "tuesday": "Tuesday",
+  "@tuesday": {
+    "description": "Day of week"
+  },
+
+  "wednesday": "Wednesday",
+  "@wednesday": {
+    "description": "Day of week"
+  },
+
+  "thursday": "Thursday",
+  "@thursday": {
+    "description": "Day of week"
+  },
+
+  "friday": "Friday",
+  "@friday": {
+    "description": "Day of week"
+  },
+
+  "saturday": "Saturday",
+  "@saturday": {
+    "description": "Day of week"
+  },
+
+  "sunday": "Sunday",
+  "@sunday": {
+    "description": "Day of week"
+  },
+
+  "weeklyLimitTitle": "Weekly Alert Limit",
+  "@weeklyLimitTitle": {
+    "description": "Title for weekly limit setting"
+  },
+
+  "weeklyLimitSubtitle": "Maximum non-critical alerts per week (to prevent burnout)",
+  "@weeklyLimitSubtitle": {
+    "description": "Explanation for weekly limit"
+  },
+
+  "noLimit": "No limit",
+  "@noLimit": {
+    "description": "Option for no weekly limit"
+  },
+
+  "alertsPerWeek": "{count} alerts per week",
+  "@alertsPerWeek": {
+    "description": "Weekly limit display",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "gentleHoursTitle": "Gentle Hours",
+  "@gentleHoursTitle": {
+    "description": "Title for gentle hours setting (70+ users)"
+  },
+
+  "gentleHoursSubtitle": "Receive softer notifications during sleeping hours",
+  "@gentleHoursSubtitle": {
+    "description": "Explanation of gentle hours"
+  },
+
+  "disableInboundTitle": "Disable All Inbound Alerts",
+  "@disableInboundTitle": {
+    "description": "Title for disabling inbound alerts (80+ users)"
+  },
+
+  "disableInboundSubtitle": "You can still send alerts for help, but won't receive alerts from others",
+  "@disableInboundSubtitle": {
+    "description": "Explanation of disabling inbound"
+  },
+
+  "temporarySuspensionTitle": "Temporary Suspension",
+  "@temporarySuspensionTitle": {
+    "description": "Title for temporary suspension setting"
+  },
+
+  "temporarySuspensionSubtitle": "Pause receiving alerts temporarily",
+  "@temporarySuspensionSubtitle": {
+    "description": "Explanation of temporary suspension"
+  },
+
+  "suspensionReasonHospitalized": "Hospitalized",
+  "@suspensionReasonHospitalized": {
+    "description": "Suspension reason: in hospital"
+  },
+
+  "suspensionReasonImmobilized": "Recovering from injury",
+  "@suspensionReasonImmobilized": {
+    "description": "Suspension reason: recovering"
+  },
+
+  "suspensionReasonCustody": "In custody",
+  "@suspensionReasonCustody": {
+    "description": "Suspension reason: in custody"
+  },
+
+  "suspensionReasonOther": "Other temporary reason",
+  "@suspensionReasonOther": {
+    "description": "Suspension reason: other"
+  },
+
+  "notificationsTitle": "Notifications",
+  "@notificationsTitle": {
+    "description": "Title for notification settings"
+  },
+
+  "enableNotifications": "Enable Notifications",
+  "@enableNotifications": {
+    "description": "Toggle to enable notifications"
+  },
+
+  "criticalAlertSound": "Critical Alert Sound",
+  "@criticalAlertSound": {
+    "description": "Setting for critical alert sound"
+  },
+
+  "languageTitle": "Language",
+  "@languageTitle": {
+    "description": "Title for language setting"
+  },
+
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Prompt to select language"
+  },
+
+  "accountTitle": "Account",
+  "@accountTitle": {
+    "description": "Title for account section"
+  },
+
+  "signOutButton": "Sign Out",
+  "@signOutButton": {
+    "description": "Button to sign out"
+  },
+
+  "deleteAccountButton": "Delete Account",
+  "@deleteAccountButton": {
+    "description": "Button to delete account"
+  },
+
+  "deleteAccountConfirmation": "Are you sure you want to delete your account? This action cannot be undone.",
+  "@deleteAccountConfirmation": {
+    "description": "Confirmation message for account deletion"
+  },
+
+  "errorGeneric": "Something went wrong. Please try again.",
+  "@errorGeneric": {
+    "description": "Generic error message"
+  },
+
+  "errorNoInternet": "No internet connection. Please check your network.",
+  "@errorNoInternet": {
+    "description": "Error message for no internet"
+  },
+
+  "errorInvalidPhone": "Please enter a valid phone number.",
+  "@errorInvalidPhone": {
+    "description": "Error for invalid phone number"
+  },
+
+  "errorInvalidCode": "Invalid verification code. Please try again.",
+  "@errorInvalidCode": {
+    "description": "Error for invalid OTP code"
+  },
+
+  "errorLocationPermission": "Location permission is required to send and receive alerts.",
+  "@errorLocationPermission": {
+    "description": "Error for missing location permission"
+  },
+
+  "errorNotificationPermission": "Notification permission is required to receive emergency alerts.",
+  "@errorNotificationPermission": {
+    "description": "Error for missing notification permission"
+  },
+
+  "loadingText": "Loading...",
+  "@loadingText": {
+    "description": "Generic loading text"
+  },
+
+  "noActiveAlerts": "No active alerts",
+  "@noActiveAlerts": {
+    "description": "Message when there are no active alerts"
+  },
+
+  "noActiveAlertsSubtitle": "When emergencies occur nearby, they will appear here",
+  "@noActiveAlertsSubtitle": {
+    "description": "Subtitle for no active alerts"
+  },
+
+  "activeAlertsCount": "{count} active {count, plural, =1{alert} other{alerts}}",
+  "@activeAlertsCount": {
+    "description": "Count of active alerts",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "responseHistoryTitle": "Response History",
+  "@responseHistoryTitle": {
+    "description": "Title for response history"
+  },
+
+  "noResponseHistory": "No responses yet",
+  "@noResponseHistory": {
+    "description": "Message when no response history"
+  },
+
+  "totalResponses": "{count} total {count, plural, =1{response} other{responses}}",
+  "@totalResponses": {
+    "description": "Total response count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+
+  "aboutTitle": "About Naybor SOS",
+  "@aboutTitle": {
+    "description": "Title for about section"
+  },
+
+  "aboutText": "Naybor SOS connects neighbors to help each other during emergencies. When someone needs help, we alert nearby neighbors who can arrive in minutes while professional EMS is en route.",
+  "@aboutText": {
+    "description": "About text for the app"
+  },
+
+  "version": "Version {version}",
+  "@version": {
+    "description": "App version display",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0"
+      }
+    }
+  },
+
+  "privacyPolicyButton": "Privacy Policy",
+  "@privacyPolicyButton": {
+    "description": "Button to view privacy policy"
+  },
+
+  "helpButton": "Help & Support",
+  "@helpButton": {
+    "description": "Button to access help"
+  },
+
+  "feedbackButton": "Send Feedback",
+  "@feedbackButton": {
+    "description": "Button to send feedback"
+  }
+}
